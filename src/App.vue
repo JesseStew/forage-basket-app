@@ -1,20 +1,19 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/information">Information</router-link> |
-      <router-link to="/testimonies">Testimonies</router-link> |
-      <router-link to="/health">Health</router-link> |
-      <router-link to="/essential-oils">Essential Oils</router-link> |
-      <router-link to="/shop">Shop</router-link> |
-      <router-link to="/research">Research</router-link> |
-      <router-link to="/contact">Contact Us</router-link> |
-      <router-link to="/product">Product</router-link> |
-      <router-link to="/login">Login</router-link>
-    </div>
+    <Navigation />
     <router-view/>
   </div>
 </template>
+
+<script>
+import Navigation from '@/components/Navigation.vue'
+
+export default {
+  components: {
+    Navigation
+  }  
+}
+</script>
 
 <style>
 #app {
