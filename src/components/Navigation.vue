@@ -31,6 +31,12 @@
                 </svg>
             </div>
         </div>
+        <div class="search">
+            <label for="search"></label>
+            <input type="text" id="search" name="search">
+            <!-- <input type="submit" value="submit"> -->
+        </div>
+        
         <!-- <div id="menu"> -->
             <!-- Router Links -->
             <!-- <router-link to="/">Home</router-link>
@@ -62,46 +68,59 @@ export default {
     /* Grid Container */
     .container {
         width: 100%;
+        height: 53px;
         display: grid;
         grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
-        grid-template-rows: 50px, 50px;
-        position: fixed;
+        grid-template-rows: 53px;
+        /* position: fixed; */
         background-color: white;
         height: 10%;
         justify-items: center;
         align-items: center;
+        grid-template-areas: 
+            "hamburger location-pin logo search-icon cart"
     }
 
     /* Grid Items (Left to Right) */
     .hamburger {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 1;
+        grid-area: hamburger;
     }
     .location-pin {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 1;
+        grid-area: location-pin;
     }
     .logo {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 1;
+        grid-area: logo;
     }
     .search-icon {
-        grid-column-start: 4;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 1;
+        grid-area: search-icon;
     }
     .cart {
-        grid-column-start: 5;
-        grid-column-end: 6;
-        grid-row-start: 1;
-        grid-row-end: 1;
+        grid-area: cart;
+    }
+
+    .search input[type=submit] {
+        display: inline;
+    }
+    .search input[type=text] {
+        padding:5px; 
+        border:2px solid #F8F8F8; 
+        border-radius: 5px;
+        background-color: #F8F8F8;
+        width: 90%;
+        height: 40px;
+    }
+
+    .search input[type=text]:focus {
+        border-color:#333;
+    }
+
+    .search input[type=submit] {
+        padding:5px 15px; 
+        background:#ccc; 
+        border:0 none;
+        cursor:pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px; 
     }
 </style>
 
