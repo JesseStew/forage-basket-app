@@ -1,7 +1,7 @@
 <template>
     <div id="nav">
         <div class="header container">
-            <div class="hamburger">
+            <div class="hamburger" @click="show = !show">
                 <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <line y1="-1" x2="24" y2="-1" transform="matrix(-1 0 0 1 24 2)" stroke="black" stroke-width="2"/>
                     <line y1="-1" x2="24" y2="-1" transform="matrix(-1 0 0 1 24 18)" stroke="black" stroke-width="2"/>
@@ -43,7 +43,7 @@
             </form>
         </div>
         <transition name="slide">
-            <div id="menu container" v-if="!show">
+            <div id="menu container" v-if="show">
                 <!-- Router Links -->
                 <div class="menu-item">
                     <router-link to="/">Home</router-link>
