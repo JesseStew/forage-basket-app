@@ -30,13 +30,18 @@
                     <circle cx="8" cy="17.8419" r="1.5" stroke="black"/>
                 </svg>
             </div>
+            <form class="search" action="" method="">
+                <div class="nested">
+                    <input class="search-input" type="text" name="" id="">
+                <button class="search-input">
+                    <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.7 8.23333C17.7 12.4584 13.8979 15.9667 9.1 15.9667C4.30209 15.9667 0.5 12.4584 0.5 8.23333C0.5 4.00824 4.30209 0.5 9.1 0.5C13.8979 0.5 17.7 4.00824 17.7 8.23333Z" stroke="#565458"/>
+                    <line y1="-0.5" x2="7.5519" y2="-0.5" transform="matrix(0.741536 0.670913 -0.741536 0.670913 15.4 13.9333)" stroke="#565458"/>
+                </svg>
+                </button>
+                </div>
+            </form>
         </div>
-        <div class="search">
-            <label for="search"></label>
-            <input type="text" id="search" name="search">
-            <!-- <input type="submit" value="submit"> -->
-        </div>
-        
         <!-- <div id="menu"> -->
             <!-- Router Links -->
             <!-- <router-link to="/">Home</router-link>
@@ -67,72 +72,36 @@ export default {
 <style scoped>
     /* Grid Container */
     .container {
-        width: 100%;
-        height: 53px;
         display: grid;
         grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
-        grid-template-rows: 53px;
-        /* position: fixed; */
-        background-color: white;
-        height: 10%;
-        justify-items: center;
+        grid-template-rows: 53px 53px;
         align-items: center;
-        grid-template-areas: 
-            "hamburger location-pin logo search-icon cart"
     }
 
     /* Grid Items (Left to Right) */
-    .hamburger {
-        grid-area: hamburger;
+    /* .hamburger {
     }
     .location-pin {
-        grid-area: location-pin;
     }
     .logo {
-        grid-area: logo;
     }
     .search-icon {
-        grid-area: search-icon;
     }
     .cart {
-        grid-area: cart;
+    } */
+    .nested {
+        display: grid;
+        grid-template-columns: 1fr 3fr 40px 1fr;
     }
-
-    .search input[type=submit] {
-        display: inline;
+    .search {
+        height: 53px;
+        grid-column: 1 / 6
     }
-    .search input[type=text] {
-        padding:5px; 
-        border:2px solid #F8F8F8; 
-        border-radius: 5px;
-        background-color: #F8F8F8;
-        width: 90%;
+    .search input {
+        grid-column: 2 / 3;
+    }
+    .search button {
         height: 40px;
-    }
-
-    .search input[type=text]:focus {
-        border-color:#333;
-    }
-
-    .search input[type=submit] {
-        padding:5px 15px; 
-        background:#ccc; 
-        border:0 none;
-        cursor:pointer;
-        -webkit-border-radius: 5px;
-        border-radius: 5px; 
+        width: 40px;
     }
 </style>
-
-<!-- Menu animation -->
-<!-- <div id="menu-icon" class="right" @click="show = !show">
-    <svg v-if="!show" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <line id="line1" x1="12" y1="15" x2="38" y2="15" stroke="#000000" stroke-width="3"/>
-        <line id="line2" x1="12" y1="25" x2="38" y2="25" stroke="#000000" stroke-width="3"/>
-        <line id="line3" x1="12" y1="35" x2="38" y2="35" stroke="#000000" stroke-width="3"/>
-    </svg>
-    <svg v-else width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <line id="line1" x1="12" y1="16" x2="38" y2="35" stroke="#000000" stroke-width="3"/>
-        <line id="line3" x1="12" y1="34.5" x2="38" y2="16" stroke="#000000" stroke-width="3"/>
-    </svg>
-</div> -->
