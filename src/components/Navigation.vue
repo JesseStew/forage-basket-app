@@ -1,6 +1,6 @@
 <template>
     <div id="nav">
-        <div class="container">
+        <div class="header container">
             <div class="hamburger">
                 <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <line y1="-1" x2="24" y2="-1" transform="matrix(-1 0 0 1 24 2)" stroke="black" stroke-width="2"/>
@@ -19,8 +19,8 @@
             </div>
             <div class="search-icon">
                 <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17.7 8.23333C17.7 12.4584 13.8979 15.9667 9.1 15.9667C4.30209 15.9667 0.5 12.4584 0.5 8.23333C0.5 4.00824 4.30209 0.5 9.1 0.5C13.8979 0.5 17.7 4.00824 17.7 8.23333Z" stroke="#565458"/>
-                    <line y1="-0.5" x2="7.5519" y2="-0.5" transform="matrix(0.741536 0.670913 -0.741536 0.670913 15.4 13.9333)" stroke="#565458"/>
+                    <path d="M17.7 8.23333C17.7 12.4584 13.8979 15.9667 9.1 15.9667C4.30209 15.9667 0.5 12.4584 0.5 8.23333C0.5 4.00824 4.30209 0.5 9.1 0.5C13.8979 0.5 17.7 4.00824 17.7 8.23333Z" stroke="black"/>
+                    <line y1="-0.5" x2="7.5519" y2="-0.5" transform="matrix(0.741536 0.670913 -0.741536 0.670913 15.4 13.9333)" stroke="black"/>
                 </svg>
             </div>
             <div class="cart">
@@ -31,30 +31,52 @@
                 </svg>
             </div>
             <form class="search" action="" method="">
-                <div class="nested">
+                <div class="nested search-template">
                     <input class="search-input" type="text" name="" id="">
-                <button class="search-input">
-                    <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17.7 8.23333C17.7 12.4584 13.8979 15.9667 9.1 15.9667C4.30209 15.9667 0.5 12.4584 0.5 8.23333C0.5 4.00824 4.30209 0.5 9.1 0.5C13.8979 0.5 17.7 4.00824 17.7 8.23333Z" stroke="#565458"/>
-                    <line y1="-0.5" x2="7.5519" y2="-0.5" transform="matrix(0.741536 0.670913 -0.741536 0.670913 15.4 13.9333)" stroke="#565458"/>
-                </svg>
-                </button>
+                    <button class="search-input">
+                        <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.7 8.23333C17.7 12.4584 13.8979 15.9667 9.1 15.9667C4.30209 15.9667 0.5 12.4584 0.5 8.23333C0.5 4.00824 4.30209 0.5 9.1 0.5C13.8979 0.5 17.7 4.00824 17.7 8.23333Z" stroke="white"/>
+                            <line y1="-0.5" x2="7.5519" y2="-0.5" transform="matrix(0.741536 0.670913 -0.741536 0.670913 15.4 13.9333)" stroke="white"/>
+                        </svg>
+                    </button>
                 </div>
             </form>
         </div>
-        <!-- <div id="menu"> -->
-            <!-- Router Links -->
-            <!-- <router-link to="/">Home</router-link>
-            <router-link to="/information">Information</router-link>
-            <router-link to="/testimonies">Testimonies</router-link>
-            <router-link to="/health">Health</router-link>
-            <router-link to="/essential-oils">Essential Oils</router-link>
-            <router-link to="/shop">Shop</router-link>
-            <router-link to="/research">Research</router-link>
-            <router-link to="/contact">Contact Us</router-link>
-            <router-link to="/product">Product</router-link>
-            <router-link to="/login">Login</router-link>
-        </div> -->
+        <transition name="slide">
+            <div id="menu container" v-if="!show">
+                <!-- Router Links -->
+                <div class="menu-item">
+                    <router-link to="/">Home</router-link>
+                </div>
+                <div class="menu-item">
+                    <router-link to="/information">Information</router-link>
+                </div>
+                <div class="menu-item">
+                    <router-link to="/testimonies">Testimonies</router-link>
+                </div>
+                <div class="menu-item">
+                    <router-link to="/health">Health</router-link>
+                </div>
+                <div class="menu-item">
+                    <router-link to="/essential-oils">Essential Oils</router-link>
+                </div>
+                <div class="menu-item">
+                    <router-link to="/shop">Shop</router-link>
+                </div>
+                <div class="menu-item">
+                    <router-link to="/research">Research</router-link>
+                </div>
+                <div class="menu-item">
+                    <router-link to="/contact">Contact Us</router-link>
+                </div>
+                <div class="menu-item">
+                    <router-link to="/product">Product</router-link>
+                </div>
+                <div class="menu-item">
+                    <router-link to="/login">Login</router-link>
+                </div>
+            </div>
+        </transition>
     </div>
 </template>
 
@@ -70,38 +92,66 @@ export default {
 </script>
 
 <style scoped>
-    /* Grid Container */
+/* Grid Level */
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
         grid-template-rows: 53px 53px;
         align-items: center;
     }
-
-    /* Grid Items (Left to Right) */
-    /* .hamburger {
-    }
-    .location-pin {
-    }
-    .logo {
-    }
-    .search-icon {
-    }
-    .cart {
-    } */
     .nested {
         display: grid;
+    }
+    .search-template {
         grid-template-columns: 1fr 3fr 40px 1fr;
     }
-    .search {
-        height: 53px;
-        grid-column: 1 / 6
-    }
-    .search input {
-        grid-column: 2 / 3;
-    }
-    .search button {
-        height: 40px;
-        width: 40px;
-    }
+
+/* Item Level */
+    /* Header */
+        .search {
+            height: 53px;
+            grid-column: 1 / 6;
+        }
+        .search input {
+            border: none;
+            background-color: #F8F8F8;
+            grid-column: 2 / 3;
+        }
+        .search input:hover {
+            border: none;
+            background-color: #F8F8F8;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        .search button {
+            height: 40px;
+            width: 40px;
+            background-color: #565458;
+            border: none;
+            border-radius: 2px;
+        }
+        .search button:hover {
+            height: 40px;
+            width: 40px;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            border-radius: 2px;
+        }
+    /* Menu */
+        /* .menu {
+            width: 75px;
+        } */
+
+/* Animations */
+    /* Slide menu bar */
+        .slide-enter-active {
+            transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+        }
+
+        .slide-leave-active {
+            transition: opacity .3s ease-out, transform .3s ease-in-out;
+        }
+
+        .slide-enter, .slide-leave-to {
+            transform: translateY(-50px);
+            opacity: 0;
+        }
 </style>
