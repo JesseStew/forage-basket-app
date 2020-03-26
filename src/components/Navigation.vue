@@ -43,7 +43,7 @@
             </form>
         </div>
         <transition name="slide">
-            <div id="menu container" v-if="show">
+            <div class="menu" v-if="show">
                 <!-- Router Links -->
                 <div class="menu-item">
                     <router-link to="/">Home</router-link>
@@ -83,7 +83,7 @@
 <script>
 export default {
     name: 'Navigation',
-    data () {
+    data: function() {
         return {
             show: false
         }
@@ -136,9 +136,11 @@ export default {
             border-radius: 2px;
         }
     /* Menu */
-        /* .menu {
-            width: 75px;
-        } */
+        .menu {
+            width: 100%;
+            position: absolute;
+            background-color: white;
+        }
 
 /* Animations */
     /* Slide menu bar */
@@ -151,7 +153,7 @@ export default {
         }
 
         .slide-enter, .slide-leave-to {
-            transform: translateY(-50px);
+            transform: translateX(-100%);
             opacity: 0;
         }
 </style>

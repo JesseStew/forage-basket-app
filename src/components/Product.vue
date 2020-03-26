@@ -98,3 +98,47 @@ export default {
 <style scoped>
 
 </style>
+
+Vue.component('product', {
+    
+    template: `
+     <div class="product">
+          
+        <div class="product-image">
+          <img :src="image">
+        </div>
+  
+        <div class="product-info">
+            <h1>{{ product }}</h1>
+            <p v-if="inStock">In Stock</p>
+            <p v-else>Out of Stock</p>
+            <p>Shipping: {{ shipping }}</p>
+  
+            <ul>
+              <li v-for="(detail, index) in details" :key="index">{{ detail }}</li>
+            </ul>
+  
+            <div class="color-box"
+                 v-for="(variant, index) in variants" 
+                 :key="variant.variantId"
+                 :style="{ backgroundColor: variant.variantColor }"
+                 @mouseover="updateProduct(index)"
+                 >
+            </div> 
+  
+            <button @click="addToCart" 
+              :disabled="!inStock"
+              :class="{ disabledButton: !inStock }"
+              >
+            Add to cart
+            </button>
+  
+         </div> 
+         
+         <product-review @review-submitted="addReview"></product-review>
+      
+      </div>
+     `,
+    
+      
+      
