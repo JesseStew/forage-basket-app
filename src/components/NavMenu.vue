@@ -1,6 +1,6 @@
 <template>
   <transition name="slide">
-    <div class="menu" v-if="show">
+    <div class="menu" v-if="show" @click="closeMenu()">
       <div v-for="route in routesArray" :key="route.id">
         <MenuItem :route="route"></MenuItem>
       </div>
@@ -23,6 +23,11 @@ export default {
     return {
       routesArray: routes
     };
+  },
+  methods: {
+    closeMenu() {
+      this.$emit('close-menu');
+    }
   },
   components: {
     MenuItem

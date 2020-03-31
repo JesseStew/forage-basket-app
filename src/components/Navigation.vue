@@ -117,7 +117,7 @@
         </div>
       </form>
     </div>
-    <NavMenu :show="show" />
+    <NavMenu :show="show" @close-menu="closeMenu" />
   </div>
 </template>
 
@@ -129,6 +129,11 @@ export default {
     return {
       show: false
     };
+  },
+  methods: {
+    closeMenu() {
+      this.show = false;
+    }
   },
   components: {
     NavMenu
