@@ -1,48 +1,31 @@
 <template>
   <transition name="slide">
     <div class="menu" v-if="show">
-      <!-- Router Links -->
-      <div class="menu-item">
-        <router-link to="/">Home</router-link>
-      </div>
-      <div class="menu-item">
-        <router-link to="/information">Information</router-link>
-      </div>
-      <div class="menu-item">
-        <router-link to="/testimonies">Testimonies</router-link>
-      </div>
-      <div class="menu-item">
-        <router-link to="/health">Health</router-link>
-      </div>
-      <div class="menu-item">
-        <router-link to="/essential-oils">Essential Oils</router-link>
-      </div>
-      <div class="menu-item">
-        <router-link to="/shop">Shop</router-link>
-      </div>
-      <div class="menu-item">
-        <router-link to="/research">Research</router-link>
-      </div>
-      <div class="menu-item">
-        <router-link to="/contact">Contact Us</router-link>
-      </div>
-      <div class="menu-item">
-        <router-link to="/product">Product</router-link>
-      </div>
-      <div class="menu-item">
-        <router-link to="/login">Login</router-link>
+      <div v-for="route in routesArray" :key="route.id">
+        <MenuItem :route="route"></MenuItem>
       </div>
     </div>
   </transition>
 </template>
 
 <script>
+import { routes } from '@/router/index.js';
+import MenuItem from '@/components/MenuItem.vue';
+
 export default {
   props: {
     show: {
       type: Boolean,
       default: false
     }
+  },
+  data() {
+    return {
+      routesArray: routes
+    };
+  },
+  components: {
+    MenuItem
   }
 };
 </script>
