@@ -122,23 +122,23 @@
 </template>
 
 <script>
-import NavMenu from '@/components/NavMenu.vue';
+import NavMenu from '@/components/NavMenu.vue'
 export default {
   name: 'Navigation',
   data() {
     return {
       show: false
-    };
+    }
   },
   methods: {
     closeMenu() {
-      this.show = false;
+      this.show = false
     }
   },
   components: {
     NavMenu
   }
-};
+}
 </script>
 
 <style scoped>
@@ -148,6 +148,7 @@ export default {
   grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
   grid-template-rows: 53px 53px;
   align-items: center;
+  border-bottom: 1px solid #cbcbcb;
 }
 .nested {
   display: grid;

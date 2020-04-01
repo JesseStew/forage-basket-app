@@ -1,16 +1,18 @@
 <template>
-  <transition name="slide">
-    <div class="menu" v-if="show" @click="closeMenu()">
-      <div v-for="route in routesArray" :key="route.id">
-        <MenuItem :route="route"></MenuItem>
+  <div id="nav-menu">
+    <transition name="slide">
+      <div class="menu" v-if="show" @click="closeMenu()">
+        <div class="menu-item" v-for="route in routesArray" :key="route.id">
+          <MenuItem :route="route"></MenuItem>
+        </div>
       </div>
-    </div>
-  </transition>
+    </transition>
+  </div>
 </template>
 
 <script>
-import { routes } from '@/router/index.js';
-import MenuItem from '@/components/MenuItem.vue';
+import { routes } from '@/router/index.js'
+import MenuItem from '@/components/MenuItem.vue'
 
 export default {
   props: {
@@ -22,25 +24,37 @@ export default {
   data() {
     return {
       routesArray: routes
-    };
+    }
   },
   methods: {
     closeMenu() {
-      this.$emit('close-menu');
+      this.$emit('close-menu')
     }
   },
   components: {
     MenuItem
   }
-};
+}
 </script>
 
 <style scoped>
 /* Menu */
 .menu {
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(10, 50px);
+  align-items: center;
+
+  width: 320px;
   position: absolute;
   background-color: white;
+
+  border: 1px solid #cbcbcb;
+}
+
+.menu-item {
+  width: 320px;
+  height: 100%;
 }
 
 /* Animations */
@@ -55,7 +69,7 @@ export default {
 
 .slide-enter,
 .slide-leave-to {
-  transform: translateX(-100%);
+  transform: translateX(-320px);
   opacity: 0;
 }
 </style>
