@@ -85,7 +85,6 @@
     <p class="disclaimer">
       Consumers should always seek the advice of a physician or other competent health care provider with any questions regarding medical conditions.  The educational information on our website and in our online advertisements has not been evaluated by the United States Food and Drug Administration and is not intended to diagnose, treat, cure or prevent any disease.  Consumers should never disregard medical advice or delay in seeking it because of something they have read on our Site or in our online advertisements.
     </p>
-    <BaseFooter />
   </div>
 </template>
 
