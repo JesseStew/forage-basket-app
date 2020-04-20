@@ -1,14 +1,14 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import Home from '../views/Home.vue'
 
-Vue.use(VueRouter);
+Vue.use(VueRouter)
 
 export const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
   },
   {
     path: '/information',
@@ -17,19 +17,19 @@ export const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "information" */ '../views/Information.vue')
+      import(/* webpackChunkName: "information" */ '../views/Information.vue'),
   },
   {
     path: '/testimonies',
     name: 'Testimonies',
     component: () =>
-      import(/* webpackChunkName: "testimonies" */ '../views/Testimonies.vue')
+      import(/* webpackChunkName: "testimonies" */ '../views/Testimonies.vue'),
   },
   {
     path: '/health',
     name: 'Health',
     component: () =>
-      import(/* webpackChunkName: "health" */ '../views/Health.vue')
+      import(/* webpackChunkName: "health" */ '../views/Health.vue'),
   },
   {
     path: '/essential-oils',
@@ -37,43 +37,49 @@ export const routes = [
     component: () =>
       import(
         /* webpackChunkName: "essentialloils" */ '../views/EssentialOils.vue'
-      )
+      ),
   },
   {
     path: '/shop',
     name: 'Shop',
-    component: () => import(/* webpackChunkName: "shop" */ '../views/Shop.vue')
+    component: () => import(/* webpackChunkName: "shop" */ '../views/Shop.vue'),
   },
   {
     path: '/research',
     name: 'Research',
     component: () =>
-      import(/* webpackChunkName: "research" */ '../views/Research.vue')
+      import(/* webpackChunkName: "research" */ '../views/Research.vue'),
   },
   {
     path: '/contact',
     name: 'Contact',
     component: () =>
-      import(/* webpackChunkName: "contact" */ '../views/Contact.vue')
+      import(/* webpackChunkName: "contact" */ '../views/Contact.vue'),
   },
   {
     path: '/product',
     name: 'Product',
     component: () =>
-      import(/* webpackChunkName: "product" */ '../views/Product.vue')
+      import(/* webpackChunkName: "product" */ '../views/Product.vue'),
   },
   {
     path: '/login',
     name: 'Login',
     component: () =>
-      import(/* webpackChunkName: "login" */ '../views/Login.vue')
-  }
-];
+      import(/* webpackChunkName: "login" */ '../views/Login.vue'),
+  },
+  {
+    path: '/sign-up',
+    name: 'Sign Up',
+    component: () =>
+      import(/* webpackChunkName: "sign-up" */ '../views/SignUp.vue'),
+  },
+]
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
-});
+  routes,
+})
 
-export default router;
+export default router
