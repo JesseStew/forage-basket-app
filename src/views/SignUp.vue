@@ -10,7 +10,8 @@
 
 <script>
 // https://firebase.google.com/docs/auth/web/password-auth?authuser=1
-import firebase from 'firebase'
+import firebase from 'firebase/app'
+import 'firebase/auth'
 
 export default {
   name: 'signUp',
