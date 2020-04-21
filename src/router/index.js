@@ -63,16 +63,10 @@ export const routes = [
       import(/* webpackChunkName: "product" */ '../views/Product.vue'),
   },
   {
-    path: '/login',
-    name: 'Login',
+    path: '/user-account',
+    name: 'User Account',
     component: () =>
-      import(/* webpackChunkName: "login" */ '../views/Login.vue'),
-  },
-  {
-    path: '/sign-up',
-    name: 'Sign Up',
-    component: () =>
-      import(/* webpackChunkName: "sign-up" */ '../views/SignUp.vue'),
+      import(/* webpackChunkName: "user-account" */ '../views/UserAccount.vue'),
   },
 ]
 
