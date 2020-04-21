@@ -1,25 +1,39 @@
 <template>
-  <div id="modal-login" class="modal">
-    <div class="modal-content">
-      <h4>Login</h4>
-      <br />
-      <form id="login-form">
-        <div class="input-field">
-          <input type="email" id="login-email" required />
-          <label for="login-email">Email address</label>
-        </div>
-        <div class="input-field">
-          <input type="password" id="login-password" required />
-          <label for="login-password">Your password</label>
-        </div>
-        <button class="btn yellow darken-2 z-depth-0">Login</button>
-      </form>
-    </div>
+  <div class="login">
+    <h3>Sign In</h3>
+    <input type="text" v-model="email" placeholder="Email" /><br />
+    <input type="password" v-model="password" placeholder="Password" /><br />
+    <button @click="login">Sign In</button>
   </div>
 </template>
 
 <script>
-export default {}
+// https://firebase.google.com/docs/auth/web/password-auth?authuser=1
+import firebase from 'firebase/app'
+import 'firebase/auth'
+
+export default {
+  name: 'LoginAccount',
+  data() {
+    return {
+      email: '',
+      password: '',
+    }
+  },
+  methods: {
+    login: function() {
+      firebase
+        .auth()
+        .signInWithEmailAndPassword(this.email, this.password)
+        .then(function(user) {
+          alert('You have logged in.')
+        })
+        .catch(function(err) {
+          alert('Loggin failure.')
+        })
+    },
+  },
+}
 </script>
 
 <style scoped></style>

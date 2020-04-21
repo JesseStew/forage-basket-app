@@ -1,13 +1,9 @@
 <template>
-  <div class="user-account">
-    <h2>My Account</h2>
-    <!-- User not signed in -->
-    <LoginAccount />
-    <SignUp />
-    <!-- User Signed In -->
-    <div class="user-account">
-      <!-- Display if Logged In -->
-    </div>
+  <div class="sign-up">
+    <h3>Let's create a new account</h3>
+    <input type="text" v-model="email" placeholder="Email" /><br />
+    <input type="password" v-model="password" placeholder="Password" /><br />
+    <button @click="signUp">Create An Account</button>
   </div>
 </template>
 
@@ -16,11 +12,8 @@
 import firebase from 'firebase/app'
 import 'firebase/auth'
 
-import SignUp from '@/components/SignUp.vue'
-import LoginAccount from '@/components/LoginAccount.vue'
-
 export default {
-  name: 'UserAccount',
+  name: 'SignUp',
   data() {
     return {
       email: '',
@@ -41,11 +34,5 @@ export default {
         })
     },
   },
-  components: {
-    SignUp,
-    LoginAccount,
-  },
 }
 </script>
-
-<style scoped></style>
