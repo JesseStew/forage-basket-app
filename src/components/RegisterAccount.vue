@@ -3,7 +3,7 @@
     <h3>Let's create a new account</h3>
     <input type="text" v-model="email" placeholder="Email" /><br />
     <input type="password" v-model="password" placeholder="Password" /><br />
-    <button @click="signUp">Create An Account</button>
+    <button @click="registerAccount">Create An Account</button>
   </div>
 </template>
 
@@ -13,7 +13,7 @@ import firebase from 'firebase/app'
 import 'firebase/auth'
 
 export default {
-  name: 'SignUp',
+  name: 'RegisterAccount',
   data() {
     return {
       email: '',
@@ -21,7 +21,7 @@ export default {
     }
   },
   methods: {
-    signUp: function() {
+    registerAccount: function() {
       firebase
         .auth()
         .createUserWithEmailAndPassword(this.email, this.password)

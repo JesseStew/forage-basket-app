@@ -1,9 +1,9 @@
 <template>
   <div class="user-account">
-    <h2>My Account</h2>
+    <h2>My Account {{ displayName }}</h2>
     <!-- User not signed in -->
     <LoginAccount />
-    <SignUp />
+    <RegisterAccount />
     <!-- User Signed In -->
     <div class="user-account">
       <!-- Display if Logged In -->
@@ -16,7 +16,7 @@
 import firebase from 'firebase/app'
 import 'firebase/auth'
 
-import SignUp from '@/components/SignUp.vue'
+import RegisterAccount from '@/components/RegisterAccount.vue'
 import LoginAccount from '@/components/LoginAccount.vue'
 
 export default {
@@ -24,26 +24,41 @@ export default {
   data() {
     return {
       email: '',
-      password: '',
+      emailVerified: '',
+      photoURL: '',
+      isAnonymous: '',
+      uid: '',
+      providerData: '',
     }
   },
   methods: {
-    signUp: function() {
-      firebase
-        .auth()
-        .createUserWithEmailAndPassword(this.email, this.password)
-        .then(function(user) {
-          console.log(user)
-          alert('Your account has been created')
-        })
-        .catch(function(err) {
-          alert('Did not create account')
-        })
+    loggedIn: function() {
+      firebase.auth().onAuthStateChanged(function(user) {
+        if (user) {
+          this.displayName = user.displayName
+          this.email = user.email
+          this.emailVerified = user.emailVerified
+          this.photoURL = user.photoURL
+          this.isAnonymous = user.isAnonymous
+          this.uid = user.uid
+          this.providerData = user.providerData
+          console.log(this.email)
+          alert('User Logged in.')
+        }
+      })
     },
   },
   components: {
-    SignUp,
+    RegisterAccount,
     LoginAccount,
+  },
+  beforeMount() {
+    this.loggedIn()
+  },
+  computed: {
+    displayName() {
+      return this.$store.state.user.displayName
+    },
   },
 }
 </script>

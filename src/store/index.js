@@ -5,11 +5,17 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    user: {
+      displayName: 'test',
+      email: 'test@test.com',
+      emailVerified: false,
+      photoURL: '',
+      isAnonymous: '',
+      uid: '',
+      providerData: '',
+    },
   },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
+  mutations: {},
+  actions: {},
+  modules: {},
 })
