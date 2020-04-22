@@ -1,7 +1,7 @@
 <template>
-  <div class="user-account">
-    <h2>My Account {{ displayName }}</h2>
-    <button @click="signOut">Sign Out</button>
+  <div class="user-account container">
+    <h2 class="title">My Account {{ email }}</h2>
+    <button class="sign-out" @click="signOut">Sign Out</button>
     <!-- User not signed in -->
     <LoginAccount />
     <RegisterAccount />
@@ -66,4 +66,23 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+/* Grid Level */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid #cbcbcb;
+}
+.title {
+  grid-column: 1 / 2;
+  justify-self: start;
+  padding: 1em;
+}
+.sign-out {
+  grid-column: 2 / 3;
+  justify-self: end;
+  margin: 1em;
+}
+</style>
