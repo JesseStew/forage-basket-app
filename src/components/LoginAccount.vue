@@ -1,9 +1,9 @@
 <template>
-  <div class="login">
+  <div class="login-account">
     <h3>Sign In</h3>
     <input type="text" v-model="email" placeholder="Email" /><br />
     <input type="password" v-model="password" placeholder="Password" /><br />
-    <button @click="login">Sign In</button>
+    <button @click="loginAccount">Sign In</button>
   </div>
 </template>
 
@@ -21,16 +21,11 @@ export default {
     }
   },
   methods: {
-    login: function() {
-      firebase
-        .auth()
-        .signInWithEmailAndPassword(this.email, this.password)
-        .then(function(user) {
-          alert('You have logged in.')
-        })
-        .catch(function(err) {
-          alert('Loggin failure.')
-        })
+    loginAccount() {
+      this.$store.commit('loginAccount', {
+        email: this.email,
+        password: this.password,
+      })
     },
   },
 }

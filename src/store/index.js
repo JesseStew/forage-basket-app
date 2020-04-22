@@ -10,59 +10,86 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     user: {
-      displayName: 'test',
-      email: 'test@test.com',
+      displayName: '',
+      email: '',
       emailVerified: false,
       photoURL: '',
-      isAnonymous: '',
+      isAnonymous: false,
       uid: '',
       providerData: '',
     },
   },
   mutations: {
-    loggedIn() {
+    loggedIn(state) {
       firebase.auth().onAuthStateChanged(function(user) {
         if (user) {
-          this.displayName = user.displayName
-          this.email = user.email
-          this.emailVerified = user.emailVerified
-          this.photoURL = user.photoURL
-          this.isAnonymous = user.isAnonymous
-          this.uid = user.uid
-          this.providerData = user.providerData
-          console.log(this.email)
+          state.user.state = user.state
+          state.user.email = user.email
+          state.user.emailVerified = user.emailVerified
+          state.user.photoURL = user.photoURL
+          state.user.isAnonymous = user.isAnonymous
+          state.user.uid = user.uid
+          state.user.providerData = user.providerData
           alert('User Logged in.')
+        } else {
+          state.user.state = ''
+          state.user.email = ''
+          state.user.emailVerified = false
+          state.user.photoURL = ''
+          state.user.isAnonymous = false
+          state.user.uid = ''
+          state.user.providerData = ''
         }
       })
     },
-    signOut() {
+    signOut(state) {
       firebase
         .auth()
         .signOut()
         .then(function() {
+          state.user.state = ''
+          state.user.email = ''
+          state.user.emailVerified = false
+          state.user.photoURL = ''
+          state.user.isAnonymous = false
+          state.user.uid = ''
+          state.user.providerData = ''
           alert('Signed Out')
         })
         .catch(function(err) {
           alert('Problem Signing Out')
         })
     },
-    registerAccount() {
+    registerAccount(state, payload) {
       firebase
         .auth()
-        .createUserWithEmailAndPassword(this.email, this.password)
+        .createUserWithEmailAndPassword(payload.email, payload.password)
         .then(function(user) {
-          console.log(user)
+          state.user.state = user.state
+          state.user.email = user.email
+          state.user.emailVerified = user.emailVerified
+          state.user.photoURL = user.photoURL
+          state.user.isAnonymous = user.isAnonymous
+          state.user.uid = user.uid
+          state.user.providerData = user.providerData
           alert('Your account has been created')
         })
         .catch(function(err) {
-          alert('Did not create account')
+          alert(err.message)
         })
     },
-    loginAccount() {
+    loginAccount(state, payload) {
       firebase
         .auth()
-        .signInWithEmailAndPassword(this.email, this.password)
+        .signInWithEmailAndPassword(payload.email, payload.password)
         .then(function(user) {
+          state.user.state = user.state
+          state.user.email = user.email
+          state.user.emailVerified = user.emailVerified
+          state.user.photoURL = user.photoURL
+          state.user.isAnonymous = user.isAnonymous
+          state.user.uid = user.uid
+          state.user.providerData = user.providerData
           alert('You have logged in.')
         })
         .catch(function(err) {

@@ -1,6 +1,7 @@
 <template>
   <div class="user-account">
     <h2>My Account {{ displayName }}</h2>
+    <button @click="signOut">Sign Out</button>
     <!-- User not signed in -->
     <LoginAccount />
     <RegisterAccount />
@@ -22,43 +23,45 @@ import LoginAccount from '@/components/LoginAccount.vue'
 export default {
   name: 'UserAccount',
   data() {
-    return {
-      email: '',
-      emailVerified: '',
-      photoURL: '',
-      isAnonymous: '',
-      uid: '',
-      providerData: '',
-    }
-  },
-  methods: {
-    loggedIn: function() {
-      firebase.auth().onAuthStateChanged(function(user) {
-        if (user) {
-          this.displayName = user.displayName
-          this.email = user.email
-          this.emailVerified = user.emailVerified
-          this.photoURL = user.photoURL
-          this.isAnonymous = user.isAnonymous
-          this.uid = user.uid
-          this.providerData = user.providerData
-          console.log(this.email)
-          alert('User Logged in.')
-        }
-      })
-    },
+    return {}
   },
   components: {
     RegisterAccount,
     LoginAccount,
   },
-  beforeMount() {
-    this.loggedIn()
-  },
   computed: {
-    displayName() {
-      return this.$store.state.user.displayName
+    displayName: function() {
+      return this.$store.state.displayName
     },
+    email: function() {
+      return this.$store.state.email
+    },
+    emailVerified: function() {
+      return this.$store.state.emailVerified
+    },
+    photoURL: function() {
+      return this.$store.state.photoURL
+    },
+    isAnonymous: function() {
+      return this.$store.state.isAnonymous
+    },
+    uid: function() {
+      return this.$store.state.uid
+    },
+    providerData: function() {
+      return this.$store.state.providerData
+    },
+  },
+  methods: {
+    loggedIn() {
+      this.$store.commit('loggedIn')
+    },
+    signOut() {
+      this.$store.commit('signOut')
+    },
+  },
+  mounted() {
+    this.$store.commit('loggedIn')
   },
 }
 </script>

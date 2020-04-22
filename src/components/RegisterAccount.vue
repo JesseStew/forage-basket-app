@@ -21,17 +21,11 @@ export default {
     }
   },
   methods: {
-    registerAccount: function() {
-      firebase
-        .auth()
-        .createUserWithEmailAndPassword(this.email, this.password)
-        .then(function(user) {
-          console.log(user)
-          alert('Your account has been created')
-        })
-        .catch(function(err) {
-          alert('Did not create account')
-        })
+    registerAccount() {
+      this.$store.commit('registerAccount', {
+        email: this.email,
+        password: this.password,
+      })
     },
   },
 }

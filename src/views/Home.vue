@@ -63,7 +63,7 @@
     </p>
     <img src="../assets/images/shiaqga-green.png" alt="shiaqga-bottle-green" srcset="">
     <img src="../assets/images/shiaqga-red.png" alt="shiaqga-bottle-red" srcset="">
-    <h3>
+    <!-- <h3>
       Enter your email below to  sign up for our Newsletter.
     </h3>
     <form>
@@ -75,7 +75,7 @@
       <button type="submit" name="button">
         Submit
       </button>
-    </form>
+    </form> -->
     <button type="submit" name="button">
       CLICK HERE IF YOU WISH TO JOIN OUR SHIAQGA AFFILIATE PROGRAM AND RECEIVE 7% COMMISSION FOR YOUR DIRECT REFERRALS AND 10% COMMISSION ON YOUR SECOND TIER LEVEL. YOU WILL AUTOMATICALLY BE PLACED IN YOUR REFERRER'S FIRST LEVEL TIER. (IN THE FUTURE, A COMPANY-WIDE PROFIT SHARING PLAN BASED ON REFERRALS SALES WILL BE ADDED.)
     </button>
