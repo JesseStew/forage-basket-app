@@ -1,6 +1,6 @@
 <template>
   <div class="user-account container">
-    <h2 class="title">My Account {{ email }}</h2>
+    <h2 class="title">My Account, {{ $store.state.user.email }}</h2>
     <button class="sign-out" @click="signOut">Sign Out</button>
     <!-- User not signed in -->
     <LoginAccount />
@@ -13,10 +13,6 @@
 </template>
 
 <script>
-// https://firebase.google.com/docs/auth/web/password-auth?authuser=1
-import firebase from 'firebase/app'
-import 'firebase/auth'
-
 import RegisterAccount from '@/components/RegisterAccount.vue'
 import LoginAccount from '@/components/LoginAccount.vue'
 
@@ -30,38 +26,38 @@ export default {
     LoginAccount,
   },
   computed: {
-    displayName: function() {
-      return this.$store.state.displayName
-    },
-    email: function() {
-      return this.$store.state.email
-    },
-    emailVerified: function() {
-      return this.$store.state.emailVerified
-    },
-    photoURL: function() {
-      return this.$store.state.photoURL
-    },
-    isAnonymous: function() {
-      return this.$store.state.isAnonymous
-    },
-    uid: function() {
-      return this.$store.state.uid
-    },
-    providerData: function() {
-      return this.$store.state.providerData
-    },
+    // displayName: function() {
+    //   return this.$store.state.user.displayName
+    // },
+    // email: function() {
+    //   return this.$store.state.email
+    // },
+    // emailVerified: function() {
+    //   return this.$store.state.emailVerified
+    // },
+    // photoURL: function() {
+    //   return this.$store.state.photoURL
+    // },
+    // isAnonymous: function() {
+    //   return this.$store.state.isAnonymous
+    // },
+    // uid: function() {
+    //   return this.$store.state.uid
+    // },
+    // providerData: function() {
+    //   return this.$store.state.providerData
+    // },
   },
   methods: {
     loggedIn() {
-      this.$store.commit('loggedIn')
+      this.$store.dispatch('loggedIn')
     },
     signOut() {
-      this.$store.commit('signOut')
+      this.$store.dispatch('signOut')
     },
   },
   mounted() {
-    this.$store.commit('loggedIn')
+    this.$store.dispatch('loggedIn')
   },
 }
 </script>

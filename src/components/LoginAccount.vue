@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     loginAccount() {
-      this.$store.commit('loginAccount', {
+      this.$store.dispatch('loginAccount', {
         email: this.email,
         password: this.password,
       })

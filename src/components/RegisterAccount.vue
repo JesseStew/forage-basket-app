@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     registerAccount() {
-      this.$store.commit('registerAccount', {
+      this.$store.dispatch('registerAccount', {
         email: this.email,
         password: this.password,
       })

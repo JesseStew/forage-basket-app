@@ -20,83 +20,94 @@ export default new Vuex.Store({
     },
   },
   mutations: {
-    loggedIn(state) {
-      firebase.auth().onAuthStateChanged(function(user) {
-        if (user) {
-          state.user.state = user.state
-          state.user.email = user.email
-          state.user.emailVerified = user.emailVerified
-          state.user.photoURL = user.photoURL
-          state.user.isAnonymous = user.isAnonymous
-          state.user.uid = user.uid
-          state.user.providerData = user.providerData
-          alert('User Logged in.')
-        } else {
-          state.user.state = ''
-          state.user.email = ''
-          state.user.emailVerified = false
-          state.user.photoURL = ''
-          state.user.isAnonymous = false
-          state.user.uid = ''
-          state.user.providerData = ''
-        }
-      })
+    loggedIn(state, user) {
+      if (user) {
+        state.user.state = user.state
+        state.user.email = user.email
+        state.user.emailVerified = user.emailVerified
+        state.user.photoURL = user.photoURL
+        state.user.isAnonymous = user.isAnonymous
+        state.user.uid = user.uid
+        state.user.providerData = user.providerData
+        // alert('User Logged in.')
+      } else {
+        state.user.state = ''
+        state.user.email = ''
+        state.user.emailVerified = false
+        state.user.photoURL = ''
+        state.user.isAnonymous = false
+        state.user.uid = ''
+        state.user.providerData = ''
+      }
     },
     signOut(state) {
+      state.user.state = ''
+      state.user.email = ''
+      state.user.emailVerified = false
+      state.user.photoURL = ''
+      state.user.isAnonymous = false
+      state.user.uid = ''
+      state.user.providerData = ''
+      alert('Signed Out')
+    },
+    registerAccount(state, user) {
+      state.user.state = user.state
+      state.user.email = user.email
+      state.user.emailVerified = user.emailVerified
+      state.user.photoURL = user.photoURL
+      state.user.isAnonymous = user.isAnonymous
+      state.user.uid = user.uid
+      state.user.providerData = user.providerData
+    },
+    loginAccount(state, user) {
+      state.user.state = user.state
+      state.user.email = user.email
+      state.user.emailVerified = user.emailVerified
+      state.user.photoURL = user.photoURL
+      state.user.isAnonymous = user.isAnonymous
+      state.user.uid = user.uid
+      state.user.providerData = user.providerData
+    },
+  },
+  actions: {
+    loggedIn({ commit }) {
+      firebase.auth().onAuthStateChanged((user) => {
+        commit('loggedIn', user)
+      })
+    },
+    signOut({ commit }) {
       firebase
         .auth()
         .signOut()
         .then(function() {
-          state.user.state = ''
-          state.user.email = ''
-          state.user.emailVerified = false
-          state.user.photoURL = ''
-          state.user.isAnonymous = false
-          state.user.uid = ''
-          state.user.providerData = ''
-          alert('Signed Out')
+          commit('signOut')
         })
         .catch(function(err) {
           alert('Problem Signing Out')
         })
     },
-    registerAccount(state, payload) {
+    registerAccount({ commit }, payload) {
       firebase
         .auth()
         .createUserWithEmailAndPassword(payload.email, payload.password)
-        .then(function(user) {
-          state.user.state = user.state
-          state.user.email = user.email
-          state.user.emailVerified = user.emailVerified
-          state.user.photoURL = user.photoURL
-          state.user.isAnonymous = user.isAnonymous
-          state.user.uid = user.uid
-          state.user.providerData = user.providerData
-          alert('Your account has been created')
+        .then((user) => {
+          commit('registerAccount', user)
         })
         .catch(function(err) {
           alert(err.message)
         })
     },
-    loginAccount(state, payload) {
+    loginAccount({ commit }, payload) {
       firebase
         .auth()
         .signInWithEmailAndPassword(payload.email, payload.password)
         .then(function(user) {
-          state.user.state = user.state
-          state.user.email = user.email
-          state.user.emailVerified = user.emailVerified
-          state.user.photoURL = user.photoURL
-          state.user.isAnonymous = user.isAnonymous
-          state.user.uid = user.uid
-          state.user.providerData = user.providerData
-          alert('You have logged in.')
+          commit('loginAccount', user)
         })
         .catch(function(err) {
           alert('Loggin failure.')
         })
     },
   },
-  actions: {},
   modules: {},
 })
