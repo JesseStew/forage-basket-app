@@ -1,14 +1,15 @@
 <template>
   <div class="testimonies">
     <h1>This is the Testimonies page</h1>
-    <button @click="getData"></button>
+    <button @click="getDocRefs"></button>
   </div>
 </template>
 
 <script>
 import firebase from 'firebase/app'
 import 'firebase/firestore'
-var db = firebase.firestore()
+const db = firebase.firestore()
+db.settings = { timestampsInSnapshots: true }
 export default {
   data() {
     return {
@@ -16,15 +17,16 @@ export default {
       content: '',
       credentials: '',
       title: '',
+      docRefs: [],
     }
   },
   methods: {
-    getData() {
+    getDocRefs() {
       db.collection('testimonies')
         .get()
-        .then((querySnapshot) => {
-          querySnapshot.forEach((doc) => {
-            console.log(`${doc.id} => ${doc.data()}`)
+        .then((snapshot) => {
+          snapshot.docs.forEach((doc) => {
+            console.log(doc.data())
           })
         })
     },
