@@ -43,7 +43,7 @@
     </p>
     <!-- Create components -->
     <router-link :to="{ name: 'Essential Oils' }">
-      Click here for more Shiaqga Information </router-link
+      CLICK HERE FOR SHIAQGA INFORMATION </router-link
     ><br />
     <router-link :to="{ name: 'Essential Oils' }">
       CLICK HERE TO VIEW OUR SHIAQGA BROCHURE </router-link
