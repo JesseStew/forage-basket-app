@@ -1,10 +1,11 @@
 <template>
   <div class="user-account container">
-    <h2 class="title">My Account, {{ $store.state.user.email }}</h2>
-    <button class="sign-out" @click="signOut">Sign Out</button>
+    <h2 class="title">My Account, {{ email }}</h2>
+    <button v-if="email" class="sign-out" @click="signOut">Sign Out</button>
+    <span v-if="!email"></span>
     <!-- User not signed in -->
-    <LoginAccount />
-    <RegisterAccount />
+    <LoginAccount v-if="!email" />
+    <RegisterAccount v-if="!email" />
     <!-- User Signed In -->
     <div class="user-account">
       <!-- Display if Logged In -->
@@ -26,27 +27,9 @@ export default {
     LoginAccount,
   },
   computed: {
-    // displayName: function() {
-    //   return this.$store.state.user.displayName
-    // },
-    // email: function() {
-    //   return this.$store.state.email
-    // },
-    // emailVerified: function() {
-    //   return this.$store.state.emailVerified
-    // },
-    // photoURL: function() {
-    //   return this.$store.state.photoURL
-    // },
-    // isAnonymous: function() {
-    //   return this.$store.state.isAnonymous
-    // },
-    // uid: function() {
-    //   return this.$store.state.uid
-    // },
-    // providerData: function() {
-    //   return this.$store.state.providerData
-    // },
+    email: function() {
+      return this.$store.state.user.email
+    },
   },
   methods: {
     loggedIn() {
