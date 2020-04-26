@@ -1,19 +1,44 @@
 <template>
   <div>
-    <div v-for="customer in customers" :key="customer.id">
-      {{ customer }}
-    </div>
+    <h2 class="title">
+      {{ snapshot.data().name }} from {{ snapshot.data().location }}
+    </h2>
+    <p v-for="paragraph in paragraphs" :key="paragraph.id">
+      {{ paragraph }}
+    </p>
+    <button @click="getDocRefs"></button>
   </div>
 </template>
 
 <script>
+import firebase from 'firebase/app'
+import 'firebase/firestore'
+
+const db = firebase.firestore()
+db.settings = { timestampsInSnapshots: true }
+
 export default {
   data() {
     return {
-      customers: [],
+      paragraphs: {},
     }
   },
-  firestore: {},
+  props: {
+    snapshot: Object,
+  },
+  methods: {
+    getDocRefs() {
+      db.collection('testimonies')
+        .doc(this.snapshot.id)
+        .collection('paragraphs')
+        .get()
+        .then((snapshot) => {
+          snapshot.docs.forEach((doc) => {
+            this.paragraphs = doc.data()
+          })
+        })
+    },
+  },
 }
 </script>
 

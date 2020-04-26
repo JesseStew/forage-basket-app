@@ -1,23 +1,25 @@
 <template>
   <div class="testimonies">
     <h1>This is the Testimonies page</h1>
+    <div v-for="snapshot in snapshots" :key="snapshot.id">
+      <TestimonyItem :snapshot="snapshot" />
+    </div>
     <button @click="getDocRefs"></button>
   </div>
 </template>
 
 <script>
+import TestimonyItem from '@/components/TestimonyItem.vue'
 import firebase from 'firebase/app'
 import 'firebase/firestore'
+
 const db = firebase.firestore()
 db.settings = { timestampsInSnapshots: true }
+
 export default {
   data() {
     return {
-      author: '',
-      content: '',
-      credentials: '',
-      title: '',
-      docRefs: [],
+      snapshots: [],
     }
   },
   methods: {
@@ -26,10 +28,13 @@ export default {
         .get()
         .then((snapshot) => {
           snapshot.docs.forEach((doc) => {
-            console.log(doc.data())
+            this.snapshots.push(doc)
           })
         })
     },
+  },
+  components: {
+    TestimonyItem,
   },
 }
 </script>
