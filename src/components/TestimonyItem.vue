@@ -6,7 +6,6 @@
     <p v-for="paragraph in paragraphs" :key="paragraph.id">
       {{ paragraph }}
     </p>
-    <button @click="getDocRefs"></button>
   </div>
 </template>
 
@@ -38,6 +37,9 @@ export default {
           })
         })
     },
+  },
+  mounted() {
+    this.getDocRefs()
   },
 }
 </script>

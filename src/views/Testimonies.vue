@@ -4,7 +4,6 @@
     <div v-for="snapshot in snapshots" :key="snapshot.id">
       <TestimonyItem :snapshot="snapshot" />
     </div>
-    <button @click="getDocRefs"></button>
   </div>
 </template>
 
@@ -35,6 +34,9 @@ export default {
   },
   components: {
     TestimonyItem,
+  },
+  mounted() {
+    this.getDocRefs()
   },
 }
 </script>
