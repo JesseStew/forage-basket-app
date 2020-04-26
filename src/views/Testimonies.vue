@@ -7,6 +7,17 @@
         {{ p }}
       </p>
     </div>
+    <div class="outline">
+      <p>
+        Please share with us your own experiences, we love to hear and it
+        assists us all learn more every day.
+      </p>
+      <p>
+        Each story will be read in full with great care. If you prefer us to
+        kept your experience private, let us know. We will always respect your
+        personal wishes. Thank You!
+      </p>
+    </div>
   </div>
 </template>
 
@@ -29,3 +40,21 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.testimonies {
+  text-align: left;
+  margin: 2em;
+}
+.testimonies h1 {
+  text-align: center;
+  margin: 2em;
+}
+.outline {
+  border-top: 1px solid #cbcbcb;
+  border-bottom: 1px solid #cbcbcb;
+  padding: 1.5em;
+  text-align: center;
+  /* background-color: #cbcbcb; */
+}
+</style>
