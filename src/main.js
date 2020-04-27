@@ -7,6 +7,9 @@ import camelCase from 'lodash/camelCase'
 import firebase from 'firebase/app'
 import 'firebase/auth'
 import { firestorePlugin } from 'vuefire'
+import _ from 'lodash'
+
+Object.defineProperty(Vue.prototype, '$_', { value: _ })
 
 Vue.use(firestorePlugin)
 

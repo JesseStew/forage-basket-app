@@ -6,6 +6,11 @@
       <p v-for="p in document.content">
         {{ p }}
       </p>
+      <div v-if="document.photos">
+        <div v-for="photo in document.photos" :key="photo.id"></div>
+        <SlideShow :sources="sources(document)" />
+        <input type="button" @click="sources(document)" value="has photos" />
+      </div>
     </div>
     <div class="outline">
       <p>
@@ -22,6 +27,8 @@
 </template>
 
 <script>
+import SlideShow from '@/components/SlideShow.vue'
+
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 
@@ -34,10 +41,27 @@ export default {
       documents: [],
     }
   },
-  methods: {},
+  methods: {
+    sources(doc) {
+      let name = doc.name
+      let photos = doc.photos
+      let array = []
+      this.$_.forEach(photos, (photo) => {
+        array.push({
+          name: name,
+          src: '../assets/testimonies/' + name + '/' + photo,
+        })
+      })
+      return array
+    },
+  },
   firestore: {
     documents: db.collection('testimonies').orderBy('order'),
   },
+  components: {
+    SlideShow,
+  },
+  computed: {},
 }
 </script>
 
@@ -55,6 +79,5 @@ export default {
   border-bottom: 1px solid #cbcbcb;
   padding: 1.5em;
   text-align: center;
-  /* background-color: #cbcbcb; */
 }
 </style>
