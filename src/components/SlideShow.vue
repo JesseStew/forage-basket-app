@@ -19,7 +19,7 @@
 export default {
   props: {
     sources: {
-      type: Array,
+      type: Object,
     },
   },
   methods: {
