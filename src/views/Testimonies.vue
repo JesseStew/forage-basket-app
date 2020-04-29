@@ -6,10 +6,8 @@
       <p v-for="p in document.content">
         {{ p }}
       </p>
-      <div v-if="document.photos">
-        <div v-for="photo in document.photos" :key="photo.id"></div>
-        <SlideShow :sources="sources(document)" />
-        <input type="button" @click="sources(document)" value="has photos" />
+      <div v-if="document.photoUrls">
+        <SlideShow :sources="document.photoUrls" />
       </div>
     </div>
     <div class="outline">

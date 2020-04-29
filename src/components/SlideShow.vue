@@ -1,9 +1,13 @@
 <template>
-  <div>
-    <div v-for="source in sources" :key="source.id">
-      <!-- <img :src="photo(source.src)" alt="" srcset="" /> -->
-      <!-- {{ photo(source.src) }} -->
-    </div>
+  <div class="slide-show">
+    <img
+      v-for="(source, index) in sources"
+      :key="source.id"
+      class="item"
+      :src="source"
+      alt=""
+      srcset=""
+    />
   </div>
 </template>
 
@@ -19,18 +23,25 @@ export default {
     },
   },
   methods: {
-    // importImgs(src) {
-    //   const photo = require(src)
-    //   return photo
-    // },
-  },
-  computed: {
-    photo(src) {
-      // console.log(src)
-      // return require('../assets/testimonies/Jan B.')
+    getClass(index) {
+      if (index === '1') {
+        return 'main-photo'
+      } else {
+        return 'secondary-photo'
+      }
     },
   },
+  computed: {},
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.slide-show {
+  height: 15em;
+  text-align: center;
+}
+.item {
+  height: 15em;
+  padding: 0.5em;
+}
+</style>
