@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import firebase from 'firebase/app'
 import 'firebase/auth'
+import { db } from '../db.js'
 
 Vue.use(Vuex)
 
@@ -16,7 +17,6 @@ export default new Vuex.Store({
   mutations: {
     registerAccount(state, payload) {
       state.user.email = payload.email
-      state.user.password = payload.password
       state.user.displayName = payload.displayName
     }
   },
@@ -34,6 +34,13 @@ export default new Vuex.Store({
             displayName: payload.displayName
           }).then(function() {
             // Update successful.
+            let user = firebase.auth().currentUser
+            console.log(user.providerData)
+            // Add user to db
+            db.collection('users').doc(user.uid).set({
+              displayName: user.displayName,
+              email: user.email,
+            })
             commit('registerAccount', payload)
           }).catch(function(error) {
             // An error happened.
