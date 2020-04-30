@@ -42,28 +42,9 @@
       adulteration to ensure maximum benefits.
     </p>
     <!-- Create components -->
-    <router-link :to="{ name: 'Essential Oils' }">
-      CLICK HERE FOR SHIAQGA INFORMATION </router-link
-    ><br />
-    <router-link :to="{ name: 'Essential Oils' }">
-      CLICK HERE TO VIEW OUR SHIAQGA BROCHURE </router-link
-    ><br />
-    <router-link :to="{ name: 'Essential Oils' }">
-      CLICK HERE FOR SHIAQGA ASSAY ON BETA GLUCANS </router-link
-    ><br />
-    <router-link :to="{ name: 'Essential Oils' }">
-      CLICK HERE TO READ ABOUT GOOD HEALTH PRACTICES </router-link
-    ><br />
-    <router-link :to="{ name: 'Essential Oils' }">
-      CLICK HERE TO READ ABOUT SHIAQGA AND OPTIMAL HEALTH </router-link
-    ><br />
-    <router-link :to="{ name: 'Essential Oils' }">
-      CLICK HERE TO LEARN MORE ABOUT THE SHIAQGA SUPPLEMENT </router-link
-    ><br />
-    <router-link :to="{ name: 'Essential Oils' }">
-      CLICK HERE TO READ ABOUT THE HISTORY OF THE SHIAQGA PRODUCT & IT'S EFFECT
-      ON THE IMMUNE SYSTEM </router-link
-    ><br />
+    <div v-for="document in documents" :key="document.id">
+      <InformationLink :linkText="document.linkText" :document="document" />
+    </div>
     <h2>
       Shiaqga Original Formula Ingredients:
     </h2>
@@ -102,3 +83,29 @@
     ><br />
   </div>
 </template>
+
+<script>
+import InformationLink from '@/components/InformationLink.vue'
+
+import firebase from 'firebase/app'
+import 'firebase/firestore'
+
+const db = firebase.firestore()
+db.settings = { timestampsInSnapshots: true }
+
+export default {
+  data() {
+    return {
+      documents: [],
+    }
+  },
+  methods: {},
+  firestore: {
+    documents: db.collection('information'),
+  },
+  components: {
+    InformationLink,
+  },
+  computed: {},
+}
+</script>

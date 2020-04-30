@@ -3,7 +3,9 @@
     <transition name="slide">
       <div class="menu" v-if="show" @click="closeMenu()">
         <div class="menu-item" v-for="route in routesArray" :key="route.id">
-          <MenuItem :route="route"></MenuItem>
+          <span v-if="route.path != '/information-link'">
+            <MenuItem :route="route"></MenuItem>
+          </span>
         </div>
       </div>
     </transition>
@@ -18,22 +20,22 @@ export default {
   props: {
     show: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   data() {
     return {
-      routesArray: routes
+      routesArray: routes,
     }
   },
   methods: {
     closeMenu() {
       this.$emit('close-menu')
-    }
+    },
   },
   components: {
-    MenuItem
-  }
+    MenuItem,
+  },
 }
 </script>
 

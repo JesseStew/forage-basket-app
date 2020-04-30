@@ -39,20 +39,7 @@ export default {
       documents: [],
     }
   },
-  methods: {
-    sources(doc) {
-      let name = doc.name
-      let photos = doc.photos
-      let array = []
-      this.$_.forEach(photos, (photo) => {
-        array.push({
-          name: name,
-          src: '../assets/testimonies/' + name + '/' + photo,
-        })
-      })
-      return array
-    },
-  },
+  methods: {},
   firestore: {
     documents: db.collection('testimonies').orderBy('order'),
   },

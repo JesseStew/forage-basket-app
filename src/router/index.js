@@ -68,6 +68,14 @@ export const routes = [
     component: () =>
       import(/* webpackChunkName: "user-account" */ '../views/UserAccount.vue'),
   },
+  {
+    path: '/information-link',
+    name: 'Information Link',
+    component: () =>
+      import(
+        /* webpackChunkName: "information-link" */ '../components/InformationLink.vue'
+      ),
+  },
 ]
 
 const router = new VueRouter({
