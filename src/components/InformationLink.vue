@@ -1,15 +1,25 @@
 <template>
   <div id="information-link">
-    <div v-if="document.linkText === 'CLICK HERE FOR SHIAQGA INFORMATION'">
-      <h1>{{ document.title }}</h1>
-      <button @click="displayInfo">
-        {{ linkText }}
-      </button>
+    <button v-if="document.link" @click="openNewTab(document.link)">
+      {{ linkText }}
+    </button>
+    <button v-else @click="displayInfo">
+      {{ linkText }}
+    </button>
+    <div v-if="display">
+      <h2>{{ document.title }}</h2>
+      <h3 v-if="document.author">by {{ document.author }}</h3>
       <div
-        v-if="display"
         v-for="element in orderElements(document.elements)"
         :key="element.id"
       >
+        <h3 v-if="element.title">{{ element.title }}</h3>
+        <img
+          class="image"
+          v-if="element.element == 'img'"
+          :src="element.src"
+          alt=""
+        />
         <p v-if="element.element == 'p'">{{ element.content }}</p>
         <blockquote v-if="element.element == 'blockquote'">
           {{ element.content }}
@@ -72,5 +82,9 @@ blockquote {
   padding-left: 40px;
   padding-right: 40px;
   font-style: italic;
+}
+.image {
+  width: 100%;
+  height: auto;
 }
 </style>
