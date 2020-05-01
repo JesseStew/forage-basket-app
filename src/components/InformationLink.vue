@@ -20,6 +20,15 @@
           :src="element.src"
           alt=""
         />
+        <ul
+          v-if="element.element == 'ul'"
+          v-for="item in orderElements(element.content)"
+          :key="item.id"
+        >
+          <li>
+            {{ item.content }}
+          </li>
+        </ul>
         <p v-if="element.element == 'p'">{{ element.content }}</p>
         <blockquote v-if="element.element == 'blockquote'">
           {{ element.content }}

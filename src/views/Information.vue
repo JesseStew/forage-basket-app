@@ -43,6 +43,7 @@
     </p>
     <!-- Create components -->
     <div v-for="document in documents" :key="document.id">
+      <!-- here, fix order -->
       <InformationLink :linkText="document.linkText" :document="document" />
     </div>
     <h2>
