@@ -42,9 +42,9 @@
       adulteration to ensure maximum benefits.
     </p>
     <!-- Create components -->
-    <div v-for="document in documents" :key="document.id">
+    <div v-for="document in orderDocuments(documents)" :key="document.id">
       <!-- here, fix order -->
-      <InformationLink :linkText="document.linkText" :document="document" />
+      <InformationLink :document="document" />
     </div>
     <h2>
       Shiaqga Original Formula Ingredients:
@@ -100,7 +100,11 @@ export default {
       documents: [],
     }
   },
-  methods: {},
+  methods: {
+    orderDocuments(elements) {
+      return this.$_.orderBy(elements, 'order')
+    },
+  },
   firestore: {
     documents: db.collection('information'),
   },

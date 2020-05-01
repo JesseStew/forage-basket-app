@@ -1,10 +1,10 @@
 <template>
   <div id="information-link">
     <button v-if="document.link" @click="openNewTab(document.link)">
-      {{ linkText }}
+      {{ document.linkText }}
     </button>
     <button v-else @click="displayInfo">
-      {{ linkText }}
+      {{ document.linkText }}
     </button>
     <div v-if="display">
       <h2>{{ document.title }}</h2>
@@ -53,9 +53,6 @@ export default {
     }
   },
   props: {
-    linkText: {
-      type: String,
-    },
     document: {
       type: Object,
     },
