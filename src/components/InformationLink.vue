@@ -1,44 +1,26 @@
 <template>
   <div id="information-link">
-    <div v-if="!display || document.pdf">
-      <div v-if="document.pdf">
-        <button @click="openNewTab(document.pdf)">
-          {{ linkText }}
-        </button>
-      </div>
-      <button v-else @click="displayInfo">
+    <div v-if="document.linkText === 'CLICK HERE FOR SHIAQGA INFORMATION'">
+      <h1>{{ document.title }}</h1>
+      <button @click="displayInfo">
         {{ linkText }}
       </button>
-    </div>
-    <div v-else>
-      <button @click="displayInfo">
-        Hide Text
-      </button>
-      <br />
-      <h2>{{ document.title }}</h2>
-      <h3>{{ document.author }}</h3>
-      <div v-for="image in document.images" :key="image.id">
-        <img :src="image" alt="" />
-      </div>
-      <div v-for="(tag, index) in document.content" :key="tag.id">
-        <div v-if="isParagraph(index)">
-          <h2>{{ tag.title }}</h2>
-          <p v-if="tag.content">
-            {{ tag.content }}
-          </p>
-          <p v-else>
-            {{ tag }}
-          </p>
-        </div>
-        <blockquote class="quote" v-if="isQuote(index)">
-          {{ tag }}
+      <div
+        v-if="display"
+        v-for="element in orderElements(document.elements)"
+        :key="element.id"
+      >
+        <p v-if="element.element == 'p'">{{ element.content }}</p>
+        <blockquote v-if="element.element == 'blockquote'">
+          {{ element.content }}
         </blockquote>
-        <a v-if="tag.src" :href="tag.src">{{ tag.linkText }}</a>
-        <ul v-if="isUl(index)">
-          <li v-for="li in tag" :key="li.id">
-            {{ li }}
-          </li>
-        </ul>
+        <button
+          v-if="element.element == 'link'"
+          @click="openNewTab(element.link)"
+        >
+          <!-- here, Add local logic -->
+          {{ element.linkText }}
+        </button>
       </div>
     </div>
   </div>
@@ -68,24 +50,15 @@ export default {
     displayInfo() {
       return (this.display = !this.display)
     },
-    isParagraph(index) {
-      let regex = RegExp('p$')
-      return regex.test(index)
-    },
-    isQuote(index) {
-      let regex = RegExp('q$')
-      return regex.test(index)
-    },
-    isLink(index) {
-      let regex = RegExp('link$')
-      return regex.test(index)
-    },
     openNewTab(link) {
       window.open(link.toString())
     },
     isUl(index) {
       let regex = RegExp('ul$')
       return regex.test(index)
+    },
+    orderElements(elements) {
+      return this.$_.orderBy(elements, 'order')
     },
   },
 }
