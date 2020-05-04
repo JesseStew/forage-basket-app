@@ -1,5 +1,5 @@
 const firebase = require('../node_modules/firebase')
-const data = require('./information/informationLinks/historyOfShiaqga&ItsEffectOnTheImmuneSystem.json')
+const data = require('./health/health.json')
 // import data from './data.json'
 
 const firebaseConfig = {
@@ -17,6 +17,6 @@ firebase.initializeApp(firebaseConfig)
 
 const db = firebase.firestore()
 
-const informationRef = db.collection('information')
+const informationRef = db.collection('health')
 
 informationRef.doc().set(data)
