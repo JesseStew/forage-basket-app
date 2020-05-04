@@ -13,6 +13,9 @@
         v-for="element in orderElements(document.elements)"
         :key="element.id"
       >
+        <h3 v-if="element.element == 'h3'">
+          {{ element.content }}
+        </h3>
         <h3 v-if="element.title">{{ element.title }}</h3>
         <img
           class="image"
