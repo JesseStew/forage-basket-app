@@ -1,0 +1,19 @@
+{
+  "linkText": "CLICK HERE TO VIEW OUR SHIAQGA BROCHURE",
+  "order": 2,
+  "title": "Shiaqga Trifold Brochure",
+  "elements": [
+    {
+      "title": "Inside View:",
+      "element": "img",
+      "src": "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/brochure-inside_1.png?alt=media&token=90c1fbad-b5cf-4662-89d0-0bf6d591cbbf",
+      "order": 2
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/brochure-outside.png?alt=media&token=400260b4-c913-4188-983c-13ec84131ade",
+      "order": 1,
+      "title": "Outer View:",
+      "element": "img"
+    }
+  ]
+}
