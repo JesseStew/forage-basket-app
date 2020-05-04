@@ -1,34 +1,67 @@
 <template>
-  <div id="user-account">
-      <h1>User Account</h1>
-      <template v-if="!isLoading">
-
-      </template>
-      <!-- <h1>{{ user.name }}'s Account</h1> -->
+  <div class="user-account container">
+    <h2 class="title">My Account, {{ email }}</h2>
+    <button v-if="email" class="sign-out" @click="signOut">Sign Out</button>
+    <span v-if="!email"></span>
+    <!-- User not signed in -->
+    <LoginAccount v-if="!email" />
+    <RegisterAccount v-if="!email" />
+    <!-- User Signed In -->
+    <div class="user-account">
+      <!-- Display if Logged In -->
+    </div>
   </div>
 </template>
 
 <script>
-import axios from 'axios'
-import OrderHistory from '../components/OrderHistory.vue'
+import RegisterAccount from '@/components/RegisterAccount.vue'
+import LoginAccount from '@/components/LoginAccount.vue'
 
 export default {
-    components: { OrderHistory },
-    data() {
-        return {
-            isLoading: true,
-            orders: []
-        }
+  name: 'UserAccount',
+  data() {
+    return {}
+  },
+  components: {
+    RegisterAccount,
+    LoginAccount,
+  },
+  computed: {
+    email: function() {
+      return this.$store.state.user.email
     },
-    created() {
-        axios.get('//localhost:3000/dashboard').then(({ data }) => {
-            this.orders = data.events.orders
-            this.isLoading = false
-        })
-    }
+  },
+  methods: {
+    loggedIn() {
+      this.$store.dispatch('loggedIn')
+    },
+    signOut() {
+      this.$store.dispatch('signOut')
+    },
+  },
+  mounted() {
+    this.$store.dispatch('loggedIn')
+  },
 }
 </script>
 
-<style>
-
+<style scoped>
+/* Grid Level */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid #cbcbcb;
+}
+.title {
+  grid-column: 1 / 2;
+  justify-self: start;
+  padding: 1em;
+}
+.sign-out {
+  grid-column: 2 / 3;
+  justify-self: end;
+  margin: 1em;
+}
 </style>

@@ -1,0 +1,34 @@
+<template>
+  <div class="login-account">
+    <h3>Sign In</h3>
+    <input type="text" v-model="email" placeholder="Email" /><br />
+    <input type="password" v-model="password" placeholder="Password" /><br />
+    <button @click="loginAccount">Sign In</button>
+  </div>
+</template>
+
+<script>
+// https://firebase.google.com/docs/auth/web/password-auth?authuser=1
+import firebase from 'firebase/app'
+import 'firebase/auth'
+
+export default {
+  name: 'LoginAccount',
+  data() {
+    return {
+      email: '',
+      password: '',
+    }
+  },
+  methods: {
+    loginAccount() {
+      this.$store.dispatch('loginAccount', {
+        email: this.email,
+        password: this.password,
+      })
+    },
+  },
+}
+</script>
+
+<style scoped></style>

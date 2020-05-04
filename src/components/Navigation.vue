@@ -51,7 +51,9 @@
         </svg>
       </div>
       <div class="logo">
-        Forage Basket
+        <router-link :to="{ name: 'Home' }">
+          Forage Basket
+        </router-link>
       </div>
       <div class="search-icon">
         <svg
@@ -127,17 +129,17 @@ export default {
   name: 'Navigation',
   data() {
     return {
-      show: false
+      show: false,
     }
   },
   methods: {
     closeMenu() {
       this.show = false
-    }
+    },
   },
   components: {
-    NavMenu
-  }
+    NavMenu,
+  },
 }
 </script>
 
@@ -187,5 +189,8 @@ export default {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   border-radius: 2px;
+}
+a {
+  text-decoration: none;
 }
 </style>
