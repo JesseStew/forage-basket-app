@@ -1,0 +1,169 @@
+{
+  "title": "Bacterial Infections",
+  "linkText": "Bacterial Infections",
+  "order": 1,
+  "author": "Medicine Woman Practitioner - Paway-yatanatu way-akt",
+  "elements": [
+    {
+      "element": "p",
+      "content": "A bacterium is a single-celled organism found in the air, water, soil, food, insects, animals, and in the human body.  Bacteria is found everywhere.  There are thousands of different kinds of bacteria, but only a few that can cause disease.  When an organ or tissue becomes inflamed without any trauma, is often associated with bacteria.",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Bacteria are identified by their shape, the makeup of their cell walls, and their ability to grow.  The three shapes are round (staphylococci or streptococci), rod-shaped (bacillus or E. coli), or corkscrew (Borrelia species).",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Bacteria are classified by their color after a Gram stain.  Gram-positive bacteria stain blue and gram-negative bacteria stain pink.  Gram-negative bacterial cell walls contain a substance, lipopolysaccharide (LPS) that is a highly inflammatory chemical that provokes an overreaction of the immune system.   Gram-positive bacterial have teichoic acid in the cell walls that assist in them anchoring.",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "Bacteria have ways to defend themselves from the human body:",
+      "order": 4
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Biofilm is a substance that helps bacteria to attach to other cells and protects the bacteria from antibiotics."
+        },
+        {
+          "order": 2,
+          "content": "Some bacteria are enclosed in a protective membrane that prevents the white blood cells (fighters of the immune system) from ingesting the bacteria."
+        },
+        {
+          "order": 3,
+          "content": "Gram-negative bacteria have an outer membrane that protects them from certain antibiotics, but upon destruction, the bacteria release endotoxins which invoke an inflammatory response from the immune system."
+        },
+        {
+          "order": 4,
+          "content": "Bacteria produce spores that can lay dormant until environmental conditions are favorable to allow them to germinate."
+        }
+      ],
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "Bacterial infections are caused by a wide range of bacteria that can be life-threatening.  The human body is protected from bacterial infections by the immune system, which is the first defense against infection and disease.  Some of the major risks for bacterial infection are age, nutrition, and genetics.  The risk of age is targeted at the very young or the elderly.   The human body requires a diet that provides nutrients, minerals, and vitamins for the immune system to function properly.",
+      "order": 6
+    },
+    {
+      "element": "p",
+      "content": "Some of the most common bacterial infections associated with illness are:",
+      "order": 7
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Respiratory tract infections"
+        },
+        {
+          "order": 2,
+          "content": "Ear infections"
+        },
+        {
+          "order": 3,
+          "content": "Tuberculosis"
+        },
+        {
+          "order": 4,
+          "content": "Gastrointestinal infections (diarrhea)"
+        },
+        {
+          "order": 5,
+          "content": "Salmonella"
+        },
+        {
+          "order": 6,
+          "content": "E. coli"
+        },
+        {
+          "order": 7,
+          "content": "Urinary tract infections"
+        },
+        {
+          "order": 8,
+          "content": "Pneumonias"
+        },
+        {
+          "order": 9,
+          "content": "Skin infections"
+        },
+        {
+          "order": 10,
+          "content": "Blood infections"
+        },
+        {
+          "order": 11,
+          "content": "Surgical wound infections"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "In 1940, antibiotics were discovered and found to be effective against bacterial infections.  The problem with antibiotics is that they destroy the harmful bacteria, but also destroy the friendly bacteria that the body needs to keep itself balanced on the skin, and  in the urinary, vaginal, and intestinal tracts.  With a pro-longed use of antibiotics, bacteria can develop a resistant to drugs because they acquire genes from other bacteria that have become resistant or mutate.",
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "The best defense against bacterial infections is to enhance the immune system and keep it strong.  Ways to do this are by getting enough rest, exercise, and maintainning a balanced nutritious diet.  Nutritional deficiencies weaken the immune response.  Start by eating a healthy diet that should include fruits, vegetables, sprouts, seeds, nuts, and herbs; all  packed with antioxidants, flavonoids, and carotenoids,that gives the body building blocks.  Flavonoids aid with the modulation of detoxifying enzymes, stimulates the immune system, reduces platelet aggregation, inhibist cholesterol synthesis, and reduces blood pressure.  Carotenoids boost the immune system to help fight bacteria by increasing the number of white blood cells.",
+      "order": 10
+    },
+    {
+      "element": "p",
+      "content": "Increasing the probiotics in your diet is another good way to assist your body.  They are found in bacteria cultures in yogurt, cheese, kefir, sauerkraut, and so forth.  Probiotics assist the immune functions by inhibiting harmful bacterial growth, promoting good digestion, maintaining proper pH, and enhancing the immune response.  Probiotics produce bacteria-inhibiting substances that prevent harmful bacteria from attaching to the urinary, vaginal, and intestinal tract mucosal linings.  Probiotics help to restore the natural floral balance.",
+      "order": 11
+    },
+    {
+      "element": "p",
+      "content": "Bacterial infections can be brought back into balance by the body’s immune system.  To assist the body naturally the Shiaqga supplement was formulated.  It actually assists in modulating the immune system.  That means it contains the needed nutrients to assist your immune system to have more Neutrophils in the blood stream to fight with.",
+      "order": 12
+    },
+    {
+      "element": "p",
+      "content": "Also, using the Therapeutic Essential Oils is a great way to combat bacterial infections.  Unlike antibiotics that bacteria can become immune to, no bacteria has been able to develop an immunity against the essential oils.  Some of the best essential oils for fighting bacterial infections are:",
+      "order": 13
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Black Cumin taken internally strengthens and stabilizes the immune system."
+        },
+        {
+          "order": 2,
+          "content": "Oregano is one of the strongest antibacterial oils that is beneficial when a strong response to bacterial infection is needed.  Caution: it is extremely “hot” and will irritate the skin so always dilute with carrier oil and when taking internally."
+        },
+        {
+          "order": 3,
+          "content": "Cinnamon Bark is an immune stimulant,  viruses, bacteria, and fungus cannot live in this oil.  Caution: this is a “hot” oil that must always be diluted before use."
+        },
+        {
+          "order": 4,
+          "content": "Clove Bud is beneficial against bacteria."
+        },
+        {
+          "order": 5,
+          "content": "Thyme is beneficial against bacteria and builds the immune system by stimulating the white blood cells into action.  This could be a “hot” so dilute before use."
+        },
+        {
+          "order": 6,
+          "content": "Sage is known to assist with bacterial infections."
+        },
+        {
+          "order": 7,
+          "content": "Tea Tree is beneficial against bacteria."
+        }
+      ],
+      "order": 7
+    }
+  ]
+}
