@@ -1,0 +1,41 @@
+{
+  "title": "Atherosclerosis",
+  "linkText": "Atherosclerosis",
+  "order": 1,
+  "author": "Man Found Standing, Native American Medicine Man",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Atherosclerosis is a thickening or hardening of the walls of the arteries (fat deposits on the inner lining).  Poor nutritional choices, including diets high in levels of bad cholesterol (LDL), are the cause of this condition.  Simple lifestyle changes, including proper nutritional and supplemental support, can prevent or reverse this condition.  If left untreated, these three common health problems have been known to arise:",
+      "order": 1
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "High blood pressure, also know as hypertension; can occur when the walls of the arteries become narrow.  An elevated blood pressure, reading is exceeding 140/90.  (The 140 is the systolic pressure and the 90 is the diastolic pressure.  A normal blood pressure reading is 120/80.)  Hypertension can lead to other severe health problems including, abnormal thickening of the heart muscle, kidney failure, and brain damage."
+        },
+        {
+          "order": 2,
+          "content": "Coronary artery disease begins when cholesterol plaques are deposited in the coronary artery.  The coronary arteries encircle the heart and plaques can cause a clot to form and obstruct the flow of blood to the heart resulting in chest pains (an inadequate blood flow to the heart), a heart attack from the sudden blockage of the coronary artery, or death due to the stoppage of the heart beat."
+        },
+        {
+          "order": 3,
+          "content": "Diabetes is when the body loses the ability to absorb sugar and starch from the blood.  Food that you eat is broken down into glucose (sugar) for fuel for the body.  Glucose is combined with insulin before it can be used by the cells.  If the body cannot absorb glucose from the blood, you starve the cells."
+        }
+      ],
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "The risks for atherosclerosis increase with age due to the fact of accumulated toxic build-up, as well as the accumulated effects of poor nutrition.  Getting the proper nutrition and taking high-quality nutritional supplements will assist your body in getting the proper building blocks, to heal itself and live a long productive life.",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "The human body is a wonderful thing.  The immune system in the body is designed to not only protect but to heal us as well.  Look into taking a nutritional supplement, like Shiaqga, that will modulate your immune system and activate your Adult Stem Cells.",
+      "order": 4
+    }
+  ]
+}
