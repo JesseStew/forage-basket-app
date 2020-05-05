@@ -1,0 +1,95 @@
+{
+  "title": "Arthritis",
+  "linkText": "Arthritis",
+  "order": 5,
+  "author": "Man Found Standing, Native American Medicine Man",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Arthritis is a joint disorder due to inflammation of the joint area of the body where the bones meet.  With over one hundred types of arthritis, osteoarthritis and rheumatoid being the most common, it is estimated that arthritis affects 350 million people worldwide.  Due to the makeup of the female body, arthritis affects women more than men by sixty percent.",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Osteoarthritis, known as a degenerative joint disease, is a result of wear and tear of the cartilage and is considered a disease of the elderly.  When the human body is overwhelmed by toxins or lacks the proper building blocks of good health, the body is not able to function and repair itself properly.  Pressure from gravity causes physical damage to the joints and leads to pain, tenderness, swelling and a decrease in range of movement.  This usually affects the knees, hips, hands, and back.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Doctors’ state that Rheumatoid arthritis is an autoimmune disease that causes an inflammation of cartilage damage and bone erosion resulting from an overactive immune system.  While this is technically correct, a more proper description of the cause would be the immune system gets confused due to toxins or the lack of proper nutrients.  This cellular confusion results in the immune system attacking the body, especially the cells lining the joints.  Rheumatoid arthritis can have symptoms of severe joint pain, stiffness, swelling, and loss of mobility.",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "With the many types of arthritis, the symptoms are similar that include:",
+      "order": 4
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "a constant ache and inflammation around the joints (difficulty using the hands or walking)"
+        },
+        {
+          "order": 2,
+          "content": "the feeling of tiredness, poor sleep"
+        },
+        {
+          "order": 3,
+          "content": "weight loss and fever"
+        },
+        {
+          "order": 4,
+          "content": "muscle weakness and loss of flexibility"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "element": "h3",
+      "content": "What are the causes?",
+      "order": 6
+    },
+    {
+      "element": "p",
+      "content": "With all the billions of dollars in research, modern medicine has no answers as to why arthritis happens in the body.  This is simply because they do not understand the role of the living energies and life-giving nutrients found in naturally grown plants.  A scientist will take a can of cooked carrots purchased from your local supermarket and a raw, organically grown, carrot from your garden and see them as basically having the exact same chemical makeup and therefore they must be the same.  Healers understand there are major differences between the two and the properties of the garden carrot are exponentially more therapeutic.",
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "With our modern day lifestyles, our bodies are being bombarded by toxic chemicals.  This along with the lack of proper nutrition creates an environment in our bodies for arthritis, or other major issues, to appear.",
+      "order": 8
+    },
+    {
+      "element": "h3",
+      "content": "What are the treatments for arthritis?",
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "The first type of treatment should be nutritional education.  The human body is designed to heal itself.  The immune system plays the major role in this process.  Taking in foods and supplements that assist in the proper modulation, functioning, of the immune system, will result in the body’s ability to heal rapidly.  Every day millions of people suffer needlessly with the pain and disability of arthritis.",
+      "order": 10
+    },
+    {
+      "element": "p",
+      "content": "By simply giving your body the proper building blocks of good health, your body can regenerate.  One building block that seems to work extremely for almost everyone is MSM (methylsufonylmethane).  You can pick up a bottle that will last you for months from your local health food store.  (I find the MSM capsules don’t work as well so make sure you purchase the powder.)  Start out by taking one tablespoon in the morning and at night and slowly build up until you feel relief.  It takes about three days for the average person to notice significant positive results.",
+      "order": 11
+    },
+    {
+      "element": "p",
+      "content": "If you are deficient in nutrition, minerals, smoke, or use alcohol this can all wear the body down.  By eating healthy, taking supplements, drinking water, avoiding toxins, and moving, the body can have the remedy it needs to fix the issues that are going on.",
+      "order": 12
+    },
+    {
+      "element": "p",
+      "content": "Having arthritis makes diet and exercise crucial.  Intake the proper buildings blocks and exercise.  Exercise can reduce joint pain, and stiffness, build strong muscles and will increase flexibility.  It will reduce inflammation and promote overall health.  Exercise will give you more energy, assist you in sleeping better, control weight, and increase the feeling of happiness.",
+      "order": 13
+    },
+    {
+      "element": "p",
+      "content": "If your arthritis pain is so great, try a Therapeutic Essential Oil for pain like Wintergreen, Peppermint, or Helichrysum.  These natural plant oils have powerful healing properties and can quickly assist the body.",
+      "order": 14
+    }
+  ]
+}
