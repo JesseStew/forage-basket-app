@@ -1,0 +1,125 @@
+{
+  "title": "Abdominal Adhesions",
+  "linkText": "Abdominal Adhesions",
+  "order": 1,
+  "author": "Man Found Standing, Medicine Man Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Abdominal surgery is the most common cause of abdominal adhesions / abdominal scar tissue.  The majority of people that have had abdominal surgery develop adhesions.",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Abdominal adhesions are bands of tissue that form between abdominal tissues and organs, causing the tissues and organs to stick together.  Surgical trauma encourages the fibrous bands to grow and form adhesions/scar tissue.   After abdominal surgery, the bowels can be paralyzed for hours or even up to two days.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Scientists conclude that abdominal adhesions do not form without an apparent cause.  They state the causes are for abdominal adhesions are as follows:",
+      "order": 3
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Incisions"
+        },
+        {
+          "order": 2,
+          "content": "Handling or drying internal organs and tissues during surgery"
+        },
+        {
+          "order": 3,
+          "content": "Blood clots not rinsed out during surgery"
+        },
+        {
+          "order": 4,
+          "content": "Appendicitis  / appendix rupture"
+        },
+        {
+          "order": 5,
+          "content": "Radiation  / Chemotherapy treatment for cancer"
+        },
+        {
+          "order": 6,
+          "content": "Gynecological infections"
+        },
+        {
+          "order": 7,
+          "content": "Abdominal infections"
+        },
+        {
+          "order": 8,
+          "content": "Traumatic injury"
+        },
+        {
+          "order": 9,
+          "content": "Inflammatory disease"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "The most common problems that happen with abdominal adhesions are a constriction of the small intestine that can result in constipation, bowel blockage, scar tissue binding internal organs, or blockage of the fallopian tubes (which can lead to infertility).  Most of these common problems are considered to be life-threatening.",
+      "order": 5
+    },
+    {
+      "element": "h3",
+      "content": "Symptoms:",
+      "order": 6
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Severe abdominal pain or cramping"
+        },
+        {
+          "order": 2,
+          "content": "Vomiting"
+        },
+        {
+          "order": 3,
+          "content": "Bloating / Inability to pass gas"
+        },
+        {
+          "order": 4,
+          "content": "Loud bowel sounds"
+        },
+        {
+          "order": 5,
+          "content": "Swelling of the abdomen"
+        },
+        {
+          "order": 6,
+          "content": "Constipation"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "Western Medicine currently does not have any tests available to diagnose adhesions.  Most adhesions are found during exploratory surgery.  They claim that surgery is the only treatment to break adhesions that cause pain, intestinal obstruction, or fertility problems.  Sadly, this treatment can also cause additional adhesions with further medical complications.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "Alternative Healers take a different approach to preventing and treating abdominal adhesions.  They understand that with the proper building blocks the body can utilize its natural healing abilities.  Healers also understand that in almost all cases, getting abdominal adhesions in the first place is just because the body lacked the proper healing tools.",
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "Therapeutic Oils like Helichrysum italicum have been shown to assist the body in rapidly increasing its healing ability while minimizing adhesions.  Also, by understanding the role of plant-based enzymes and their powerful abilities, one can take charge of their own health and wellbeing.  Scientists have shown that the body utilizes enzymes taken on an empty stomach to assist in eradicating adhesions, fatty build-ups, and other internal issues.",
+      "order": 10
+    },
+    {
+      "element": "p",
+      "content": "Native American Practitioners understand that we all grew from a single cell into the being we now are.  They see the human body as having the ability to heal itself from any condition provided the proper building blocks/stimulants are available.  Sadly because of the lack of proper nutritional education, the modern medical establishment will always be trying to fix symptoms rather than focusing on providing the body with the proper support so it can heal itself.",
+      "order": 10
+    }
+  ]
+}
