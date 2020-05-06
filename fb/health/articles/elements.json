@@ -1,66 +1,34 @@
 [
   {
     "element": "p",
-    "content": "Chemotherapy is not a treatment for cancer that is recommended by Natural Healers.  This simply is because of the high expense, proven more effective treatments, and the harm it does to the \"good\" cells of the body. ",
+    "content": "Cholesterol is naturally produced by the body consisting of a combination of lipid (fat) and steroid.  Our bodies need only a moderate amount of cholesterol as a building block for cell membranes, forming bile acids, for hormones (both estrogen and testosterone), and other internal processes.  About 80% of the body’s cholesterol is produced by the liver and the rest of comes from diet.  ",
     "order": 1
   },
   {
     "element": "p",
-    "content": "The modern medical establishment uses chemotherapy, a simple treatment that involves the use of chemicals, to stop cancer cells from growing.  More than half of the people diagnosed with cancer receive chemotherapy.  It is designed to kill cancer cells and is administered through a vein, injected into a body cavity or taken orally in the form of a pill.  Yes the “chemo” kills cancer cells, but it also kills fast growing healthy cells like your hair cells and blood cells.",
+    "content": "After you eat, cholesterol in the food is absorbed from the intestine and stored in the liver.  The liver regulates the cholesterol levels in the bloodstream and secretes cholesterol to replenish the body.  Too much cholesterol and the body begins to develop health problems that can end in heart disease and stroke.  ",
     "order": 2
   },
+  { "element": "p", "content": "LDL & HDL Cholesterol", "order": 3 },
   {
     "element": "p",
-    "content": "Some cancer cells grow slowly while others grow rapidly.  There are different chemotherapy drugs that target the growth patterns of specific cancer cells.  Chemotherapy kills the cancer, but one of the side effects is a lowered white blood cell count.  This means that the immune system is weak and increases the risks of infection.  Most cancer patients become very ill during these treatments.",
-    "order": 3
-  },
-  {
-    "element": "p",
-    "content": "There are other side effects that are temporary but can be life-threatening:",
+    "content": "LDL (low-density lipoprotein), is considered the bad cholesterol.  LDL elevates the levels of cholesterol that increase the risk of coronary heart disease.  LDL causes cholesterol (plaque buildup) on the artery walls causing a narrowing and hardening.  This process is called atherosclerosis.  Diets that are high in saturated fats (from meat and dairy) and cholesterol raise the levels of LDL in the blood.  ",
     "order": 4
   },
   {
-    "element": "ul",
-    "content": [
-      { "order": 1, "content": "Nausea," },
-      { "order": 2, "content": "Vomiting" },
-      { "order": 3, "content": "Hair loss   " },
-      { "order": 4, "content": "Fatigue" },
-      { "order": 5, "content": "Diarrhea / Constipation" },
-      { "order": 6, "content": "Mouth sores / Ulcers " },
-      { "order": 7, "content": "Loss of appetite / weight loss" },
-      { "order": 8, "content": "Anxiety " },
-      { "order": 9, "content": "Insomnia " },
-      { "order": 10, "content": "Yeast infection" },
-      { "order": 11, "content": "Depression / headaches " },
-      {
-        "order": 12,
-        "content": "Low White and Red Blood Counts - (Neutropenia is a condition of a low white blood cell count.  White blood cells are the soldiers of the immune system that fight disease). "
-      },
-      {
-        "order": 13,
-        "content": "Low Blood Platelet Counts - (Thrombocytopenia is a condition of a low platelet count that may cause bruising or excessive bleeding).​"
-      },
-      {
-        "order": 14,
-        "content": "Anemia - results by a low red blood cell count that affects how much oxygen is circulating in the body to the cells.  "
-      }
-    ],
+    "element": "p",
+    "content": "Through the lowering of LDL cholesterol, one can prevent or reverse atherosclerosis, angina (chest pain caused by too little oxygen-carrying blood reaching the heart), and heart attacks.  This also prevents or stops the formation of plaque on the artery walls, reduces existing plaques, and prevents blood clots forming, as well as decreasing the risk of a heart attack.    ",
     "order": 5
   },
   {
     "element": "p",
-    "content": "There is a lot of profit in proscribing chemotherapy and radiation treatments for cancer.   The proven more effective but lower cost treatments are almost always ignored.  (For example, scientific studies have proven that taking Black Cumin internally was more effective than both chemotherapy and radiation treatments and at almost 1/100th of the cost.)  Also, physicians normally do not share with their patients that 80% of them will have cancer again in a few short years.  The cancer returns simply because the chemotherapy or radiation treatments do not address the bodies original reason to why it developed cancer in the first place.",
+    "content": "HDL (high-density lipoprotein) is considered the good cholesterol.  HDL cholesterol prevents atherosclerosis by extracting plaque from the artery walls and disposing of it through the liver.  Diets that are high in unsaturated fats (from vegetable sources like coconut, avocado, and palm) assist the body.  ",
     "order": 6
   },
+  { "element": "p", "content": "What to do?", "order": 7 },
   {
     "element": "p",
-    "content": "Natural Healers will turn to remedies that address fixes to why cancer was allowed to grow in the body in the first place.  For example, Shiaqga gives the proper nutrition to the body to modulate the body's immune system and therefore naturally increase your body's ability to eliminate cancer.  ",
-    "order": 7
-  },
-  {
-    "element": "p",
-    "content": "Shiaqga is also safe to take while undergoing the modern medical establishments treatments.  Shiaqga so effectively builds up the healthy cells that are killed during such treatments, healers often hear the physicians express how amazed they are that the patent is responding so well to their chemo treatment while taking Shiaqga.",
+    "content": "Scientific studies show that when people with life-threatening cholesterol issues switch to an all plant-based diet, their health improves rapidly.  So, eat healthy nutritional plant-based foods and take high-quality herbal supplements like Shiaqga.  This will ensure that your body gets the fuel it needs to live a healthy life, have a strong immune system, and activate the body's healing stem cells.   The human body is designed to heal itself.  By giving it the proper building blocks miracles of healing can will.",
     "order": 8
   }
 ]
