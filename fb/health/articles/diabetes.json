@@ -1,0 +1,59 @@
+{
+  "title": "Diabetes",
+  "linkText": "Diabetes",
+  "order": 1,
+  "author": "Man Found Standing, Practitioner Medicine Man",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Diabetes starts with problems with digestion.   The human body digests food for fuel to repair, heal, and rebuild.  Everything that we put in the mouth starts the digestive chemical process.  Food travels from the mouth, then to the stomach, and onto the small intestine.  ",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Food is broken down and turned into glucose (sugar) and absorbed from the small intestine into the bloodstream.  This causes the percentage of sugar in our blood to rise and stimulates the pancreas to release a hormone called insulin.  The pancreas is a small organ that is located in the upper abdomen next to the small intestine and automatically releases insulin when the blood sugar is high or releases the glucagon hormone when the blood sugar is low.  These hormones play their part by keeping the blood glucose level at the right percentage for the body. ",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Once the insulin removes sugar from the bloodstream, it is used for energy, converted into a molecule (glycogen) that functions as a secondary long-term energy (stored in the muscles and liver), or stored as body fat.  There is a lot for the body to accomplish from the food that is eaten in order to supply the cells with energy to function.  When this process is not working properly, this is called diabetes.",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "Diabetes is the condition in which the body has a high blood sugar (glucose) level, either because the pancreas does not produce enough insulin or because the cells of the body don’t properly respond to the insulin that is produced.  Diabetes is the 6th leading cause of death and scientists estimate that 90% is preventable by simple lifestyle choices of diet and exercise.  Not correcting diabetes can lead to other problems in the body such as heart disease, blindness, kidney failure, possible amputation, and more.",
+      "order": 4
+    },
+    {
+      "element": "h3",
+      "content": "Diabetes falls into two types.  Type 1 diabetes happens when the endocrine gland in the pancreas does not produce enough insulin or stops making it all together.  The body is unable to metabolize glucose which results in an abnormally high level of glucose in the blood.  ",
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "Western Medicines' treatment of Type 1 diabetes is to inject or take insulin pills.  This mindset will never lead to a cure since it addresses the symptoms rather than the cause of the problem.  It is like having an automobile with a leak in one of its tires.  By filling up the tire with air, can you expect it to be fixed?  No!  It is only by addressing the cause of the problem that a cure be obtained.     ",
+      "order": 6
+    },
+    {
+      "element": "p",
+      "content": "Type 2 diabetes is a metabolic disorder where the body does not respond to the effects of insulin.  This type can almost always be prevented or cured through proper nutritional support.  Understanding Western Medicines’ limited knowledge of what proper nutrition really is, along with understanding the lack of proper nutrition in our food supply, contributes to diabetes being the 6th leading cause of death. ",
+      "order": 7
+    },
+    { "element": "p", "content": "The Fix: ", "order": 8 },
+    {
+      "element": "p",
+      "content": "Modern medicals' focus for curing diabetes is directed towards transplants and stem cells research.  Stems cells are very unique, they reproduce quickly, indefinitely, and have the potential to become any type of cell in the body.  Stem cells are simply waiting for instructions.  The Diabetes Research Institute is undergoing tests to transform or coax the stem cells to develop or regenerate into islet cells to assist the pancreas in returning to its normal function.  (See the March 2005 issue of Journal Diabetes.)  This could ultimately be a cure for type 1 diabetes.  These high-cost procedures are out of the question for most of the world's population however this is a cost effective natural health solution.",
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "The Shiaqga supplement gives the body the nutritional support to modulate its immune system and to naturally activate its stem cells.",
+      "order": 10
+    },
+    {
+      "element": "p",
+      "content": "Addressing the diabetes problem is all about getting the body the proper nutritional building blocks to allow itself to repair and regenerate.  This cure can easily be obtained through diet (avoid meat and dairy) and high-quality supplements.  Since proper nutrition and alternative herbal medicine do not generate massive amounts of income for the medical establishment, they probably will never be approved or intensely researched by Western Medicine.",
+      "order": 11
+    }
+  ]
+}

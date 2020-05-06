@@ -1,148 +1,53 @@
 [
   {
     "element": "p",
-    "content": "Depression paralyzes the mind.  Life seems to have no direction.  Everyone has experienced these mood swings, but depression happens over a period of time.  With depression,  the whole body suffers.  ",
+    "content": "Diabetes starts with problems with digestion.   The human body digests food for fuel to repair, heal, and rebuild.  Everything that we put in the mouth starts the digestive chemical process.  Food travels from the mouth, then to the stomach, and onto the small intestine.  ",
     "order": 1
   },
   {
     "element": "p",
-    "content": "Western Medicine ranks depression by the severity of the symptoms with levels of mild, moderate, or severe.  Depression is twice as common in women as in men and could be a  a precursor to a stroke due to a reduction of  blood circulation that inhibits normal body functions.",
+    "content": "Food is broken down and turned into glucose (sugar) and absorbed from the small intestine into the bloodstream.  This causes the percentage of sugar in our blood to rise and stimulates the pancreas to release a hormone called insulin.  The pancreas is a small organ that is located in the upper abdomen next to the small intestine and automatically releases insulin when the blood sugar is high or releases the glucagon hormone when the blood sugar is low.  These hormones play their part by keeping the blood glucose level at the right percentage for the body. ",
     "order": 2
   },
   {
     "element": "p",
-    "content": "The brain is made up of over 100 chemicals called neurotransmitters.  The four basic neurotransmitters are norepinephrine, serotonin, dopamine, and acetyloholine.  A difficult life situation, a change in hormones, food allergies, inflammation,  immune system suppression, abnormal brain activity, nutritional deficiencies, hypoglycemia,  environmental problems, Parkinson’s disease, Alzheimer’s dementia, addictive disorders, heart disease, cancer, diabetes, or schizophrenia can cause an  imbalance of some of these chemicals resulting with some level of depression.    Using medications for blood pressure, sleep disorders, infections (antibiotics), and birth control pills have also been associated with depression.",
+    "content": "Once the insulin removes sugar from the bloodstream, it is used for energy, converted into a molecule (glycogen) that functions as a secondary long-term energy (stored in the muscles and liver), or stored as body fat.  There is a lot for the body to accomplish from the food that is eaten in order to supply the cells with energy to function.  When this process is not working properly, this is called diabetes.",
     "order": 3
   },
-  { "element": "p", "content": "Symptoms:", "order": 4 },
   {
-    "element": "ul",
-    "content": [
-      { "order": 1, "content": "Anger / Confusion" },
-      { "order": 2, "content": "Change in Appetite" },
-      { "order": 3, "content": "Energy loss" },
-      { "order": 4, "content": "Excessive Sleeping / Inactivity/ Insomnia" },
-      { "order": 5, "content": "Fatigue " },
-      { "order": 6, "content": "Negativity, low self-esteem, guilt" },
-      { "order": 7, "content": "Recurring thoughts of Death /Suicide" },
-      { "order": 8, "content": "Withdrawal from Activities" }
-    ],
+    "element": "p",
+    "content": "Diabetes is the condition in which the body has a high blood sugar (glucose) level, either because the pancreas does not produce enough insulin or because the cells of the body don’t properly respond to the insulin that is produced.  Diabetes is the 6th leading cause of death and scientists estimate that 90% is preventable by simple lifestyle choices of diet and exercise.  Not correcting diabetes can lead to other problems in the body such as heart disease, blindness, kidney failure, possible amputation, and more.",
+    "order": 4
+  },
+  {
+    "element": "h3",
+    "content": "Diabetes falls into two types.  Type 1 diabetes happens when the endocrine gland in the pancreas does not produce enough insulin or stops making it all together.  The body is unable to metabolize glucose which results in an abnormally high level of glucose in the blood.  ",
     "order": 5
   },
   {
     "element": "p",
-    "content": "Modern medicine’s answer for depression is to prescribe antidepressants, psychotherapy (talk therapy), or even electroconvulsive therapy (ECT)  where an electric current is passed through the brain to produce seizures and sort-term memory loss.   These have side effects that range from weight gain or loss, dry mouth, diarrhea, nausea, constipation, insomnia, anxiety, restlessness, decreased sex drive, dizziness, tremors, sweating, sleeplessness, fatigue, headaches, or being suicidal.   ",
+    "content": "Western Medicines' treatment of Type 1 diabetes is to inject or take insulin pills.  This mindset will never lead to a cure since it addresses the symptoms rather than the cause of the problem.  It is like having an automobile with a leak in one of its tires.  By filling up the tire with air, can you expect it to be fixed?  No!  It is only by addressing the cause of the problem that a cure be obtained.     ",
     "order": 6
   },
   {
     "element": "p",
-    "content": "Modern medicines do not cure and there are natural healthy alternatives.  The best therapy is to exercise, meditate, eat a healthy diet, and take supplements to feed the body, soul, and mind.  The human body is designed with an immune system that is the natural defense against disease and infection.  When you feed the whole body, the body will heal itself.  As Hippocrates said, “Make food your medicine.......”",
+    "content": "Type 2 diabetes is a metabolic disorder where the body does not respond to the effects of insulin.  This type can almost always be prevented or cured through proper nutritional support.  Understanding Western Medicines’ limited knowledge of what proper nutrition really is, along with understanding the lack of proper nutrition in our food supply, contributes to diabetes being the 6th leading cause of death. ",
     "order": 7
   },
+  { "element": "p", "content": "The Fix: ", "order": 8 },
   {
     "element": "p",
-    "content": "The “depression diet” will destroy nutrients, over stimulate the glands, interfere with the way the body processes nutrients, weakens the immune system, and causes other harmful effects.  You should avoid or use in moderation the following:",
-    "order": 8
-  },
-  {
-    "element": "ul",
-    "content": [
-      { "order": 1, "content": "Processed and junk foods ." },
-      { "order": 2, "content": "Low sugar/high sugar diet." },
-      { "order": 3, "content": "Antibiotics or steroid enhanced foods " },
-      { "order": 4, "content": "Caffeine and tobacco " },
-      {
-        "order": 5,
-        "content": "Food coloring, chemicals, preservatives, and additives."
-      }
-    ],
+    "content": "Modern medicals' focus for curing diabetes is directed towards transplants and stem cells research.  Stems cells are very unique, they reproduce quickly, indefinitely, and have the potential to become any type of cell in the body.  Stem cells are simply waiting for instructions.  The Diabetes Research Institute is undergoing tests to transform or coax the stem cells to develop or regenerate into islet cells to assist the pancreas in returning to its normal function.  (See the March 2005 issue of Journal Diabetes.)  This could ultimately be a cure for type 1 diabetes.  These high-cost procedures are out of the question for most of the world's population however this is a cost effective natural health solution.",
     "order": 9
   },
   {
     "element": "p",
-    "content": "Many have found that simple lifestyle changes help soothe and prevent the re-occurrence of depression symptoms.",
+    "content": "The Shiaqga supplement gives the body the nutritional support to modulate its immune system and to naturally activate its stem cells.",
     "order": 10
   },
   {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Find therapeutic oil, that you like the smell of and wear it often during the day.  When smell an oil, the oil molecules can go beyond the blood barrier of the brain may affect the neurotransmitters, easing depression."
-      },
-      { "order": 2, "content": "Get enough sleep." },
-      {
-        "order": 3,
-        "content": "Start a healthy/nutritious diet that includes more B vitamins and omega-3 fatty acids.  (Complex carbohydrates increase the amount of amino acids and tryptophan that ares ingested and increases the amount of serotonin made by the brain, producing a calming on the body.  High-protein foods promote the production of dopamine and norepinephrine, which increases hyperactivity and nervousness).  Get active, move, and exercise.​"
-      },
-      {
-        "order": 4,
-        "content": "Tumeric taken on a daily basis has shown significant improvement.  "
-      },
-      { "order": 5, "content": "Pray or meditate." },
-      {
-        "order": 6,
-        "content": "Spend time with friends or family members, (play games, talk, laugh together). "
-      },
-      { "order": 7, "content": "Count your blessings." },
-      {
-        "order": 8,
-        "content": "If seasonal depression issues arise, use special lights during the fall and winter months."
-      }
-    ],
+    "element": "p",
+    "content": "Addressing the diabetes problem is all about getting the body the proper nutritional building blocks to allow itself to repair and regenerate.  This cure can easily be obtained through diet (avoid meat and dairy) and high-quality supplements.  Since proper nutrition and alternative herbal medicine do not generate massive amounts of income for the medical establishment, they probably will never be approved or intensely researched by Western Medicine.",
     "order": 11
-  },
-  {
-    "element": "p",
-    "content": "Several therapeutic oils that are beneficial to cope with depression include:",
-    "order": 12
-  },
-  {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Cypress - Improves circulation, acts as a female hormone stimulant, and calms stressful or nervous tension.  Very comforting and strengthening in times of death or divorce.  "
-      },
-      {
-        "order": 2,
-        "content": "Lavender - Is considered a universal copal and is beneficial for inflammation,  insomnia, and helps to balance the emotions of irritability, moodiness, fear, restlessness, and depression."
-      },
-      {
-        "order": 3,
-        "content": "Peppermint - May assist when used for shock, fatigue, and nervous stress."
-      },
-      {
-        "order": 4,
-        "content": "Rosemary - May assist the immune and endocrine systems, awakens the brain, and lowers blood pressure."
-      },
-      {
-        "order": 5,
-        "content": "Ylang Ylang -  Is a wonderful relaxing essential oil that lowers blood pressure and calms the brain.​"
-      }
-    ],
-    "order": 13
-  },
-  {
-    "element": "link",
-    "link": "http://www.iamessentialoils.com/",
-    "local": false,
-    "linkText": "CLICK HERE TO LEARN MORE AND PURCHASE TRUE THERAPEUTIC ESSENTIAL OILS.",
-    "order": 14
-  },
-  {
-    "element": "p",
-    "content": "The Native American Medicine Woman, Paway, states, ",
-    "order": 15
-  },
-  {
-    "element": "p",
-    "content": "“I use half as much of the I Am Essential Oils and get better results!  (The oils company I was previously using stated that they were the experts and supplied the best oils in the world.)  I have been using oils for over thirty years, and your oils are truly the most therapeutic I have ever encountered.         ",
-    "order": 16
-  },
-  {
-    "element": "p",
-    "content": "I would recommend anyone who suffers from depression to look into the I Am Essential Oils and read about their different properties.  Try the oil you feel would work best for your situation.  I have seen many who have used their oils and experience a miracle. ",
-    "order": 17
   }
 ]
