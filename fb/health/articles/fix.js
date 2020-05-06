@@ -1,4 +1,4 @@
-const data = require('./betaGlucan.json')
+const data = require('./cataracts.json')
 const _ = require('lodash')
 const fs = require('fs')
 
@@ -9,6 +9,12 @@ let order = 1
 
 _.forEach(elements, (map) => {
   map.order = order++
+  if (map.element === 'ul') {
+    let itr = 1
+    _.forEach(map.content, (item) => {
+      item.order = itr++
+    })
+  }
   console.log(map.order)
 })
 

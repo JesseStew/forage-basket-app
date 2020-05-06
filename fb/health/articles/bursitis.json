@@ -1,0 +1,171 @@
+{
+  "title": "Bursitis",
+  "linkText": "Bursitis",
+  "order": 1,
+  "author": "Paway-yatanatu way-akt, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Bursae (bursa -single) are thin, fluid-filled sacs that are extensions of the bone that act as a “cushion” between bones, joints, tendons, and muscles to prevent friction with body movement.  When bursae become inflamed or infected, this condition is known as bursitis that can be caused by an infection, injury, arthritis, gout, or calcium deposits.  ",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Calcium deposits can be caused by an allergic reaction of the body to certain foods, not getting enough of the good bioavailable calcium in your diet, or getting enough exercise.  The body reacts and sends extra calcium minerals to the inflamed area to assist healing and this could cause a deficient in calcium for regular body functions.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Symptoms the can be present in the shoulders, hips, elbows, ankles, or feet include:",
+      "order": 3
+    },
+    {
+      "element": "ul",
+      "order": 4,
+      "content": [
+        {
+          "order": 1,
+          "content": "Swelling, inflammation, stiffness, tenderness, and redness."
+        },
+        {
+          "order": 2,
+          "content": "Burning pain or persistent ache that increases with movement. "
+        },
+        {
+          "order": 3,
+          "content": "Overstimulation of the bursae causes the synovial membrane to produce excess fluid.  This distends the bursa and causes discomfort.  "
+        }
+      ]
+    },
+    {
+      "element": "p",
+      "content": "Bursitis in the shoulder, elbows, and knees are the most common types of bursitis caused by repetitive motion or physical stress.  There are different types of bursitis:",
+      "order": 5
+    },
+    {
+      "element": "ul",
+      "order": 6,
+      "content": [
+        {
+          "order": 1,
+          "content": "Septic bursitis resulting from bacterial infection."
+        },
+        {
+          "order": 2,
+          "content": "Non-septic that is a result of trauma or physical stress."
+        },
+        {
+          "order": 3,
+          "content": "Frictional bursitis – repeated mechanical irritation."
+        },
+        {
+          "order": 4,
+          "content": "Chemical bursitis – a result of inflammation or degeneration of tissue."
+        },
+        {
+          "order": 5,
+          "content": "Chronic bursitis – the wall of the bursa becomes thickened and irregular with calcium deposits forming that may require surgery."
+        }
+      ]
+    },
+    {
+      "element": "p",
+      "content": "Chronic overuse of a body part is a common cause.  Bursitis has called many different names by the certain area that is afflicted: housemaid’s knee, tennis elbow, policeman’s heel, frozen shoulder, or beat knee.  Older people and athletes are most likely to get bursitis, but it can happen to anyone at any age.  A bunion caused by friction in tight shoes is also a form of bursitis.  A bursa sac on the joint of the toe becomes inflamed.",
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "There is a difference between bursitis and tendonitis.  Bursitis is an inflammation of the bursae, the fluid-filled sacs that lubricate the joints in places where muscles and tendons meet bone.    Tendonitis is an inflammation of the tendons - the tough, elastic fibrous tissues that connect muscles to bones and can cause a sharp pain during movement.",
+      "order": 8
+    },
+    { "element": "p", "content": "Natural Treatments:", "order": 9 },
+    {
+      "element": "p",
+      "content": "For a quick remedy, apply an ice pack for 30 minutes or as needed.  As the pain decreases, a hot application can be applied.  Heat should be applied for 45-60 minutes at a time.  It should be as hot as you can tolerate without causing injury.  ",
+      "order": 10
+    },
+    {
+      "element": "p",
+      "content": "Hot castor oil packs are useful.  Ten minutes of a hot application, followed by 10 minutes of cold, seems to work best.  Follow this with a range of motion exercises, like the following, at least once a day.  ",
+      "order": 11
+    },
+    {
+      "element": "ul",
+      "order": 12,
+      "content": [
+        {
+          "order": 1,
+          "content": "Clasp your hands behind your head, and touch your elbows, then separate them as widely as possible.  Gradually work up to ten repetitions at a time."
+        },
+        {
+          "order": 2,
+          "content": "For the shoulder, stand in a corner and “walk” the fingers up the wall as high as possible without overstretching.  Move away from the wall and let your arm swing back and forth like a pendulum, gradually increasing the arc.  Gradually work up to 10 to 20 repetitions."
+        },
+        { "order": 3, "content": "Touch your shoulder with the same hand." },
+        {
+          "order": 4,
+          "content": "While lying on a firm mat or bed, lift one leg, knee bent, and bring it toward your chest.  Use your hands, holding it below the thigh, to help to do this.  Work up to 10 repetitions."
+        }
+      ]
+    },
+    { "element": "p", "content": "Nutrition Needed:", "order": 13 },
+    {
+      "element": "ul",
+      "order": 14,
+      "content": [
+        {
+          "order": 1,
+          "content": "Inflammation is a signal for the immune system to heal the body.  The immune system is a part of the body’s first line of defense against disease and infection.  Supplements with Shiaqga are my preferred choice for the modulation of the immune system.  "
+        },
+        {
+          "order": 2,
+          "content": "Vitamin E, vitamin B complex, vitamin C with bioflavonoids every hour or two for several days, vitamin D, calcium, and magnesium."
+        },
+        {
+          "order": 3,
+          "content": "Ginger has been used for centuries in Asia for treating bursitis.  Combine it with pineapple and a little licorice if you have recurring bursitis."
+        },
+        {
+          "order": 4,
+          "content": "Licorice is said to be as effective in treating bursitis, comparable to hydrocortisone without its side effects.  Do not take over 3 cups of licorice tea a day."
+        },
+        {
+          "order": 5,
+          "content": "Pineapple has an enzyme called bromelain that has anti-inflammatory properties.  It reduces swelling, bruising, pain and speeds up healing of joint and tendon injuries.  "
+        },
+        {
+          "order": 6,
+          "content": "Curcumin, a compound in turmeric, is as effective as cortisone in the treatment of certain kinds of inflammation without the side effects."
+        },
+        { "order": 7, "content": "Omega-3 fatty acids decrease inflammation." },
+        {
+          "order": 8,
+          "content": "Avoid eating meat.  The purines and uric acids in meat can attribute to severe arthritic problems and aggravate bursitis and tendonitis as well."
+        },
+        {
+          "order": 9,
+          "content": "Avoid eating processed or junk foods that can only intensify the problem."
+        },
+        {
+          "order": 10,
+          "content": "Avoid polyunsaturated vegetable oils including corn and safflower and all hydrogenated oils including margarine and many baked goods."
+        }
+      ]
+    },
+    {
+      "element": "p",
+      "content": "A weak or non-functioning immune system, poor diet, an unhealthy environment, and age all contribute to disease.  When the body does not have the proper nutrients, it will not heal properly.",
+      "order": 15
+    },
+    {
+      "element": "p",
+      "content": "Therapeutic Essential Oils contain hundreds of molecules that work together to kill viruses, bacteria, fungus, parasites, and microbes.  Some are also highly effective against inflammation and infections.  Some of the therapeutic essential oils that are beneficial for bursitis are Chamomile, Cypress, Hyssop, Juniper Berry, Marjoram, Peppermint,  Spruce, and Wintergreen. ",
+      "order": 16
+    },
+    {
+      "element": "p",
+      "content": "Better health starts with a change in lifestyle by eating healthy (vegetables, fruits, greens), taking supplements, drinking water (one ounce for every two pounds of weight per day), and moving, giving the body the proper fuel to boost the immune system naturally.  The body has the power to heal when given the proper building blocks and knowhow.",
+      "order": 17
+    }
+  ]
+}

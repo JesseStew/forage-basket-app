@@ -1,0 +1,221 @@
+{
+  "title": "Bipolar Disorder",
+  "linkText": "Bipolar Disorder",
+  "order": 1,
+  "author": "Paway-yatanatu way-akt, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Everyone deals with emotional highs and lows, but these symptoms are more severe with someone that has a bipolar disorder.  These symptoms can interfere with a job, school, relationships, or anything in life.  Bipolar disorder can get worse without treatment, but many people do not recognize the warning signs.",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Bipolar disorders can start between the ages of 15 to 25.  Western medicine cannot pinpoint an exact cause, but cases show that it could be genetic. ",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Bipolar disorder is a mood disorder that is also known as manic-depressive disorder.  This illness is a mood disorder which carries a psychiatric diagnosis.   A person who is bipolar may experience deep depression with breaks of mania or a complete mood shift.",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "The symptoms for bipolar disorder can vary widely from person to person.  It is important to understand that this disorder is categorized as both depression and mania - without one of these two conditions, the diagnosis may be for a different mood disorder.",
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "Biopolar disorder is broken down into five classifications:",
+      "order": 5
+    },
+    {
+      "element": "ul",
+      "order": 6,
+      "content": [
+        { "order": 1, "content": "Manic episodes " },
+        {
+          "order": 2,
+          "content": "Lesser mania (called hypomania) combined with depression episodes"
+        },
+        {
+          "order": 3,
+          "content": "Cyclothymia (may not experience depressed or manic episodes, but continues to  cycle through moods)"
+        },
+        {
+          "order": 4,
+          "content": "Rapid cycling is described by having at least four episodes throughout a year"
+        },
+        {
+          "order": 5,
+          "content": "NOS disorder individuals do not fit into any other categories, but does display the symptoms of bipolar"
+        }
+      ]
+    },
+    {
+      "element": "p",
+      "content": "According to the WHO (World Health Organization) report of 2002, bipolar disorders are the fourth cause of disability worldwide.  Researchers have reported that 25% of bipolar disorder patients have attempted suicide at some point during their illness.",
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "There are distinct forms of bipolar:",
+      "order": 8
+    },
+    {
+      "element": "ul",
+      "order": 9,
+      "content": [
+        {
+          "order": 1,
+          "content": "People with bipolar disorder type I have had at least one manic episode and periods of major depression.  (Previously called manic depression).  "
+        },
+        {
+          "order": 2,
+          "content": "People with bipolar disorder type II have never had full mania and have only experienced periods of high energy levels and impulsiveness that are not as extreme as mania (called hypomania).  These periods alternate with episodes of depression."
+        },
+        {
+          "order": 3,
+          "content": "A mild form of bipolar disorder called Cyclothymia, involves less severe mood swings.  People with this form alternate between hypomania and mild depression. "
+        }
+      ]
+    },
+    {
+      "element": "p",
+      "content": "People with bipolar disorder type II or Cyclothymia may be wrongly diagnosed as having depression.   Each has mood episodes or cycles of mania and depression  can vary in intensity, duration, and frequency.  The manic has an overexcited, sad or hopeless state. ",
+      "order": 10
+    },
+    {
+      "element": "p",
+      "content": "The following may trigger a manic episode in people with a bipolar disorder:",
+      "order": 11
+    },
+    {
+      "order": 12,
+      "content": "Major life changes such as childbirth, death, divorce, or anything that could cause stress or lower energy thought patterns."
+    },
+    {
+      "order": 13,
+      "content": "Medications such as antidepressants or steroids"
+    },
+    { "order": 14, "content": "Insomnia" },
+    { "order": 15, "content": "Drug use" },
+    { "order": 16, "content": "Poor nutrition" },
+    { "element": "p", "content": "A manic episode may include: ", "order": 17 },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Restlessness" },
+        { "order": 2, "content": "Decrease need for sleep " },
+        { "order": 3, "content": "Mood changes -  overly happy" },
+        { "order": 4, "content": "Increased goal directed activities" },
+        { "order": 5, "content": "Unrealistic belief in one’s abilities" },
+        {
+          "order": 6,
+          "content": "Abnormal irritable mood, inflated self-esteem"
+        },
+        { "order": 7, "content": "More talkative" },
+        { "order": 8, "content": "Flights of ideas –racing thoughts" },
+        { "order": 9, "content": "Distractibility " },
+        {
+          "order": 10,
+          "content": "Excessive involvement in pleasurable activities."
+        }
+      ],
+      "order": 18
+    },
+    { "element": "p", "content": "Depressive episode includes:", "order": 19 },
+    {
+      "element": "ul",
+      "order": 20,
+      "content": [
+        { "order": 1, "content": "Depressed " },
+        { "order": 2, "content": "Lack of interest anything." },
+        { "order": 3, "content": "Change in eating habits." },
+        { "order": 4, "content": "Being restless" },
+        { "order": 5, "content": "Insomnia / hypersomnia " },
+        { "order": 6, "content": "Agitation / retardation" },
+        { "order": 7, "content": "Fatigue / loss of energy" },
+        {
+          "order": 8,
+          "content": "Feelings of worthlessness or excessive/inappropriate guilt – delusions"
+        },
+        { "order": 9, "content": "Confusion / indecisiveness" },
+        { "order": 10, "content": "Reoccurring thoughts of death / suicidal" }
+      ]
+    },
+    { "element": "p", "content": "Causes:", "order": 21 },
+    {
+      "element": "p",
+      "content": "Scientists notice that people with bipolar disorders have very few oligodendrocytes (a type of brain cell) in the left hippocampus of the brain.  Oligodendrocytes create myelin around neurons to insulate cells, allowing them to signal much faster and influence the brain on healing injuries.",
+      "order": 22
+    },
+    {
+      "element": "p",
+      "content": "Abnormal stress, that can cause post-traumatic stress syndrome, has later developed into bipolar disorder.  The genetics of stress include the gene MAOB that is associated with the metabolism of neuroactive and vasoactive amines in the nervous system and peripheral tissues.  MAOB regulates dopamine (a brain chemical) and variants of this gene can influence the risk of Parkinson’s disease.  When this gene is under-active, there is a correlation with bipolar disorder and increased stress.  ",
+      "order": 23
+    },
+    {
+      "element": "p",
+      "content": "A lifestyle that includes drug abuse, smoking, and excessive caffeine use have all been linked to an increase of bipolar disorders.  (Smoking has been shown to reduce the levels of MAOB by 40% while increasing adrenaline, a stress hormone.)  ",
+      "order": 24
+    },
+    {
+      "element": "p",
+      "content": "A common denominator for bipolar disorder includes stress, abuse, genetics, diet, and chemical exposure.  Studies have shown that there is a link between childhood abuse and brain disorders like epilepsy and bipolar.  Physical abuse that could include head trauma, is a very common cause of grand mal epilepsy that may cause a bipolar disorder.",
+      "order": 25
+    },
+    {
+      "element": "p",
+      "content": "Chemical imbalances caused by negative thoughts have depleted levels of monoamines, serotonin, and dopamine in the central nervous system.  This chemical imbalance creates mood dysfunctions.  ",
+      "order": 26
+    },
+    {
+      "element": "p",
+      "content": "Bipolar disorders are twice as prevalent in women as in men and may be linked on how the genders react to stress.  Stress is linked to bipolar disorders and many other health conditions like thyroid problems and  a non-functioning immune system.",
+      "order": 27
+    },
+    {
+      "element": "p",
+      "content": "Diet and chemical exposure affect hormone levels and increase the chances of bipolar disorder.  Chemical compounds activate the body hormones and can disrupt the endocrine system or the hormonal balance.  ",
+      "order": 28
+    },
+    {
+      "element": "p",
+      "content": "Example:  Isofavones in soy stimulate estrogen receptors in women.  Excessive doses can make the body shut down estrogen production that may cause many health problems that include bipolar disorders.  ",
+      "order": 29
+    },
+    { "element": "p", "content": "Cure:", "order": 30 },
+    {
+      "element": "p",
+      "content": "Modern Medicine prefers to prescribe drugs for behavior modifications that only address the symptoms, not the cause.  These drugs have side effects.",
+      "order": 31
+    },
+    {
+      "element": "p",
+      "content": "Traditional Healers take a different approach to preventing and treating bipolar disorders.  Alternative Practitioners from all around the world understand the body, mind, and spirit connection.  Unlike a lot of illnesses that can be quickly cured through proper diet and supplementation, the patient with bipolar disorders most often find it necessary to go deeper into a more encompassing healing regiment. ",
+      "order": 32
+    },
+    { "element": "p", "content": "Here are some suggestions:", "order": 33 },
+    {
+      "element": "p",
+      "content": "Body:  Get the proper nutritional that is necessary for the body to heal itself.  The healing process begins with sleep, nutritional food, adequate water, and high quality supplements.    ",
+      "order": 34
+    },
+    {
+      "element": "p",
+      "content": "Mind:  Therapeutic Essential Oils contain powerful chemicals that go between the blood brain barrier and are wonderful tools to assist you in letting go of the negative and embracing the positive.  (I have had many people tell me the oils were far superior to the numerous medications the doctors prescribed for them.) ",
+      "order": 35
+    },
+    {
+      "element": "p",
+      "content": "Control your thought process and think positive.  Let go of the negativity and say positive affirmations with feeling.  Create a vision board and set short, medium and long term goals.  Find the right support services.  Remember and practice what Ghandi said, “The best way to find yourself, is to lose yourself in the service of others.”   ",
+      "order": 36
+    },
+    {
+      "element": "p",
+      "content": "Spirit:  All cultures have the understanding that there is more to us than just our body and mind.  Discover your own path to inner peace.  Meditation or prayer are powerful tools in awakening the joy within.",
+      "order": 37
+    }
+  ]
+}

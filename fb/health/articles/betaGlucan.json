@@ -2643,74 +2643,72 @@
       "order": 530
     },
     {
-      "element": "p",
-      "content": "·         Kottom, T. J., Kohler, J. R., Thomas, C. F. Jr., Fink, G. R., Limper, A. H. (2003). Lung Epithelial Cells and Extracellular Matrix Components Induce Expression of Pneumocystis carinii STE20, a Gene Complementing the Mating and Pseudohyphal Growth Defects of ste20 Mutant Yeast. Infect. Immun. 71: 6463-6471 [Abstract] [Full Text]  ",
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Kottom, T. J., Kohler, J. R., Thomas, C. F. Jr., Fink, G. R., Limper, A. H. (2003). Lung Epithelial Cells and Extracellular Matrix Components Induce Expression of Pneumocystis carinii STE20, a Gene Complementing the Mating and Pseudohyphal Growth Defects of ste20 Mutant Yeast. Infect. Immun. 71: 6463-6471 [Abstract] [Full Text]"
+        },
+        {
+          "order": 2,
+          "content": "Hahn, P. Y., Evans, S. E., Kottom, T. J., Standing, J. E., Pagano, R. E., Limper, A. H. (2003). Pneumocystis carinii Cell Wall beta -Glucan Induces Release of Macrophage Inflammatory Protein-2 from Alveolar Epithelial Cells via a Lactosylceramide-mediated Mechanism. J. Biol. Chem. 278: 2043-2050 [Abstract] [Full Text]"
+        },
+        {
+          "order": 3,
+          "content": "Marr, K. A., Koudadoust, M., Black, M., Balajee, S. A. (2001). Early Events in Macrophage Killing of Aspergillus fumigatus Conidia: New Flow Cytometric Viability Assay. Clin. Diagn. Lab. Immunol. 8: 1240-1247 [Abstract] [Full Text]Marr, K. A., Koudadoust, M., Black, M., Balajee, S. A. (2001). Early Events in Macrophage Killing of Aspergillus fumigatus Conidia: New Flow Cytometric Viability Assay. Clin. Diagn. Lab. Immunol. 8: 1240-1247 [Abstract] [Full Text]"
+        },
+        {
+          "order": 4,
+          "content": "Vassallo, R., Kottom, T. J., Standing, J. E., Limper, A. H. (2001). Vitronectin and Fibronectin Function as Glucan Binding Proteins Augmenting Macrophage Responses to Pneumocystis carinii. Am J Respir Cell Mol Biol 25: 203-211 [Abstract] [Full Text]"
+        },
+        {
+          "order": 5,
+          "content": "Kottom, T. J., Limper, A. H. (2000). Cell Wall Assembly by Pneumocystis carinii. EVIDENCE FOR A UNIQUE Gsc-1 SUBUNIT MEDIATING beta -1,3-GLUCAN DEPOSITION. J. Biol. Chem. 275: 40628-40634 [Abstract] [Full Text]"
+        },
+        {
+          "order": 6,
+          "content": "Vassallo, R., Standing, J. E., Limper, A. H. (2000). Isolated Pneumocystis carinii Cell Wall Glucan Provokes Lower Respiratory Tract Inflammatory Responses. J Immunol 164: 3755-3763 [Abstract] [Full Text]"
+        },
+        {
+          "order": 7,
+          "content": "Yu, M. L., Limper, A. H. (1997). Pneumocystis carinii induces ICAM-1 expression in lung epithelial cells through a TNF-alpha -mediated mechanism. Am. J. Physiol. 273: L1103-1111 [Abstract] [Full Text]"
+        },
+        {
+          "order": 8,
+          "content": "Chaffin, W. L., Lopez-Ribot, J. L., Casanova, M., Gozalbo, D., Martinez, J. P. (1998). Cell Wall and Secreted Proteins of Candida albicans: Identification, Function, and Expression. Microbiol Mol Biol Rev 62: 130-180 [Abstract] [Full Text]"
+        }
+      ],
       "order": 531
     },
     {
       "element": "p",
-      "content": "·         Hahn, P. Y., Evans, S. E., Kottom, T. J., Standing, J. E., Pagano, R. E., Limper, A. H. (2003). Pneumocystis carinii Cell Wall beta -Glucan Induces Release of Macrophage Inflammatory Protein-2 from Alveolar Epithelial Cells via a Lactosylceramide-mediated Mechanism. J. Biol. Chem. 278: 2043-2050 [Abstract] [Full Text]  ",
+      "content": "The influence of glucan polymer structure and solution conformation on binding to (13)-ß-D-glucan receptors in a human monocyte-like cell line Antje Mueller2,6, John Raptis2,6, Peter J. Rice3,6, John H. Kalbfleisch4,6, Robert D. Stout5,6, Harry E. Ensley7, William Browder2 and David L. Williams1,2,6",
       "order": 532
     },
     {
       "element": "p",
-      "content": "·         Marr, K. A., Koudadoust, M., Black, M., Balajee, S. A. (2001). Early Events in Macrophage Killing of Aspergillus fumigatus Conidia: New Flow Cytometric Viability Assay. Clin. Diagn. Lab. Immunol. 8: 1240-1247 [Abstract] [Full Text]  ",
+      "content": "Departments of 2Surgery, 3Pharmacology, 4Medical Education, 5Microbiology, and 6Immunopharmacology Research Group, James H. Quillen College of Medicine, East Tennessee State University, Johnson City, TN 37614–0575, USA and 7Department of Chemistry, Tulane University, New Orleans, LA 70115, USA",
       "order": 533
     },
     {
       "element": "p",
-      "content": "·         Vassallo, R., Kottom, T. J., Standing, J. E., Limper, A. H. (2001). Vitronectin and Fibronectin Function as Glucan Binding Proteins Augmenting Macrophage Responses to Pneumocystis carinii. Am J Respir Cell Mol Biol 25: 203-211 [Abstract] [Full Text]  ",
+      "content": "Glucans are (1–3)-ß-D-linked polymers of glucose that are produced as fungal cell wall constituents and are also released into the extracellular milieu. Glucans modulate immune function via macrophage participation. The first step in macrophage activation by (1–3)-ß-D-glucans is thought to be the binding of the polymer to specific macrophage receptors. We examined the binding/uptake of a variety of water soluble (1–3)-ß-D-glucans and control polymers with different physicochemical properties to investigate the relationship between polymer structure and receptor binding in the CR3- human promonocytic cell line, U937. We observed that the U937 receptors were specific for (13)-ß-D-glucan binding, since mannan, dextran, or barley glucan did not bind. Scleroglucan exhibited the highest binding affinity with an IC50 of 23 nM, three orders of magnitude greater than the other (13)-ß-D-glucan polymers examined. The rank order competitive binding affinities for the glucan polymers were scleroglucan>>>schizophyllan > laminarin > glucan phosphate > glucan sulfate. Scleroglucan also exhibited a triple helical solution structure ( = 1.82, ß = 0.8). There were two different binding/uptake sites on U937 cells. Glucan phosphate and schizophyllan interacted nonselectively with the two sites. Scleroglucan and glucan sulfate interacted preferentially with one site, while laminarin interacted preferentially with the other site. These data indicate that U937 cells have at least two non-CR3 receptor(s) which specifically interact with (13)-ß-D-glucans and that the triple helical solution conformation, molecular weight and charge of the glucan polymer may be important determinants in receptor ligand interaction.",
       "order": 534
     },
     {
       "element": "p",
-      "content": "·         Kottom, T. J., Limper, A. H. (2000). Cell Wall Assembly by Pneumocystis carinii. EVIDENCE FOR A UNIQUE Gsc-1 SUBUNIT MEDIATING beta -1,3-GLUCAN DEPOSITION. J. Biol. Chem. 275: 40628-40634 [Abstract] [Full Text]  ",
+      "content": "1 To whom correspondence should be addressed at: Department of Surgery, James H. Quillen College of Medicine, East Tennessee State University, Johnson City, TN 37604–0575",
       "order": 535
     },
     {
       "element": "p",
-      "content": "·         Vassallo, R., Standing, J. E., Limper, A. H. (2000). Isolated Pneumocystis carinii Cell Wall Glucan Provokes Lower Respiratory Tract Inflammatory Responses. J Immunol 164: 3755-3763 [Abstract] [Full Text]  ",
+      "content": "'Dectin-1 and its role in the recognition of beta-glucans in macrophages' Gordon D. Brown.  Sir William Dunn School of Pathology, University of Oxford.  gbrown@molbiol.ox.ac.uk",
       "order": 536
     },
     {
       "element": "p",
-      "content": "·         Yu, M. L., Limper, A. H. (1997). Pneumocystis carinii induces ICAM-1 expression in lung epithelial cells through a TNF-alpha -mediated mechanism. Am. J. Physiol. 273: L1103-1111 [Abstract] [Full Text]  ",
-      "order": 537
-    },
-    {
-      "element": "p",
-      "content": "·         Chaffin, W. L., Lopez-Ribot, J. L., Casanova, M., Gozalbo, D., Martinez, J. P. (1998). Cell Wall and Secreted Proteins of Candida albicans: Identification, Function, and Expression. Microbiol Mol Biol Rev 62: 130-180 [Abstract] [Full Text]  ",
-      "order": 538
-    },
-    {
-      "element": "p",
-      "content": "The influence of glucan polymer structure and solution conformation on binding to (13)-ß-D-glucan receptors in a human monocyte-like cell line Antje Mueller2,6, John Raptis2,6, Peter J. Rice3,6, John H. Kalbfleisch4,6, Robert D. Stout5,6, Harry E. Ensley7, William Browder2 and David L. Williams1,2,6",
-      "order": 539
-    },
-    {
-      "element": "p",
-      "content": "Departments of 2Surgery, 3Pharmacology, 4Medical Education, 5Microbiology, and 6Immunopharmacology Research Group, James H. Quillen College of Medicine, East Tennessee State University, Johnson City, TN 37614–0575, USA and 7Department of Chemistry, Tulane University, New Orleans, LA 70115, USA",
-      "order": 540
-    },
-    {
-      "element": "p",
-      "content": "Glucans are (1–3)-ß-D-linked polymers of glucose that are produced as fungal cell wall constituents and are also released into the extracellular milieu. Glucans modulate immune function via macrophage participation. The first step in macrophage activation by (1–3)-ß-D-glucans is thought to be the binding of the polymer to specific macrophage receptors. We examined the binding/uptake of a variety of water soluble (1–3)-ß-D-glucans and control polymers with different physicochemical properties to investigate the relationship between polymer structure and receptor binding in the CR3- human promonocytic cell line, U937. We observed that the U937 receptors were specific for (13)-ß-D-glucan binding, since mannan, dextran, or barley glucan did not bind. Scleroglucan exhibited the highest binding affinity with an IC50 of 23 nM, three orders of magnitude greater than the other (13)-ß-D-glucan polymers examined. The rank order competitive binding affinities for the glucan polymers were scleroglucan>>>schizophyllan > laminarin > glucan phosphate > glucan sulfate. Scleroglucan also exhibited a triple helical solution structure ( = 1.82, ß = 0.8). There were two different binding/uptake sites on U937 cells. Glucan phosphate and schizophyllan interacted nonselectively with the two sites. Scleroglucan and glucan sulfate interacted preferentially with one site, while laminarin interacted preferentially with the other site. These data indicate that U937 cells have at least two non-CR3 receptor(s) which specifically interact with (13)-ß-D-glucans and that the triple helical solution conformation, molecular weight and charge of the glucan polymer may be important determinants in receptor ligand interaction.",
-      "order": 541
-    },
-    {
-      "element": "p",
-      "content": "1 To whom correspondence should be addressed at: Department of Surgery, James H. Quillen College of Medicine, East Tennessee State University, Johnson City, TN 37604–0575",
-      "order": 542
-    },
-    {
-      "element": "p",
-      "content": "'Dectin-1 and its role in the recognition of beta-glucans in macrophages' Gordon D. Brown.  Sir William Dunn School of Pathology, University of Oxford.  gbrown@molbiol.ox.ac.uk",
-      "order": 543
-    },
-    {
-      "element": "p",
       "content": "The innate cellular recognition of pathogens is dependent on germ line encoded receptors which recognise conserved microbial structures. Using a novel method to isolate these receptors, we identified Dectin-1 as the macrophage b-glucan receptor. Dectin-1 acted as a classical pattern recognition receptor, recognising a variety of b-1,3 and/or b-1,6 linked glucans, as well as intact yeasts, and is the primary receptor for these carbohydrates in macrophages. Dectin-1 also mediates the phagocytosis of particulate glucans, an activity which is dependent of the cytoplasmic tail of this molecule. In addition to these exogenous ligands, the receptor recognised an endogenous ligand on T-cells, but through a binding site which was distinct from that which recognised b-glucans. We found Dectin-1 to be expressed in many tissues and highly expressed on the surface of immune cells, especially those of the monocyte / macrophage and neutrophil lineages. We have also identified the human homologue of Dectin-1 and have shown that it is structurally and functionally similar to the mouse receptor. ",
-      "order": 544
+      "order": 537
     }
   ]
 }
