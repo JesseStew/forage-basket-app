@@ -4,9 +4,6 @@ const fs = require('fs')
 
 // console.log(data.elements)
 let elements = data.elements
-// const elements = {
-//   hi: 'hi there',
-// }
 
 let order = 1
 
