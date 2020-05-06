@@ -1,162 +1,159 @@
 [
   {
     "element": "p",
-    "content": "Candidiasis is an infection caused by Candida albicans, normally a harmless yeast-type fungus found in the intestines, but is also regularly found in the mouth, throat, and genital tract.  When your body is functioning properly, it will keep Candida in check.  It is only when the body becomes unbalanced, problems arise.  ",
+    "content": "Cellulitis is a bacterial infection of the skin and underlying tissues.  Bacterium can enter through a break in the skin such as a cut or sore.  The bacteria then start to reproduce and break down skin cells.",
     "order": 1
   },
   {
     "element": "p",
-    "content": "Many things that contribute to a body's imbalance fall into three main categories:      ",
+    "content": "The symptoms start with a small area of tenderness, swelling, and redness.  The red area will begin to enlarge and may be accompanied with a fever, chills, sweats, and swollen lymph nodes.  The skin on the face or lower legs is the most commonly affected areas, although it can occur on any part of the body.  When it occurs on the scalp, it is a non-localized inflammation without suppuration.  Symptoms appear gradually over several hours.",
     "order": 2
   },
   {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Toxins – pollution, poor toxic food choices, and other related issues.  "
-      },
-      {
-        "order": 2,
-        "content": "Emotional – stress, emotional lows, worry, and other related issues. "
-      },
-      {
-        "order": 3,
-        "content": "Deficiency – lack of vitamins, minerals, and other necessary building blocks  "
-      }
-    ],
+    "element": "p",
+    "content": "Elderly people are especially vulnerable to cellulitis because many of them have poor circulation, which lead to edema or leg ulcers.  These problems increase the risk of cellulitis infection.  If the leg is infected, you should keep it elevated.  Others at risk of cellulitis include diabetes and intravenous drug abusers.  Cellulitis may reoccur if you have a persistent circulatory or immune problem.",
     "order": 3
   },
   {
     "element": "p",
-    "content": "When you address these imbalances, the body then has the ability to heal itself.",
+    "content": "A cellulitis infection involves the skin’s deeper layers:  the dermis and subcutaneous tissues, caused by the bacteria’s Streptococcus and Staphylococcus (staph), to name a few.  An extreme case of cellulitis is when the infection has spread to the deep layer of tissue called the fascia lining.  Necrotizing fasciitis is commonly known as the “flesh-eating bacteria” that is an example of a deep-layer infection.  This can be deadly.  If cellulitis is left untreated it may cause septicemia, a serious blood infection.",
     "order": 4
   },
-  {
-    "element": "p",
-    "content": "Symptoms of a Candida overgrowth include:",
-    "order": 5
-  },
+  { "element": "p", "content": "Risk factors:", "order": 5 },
   {
     "element": "ul",
     "content": [
-      { "order": 1, "content": "Bad breath / Indigestion" },
-      { "order": 2, "content": "Constipation / Gas" },
-      { "order": 3, "content": "Chronic infections" },
-      { "order": 4, "content": "Depression" },
-      { "order": 5, "content": "Fatigue / Insomnia" },
-      { "order": 6, "content": "Food cravings" },
-      { "order": 7, "content": "Headaches" },
-      { "order": 8, "content": "Adrenal and thyroid problems" },
-      { "order": 9, "content": "Hiatal hernias" },
-      { "order": 10, "content": "Mental confusion / Panic attacks" },
-      { "order": 11, "content": "Menstrual problems" },
       {
-        "order": 12,
-        "content": "Vaginal infections produce intense itching, accompanied by an odorless, white, cheesy discharge."
-      }
+        "order": 1,
+        "content": "Weak immune system due to HIV/AIDS, stress, and etc. "
+      },
+      { "order": 2, "content": "Diabetes" },
+      { "order": 3, "content": "Cancer" },
+      { "order": 4, "content": "Animal, human, or  insect bites" },
+      { "order": 5, "content": "Severe burns or severe trauma" },
+      {
+        "order": 6,
+        "content": "Chemotherapy, corticosteroids and other medications"
+      },
+      { "order": 7, "content": "Tattoos" },
+      { "order": 8, "content": "Age – the elderly" },
+      { "order": 9, "content": "Surgical wounds" },
+      { "order": 10, "content": "Athlete’s food, dry skin, or eczema" }
     ],
     "order": 6
   },
+  { "element": "p", "content": "Symptoms:", "order": 7 },
   {
-    "element": "p",
-    "content": "Candida albicans overgrowth (too much) in the genital tract causes yeast infections and most often is caused by a weakened immune system.  More than 75% of all women have experienced a yeast infection during her lifetime and many will have a recurring infection.  (Sometimes bacterial vaginitis is mistaken for a yeast infection, but can be the result of a pelvic inflammatory disease and leads to infertility.)",
-    "order": 7
-  },
-  {
-    "element": "p",
-    "content": "A man can also get a yeast infection but is less likely to be aware this infection because there may not be any symptoms.  A lowered immunity and sexual contact with an infected partner are the most frequent causes of genital yeast infections in males.  About 12% to 15% of men can develop symptoms such as penile rash and itching.",
+    "element": "ul",
+    "content": [
+      { "order": 1, "content": "Painful, red, swollen skin" },
+      { "order": 2, "content": "Fever, chills" },
+      { "order": 3, "content": "Swollen lump nodes" },
+      { "order": 4, "content": "Skin rash, blisters, scabs" },
+      { "order": 5, "content": "Red lines on the skin" },
+      { "order": 6, "content": "Headaches" },
+      { "order": 7, "content": "Bruising" }
+    ],
     "order": 8
   },
   {
     "element": "p",
-    "content": "Over $60 million annually is spent on over the counter (OTC) products to heal this infection in the United States.  These OTC treatments rarely address the imbalance that creates the problem in the first place.  Therefore repeated yeast infections will continue to arise. ",
+    "content": "The signs of inflammation and an elevated level of white blood cells is the immune system trying to heal the body.  The immune system is the body’s first line of defense against disease and infection.  ",
     "order": 9
   },
   {
     "element": "p",
-    "content": "Below are some more specific issues that can through your body out of balance and cause a Candida overgrowth.",
+    "content": "A weak or non-functioning immune system, poor health, diet, an unhealthy environment, and age all contribute to disease.  When the body does not have the proper nutrients, it cannot heal.  The things that put your immune system in overload are being deficient in nutrition, smoking or using alcohol, stress, and pollution.",
     "order": 10
   },
-  {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Hormones in the body change during the menstruation cycle, menopause, pregnancy, or the use of birth control pills."
-      },
-      {
-        "order": 2,
-        "content": "The prolonged use of antibiotics is probably the leading cause of chronic yeast infection.  Antibiotics kill the large variety of good bacteria in the gut and allow Candida to become dominant."
-      },
-      {
-        "order": 3,
-        "content": "The imbalance called Diabetes causes an elevation of the blood sugar levels that feed a yeast infection."
-      }
-    ],
-    "order": 11
-  },
+  { "element": "p", "content": "Treatment:", "order": 11 },
   {
     "element": "p",
-    "content": "Other situations that may not be the direct cause, but they may increase the likelihood of an infection are:",
+    "content": "The first step is practicing good personal hygiene, washing the hands frequently, addressing any cuts or sores and protecting the skin from injury.",
     "order": 12
   },
   {
-    "element": "ul",
-    "content": [
-      { "order": 1, "content": "Hot, humid weather" },
-      { "order": 2, "content": "Tight clothing – poor ventilation" },
-      {
-        "order": 3,
-        "content": "Diet changes, poor nutrition, and junk food (high sugar content)"
-      },
-      { "order": 4, "content": "Poor hygiene" },
-      { "order": 5, "content": "Allergies (weakened immune system)" }
-    ],
+    "element": "p",
+    "content": "Therapeutic Oil plant essences, derived from herbs, seeds, and leaves, were the first medicines of our ancestors.  They contain hundreds of molecules that work together to kill viruses and bacteria.  Here are my favorite and most effective Therapeutic Oils to use against viruses, bacteria, and infections:",
     "order": 13
   },
+  { "element": "p", "content": "Tea Tree", "order": 14 },
   {
     "element": "p",
-    "content": "Yeast lives on moist areas of the body, such as the lining of the mouth and the vagina.  When there is an alteration of the normal pH balance this usually allows the fungus to thrive.  For example, stress causes a reduction of the production of stomach acids.  This  lets the Candida invade the stomach and thrive, where it is normally never found.  As a result, less digested food enters the intestines.  The Candida in the intestine feed upon the improperly digested food and grows out of control.",
-    "order": 14
-  },
-  {
-    "element": "p",
-    "content": "In the oral cavity, Candida is called thrush.  White sores may develop on the tongue, gums, and inside the cheeks.  Mothers can pass thrush on to their newborn children.  The baby’s tongue will appear red and be covered with white spots (generally noticed 8-9 days after delivery) that will appear like milk spots.  On the buttocks, thrush may resemble diaper rash.",
+    "content": "is beneficial against viruses, bacteria, fungus, parasites, inflammation, and infections (especially against staph, strap, respiratory, ear, nose, and throat infections).  It is an antiseptic insecticide. ",
     "order": 15
   },
+  { "element": "p", "content": "Thyme", "order": 16 },
   {
     "element": "p",
-    "content": "The immune system recognizes disease as non-self, an invader to the body to attack and kill.  It is natural for the immune system to destroy disease, cancers, and infections with the assistance of the white blood cells that produce the antibodies.  Since Candida albicans is a normal part of the body, it is much harder for the body to recognize this infection.",
-    "order": 16
-  },
-  {
-    "element": "p",
-    "content": "Prevention can be the first defense by:",
+    "content": "is beneficial against microbes, bacteria, fungus, infections, viruses, inflammation, parasites, and is an antiseptic.",
     "order": 17
   },
+  { "element": "p", "content": "Clove Bud", "order": 18 },
   {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Learning to eat healthy food like garlic, broccoli, wheat grass, turnips, kale, collards, cabbage, millet, brown rice, beans and vegetables.  Almonds and nuts are okay, but avoid peanuts.  Add fiber to the diet because it assists to clean the colon.  Avoid sugary foods, cheese, alcohol, chocolate, fermented food, gluten grains (wheat, oats, rye, and barley), meat, pickles, raw mushrooms, or any yeast product.  "
-      },
-      {
-        "order": 2,
-        "content": "Build-up the immune system by taking Shiaqga."
-      },
-      {
-        "order": 3,
-        "content": "Take a probiotic to build the good bacteria in the body."
-      },
-      { "order": 4, "content": "Drink plenty of water." },
-      { "order": 5, "content": "Get enough sleep to keep the body strong." },
-      {
-        "order": 6,
-        "content": "Use Therapeutic Essential Oils to balance the hormones (Clary Sage or Sage), reduce stress (Geranium), assist digestion (Fennel or Peppermint ), detoxify (Lemon ), and build the immune system (Frankincense).  "
-      }
-    ],
-    "order": 18
+    "element": "p",
+    "content": "it is an antiseptic and beneficial for inflammation, viruses, bacteria, fungus, tumors, parasites and infectious diseases.  ",
+    "order": 19
+  },
+  { "element": "p", "content": "Cinnamon Bark", "order": 20 },
+  {
+    "element": "p",
+    "content": "is an immune stimulant and it has been found that viruses, bacteria, and fungus cannot live in this oil.  It is used against parasites, typhoid, flu, colds, tropical infections, coughs, warts, and is a general all around maintenance oil.  It is important to get the Cinnamon Bark and not the leaf which is less effective.",
+    "order": 21
+  },
+  { "element": "p", "content": "Oregano", "order": 22 },
+  {
+    "element": "p",
+    "content": "is one of the strongest antibacterial Therapeutic Oils and may be beneficial when a strong response to bacterial infection is needed.  It has a broad spectrum of bactericidal and anti-microbial action.  It is beneficial against fungus, infections, viruses, parasites, is an antiseptic, immune-stimulant, balancing the metabolism, and strengthens the vital centers of the body.",
+    "order": 23
+  },
+  { "element": "p", "content": "Helichrysum italicum", "order": 24 },
+  {
+    "element": "p",
+    "content": "it is beneficial when used against allergic conditions, fungus, bacteria, infections, viruses, and inflammation (properties that reduce inflammation found in this oil exceed those of any other therapeutic essential oil).",
+    "order": 25
+  },
+  {
+    "element": "p",
+    "content": "Melaleuca (Melaleuca quinquinervera)",
+    "order": 26
+  },
+  {
+    "element": "p",
+    "content": "is hard to find because it is most often adulterated with other oils.  It is beneficial against infections, bacteria, fungus, especially Candida, tumors, inflammation, parasites, viruses including “slow” viruses, and catarrh.",
+    "order": 27
+  },
+  { "element": "p", "content": "Ravintsara", "order": 28 },
+  {
+    "element": "p",
+    "content": "is referred to as the “oil that heals”.  It fights infections, fungus, bacteria, is an anti-biotic, antiseptic, an expectorant, and supporting to the nerves.  It is anti-viral, anti-bacterial, anti-fungal, anti-infectious, antiseptic, and supporting the nerves.",
+    "order": 29
+  },
+  { "element": "p", "content": "Mountain Savory", "order": 30 },
+  {
+    "element": "p",
+    "content": "is effective against fungus, viruses, malaria, major infections, inflammation of lymph nodes, and a general tonic for the body.  ",
+    "order": 31
+  },
+  { "element": "p", "content": "Other Effective Treatments:", "order": 32 },
+  {
+    "element": "p",
+    "content": "Start by a change in lifestyle by making most of your meals healthy foods such as vegetables, fruits, and greens.  Drink at least 1/2 ounce of water for every pound of weight daily, exercise giving the body movement to assist in flushing out waste materials, and taking supplements.",
+    "order": 33
+  },
+  {
+    "element": "p",
+    "content": "One powerful supplement is Shiaqga.  Each ingredient in Shiaqga is demonstrated in scientific research to strengthen, support, and modulate the immune response in different ways.  When these ingredients are combined there singular efforts are synergized.  (People have shared success with topically applying Shiaqga to affected areas.) ",
+    "order": 34
+  },
+  {
+    "element": "p",
+    "content": "Another supplement that is beneficial is vitamin C, since the Shiaqga seems to be more effective when your intake of vitamin C is adequate.  Among other things vitamin C is an antioxidant that is vital for tissue growth, repair, wound healing, and the resistance to infections.  It plays a part in all aspects of health and well-being.   ",
+    "order": 35
+  },
+  {
+    "element": "p",
+    "content": "The body has the power to heal itself if given the right tools to support the healing process. ",
+    "order": 36
   }
 ]
