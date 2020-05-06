@@ -1,6 +1,22 @@
 const data = require('./betaGlucan.json')
 const _ = require('lodash')
+const fs = require('fs')
 
-console.log(data)
+// console.log(data.elements)
+let elements = data.elements
+// const elements = {
+//   hi: 'hi there',
+// }
 
-// _.forEach
+let order = 1
+
+_.forEach(elements, (map) => {
+  map.order = order++
+  console.log(map.order)
+})
+
+let json = JSON.stringify(elements)
+
+fs.writeFile('elements.json', json, 'utf8', (err) => {
+  console.log(err)
+})
