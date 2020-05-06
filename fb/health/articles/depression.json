@@ -1,0 +1,154 @@
+{
+  "title": "Depression",
+  "linkText": "Depression",
+  "order": 1,
+  "author": "White Sparrow, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Depression paralyzes the mind.  Life seems to have no direction.  Everyone has experienced these mood swings, but depression happens over a period of time.  With depression,  the whole body suffers.  ",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Western Medicine ranks depression by the severity of the symptoms with levels of mild, moderate, or severe.  Depression is twice as common in women as in men and could be a  a precursor to a stroke due to a reduction of  blood circulation that inhibits normal body functions.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "The brain is made up of over 100 chemicals called neurotransmitters.  The four basic neurotransmitters are norepinephrine, serotonin, dopamine, and acetyloholine.  A difficult life situation, a change in hormones, food allergies, inflammation,  immune system suppression, abnormal brain activity, nutritional deficiencies, hypoglycemia,  environmental problems, Parkinson’s disease, Alzheimer’s dementia, addictive disorders, heart disease, cancer, diabetes, or schizophrenia can cause an  imbalance of some of these chemicals resulting with some level of depression.    Using medications for blood pressure, sleep disorders, infections (antibiotics), and birth control pills have also been associated with depression.",
+      "order": 3
+    },
+    { "element": "p", "content": "Symptoms:", "order": 4 },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Anger / Confusion" },
+        { "order": 2, "content": "Change in Appetite" },
+        { "order": 3, "content": "Energy loss" },
+        { "order": 4, "content": "Excessive Sleeping / Inactivity/ Insomnia" },
+        { "order": 5, "content": "Fatigue " },
+        { "order": 6, "content": "Negativity, low self-esteem, guilt" },
+        { "order": 7, "content": "Recurring thoughts of Death /Suicide" },
+        { "order": 8, "content": "Withdrawal from Activities" }
+      ],
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "Modern medicine’s answer for depression is to prescribe antidepressants, psychotherapy (talk therapy), or even electroconvulsive therapy (ECT)  where an electric current is passed through the brain to produce seizures and sort-term memory loss.   These have side effects that range from weight gain or loss, dry mouth, diarrhea, nausea, constipation, insomnia, anxiety, restlessness, decreased sex drive, dizziness, tremors, sweating, sleeplessness, fatigue, headaches, or being suicidal.   ",
+      "order": 6
+    },
+    {
+      "element": "p",
+      "content": "Modern medicines do not cure and there are natural healthy alternatives.  The best therapy is to exercise, meditate, eat a healthy diet, and take supplements to feed the body, soul, and mind.  The human body is designed with an immune system that is the natural defense against disease and infection.  When you feed the whole body, the body will heal itself.  As Hippocrates said, “Make food your medicine.......”",
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "The “depression diet” will destroy nutrients, over stimulate the glands, interfere with the way the body processes nutrients, weakens the immune system, and causes other harmful effects.  You should avoid or use in moderation the following:",
+      "order": 8
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Processed and junk foods ." },
+        { "order": 2, "content": "Low sugar/high sugar diet." },
+        { "order": 3, "content": "Antibiotics or steroid enhanced foods " },
+        { "order": 4, "content": "Caffeine and tobacco " },
+        {
+          "order": 5,
+          "content": "Food coloring, chemicals, preservatives, and additives."
+        }
+      ],
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "Many have found that simple lifestyle changes help soothe and prevent the re-occurrence of depression symptoms.",
+      "order": 10
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Find therapeutic oil, that you like the smell of and wear it often during the day.  When smell an oil, the oil molecules can go beyond the blood barrier of the brain may affect the neurotransmitters, easing depression."
+        },
+        { "order": 2, "content": "Get enough sleep." },
+        {
+          "order": 3,
+          "content": "Start a healthy/nutritious diet that includes more B vitamins and omega-3 fatty acids.  (Complex carbohydrates increase the amount of amino acids and tryptophan that ares ingested and increases the amount of serotonin made by the brain, producing a calming on the body.  High-protein foods promote the production of dopamine and norepinephrine, which increases hyperactivity and nervousness).  Get active, move, and exercise.​"
+        },
+        {
+          "order": 4,
+          "content": "Tumeric taken on a daily basis has shown significant improvement.  "
+        },
+        { "order": 5, "content": "Pray or meditate." },
+        {
+          "order": 6,
+          "content": "Spend time with friends or family members, (play games, talk, laugh together). "
+        },
+        { "order": 7, "content": "Count your blessings." },
+        {
+          "order": 8,
+          "content": "If seasonal depression issues arise, use special lights during the fall and winter months."
+        }
+      ],
+      "order": 11
+    },
+    {
+      "element": "p",
+      "content": "Several therapeutic oils that are beneficial to cope with depression include:",
+      "order": 12
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Cypress - Improves circulation, acts as a female hormone stimulant, and calms stressful or nervous tension.  Very comforting and strengthening in times of death or divorce.  "
+        },
+        {
+          "order": 2,
+          "content": "Lavender - Is considered a universal copal and is beneficial for inflammation,  insomnia, and helps to balance the emotions of irritability, moodiness, fear, restlessness, and depression."
+        },
+        {
+          "order": 3,
+          "content": "Peppermint - May assist when used for shock, fatigue, and nervous stress."
+        },
+        {
+          "order": 4,
+          "content": "Rosemary - May assist the immune and endocrine systems, awakens the brain, and lowers blood pressure."
+        },
+        {
+          "order": 5,
+          "content": "Ylang Ylang -  Is a wonderful relaxing essential oil that lowers blood pressure and calms the brain.​"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "element": "link",
+      "link": "http://www.iamessentialoils.com/",
+      "local": false,
+      "linkText": "CLICK HERE TO LEARN MORE AND PURCHASE TRUE THERAPEUTIC ESSENTIAL OILS.",
+      "order": 14
+    },
+    {
+      "element": "p",
+      "content": "The Native American Medicine Woman, Paway, states, ",
+      "order": 15
+    },
+    {
+      "element": "p",
+      "content": "“I use half as much of the I Am Essential Oils and get better results!  (The oils company I was previously using stated that they were the experts and supplied the best oils in the world.)  I have been using oils for over thirty years, and your oils are truly the most therapeutic I have ever encountered.         ",
+      "order": 16
+    },
+    {
+      "element": "p",
+      "content": "I would recommend anyone who suffers from depression to look into the I Am Essential Oils and read about their different properties.  Try the oil you feel would work best for your situation.  I have seen many who have used their oils and experience a miracle. ",
+      "order": 17
+    }
+  ]
+}

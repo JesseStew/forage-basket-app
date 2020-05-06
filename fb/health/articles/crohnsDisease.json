@@ -1,0 +1,50 @@
+{
+  "title": "Crohn's Disease (also Colitis & Granulomatous)",
+  "linkText": "Crohn's Disease",
+  "order": 1,
+  "author": "Man Found Standing, Native American Medicine Man",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Crohn’s disease is a chronic inflammation of the digestive tract that is most often diagnosed in the young.  This disease affects portions of the bowel so severely that it can inhibit digestion.  This disease generally involves the small bowel and can restrict the absorption of nutrients, leading to malnutrition and deficiencies of vitamin B12, calcium, folic acid, and vitamin D.   Getting enough calories for adequate nutrition for normal body function and growth is often difficult.  ",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Ulcerative colitis symptoms are very similar to Crohn's disease.  Ulcerative colitis begins at the bowel’s inner surface, where Crohn’s disease begins below the mucosa and spreads into the deeper layers of the bowel wall but can affect the small or large intestine (colon).",
+      "order": 2
+    },
+    { "element": "p", "content": "Symptoms include:", "order": 3 },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Diarrhea / Constipation" },
+        { "order": 2, "content": "Fever " },
+        { "order": 3, "content": "Fatigue" },
+        { "order": 4, "content": "Abdominal pain / cramping" },
+        { "order": 5, "content": "Bloody stools" },
+        { "order": 6, "content": "Mouth sores" },
+        {
+          "order": 7,
+          "content": "Loss of appetite / weight loss / malnutrition"
+        },
+        { "order": 8, "content": "Pain or drainage near or around the anus" },
+        {
+          "order": 9,
+          "content": "Inflammation of the joints, liver, or bile ducts"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "Modern medicine has no known cure for Crohn's disease and their treatments consists of the use of powerful anti-inflammatory medications, such as steroids.  Other treatments involve surgically removing areas of the bowl, that never fully heal and scars that cause bowel obstructions.  I personally never met any Crohn’s patients that felt that medicine adequately controlled their symptoms.",
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "Natural remedies would include high quality supplements like Shiaqga, avoiding toxins, and making sure you are only eating foods with the proper nutrition.  As your body's immune system and stem cells are activated, your body will heal itself.",
+      "order": 6
+    }
+  ]
+}
