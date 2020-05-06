@@ -1880,401 +1880,1209 @@
       "content": "Infection-Post Surgery: Babineau, et al., \"Randomized Phase I/II Trial of a Macrophage-Specific Immunomodulator (PGG-Glucan) in High Risk Surgical Patients\", Annals of Surgery; 220:(5):601-609. 1994.  Dept of Surgery, Deaconess Hospital, Harvard Medical Sch, Boston MA.* Quote: \"PGG-glucan is safe and appears to be effective in further reduction of the morbidity and cost of major surgery.\"*",
       "order": 8
     },
+    {
+      "element": "p",
+      "content": "Infections - Bacterial: Kokoshis P.L., Williams D.L., Cook J.A., Di Luzio N.R.; Increased resistance to Staphylococcus aureus infection and enhancement in serum lysozyme activity by glucan. Science 199: 1340-1342, 1978.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"These studies indicate that glucan confers an enhanced state of host defense against bacterial infections.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Infections - Bacterial: Rasmussen, LT and Seljelid, R.: \"Novel Immunomodulators With Pronounced In Vitro Effects Caused by Stimulation of Cytokine Release\", Journal of Cellular Biochemistry; 46:60-68. Inst of Med Bio, U of Tromso, Norway. 1991.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Beta-1,3-D-polyglucose derivatives protect mice against otherwise lethal bacterial infections.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Infections - Bacterial: Wang W., Duen-Horng W., et al; \"Polysaccharide-Induced protection of Tilapia, Tilapia aureus P., against Bacterial Infections in vivo,\" Dept of Veterinary Medicine.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Infections - Disease: Glovsky MM, et al,; \"Effects of particulate beta-1,3 glucan on human, rat, and guinea pig complement activity,\" J. Reticuloendothel Soc. 33:401-413. 1983.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Glucan administration is associated with the modification of a variety of experimentally induced infectious disease states as well as the inhibition of growth of implantable and spontaneous tumors.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Infections - Surgical Procedures: Norton MD, JA [Prof of Surg, Chief of Endocrine and Oncologic Surgery]; \"Editorial: Annals of Surgery,\" Washington University School of Medicine, Nov 1994.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"In a prospective, randomized double-blind study, [Babineau, et.al.] demonstrate that the perioperative administration of PGG-glucan, a substance derived from yeast that increases the microbial killing activity of leukocytes, can decrease infectious complications in patients undergoing major surgical procedures...the preliminary results are positive and should be interpreted as good news.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Intraperitoneal: Beta(1-3)glucan 1.3 Glucan Activity in Mice: Intraperitoneal and Oral Applications. Baylor College of Medicine. Research Summary. 1989.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Kupffer Cells: Deimann W, Fahimi HD, \"The Appearance of Transition Forms Between Monocytes and Kupffer Cells in the Liver of Rats Treated with Glucan,\" J Exp Med, p883-897, Dept of Anat, U of Heidelberg, Germany.* Apr 1979.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Leprosy: Rayyan W, Delville J, \"Effect of beta 1,3 glucan and other immunomodulators of microbial origin on experimental leprosy in mice.\" Acta Leprol. 1:93-100. 1983.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Leukemia: DiLuzio NR, Williams DL, \"Protective effect of glucan against systemic Staphylococcus aureus septicemia in normal and leukemic mice,\" Infect Immun 20(3):804-810. Dept of Physiology, Tulane U, New Orleans, LA.* Jun 1978.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"These data denote that glucan enhances nonspecific resistance to S. aureus sepsis, promotes survival during leukemic episodes, and increases survival time of leukemic mice with experimentally induced staphylococcal infection.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Leukemia: Stewart C.C., et al., \"Preliminary Observations on the Effect of Glucan in Combination with Radiation and Chemotherapy in Four Murine Tumors\", Cancer Treat. Prep.; 62: 1867-72. 1978.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"The efficacy of glucan in combination with BCNU chemotherapy was measured using the disseminated AKR transplantable leukemia; the combination yielded a high level of cures compared to no survival for either agent alone.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Leukemia: Williams D.L, DiLuzio NR, \"Glucan induced modification of experimental Staphylococcus aureus infection in normal, leukemic and immunosuppressed mice.\" Adv Exp Med Biol 121(A):291-306. 1979*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"...A post-treatment regimen of glucan significantly enhanced survival of AKR/J mice with lymphocytic leukemia as well as leukemic mice with experimentally induced systemic staphylococcal infection.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Macrophage Activation: Abel G. and Czop, J.K., \"Stimulation of human monocyte beta-glucan receptors by glucan particles induces production of TNF-alpha and IL-1 beta,\" Int. J. Immunopharmacolol, 14:; 1363-1373. 1992.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Macrophage Activation: Abel, G. and Czop, J.K., \"Activation of Human Monocyte GM-CSF and TNF-. alpha. Production by Particulate Yeast Glucan,\" International Congress for Infectious Diseases, Montreal, Canada (abstract). 1990.*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Macrophage Activation: Adachi Y., Ohno N., Ohsawa M., Oikawa S.,Yacomae T.; \"Macrophage activation in vitro by chemically cross-linked (1--3)-beta-D-glucans,\" Chem Pharm bull (Tokyo), 38:988-992 1990. Laboratory of Immunopharmacology of Microbial Products, Tokyo College of Pharmacy, Japan.*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Macrophage Activation-Peritoneal: Suzuki I, Tanaka H, Kinoshita A, Oikawa S, Osawa M, Yadomae T, \"Effect of orally administered beta-glucan on macrophage function in mice,\" Int J Immunopharmacol, 12(6)675-684. 1990.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"These results demonstrate that SSG [beta 1,3 glucan] given by the oral route can activate peritoneal macrophages in mice.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Malaria: Hunter KW [U Nevada Reno], Fishcer GW, Sayles PC, Strictkland GT; \"Increased resistance to malarial infection after treatment with the immunostimulator levamisole;\" Curr. Therap. Infect. Disease 1099-1101, 1980.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Malaria: Hunter KW [U Nevada Reno], Strictkland GT; \"The use of immunopotentiators in malaria;\" Intern. J. Nucl. Med Biol., 7:133-140; 1980.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Melanoma: Williams DL, et al, \"Therapeutic efficacy of glucan in a murine model of hepatic metastatic disease,\" Hepatology 5(2):198-206. Mar 1985.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"...coincubation of particulate glucan with diverse populations of normal or tumor cells in vitro indicated that glucan exerted a direct cytostatic effect on sarcoma and melanoma cells and, in contrast, had a proliferative effect on normal spleen and bone marrow cells.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Microparasitic Diseases : DiLuzio N.R. and Williams D.L., \" The Roll of Glucan in the Prevention and Modification of Microparasitic Diseases;\" in Chemical Regulation of Immunology in Veterinary Medicine, Alan R. Liss, Inc.; pp. 443-456. 1984.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Mindful of the extremely high rate of atherosclerotic complications and the extraordinary requirements for antioxidants in diabetic patients, the use of beta -1,3 glucan becomes an obvious adjunct for improved lifestyle under these conditions.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Modulation: Mansell P.W.A., Rowden G., Hammer C.; Clinical experiences with the use of glucan. Chirigos MA, ed.; Immune Modulation and Control of Neoplasia by Adjuvant Therapy. Raven Press, New York 255-280; 1978.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Modulation: Patchen M.L., Lotzova E.; Modulation of murine hemopoiesis by glucan; Exp Hermatol 8: 409-422, 1980.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Modulation: Rasmussen LT, Seljelid R, \"The modulatory effect of lipoproteins on the release of interleukin 1 by human peritoneal macrophages stimulated with beta-1,3-D-polyglucose derivatives.\" Apr 1989.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "Modulation: Tsujinaka T., Yokota M.K.; Modification of septic processes by B-glucan administration. Eur Surg Res; 22:540-546, 1990.*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Murine babesiosis: Benach J.L., et al., \"Glucan as an adjuvant for a murine Babesia microti immunization trial,\" Infection and Immunity, 35(3):947-951. 1982.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"These observations demonstrate that glucan is an effective adjuvant in enhancing immunity to murine babesiosis.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Murine hemopoietic cell proliferation: Niskanen E.O., Burgaleta C., Cline M.J., Goide D.W.; Effect of glucan, a macrophage activator, on murine hemopoietic cell proliferation in diffusion chambers in mice; Cancer Res 38: 1406-1409, 1978.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Neoplasia: Proctor and Yamamura; \"Letters to the Editor: Effectiveness of Glucan in the Treatment of Human Neoplasia\". J. Nat'l Cancer Inst.; 61: 1179-1180. 1978.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Neoplasia: Schultz, et al., in \"Immune Modulation and Control of Neoplasia by Adjuvant Therapy\", Chirigos, ed., Raven Press, New York; pp. 241-248. 1978.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Neoplastic Diseases: DiLuzio N.R. (deceased), Williams D.L., Browder I.W.; Soluble phosphorylated glucan: methods and compositions for treatment of neoplastic diseases; U.S. Patent 4818752; 1989.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Nitric Oxide Synthesis: Ohno N, et al; \"Effect of beta-glucans on the nitric oxide synthesis by peritoneal macrophages in mice;\" Biol. Pharm. Bull. 19:608-612; 1996.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Pancreatitis : Browder IW., Williams D., Sherwood E., McNamee R., Jones E., DiLuzio N., \"Protective effect of glucan-enhanced macrophage function in experimental pancreatitis, Am J or Surgery,153:25-33, 1987",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Paracoccidioidomycosis : Meira, D.A., et al; The Use of Glucan as Immunostimulant in the Treatment of Paracoccidioidomycosis; Am J. Trop Med Hyg 55(5), 496-503; Dept of Trop Dis, Dept of Microbio, State U of Sao Paulo, Brazil. 1996.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"...glucan enhances the immune response through stimulation of macrophages by increasing their number, size, and function, stimulates secretion of lysozyme and TNF by activated macrophages, increases the phagocytosis of antigens, activates the formation of granulocyte and monocyte colonies, and factors increased activity of T and B lymphocytes, as well as complement activation.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Parasites: Jordan, F.; \"An Effective Immune Response Potentiator- Beta-1,3/1,6-glucan Derived from Yeast Cell Wall,\" Macrophage Technologies Publication, pp 1-7; 1998.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Parasites: Williams D.L., Browder I. and DiLuzio N.R., \"Soluble phosphorylated glucan: methods and compositions for wound healing,\" U.S. Patent 4975421, Issued Dec 4, 1990.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"The soluble phosphorylated glucans are useful for promoting the wound healing process. The soluble phosphorylated glucans are also useful for prophylactic and therapeutic applications against neoplastic, bacteria, viral, fungal and parasitic diseases.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Parasitic Infection: DiLuzio N.R.,\"Immunopharmacology of glucan: a broad spectrum enhancer of host defense mechanisms,\" Trends in Pharmacol. SCI., 4:344-347. Dept of Physiology, Tulane U, New Orleans, LA.* 1983.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "(p347) \"The broad spectrum of immunopharmacological activities of glucan includes not only the modification of certain bacterial, fungal, viral and parasitic infections, but also inhibition of tumor growth.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Particle Size - Smaller more Effective: Donzis B. A.; Sustantially purified beta (1,3) finely ground yeast cell wall glucan composition with dermatological and nutritional uses; U.S. Patent 5702719; 1997.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"The preferred particle size of the find grind glucan product is about 1.0 micron or less and more preferably, .20 microns or less.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Particle Size - Smaller more Effective: Donzis B. A.; Sustantially purified beta (1,3) finely ground yeast cell wall glucan composition with dermatological and nutritional uses; U.S. Patent 5576015; 1996.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Upon oral administration, the smaller or finer particle sized glucan is more quickly dissolved in the gastrointestinal tract and consequently, more readily absorbed.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Periapical Bone Resorption : Stashenko, et al., \"Reduction of Infection-Stimulated Periapical Bone Resorption by the Biological Response Modifier PGG Glucan\", J. Dent. Res.; 74(1):323-330; 1995.* Dept of Cytokine Biology, Forsyth Dental Ctr, Boston, MA.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"PGG glucan-treated animals had significantly less infection-stimulated periapical bone resorption than control animals...\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Peritonitis: Lahnborg G., Hedstrom K.G., Nord C.E.; \"The Effect of Glucan - A Host Resistance Activator and Ampicillin on Experimental Intraabdominal Sepsis\". Journal of Reticuloendothelial Society. 32: 347-353. 1982.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"It is concluded that glucan, in combination with ampicillin, has a significant effect on the survival rate of rats with induced peritonitis, probably by enhancing the activities of the reticuloendothelial system, an important part of the total host resistance.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Peritonitis: Onderdonk, A.B., et al., \"Anti-Infective Effect of Poly-.beta.1-6 -Glucotrisyl-.beta.1-3-Glucopyranose Glucan In Vivo,\" Infec. Immun.; 60:1642-1647. 1992. Dept of Pathology, Channing Lab, Brigham and Women's Hospital, Boston, MA.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Mice challenged with Escherichia coli or Staphylococcus aureus were protected against lethal peritonitis by the intravenous administration of 10 micrograms of poly-beta 1-6-glucotriosyl-beta 1-3-glucopyranose (PGG) glucan per animal 4 to 6 h prior to bacterial challenge.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Phagocytic Receptors: Czop J.K., Kay J., Isolation and Characterization of B-glucan Receptors on Human Mononuclear Phagocytes. J. Exp. Medicine; V.173:1511-1520. Dept of Med, Harvard Med Sch, Boston, MA. 1991.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"...human alveolar macrophages ...possess phagocytic receptors of comparable ligand specificity for the Beta glucans commonly present in yeasts and fungi.\"*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Platelet Production: Jamas S., Easson D., Ostroff G.R.; \"Use of aqueous soluble glucan preparations to stimulate platelet production.\" U.S. Patent 5532223. Issued July 2, 1996.*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Platelet Production: Jamas S., Easson D., Ostroff G.R.; \"Use of neutral soluble glucan preparations to stimulate platelet production.\" U.S. Patent 5488040. Issued January 30, 1996.*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Platelet Production: Spiros J.; Use of neutral soluble glucan preparations to stimulate platelet production; U.S. Patent 5488040; 1996.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Platelet Recovery: Pachen ML, MacVittie TJ, \"Comparative effects of soluble and particulate glucans on survival in irradiated mice,\" J Biol Response Mod 5(1):45-60. Experimental Hematology Dept, Armed Forces Radiobiology Research Inst, Bethesda, MD. Feb 1986.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Both glucan-P and glucan-F enhanced the recovery of peripheral blood white cell numbers, platelet numbers, and hematocrit values. In addition, both agents increased endogenous pluripotent hemopoietic stem cell numbers in sublethally irradiated mice.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Pneumonia: Maurici da Rocha e Silva et al; \"Infection Prevention in Patients with Severe Multiple Trauma with the Immunomodulater Beta 1-3 Polyglucose (glucan);\" Surgery, Gynecology & Obstetrics; 177:383-388. 1993.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"The incidence of hospital pneumonia of 55% and sepsis of 35% confirms results of previous studies of patients with multitrauma. Glucan decreased pneumonia and sepsis to a significantly lower level of 9.5%....The mortality rate related to infection decreased from 30.0 to 4.8%. The lower number of instances of pneumonia and sepsis....decreased the period of time in the intensive care and the hospital, with a global reduction of 40% on hospital cost.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Pulmonary: Kimura A, Sherwood R, Goldstein E; \"Glucan alteration of pulmonary antibacterial defense.\" J Reticuloendothel. Soc. 24:1-11. 1983.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L., Vaudrain T, Correira H, Martin T, Reese D, \"In vitro and in vivo hematopoietic activities of Betafectin PGG-glucan.\", Exp Hematol, 26(13):1247-54. Dec 1998.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L; Mork AC, Helmke RJ, Martinez JR, Michalek MT, Zhang GH, \"Effects of particulate and soluble(1,3)-beta glucans on Ca2+ influx in NR8383 alveolar macrophages,\" Immunopharmacology, 40(1):77-89. Dept of Pediatrics, U of Texas Health Science Center at San Antonio, Jul 1998.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Benefectin PGG-Glucan, a beta-(1,6) branched beta-(1,3) glucan purified from the cell walls of Saccharomyces cerevisiae, has been shown to synergize the myeloid growth factors in vitro and to enhance hematopoietic recovery in myelosuppressed mice and primates.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L. [V Chrm, Dept of Surg, U of Washington], et al, \"Mast Cell Growth Factor(c-kit Ligand) in Combination with Granulocyte-Macrophage Colony-Stimulating Factor and Interleulin-3: in vivo Hemopoietic effects in Irradiated Ice compared to in vivo effects\", Biotherapy; vol. 7. pp. 13-26. 1994.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L, Brook I, Elliott TB, Jackson WE, \"Adverse effects of pefloxacin in irradiated C3H/HeN mice: correction with glucan therapy.\", Antimicrob Agents Chemotherapy, Dept. of Experimenetal Hematology, Armed Forces Radiobiology Research Institute (AFRRI) , Bethesda, Maryland, Sept. 1993.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L, Gallin EK, Green SW, \"Comparative effects of particulate and soluble glucan on macrophages of C3H/HeN and C3H/HeJ mice,\" Int J Immunopharmacol, 14(2):173-83; Dept of Physiology, AFRRI, Feb 1992.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L., MacVittie T, Jackson W; \"Survival enhancement and hemopoietic regeneration following radiation exposure, therapeutic approach using glucan and granulocyte colony-stimulating factor [G-CSF]. \"Exp. Hematol. 18:1042-1048. 1990.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Likewise, although both glucan and granulocyte colony-stimulating factor (G-CSF) alone enhanced survival following an 8-Gy radiation exposure, greatest survival was observed in mice treated with both agents. These studies suggest that glucan, a macrophage activator, can synergize the G-CSF to further accelerate hemopoietic regeneration and increase survival following radiation-induced myelosuppression.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L.; \"Radioprotective effect of oral administration of beta-1,3-glucan,\" Armed Forces Radiobiology Research Institute, Bethesda, MD Research Report, 1989.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L., MacVittie T, Jackson W; \"Postirradiation glucan administration enhances the radioprotective effects of WR-2721. \"Radiat. Res. 117:59-69. 1989.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L., MacVittie T, Bowers GJ, Hirsch EF, Fink MP, \"Glucan enhances survival in an intraabdominal infection model,\" J Surg Res, 47(2):183-8. Edward F. Hebert S of Medicine. Aug 1989.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen Ml, Chirigos MA, Brook I, \"Use of glucan and other immunopharmacological agents in the prevention and treatment of acute radiation injuries,\" Fundam Appl Toxicol, 11(4):573-4. AFRRI, Nov 1988.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L., D'Alesandro M.M., Brook I., Blakely W.F. McVittie T.J.; \"Glucan: Mechanisms Involved in Its 'Radioprotective' Effect\". J Leuc Biol.; 42:95-105. 1987.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"These results suggest that early after irradiation glucan may mediate its radioprotection by enhancing resistance to microbial invasion via mechanisms not necessarily predicated on hemopoietic recovery. ...glucan can also function as an effective free radical scavenger. Because macrophages have been shown to selectively phagocytize and sequester glucan, the possibility that these specific cells may be protected by virtue of glucan's scavenging ability is also suggested.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Pachen ML, MacVittie TJ, \"Comparative effects of soluble and particulate glucans on survival in irradiated mice,\" J Biol Response Mod 5(1):45-60. Experimental Hematology Dept, Armed Forces Radiobiology Research Inst, Bethesda, MD. Feb 1986.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Both glucan-P and glucan-F enhanced the recovery of peripheral blood white cell numbers, platelet numbers, and hematocrit values. In addition, both agents increased endogenous pluripotent hemopoietic stem cell numbers in sublethally irradiated mice.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L., McVittie T.J.; \"Stimulated Hemopeiesis and Enhanced Survival Following Glucan Treatment in Sublethally and Lethally Irradiated Mice\". Int. J. Immunopharmac; 7: 923-932. 1985.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L., MacVittie T, Wathen L; \"Effects of pre- and post-irradiation glucan treatment on pluripotent stem cells, granulocyte, macrophage and erythroid progenitor cells and hemopoietic stromal cells.\" Experientia. 40:1240-1244. 1984.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L, MacVittie T.J.,\"Dose-dependent responses of murine pluripotent stem cells and myeloid and erythroid progenitor cells following administration of immunomodulating agent glucan.\" Immunopharmacology, 5(4):303-13, Apr 1983.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"The hemopoietic effects produced by six different doses of a commercially available glucan preparation were investigated....bone marrow pluripotent stem cells (CFU-s) content increased...In the spleen, all aspects of hemopoiesis increased after glucan administration.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L., McVittie T.J.; Temporal Response of Murine Pluripotent Stem Cells and Myeloid and Erythroid Progenitor Cells to Low-dose Glucan Treatment. Acta Hemat; 70:281-288. Experimental Hematology Dept, Armed Forces Radiobiology Research Insti, Bethesda, MD. 1983.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Clearly, there are numerous possible uses for an agent such as glucan, which is a potent stimulator of hemopoietic activity. Currently, we [U.S. Armed Services] are using glucan to enhance hemopoietic proliferation in conjunction with hemopoietic injury induced by radiation.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Patchen M.L., Lotzova E.; Modulation of murine hemopoiesis by glucan; Exp Hermatol 8: 409-422, 1980.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation - White Blood Cell - Recovery: Pachen ML, MacVittie TJ, \"Comparative effects of soluble and particulate glucans on survival in irradiated mice,\" J Biol Response Mod 5(1):45-60. Experimental Hematology Dept, Armed Forces Radiobiology Research Inst, Bethesda, MD. Feb 1986.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Both glucan-P and glucan-F enhanced the recovery of peripheral blood white cell numbers, platelet numbers, and hematocrit values. In addition, both agents increased endogenous pluripotent hemopoietic stem cell numbers in sublethally irradiated mice.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation Recovery: Popisil, et al., \"Glucan Induced Hemopoietic Recovery in Gamma-Irradiated Mice\". Experientia; 38: 1232-1234. 1982.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Radiation: Hemopoietic Regeneration: Patchen M.L., MacVittie T, Jackson W; \"Survival enhancement and hemopoietic regeneration following radiation exposure, therapeutic approach using glucan and granulocyte colony-stimulating factor. \"Exp. Hematol. 18:1042-1048. 1990.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Respiratory: Jorgensen J.B., Robertsen B.; \"Yeast beta-glucan stimulates respiratory burst activity of Atlantic salmon (Salmo salar L.) macrophages,\" Dev Comp Immunol 19: 43-57. 1995.*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Safety - FDA Classification: Carrow, D.J. MD; \"Beta-1,3-glucan as a Primary Immune Activator,\" Townsend Letter; June 1996.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Beta 1,3-glucan is a safe and potent nutritional supplement with a profound systemic effect that can be described as nonspecific immune stimulation combined with its free radical scavenging activity. Remember, beta 1,3-glucan is generally recognized as safe (category GRAS, according to FDA) and has no known toxicity or side effects.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Safety - FDA: Federal Drug Administration, \"Appendix A Food Additives,\" Yeast extract (Bakers) - FL/ADJ, GRAS, See Specs 184.1983. Washington DC. http://www.fda.gov 1997.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Safety: Williams D.L. ,et al; \"Pre-clinical Safety Evaluation of Soluble Glucan\", Int. J. Immunophamac. Vol. 10, No. 4: 405-414. Dept of Phys, Tulane U Sch of Med, New Orleans, LA. 1988.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Soluble glucan, a beta-1,3-linked glucopyranose biological response modifier, is effective in the therapy of experimental neoplasia, infectious diseases and immune suppression.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Sarcoma: Seljelid R, et al, \"Evidence that tumor necrosis induced by an irradiated beta 1-3D polyglucose is mediated by a concerted action of local and systemic cytokines,\" Scand J Immuno 30(6): 687-694. Dec 1989.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Aminated beta 1-3D polyglucose (AG) causes regression of Meth A sarcoma in syngeneic mice when injected systemically on day 7 after tumour inoculation. AG does not concentrate in the tumour, but distributes throughout the body. AG treatment causes release of large amounts of interleukin 1 (IL-1) both in vivo [in the body] and in macrophage cultures in vitro [out of body].\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Sarcoma: Williams DL, et al, \"Therapeutic efficacy of glucan in a murine model of hepatic metastatic disease,\" Hepatology 5(2):198-206. Mar 1985.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"...coincubation of particulate glucan with diverse populations of normal or tumor cells in vitro indicated that glucan exerted a direct cytostatic effect on sarcoma and melanoma cells and, in contrast, had a proliferative effect on normal spleen and bone marrow cells.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Sepsis-Intraabdominal: Tzianabos AO, Cisnerol RL, et al; \"Protection against intraabdominal sepsis by two polysaccharide immonumodulators (Beta 1,3/1,6 glucan), J Infect Dis, 178:1,200-6. 1998.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"These data demonstrate the usefulness of [Beta 1,3/1,6 glucan]... in preventing experimental intraabdominal sepsis...and may represent a new adjunct to antibiotic regimens currently used to prevent clinical cases of this disease\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Septic Shock: Williams D.L. ,et al; \"The role of complement in glucan-induced protection against septic shock.\" Circ. Shock. 25:53-60. 1988",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Skin Damage: Donzis B.A.; Photoprotective composition containing yeast extract; U.S. Patent 5397773; 1995.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Skin Revitalization: Donzis B. A.; Sustantially purified beta (1,3) finely ground yeast cell wall glucan composition with dermatological and nutritional uses; U.S. Patent 5702719; 1997.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Skin Revitalization: Donzis B.A.; Method of revitalizing skin by applying topically water insoluble glucan; U.S. Patent 5223491; 1993.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Skin: Ber L., \"The Skin Connection;\" Natures Impact, Jan 1998.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Skin: Katz S.; \"The skin as an Immunologic Organ,\" National Institutes of Health, Bethesda MD - J. Am. Academy of Dermatology; Vol 13:3; 530-536; 1985.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Skin: Murphy G, Messadi D, Fonterko E, Hancock W; \"Phenotypic Transformation of Macrophages to Langerhans Cells in the skin;\" Am. J. Pathology; Vol 123:401-406. 1986.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Staphylococcus aureus: Kokoshis PL, DiLuzio NR et al, \"Increased resistance to Staphylococcus aureus infection and enhancement in serum lysozyme activity by glucan.\" Science, 199(4335);1340-1342; 1978:",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Prior treatment of mice with glucan significantly enhanced their survival when they were challenged systemically with Staphylococcus aureus. These studies indicate glucan confers an enhanced state of host defense against bacterial infections.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Staphylococcus aureus: Onderdonk, A.B., et al., \"Anti-Infective Effect of Poly-.beta.1-6 -Glucotrisyl-.beta.1-3-Glucopyranose Glucan In Vivo,\" Infec. Immun.; 60:1642-1647. 1992. Dept of Pathology, Channing Lab, Brigham and Women's Hospital, Boston, MA.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Mice challenged with Escherichia coli or Staphylococcus aureus were protected against lethal peritonitis by the intravenous administration of 10 micrograms of poly-beta 1-6-glucotriosyl-beta 1-3-glucopyranose (PGG) glucan per animal 4 to 6 h prior to bacterial challenge.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Stress - Physical or Emotional: Carrow, D.J.; \"Beta-1,3-glucan as a Primary Immune Activator,\" Townsend Letter; June 1996.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"The following list includes benefits from the use of Beta 1,3-glucan supplementation: Professional and amateur athletes as well as people who work outdoors intensively. People under physical or emotional stress\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure - Beta Glucan and Immune System: Czop J.K., Gurish M.F., Kadish J.L., Production and Isolation of Rabbit Anti-idiotypic Antibodies Directed Against the Human Monocyte Receptor for Yeast B-glucans. Journal of Immunology; 145:995-1001. Dept of Med, Harvard Med Sch, Boston, MA.* 1990.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "(p1): \"Beta-Glucans with 1,3 and/or 1,6 linkages are the major structural components of yeasts and fungi and are pharmacologic agents in animals...The cell wall glucans of S. cerevisiae consist of two structurally distinct Beta-glucans: major components comprised of consecutively, 1,3-linked glucopyranosyl residues with small numbers of 1,6-linked branches, and minor components with consecutive 1,6-linkages and 1,3-branches.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure - Macrophage: Goldman R., \"Characteristics of the beta-glucan receptor of murine macrophages.\" Exp. Cell Res. 174:481-490. 1988.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure - Skin: Stingl G., Katz S, Clement L, Green I., Shevach E.; \"Immunologic Functions of Ia-Bearing Epidermal Langerhans Cells;\" J. Immunology, Vol 121 n5: 2005-2013; 1978.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure - Skin: Thiers B, Maize J, Spicer S, Cantor A; \"The effect of Aging and Chronic Sun Exposure on Human Langerhans Cell Populations;\" J. Investigative Dermatology; Vol 82:223-226. 1984.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure: Deslanders, et al., \"Triple-Helical Structure (1,3)-.beta.-D-Glucans\". Macromolecules 13: 1466-1471. 1980.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure: Donzis B.A.; Solubilized yeast glucan; U.S. Patent 5519009; 1996.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "Structure: Jamas S., Easson D., Ostroff G.R.; \"Glucan Preparation,\" U.S. Patent 5622939. Issued April 22, 1997.*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure: Jones EW, Broach JR and Pringle JR; \"The Molecular and Cellular Biology of the Yeast Saccharomyces cerevisiae;\" Gene Expression; Cold Springs Harbor Laboratory Press, Cold Spring Harbor, New York. 1992.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure: Kapteyn J.C., Montijn R.C., et al; \"Retention of Saccharomyces cerevisiae cell wall proteins through a phosphodiester-linked beta-1,3/beta-1,6-glucan heteropolymer,\" Glycobiology 6: 337-345. 1996.* Institute of Molecular Cell Biology, U of Amsterdam, The Netherlands.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure: Kollar R, Kapteyn J, et al; \"Architecture of the yeast cell wall. Beta 1,6 glucan interconnects manoprotein, beta 1,3 glucan and chitin,\" J Biol Chem, 272:28,17762-75. Jul 1997. Structure: Kopecka M.; \"Electron microscopic study of purified polysaccharide components glucans and mannan of the cell walls in the yeast Saccharomyces cerevisiae,\" J Basic Microbiol 25: 161-174. 1985.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure: Manners, D.J., et al., \"The Structure of a .beta.-(1.fwdarw.3)-D-Glucan from Yeast Cell Walls,\" Biochem J.; 135: 19-30. 1973.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure: Mortimer RK, Contopoulou CR, King JS, \"Genetic and physical maps of Saccharomyces cerevisiae,\" Edition 11. Yeast 8:817-902. 1992.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure: Seljelid R, \"The rediscovery of the macrophage,\" APMIS Suppl 2:215-223. 1988.*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure: Seljelid R, Eskeland T, \"The biology of macrophages: I. General principles and properties,\" Eur J Haematol 51(5):267-275. Nov 1993.*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure: Spiros J., Rha C., Sinskey AJ; \"Glucan compositions and process for preparation thereof,\" U.S. Patent 4810646; Issued Mar 7, 1989.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Structure: Williams D.L. ,et al, \"Development, Physicochemical Characterization and Preclinical Efficacy Evaluation of a Water Soluble Glucan Sulfate Derived from Saccharomyces cerrevisiae,\" Immunopharmacology; 22:139-156. 1991.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Trauma: Browder IW., Williams D., Pretus H., et al; Beneficial Effect of Enhanced Macrophage Function in the Trauma Patients. Ann. Surg.; Vol 211: 605-613. Dept of Surg and Physiol, Tulane U Sch of Med, LA and Istituto Di Chirurgia D'Urgenza, U of Torino, Torino, Italy.* 1990.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Previous studies have demonstrated that glucan, a beta-1,3-linked glucopyranose polymer, isolated from the inner cell wall of Saccharomyces cerevisiae, is a potent macrophage stimulant and is beneficial in the therapy of experimental bacterial, viral, and fungal diseases. Use of glucan in a murine model of hind-limb crush injury decreased macrophage PGE2 release while stimulating bone marrow proliferation. \"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Trauma: Felippe J., Silva M., Maciel F.M., et al., Infection prevention in patients with severe multiple trauma with the immunomodulator beta(1-3)glucan 1-3 polyglucose (glucan). Surg. Gynecol Obstet., 177: 3833-388. 1993.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Trauma: Maurici da Rocha e Silva et al; \"Infection Prevention in Patients with Severe Multiple Trauma with the Immunomodulater Beta 1-3 Polyglucose (glucan);\" Surgery, Gynecology & Obstetrics; 177:383-388. 1993.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"The incidence of hospital pneumonia of 55% and sepsis of 35% confirms results of previous studies of patients with multitrauma. Glucan decreased pneumonia and sepsis to a significantly lower level of 9.5%....The mortality rate related to infection decreased from 30.0 to 4.8%. The lower number of instances of pneumonia and sepsis....decreased the period of time in the intensive care and the hospital, with a global reduction of 40% on hospital cost.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Trypanosoma Cruizi: Williams D.L. ,et al; \"Immunization against Trypanosoma cruizi: adjuvant effect of glucan.\" Int. J. Immunophar. 11:403-410. 1989.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Ttumor necrosis factor: Steadman R., Petersen M.M., et al; \"Differential augmentation by recombinant human tumor necrosis factor-alpha of neutrophil responses to particulate zymosan and glucan,\" J. Immunol 144: 2712-2718. 1990.*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors : Mansell P.W.A., Rowden G., Hammer C.; Clinical experiences with the use of glucan. Chirigos MA, ed.; Immune Modulation and Control of Neoplasia by Adjuvant Therapy. Raven Press, New York 255-280; 1978.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors - Regression: Seljelid R, \"A water-soluble aminated beta 1-3D-glucan derivative causes regression of solid tumors in mice,\" Biosci Rep 6(9):845-851. Sep 1986.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"When water-soluble aminated beta 1,-D-glucan (AG) was injected intravenously or intraperitoneally on day 7 of tumor growth, the tumors underwent complete regression.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors - Sarcoma: Seljelid R, et al, \"Evidence that tumor necrosis induced by an irradiated beta 1-3D polyglucose is mediated by a concerted action of local and systemic cytokines,\" Scand J Immuno 30(6): 687-694. Dec 1989.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Aminated beta 1-3D polyglucose (AG) causes regression of Meth A sarcoma in syngeneic mice when injected systemically on day 7 after tumour inoculation. AG does not concentrate in the tumour, but distributes throughout the body.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: Bogwald J, Johnson E, Seljelid R;, \"The Cytotoxic Effect of Mouse Macrophages Stimulated in vitro by a .beta. 1,3-D-Glucan from Yeast Cell Walls\". Scand. J. Immuol. 15: 297-304. 1982. Institute of Med Bio, U of Tromso, Norway.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Macrophages stimulated by an insoluble beta 1-3-D-glucan from yeast cell walls were able to destroy tumour cells as measured by the release of radioactive label from prelabelled 14C-thymidine cells. Target cells were B-16 melanoma, P-815 mastocytoma, and the L-929 cell line. A significant target cell killing by macrophages stimulated by glucan was observed after 72-96 h.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: DiLuzio N.R., Hoffman E.D., \"Glucan-induced enhancement of host resistance to experimental tumors.\" Prog. Cancer Therapy, 2: 475-499. 1977.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: DiLuzio N.R., McNamee R.B., Wiliams D.L., Gilbert K.M., Spanjers M.A., \"Glucan induced inhibition of tumor growth and enhancement of survival in a variety of transplantable and spontaneous murine turmor models;\" Adv Exp Med Biol 121A:269-290, 1980.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: DiLuzio N.R., Williams D.L., et al, \"Comparative tumor-inhibotory and anti-bacterial activity of soluble and particulate glucan,\" Int J Cancer, 24(6):773-779. Dec 1979.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"...these studies demonstrate that a soluble glucan preparation exhibits significant anti-tumor and anti-staphylococcal activity.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: DiLuzio N.R.,\"Immunopharmacology of glucan: a broad spectrum enhancer of host defense mechanisms,\" Trends in Pharmacol. SCI., 4:344-347. Dept of Physiology, Tulane U, New Orleans, LA.* 1983.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "(p347) \"The broad spectrum of immunopharmacological activities of glucan includes not only the modification of certain bacterial, fungal, viral and parasitic infections, but also inhibition of tumor growth.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: Fukase S, Inoue T, Arai S, Sendo F; \"Tumor cytotoxicity of polymorphonuclear leukocytes in beige mice: linkage of high responsiveness to linear beta-1,3-D-glucan with the beige gene.\" Cancer Res. 47:4842-4847. 1987.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: Glovsky MM, et al,; \"Effects of particulate beta-1,3 glucan on human, rat, and guinea pig complement activity,\" J. Reticuloendothel Soc. 33:401-413. 1983.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Glucan administration is associated with the modification of a variety of experimentally induced infectious disease states as well as the inhibition of growth of implantable and spontaneous tumors.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: Kasai, S., Fujimoto S., Nitta K., Baba H., Kunimoto T., \"Antitumor activity of polymorphonuclear leukcytes activated by a B-1,3-D-glucan\". J. Pharmacobiodyn. 14:519-525. Medline.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: Mansell P.W.A. and DiLuzio N.R., \"The in vivo destruction of human tumor by glucan activated macrophages. Macrophage in Neoplasia Fink, ed. Academic Press, New York, pp. 227-243. 1976.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: Morikawa K., Takeda M., Yamazaki, M., and Mizuno D., \"Induction of tumoricidal activity of polymorphonuclear leukocytes by a linear B-1,3-D-glucan and other immunomodulators in murine cells\". Cancer Res., 45: 1496-1501. (Medline).",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: Proctor J.W., Stiteler R.D., Yamamura Y., Mansell P.W., Winters R., \"Effect of glucan and other adjuvants on the clearance of radiolabeled tumor cells from mouse lungs\", Cancer Treat. Rep. ^2 (11): 1873-1880. (1978).",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: Proctor, et al., \"Development of a Bioassay for Anti-Tumor Activity of the Reticuloendoethelial Stimulant Class: Reproducibility of the Bioassay\". J. Immunopharmacol.; 3: 385-395. 1981-1982.*",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Intravenously administered DiLuzio glucan...caused dose dependent increases in the tumor cell loss from the lungs of ...mice challenged respectively with intravenous 125IuDR labelled B16 or T 1699 mammary carcinoma cells.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: Scholtz R.M., et al; \"Association of macrophage activation with antitumor activity by synthetic and biological agents.\" Cancer Res., 37:3338-33343. 1977.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: Schultz, et al., \"Association of Macrophage Activation with Anti-tumor Activity by Synthetic and Biologic Agents\". Cancer Res.; 37:3338-43. 1977.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: Seljelid R, \"Tumour regression after treatment with aminated beta 1-3D polyglucose is initiated by circulatory failure,\" Scand J Immunol 29(2): 181-192; Feb 1989.*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors: Seljelid R, Busund LT, \"The biology of macrophages: II. Inflammation and tumors,\" Eur J Haematol 52(1): 1-12. Jan 1994.* Dept of Exp Pathol, Inst of Med Biol, U of Tromso, Norway. Tumors: Yoshizawa, et al, \"Effects of Natural Human Interleukin-6 on Thrombopoiesis and Tumor Progression in Tumor-Bearing Mice\", Cancer Letters; vol. 79, pp. 83-89. 1994.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Tumors - Pulminary Metastases: Penna C, Dean P, Nelson H (Dept of Surgery-Mayo Clinic); \"Pulmonary metastases neutralization and tumor rejection by in vivo administration of beta glucan and bispecific antibody;\" Int J Cancer, 65.3,377-82. Jan 1996.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"In the established tumor model, beta glucan + Bispecific antibody (BsAb) reduced the incidence of s.c. tumors as compared with control...It also prolonged survival of tumor-bearing mice compared with control. We conclude that T cells can be activated in vivo by beta glucan...\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Ulcers - Decubitus: Enhanced Healing of Decubitus Ulcers by Topical Application of Particulate Glucan. Tulane University School of Medicine; Research Summary. 1984.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Viral - staphylococcal mastitis : Buddle BM, et al, \"Protective effect of glucan against experimentally induced staphylococcal mastitis in ewes.\" Vet Microbiol 16(1): 67-76, Jan 1988.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Viral Diseases: Browder IW., Williams D., Pretus H., et al; Beneficial Effect of Enhanced Macrophage Function in the Trauma Patients. Ann. Surg.; Vol 211: 605-613. Dept of Surg and Physiol, Tulane U Sch of Med, LA and Istituto Di Chirurgia D'Urgenza, U of Torino, Torino, Italy.* 1990.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Previous studies have demonstrated that glucan, a beta-1,3-linked glucopyranose polymer, isolated from the inner cell wall of Saccharomyces cerevisiae, is a potent macrophage stimulant and is beneficial in the therapy of experimental bacterial, viral, and fungal diseases.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Viral Infection: DiLuzio N.R.,\"Immunopharmacology of glucan: a broad spectrum enhancer of host defense mechanisms,\" Trends in Pharmacol. SCI., 4:344-347. Dept of Physiology, Tulane U, New Orleans, LA.* 1983.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"The broad spectrum of immunopharmacological activities of glucan includes not only the modification of certain bacterial, fungal, viral and parasitic infections, but also inhibition of tumor growth.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Visceral Leishmaniasis: Cook J.A., et al, \"Protective Effect of Glucan Against Visceral Leishmaniasis in Hamsters\". Immun.; 37: 1261-1269. 1982.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "White Blood Cell - Recovery: Pachen ML, MacVittie TJ, \"Comparative effects of soluble and particulate glucans on survival in irradiated mice,\" J Biol Response Mod 5(1):45-60. Experimental Hematology Dept, Armed Forces Radiobiology Research Inst, Bethesda, MD. Feb 1986.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Both glucan-P and glucan-F enhanced the recovery of peripheral blood white cell numbers, platelet numbers, and hematocrit values. In addition, both agents increased endogenous pluripotent hemopoietic stem cell numbers in sublethally irradiated mice.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Wound Healing: Browder IW., Williams D., Lucor P., Pretus H., McNamee R., Jones E., \"Effect of enhanced macrophage function on early wound healing,\" Surgery, 104:224-230, 1988.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Wound Healing: Kaplan J.; \"Acceleration of Wound Healing by a Live Yeast Cell Derivative\". Archives and Surgery\", Sep. 1984; 119:1005-1008. 1984.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Wound Healing: Leibovich S.J., et al., \"Promotion of Wound Repair in Mice by Application of Glucan\". J. Reticuloendothel, Soc. 27: 1-11. 1980.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"Of all the substances tested, glucan was the only substance to exhibit a particularly marked enhancement of the proliferative phase of wound healing. It appears, from these experiments, that the effect observed by others in terms of the activation of reticuloendothelial function by glucan and the activation of macrophages, both locally and systematically, also apply to activation of macrophages in healing wounds.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Wound Healing: Portera CA, Love EJ, Memore L, Zhang L, Muller A, Browder W, Williams DL; \"Effect of macrophage stimulation on collagen biosynthesis in the healing wound,\" Am Surg, 63:2,125-131. Feb 1997.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"...macrophage modulation with glucan phosphate will increase tensile strength in experimental colon and skin wounds. In addition, we have observed a positive correlation between glucan phosphate treatment, wound tensile strength, and collagen biosynthesis.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Wound Healing: Williams D.L. ,Mueller A., Mueller P., Swails W., et. al., \"Randomized phase I/II trial of a macrophage-specific immunomodulator (PGG-glucan) in high-risk surgical patients\". Ann. Surg.; 220(5):601-609. 1994.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "Wound Healing: Williams D.L., Browder I. and DiLuzio N.R., \"Soluble phosphorylated glucan: methods and compositions for wound healing,\" U.S. Patent 4975421, Issued Dec 4, 1990.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "\"The soluble phosphorylated glucans are useful for promoting the wound healing process. The soluble phosphorylated glucans are also useful for prophylactic and therapeutic applications against neoplastic, bacteria, viral, fungal and parasitic diseases.\"",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Wound Healing: Wolk, M. and Danon, D.; \"Promotion of Wound Healing by Yeast Glucan Evaluated on Single Animals\"; Medical Biology; 63:73-80. 1985.*",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "Yeast Infections - See Candida Albicans (Note: While derived from yeast cell wall, Beta 1,3/1,6 glucan is purified in extraction and contains no yeast proteins and thus in no way causes or aggravates Candida Albicans.",
+      "order": 8
+    },
+     
+     
+    {
+      "element": "p",
+      "content": "References and quotes contained herein should not be construed as express or implied representations, endorsements or warranties of Carmel Research, Inc.",
+      "order": 8
+    },
+     
+     
+    {
+      "element": "p",
+      "content": "Fungal beta-glucan interacts with vitronectin and stimulates tumornecrosis factor alpha release from macrophagesEJ Olson, JE Standing, N Griego-Harper, OA Hoffman and AH Limper",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "Department of Medicine, Mayo Clinic, Rochester, Minnesota 55905, USA.",
+      "order": 8
+    },
+     
+    {
+      "element": "p",
+      "content": "beta-Glucans are polymers of D-glucose which represent major structural components of fungal cell walls. It was shown previously that fungi interact with macrophages through beta-glucan receptors, thereby inducing release of tumor necrosis factor alpha (TNF-alpha). Additional studies demonstrated that vitronectin, a host adhesive glycoprotein, binds to fungi and enhances macrophage recognition of these organisms. Since vitronectin contains a carbohydrate-binding region, we postulated that vitronectin binds fungal beta-glucans and subsequently augments macrophage TNF-alpha release in response to this fungal component. To study this, we first determined the release of TNF-alpha from alveolar macrophages stimulated with fungal beta-glucan. Maximal TNF-alpha release occurred with moderate concentrations of beta-glucan (100 to 200 micrograms/ml), whereas higher concentrations of beta-glucan (> or = 500 micrograms/ml) caused apparent suppression of the TNF-alpha activity released. This suppression of TNF-alpha activity by high concentrations of beta-glucan was mediated by the particulate beta- glucan binding soluble TNF-alpha, through the lectin-binding domain of the cytokine, rendering the TNF-alpha less available for measurement. Next, we assessed the interaction of vitronectin with beta-glucan. Binding of 125I-vitronectin to particulate fungal beta-glucan was dose dependent and specifically inhibitable by unlabeled vitronectin. Furthermore, treatment of beta-glucan with vitronectin substantially augmented macrophage TNF-alpha release in response to this fungal component. These findings demonstrate that fungal beta-glucan can directly modulate TNF-alpha release from macrophages. Further, these studies indicate that the host adhesive glycoprotein vitronectin specifically binds beta-glucan and augments macrophage cytokine release in response to this fungal element.",
+      "order": 8
+    },
+    
+    
+     
+    {
+      "element": "p",
+      "content": "This article has been cited by other articles:",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "·         Kottom, T. J., Kohler, J. R., Thomas, C. F. Jr., Fink, G. R., Limper, A. H. (2003). Lung Epithelial Cells and Extracellular Matrix Components Induce Expression of Pneumocystis carinii STE20, a Gene Complementing the Mating and Pseudohyphal Growth Defects of ste20 Mutant Yeast. Infect. Immun. 71: 6463-6471 [Abstract] [Full Text]  ",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "·         Hahn, P. Y., Evans, S. E., Kottom, T. J., Standing, J. E., Pagano, R. E., Limper, A. H. (2003). Pneumocystis carinii Cell Wall beta -Glucan Induces Release of Macrophage Inflammatory Protein-2 from Alveolar Epithelial Cells via a Lactosylceramide-mediated Mechanism. J. Biol. Chem. 278: 2043-2050 [Abstract] [Full Text]  ",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "·         Marr, K. A., Koudadoust, M., Black, M., Balajee, S. A. (2001). Early Events in Macrophage Killing of Aspergillus fumigatus Conidia: New Flow Cytometric Viability Assay. Clin. Diagn. Lab. Immunol. 8: 1240-1247 [Abstract] [Full Text]  ",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "·         Vassallo, R., Kottom, T. J., Standing, J. E., Limper, A. H. (2001). Vitronectin and Fibronectin Function as Glucan Binding Proteins Augmenting Macrophage Responses to Pneumocystis carinii. Am J Respir Cell Mol Biol 25: 203-211 [Abstract] [Full Text]  ",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "·         Kottom, T. J., Limper, A. H. (2000). Cell Wall Assembly by Pneumocystis carinii. EVIDENCE FOR A UNIQUE Gsc-1 SUBUNIT MEDIATING beta -1,3-GLUCAN DEPOSITION. J. Biol. Chem. 275: 40628-40634 [Abstract] [Full Text]  ",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "·         Vassallo, R., Standing, J. E., Limper, A. H. (2000). Isolated Pneumocystis carinii Cell Wall Glucan Provokes Lower Respiratory Tract Inflammatory Responses. J Immunol 164: 3755-3763 [Abstract] [Full Text]  ",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "·         Yu, M. L., Limper, A. H. (1997). Pneumocystis carinii induces ICAM-1 expression in lung epithelial cells through a TNF-alpha -mediated mechanism. Am. J. Physiol. 273: L1103-1111 [Abstract] [Full Text]  ",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "·         Chaffin, W. L., Lopez-Ribot, J. L., Casanova, M., Gozalbo, D., Martinez, J. P. (1998). Cell Wall and Secreted Proteins of Candida albicans: Identification, Function, and Expression. Microbiol Mol Biol Rev 62: 130-180 [Abstract] [Full Text]  ",
+      "order": 8
+    },
+     
+     
+    {
+      "element": "p",
+      "content": "The influence of glucan polymer structure and solution conformation on binding to (13)-ß-D-glucan receptors in a human monocyte-like cell line Antje Mueller2,6, John Raptis2,6, Peter J. Rice3,6, John H. Kalbfleisch4,6, Robert D. Stout5,6, Harry E. Ensley7, William Browder2 and David L. Williams1,2,6",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "Departments of 2Surgery, 3Pharmacology, 4Medical Education, 5Microbiology, and 6Immunopharmacology Research Group, James H. Quillen College of Medicine, East Tennessee State University, Johnson City, TN 37614–0575, USA and 7Department of Chemistry, Tulane University, New Orleans, LA 70115, USA",
+      "order": 8
+    },
+    
+    {
+      "element": "p",
+      "content": "Glucans are (1–3)-ß-D-linked polymers of glucose that are produced as fungal cell wall constituents and are also released into the extracellular milieu. Glucans modulate immune function via macrophage participation. The first step in macrophage activation by (1–3)-ß-D-glucans is thought to be the binding of the polymer to specific macrophage receptors. We examined the binding/uptake of a variety of water soluble (1–3)-ß-D-glucans and control polymers with different physicochemical properties to investigate the relationship between polymer structure and receptor binding in the CR3- human promonocytic cell line, U937. We observed that the U937 receptors were specific for (13)-ß-D-glucan binding, since mannan, dextran, or barley glucan did not bind. Scleroglucan exhibited the highest binding affinity with an IC50 of 23 nM, three orders of magnitude greater than the other (13)-ß-D-glucan polymers examined. The rank order competitive binding affinities for the glucan polymers were scleroglucan>>>schizophyllan > laminarin > glucan phosphate > glucan sulfate. Scleroglucan also exhibited a triple helical solution structure ( = 1.82, ß = 0.8). There were two different binding/uptake sites on U937 cells. Glucan phosphate and schizophyllan interacted nonselectively with the two sites. Scleroglucan and glucan sulfate interacted preferentially with one site, while laminarin interacted preferentially with the other site. These data indicate that U937 cells have at least two non-CR3 receptor(s) which specifically interact with (13)-ß-D-glucans and that the triple helical solution conformation, molecular weight and charge of the glucan polymer may be important determinants in receptor ligand interaction.",
+      "order": 8
+    },
+    ​
+    {
+      "element": "p",
+      "content": "1 To whom correspondence should be addressed at: Department of Surgery, James H. Quillen College of Medicine, East Tennessee State University, Johnson City, TN 37604–0575",
+      "order": 8
+    },
+     
+     
+    {
+      "element": "p",
+      "content": "'Dectin-1 and its role in the recognition of beta-glucans in macrophages' Gordon D. Brown.  Sir William Dunn School of Pathology, University of Oxford.  gbrown@molbiol.ox.ac.uk",
+      "order": 8
+    },
+    
+    {
+      "element": "p",
+      "content": "The innate cellular recognition of pathogens is dependent on germ line encoded receptors which recognise conserved microbial structures. Using a novel method to isolate these receptors, we identified Dectin-1 as the macrophage b-glucan receptor. Dectin-1 acted as a classical pattern recognition receptor, recognising a variety of b-1,3 and/or b-1,6 linked glucans, as well as intact yeasts, and is the primary receptor for these carbohydrates in macrophages. Dectin-1 also mediates the phagocytosis of particulate glucans, an activity which is dependent of the cytoplasmic tail of this molecule. In addition to these exogenous ligands, the receptor recognised an endogenous ligand on T-cells, but through a binding site which was distinct from that which recognised b-glucans. We found Dectin-1 to be expressed in many tissues and highly expressed on the surface of immune cells, especially those of the monocyte / macrophage and neutrophil lineages. We have also identified the human homologue of Dectin-1 and have shown that it is structurally and functionally similar to the mouse receptor. ",
+      "order": 8
+    }
   ]
 }
-
-{
-  "element": "p",
-  "content": "",
-  "order": 8
-},
-{
-  "element": "p",
-  "content": "",
-  "order": 8
-},
-{
-  "element": "p",
-  "content": "},",
-  "order": 8
-{
-  "element": "p",
-  "content": "},",
-  "order": 8
-},
-{
-  "element": "h3",
-  "content": "",
-  "order": 8
-},
-
- 
-
- 
- 
-  
-
- 
-
- 
-Infections - Bacterial: Kokoshis P.L., Williams D.L., Cook J.A., Di Luzio N.R.; Increased resistance to Staphylococcus aureus infection and enhancement in serum lysozyme activity by glucan. Science 199: 1340-1342, 1978.*
-"These studies indicate that glucan confers an enhanced state of host defense against bacterial infections."
- 
-Infections - Bacterial: Rasmussen, LT and Seljelid, R.: "Novel Immunomodulators With Pronounced In Vitro Effects Caused by Stimulation of Cytokine Release", Journal of Cellular Biochemistry; 46:60-68. Inst of Med Bio, U of Tromso, Norway. 1991.*
-"Beta-1,3-D-polyglucose derivatives protect mice against otherwise lethal bacterial infections."
- 
-Infections - Bacterial: Wang W., Duen-Horng W., et al; "Polysaccharide-Induced protection of Tilapia, Tilapia aureus P., against Bacterial Infections in vivo," Dept of Veterinary Medicine.
- 
-Infections - Disease: Glovsky MM, et al,; "Effects of particulate beta-1,3 glucan on human, rat, and guinea pig complement activity," J. Reticuloendothel Soc. 33:401-413. 1983.*
-"Glucan administration is associated with the modification of a variety of experimentally induced infectious disease states as well as the inhibition of growth of implantable and spontaneous tumors."
- 
-Infections - Surgical Procedures: Norton MD, JA [Prof of Surg, Chief of Endocrine and Oncologic Surgery]; "Editorial: Annals of Surgery," Washington University School of Medicine, Nov 1994.
-"In a prospective, randomized double-blind study, [Babineau, et.al.] demonstrate that the perioperative administration of PGG-glucan, a substance derived from yeast that increases the microbial killing activity of leukocytes, can decrease infectious complications in patients undergoing major surgical procedures...the preliminary results are positive and should be interpreted as good news."
- 
-Intraperitoneal: Beta(1-3)glucan 1.3 Glucan Activity in Mice: Intraperitoneal and Oral Applications. Baylor College of Medicine. Research Summary. 1989.
- 
-Kupffer Cells: Deimann W, Fahimi HD, "The Appearance of Transition Forms Between Monocytes and Kupffer Cells in the Liver of Rats Treated with Glucan," J Exp Med, p883-897, Dept of Anat, U of Heidelberg, Germany.* Apr 1979.
- 
-Leprosy: Rayyan W, Delville J, "Effect of beta 1,3 glucan and other immunomodulators of microbial origin on experimental leprosy in mice." Acta Leprol. 1:93-100. 1983.
- 
-Leukemia: DiLuzio NR, Williams DL, "Protective effect of glucan against systemic Staphylococcus aureus septicemia in normal and leukemic mice," Infect Immun 20(3):804-810. Dept of Physiology, Tulane U, New Orleans, LA.* Jun 1978.
-"These data denote that glucan enhances nonspecific resistance to S. aureus sepsis, promotes survival during leukemic episodes, and increases survival time of leukemic mice with experimentally induced staphylococcal infection."
- 
-Leukemia: Stewart C.C., et al., "Preliminary Observations on the Effect of Glucan in Combination with Radiation and Chemotherapy in Four Murine Tumors", Cancer Treat. Prep.; 62: 1867-72. 1978.
-"The efficacy of glucan in combination with BCNU chemotherapy was measured using the disseminated AKR transplantable leukemia; the combination yielded a high level of cures compared to no survival for either agent alone."
- 
-Leukemia: Williams D.L, DiLuzio NR, "Glucan induced modification of experimental Staphylococcus aureus infection in normal, leukemic and immunosuppressed mice." Adv Exp Med Biol 121(A):291-306. 1979*
-"...A post-treatment regimen of glucan significantly enhanced survival of AKR/J mice with lymphocytic leukemia as well as leukemic mice with experimentally induced systemic staphylococcal infection."
- 
-Macrophage Activation: Abel G. and Czop, J.K., "Stimulation of human monocyte beta-glucan receptors by glucan particles induces production of TNF-alpha and IL-1 beta," Int. J. Immunopharmacolol, 14:; 1363-1373. 1992.
- 
-Macrophage Activation: Abel, G. and Czop, J.K., "Activation of Human Monocyte GM-CSF and TNF-. alpha. Production by Particulate Yeast Glucan," International Congress for Infectious Diseases, Montreal, Canada (abstract). 1990.*
- 
-Macrophage Activation: Adachi Y., Ohno N., Ohsawa M., Oikawa S.,Yacomae T.; "Macrophage activation in vitro by chemically cross-linked (1--3)-beta-D-glucans," Chem Pharm bull (Tokyo), 38:988-992 1990. Laboratory of Immunopharmacology of Microbial Products, Tokyo College of Pharmacy, Japan.*
- 
-Macrophage Activation-Peritoneal: Suzuki I, Tanaka H, Kinoshita A, Oikawa S, Osawa M, Yadomae T, "Effect of orally administered beta-glucan on macrophage function in mice," Int J Immunopharmacol, 12(6)675-684. 1990.
-"These results demonstrate that SSG [beta 1,3 glucan] given by the oral route can activate peritoneal macrophages in mice."
- 
-Malaria: Hunter KW [U Nevada Reno], Fishcer GW, Sayles PC, Strictkland GT; "Increased resistance to malarial infection after treatment with the immunostimulator levamisole;" Curr. Therap. Infect. Disease 1099-1101, 1980.
- 
-Malaria: Hunter KW [U Nevada Reno], Strictkland GT; "The use of immunopotentiators in malaria;" Intern. J. Nucl. Med Biol., 7:133-140; 1980.
- 
-Melanoma: Williams DL, et al, "Therapeutic efficacy of glucan in a murine model of hepatic metastatic disease," Hepatology 5(2):198-206. Mar 1985.*
-"...coincubation of particulate glucan with diverse populations of normal or tumor cells in vitro indicated that glucan exerted a direct cytostatic effect on sarcoma and melanoma cells and, in contrast, had a proliferative effect on normal spleen and bone marrow cells."
- 
-Microparasitic Diseases : DiLuzio N.R. and Williams D.L., " The Roll of Glucan in the Prevention and Modification of Microparasitic Diseases;" in Chemical Regulation of Immunology in Veterinary Medicine, Alan R. Liss, Inc.; pp. 443-456. 1984.
-"Mindful of the extremely high rate of atherosclerotic complications and the extraordinary requirements for antioxidants in diabetic patients, the use of beta -1,3 glucan becomes an obvious adjunct for improved lifestyle under these conditions."
- 
-Modulation: Mansell P.W.A., Rowden G., Hammer C.; Clinical experiences with the use of glucan. Chirigos MA, ed.; Immune Modulation and Control of Neoplasia by Adjuvant Therapy. Raven Press, New York 255-280; 1978.
- 
-Modulation: Patchen M.L., Lotzova E.; Modulation of murine hemopoiesis by glucan; Exp Hermatol 8: 409-422, 1980.
- 
-Modulation: Rasmussen LT, Seljelid R, "The modulatory effect of lipoproteins on the release of interleukin 1 by human peritoneal macrophages stimulated with beta-1,3-D-polyglucose derivatives." Apr 1989.*
-Modulation: Tsujinaka T., Yokota M.K.; Modification of septic processes by B-glucan administration. Eur Surg Res; 22:540-546, 1990.*
- 
-Murine babesiosis: Benach J.L., et al., "Glucan as an adjuvant for a murine Babesia microti immunization trial," Infection and Immunity, 35(3):947-951. 1982.
-"These observations demonstrate that glucan is an effective adjuvant in enhancing immunity to murine babesiosis."
- 
-Murine hemopoietic cell proliferation: Niskanen E.O., Burgaleta C., Cline M.J., Goide D.W.; Effect of glucan, a macrophage activator, on murine hemopoietic cell proliferation in diffusion chambers in mice; Cancer Res 38: 1406-1409, 1978.
- 
-Neoplasia: Proctor and Yamamura; "Letters to the Editor: Effectiveness of Glucan in the Treatment of Human Neoplasia". J. Nat'l Cancer Inst.; 61: 1179-1180. 1978.
- 
-Neoplasia: Schultz, et al., in "Immune Modulation and Control of Neoplasia by Adjuvant Therapy", Chirigos, ed., Raven Press, New York; pp. 241-248. 1978.
- 
-Neoplastic Diseases: DiLuzio N.R. (deceased), Williams D.L., Browder I.W.; Soluble phosphorylated glucan: methods and compositions for treatment of neoplastic diseases; U.S. Patent 4818752; 1989.
- 
-Nitric Oxide Synthesis: Ohno N, et al; "Effect of beta-glucans on the nitric oxide synthesis by peritoneal macrophages in mice;" Biol. Pharm. Bull. 19:608-612; 1996.
- 
-Pancreatitis : Browder IW., Williams D., Sherwood E., McNamee R., Jones E., DiLuzio N., "Protective effect of glucan-enhanced macrophage function in experimental pancreatitis, Am J or Surgery,153:25-33, 1987
- 
-Paracoccidioidomycosis : Meira, D.A., et al; The Use of Glucan as Immunostimulant in the Treatment of Paracoccidioidomycosis; Am J. Trop Med Hyg 55(5), 496-503; Dept of Trop Dis, Dept of Microbio, State U of Sao Paulo, Brazil. 1996.
-"...glucan enhances the immune response through stimulation of macrophages by increasing their number, size, and function, stimulates secretion of lysozyme and TNF by activated macrophages, increases the phagocytosis of antigens, activates the formation of granulocyte and monocyte colonies, and factors increased activity of T and B lymphocytes, as well as complement activation."
- 
-Parasites: Jordan, F.; "An Effective Immune Response Potentiator- Beta-1,3/1,6-glucan Derived from Yeast Cell Wall," Macrophage Technologies Publication, pp 1-7; 1998.
- 
-Parasites: Williams D.L., Browder I. and DiLuzio N.R., "Soluble phosphorylated glucan: methods and compositions for wound healing," U.S. Patent 4975421, Issued Dec 4, 1990.
-"The soluble phosphorylated glucans are useful for promoting the wound healing process. The soluble phosphorylated glucans are also useful for prophylactic and therapeutic applications against neoplastic, bacteria, viral, fungal and parasitic diseases."
- 
-Parasitic Infection: DiLuzio N.R.,"Immunopharmacology of glucan: a broad spectrum enhancer of host defense mechanisms," Trends in Pharmacol. SCI., 4:344-347. Dept of Physiology, Tulane U, New Orleans, LA.* 1983.
-(p347) "The broad spectrum of immunopharmacological activities of glucan includes not only the modification of certain bacterial, fungal, viral and parasitic infections, but also inhibition of tumor growth."
- 
-Particle Size - Smaller more Effective: Donzis B. A.; Sustantially purified beta (1,3) finely ground yeast cell wall glucan composition with dermatological and nutritional uses; U.S. Patent 5702719; 1997.
-"The preferred particle size of the find grind glucan product is about 1.0 micron or less and more preferably, .20 microns or less."
- 
-Particle Size - Smaller more Effective: Donzis B. A.; Sustantially purified beta (1,3) finely ground yeast cell wall glucan composition with dermatological and nutritional uses; U.S. Patent 5576015; 1996.
-"Upon oral administration, the smaller or finer particle sized glucan is more quickly dissolved in the gastrointestinal tract and consequently, more readily absorbed."
- 
-Periapical Bone Resorption : Stashenko, et al., "Reduction of Infection-Stimulated Periapical Bone Resorption by the Biological Response Modifier PGG Glucan", J. Dent. Res.; 74(1):323-330; 1995.* Dept of Cytokine Biology, Forsyth Dental Ctr, Boston, MA.
-"PGG glucan-treated animals had significantly less infection-stimulated periapical bone resorption than control animals..."
- 
-Peritonitis: Lahnborg G., Hedstrom K.G., Nord C.E.; "The Effect of Glucan - A Host Resistance Activator and Ampicillin on Experimental Intraabdominal Sepsis". Journal of Reticuloendothelial Society. 32: 347-353. 1982.*
-"It is concluded that glucan, in combination with ampicillin, has a significant effect on the survival rate of rats with induced peritonitis, probably by enhancing the activities of the reticuloendothelial system, an important part of the total host resistance."
- 
-Peritonitis: Onderdonk, A.B., et al., "Anti-Infective Effect of Poly-.beta.1-6 -Glucotrisyl-.beta.1-3-Glucopyranose Glucan In Vivo," Infec. Immun.; 60:1642-1647. 1992. Dept of Pathology, Channing Lab, Brigham and Women's Hospital, Boston, MA.*
-"Mice challenged with Escherichia coli or Staphylococcus aureus were protected against lethal peritonitis by the intravenous administration of 10 micrograms of poly-beta 1-6-glucotriosyl-beta 1-3-glucopyranose (PGG) glucan per animal 4 to 6 h prior to bacterial challenge."
- 
-Phagocytic Receptors: Czop J.K., Kay J., Isolation and Characterization of B-glucan Receptors on Human Mononuclear Phagocytes. J. Exp. Medicine; V.173:1511-1520. Dept of Med, Harvard Med Sch, Boston, MA. 1991.
-"...human alveolar macrophages ...possess phagocytic receptors of comparable ligand specificity for the Beta glucans commonly present in yeasts and fungi."*
- 
-Platelet Production: Jamas S., Easson D., Ostroff G.R.; "Use of aqueous soluble glucan preparations to stimulate platelet production." U.S. Patent 5532223. Issued July 2, 1996.*
- 
-Platelet Production: Jamas S., Easson D., Ostroff G.R.; "Use of neutral soluble glucan preparations to stimulate platelet production." U.S. Patent 5488040. Issued January 30, 1996.*
- 
-Platelet Production: Spiros J.; Use of neutral soluble glucan preparations to stimulate platelet production; U.S. Patent 5488040; 1996.
- 
-Platelet Recovery: Pachen ML, MacVittie TJ, "Comparative effects of soluble and particulate glucans on survival in irradiated mice," J Biol Response Mod 5(1):45-60. Experimental Hematology Dept, Armed Forces Radiobiology Research Inst, Bethesda, MD. Feb 1986.
-"Both glucan-P and glucan-F enhanced the recovery of peripheral blood white cell numbers, platelet numbers, and hematocrit values. In addition, both agents increased endogenous pluripotent hemopoietic stem cell numbers in sublethally irradiated mice."
- 
-Pneumonia: Maurici da Rocha e Silva et al; "Infection Prevention in Patients with Severe Multiple Trauma with the Immunomodulater Beta 1-3 Polyglucose (glucan);" Surgery, Gynecology & Obstetrics; 177:383-388. 1993.
-"The incidence of hospital pneumonia of 55% and sepsis of 35% confirms results of previous studies of patients with multitrauma. Glucan decreased pneumonia and sepsis to a significantly lower level of 9.5%....The mortality rate related to infection decreased from 30.0 to 4.8%. The lower number of instances of pneumonia and sepsis....decreased the period of time in the intensive care and the hospital, with a global reduction of 40% on hospital cost."
- 
-Pulmonary: Kimura A, Sherwood R, Goldstein E; "Glucan alteration of pulmonary antibacterial defense." J Reticuloendothel. Soc. 24:1-11. 1983.
- 
-Radiation: Patchen M.L., Vaudrain T, Correira H, Martin T, Reese D, "In vitro and in vivo hematopoietic activities of Betafectin PGG-glucan.", Exp Hematol, 26(13):1247-54. Dec 1998.
- 
-Radiation: Patchen M.L; Mork AC, Helmke RJ, Martinez JR, Michalek MT, Zhang GH, "Effects of particulate and soluble(1,3)-beta glucans on Ca2+ influx in NR8383 alveolar macrophages," Immunopharmacology, 40(1):77-89. Dept of Pediatrics, U of Texas Health Science Center at San Antonio, Jul 1998.
-"Benefectin PGG-Glucan, a beta-(1,6) branched beta-(1,3) glucan purified from the cell walls of Saccharomyces cerevisiae, has been shown to synergize the myeloid growth factors in vitro and to enhance hematopoietic recovery in myelosuppressed mice and primates."
- 
-Radiation: Patchen M.L. [V Chrm, Dept of Surg, U of Washington], et al, "Mast Cell Growth Factor(c-kit Ligand) in Combination with Granulocyte-Macrophage Colony-Stimulating Factor and Interleulin-3: in vivo Hemopoietic effects in Irradiated Ice compared to in vivo effects", Biotherapy; vol. 7. pp. 13-26. 1994.
- 
-Radiation: Patchen M.L, Brook I, Elliott TB, Jackson WE, "Adverse effects of pefloxacin in irradiated C3H/HeN mice: correction with glucan therapy.", Antimicrob Agents Chemotherapy, Dept. of Experimenetal Hematology, Armed Forces Radiobiology Research Institute (AFRRI) , Bethesda, Maryland, Sept. 1993.
- 
-Radiation: Patchen M.L, Gallin EK, Green SW, "Comparative effects of particulate and soluble glucan on macrophages of C3H/HeN and C3H/HeJ mice," Int J Immunopharmacol, 14(2):173-83; Dept of Physiology, AFRRI, Feb 1992.
- 
-Radiation: Patchen M.L., MacVittie T, Jackson W; "Survival enhancement and hemopoietic regeneration following radiation exposure, therapeutic approach using glucan and granulocyte colony-stimulating factor [G-CSF]. "Exp. Hematol. 18:1042-1048. 1990.
-"Likewise, although both glucan and granulocyte colony-stimulating factor (G-CSF) alone enhanced survival following an 8-Gy radiation exposure, greatest survival was observed in mice treated with both agents. These studies suggest that glucan, a macrophage activator, can synergize the G-CSF to further accelerate hemopoietic regeneration and increase survival following radiation-induced myelosuppression."
- 
-Radiation: Patchen M.L.; "Radioprotective effect of oral administration of beta-1,3-glucan," Armed Forces Radiobiology Research Institute, Bethesda, MD Research Report, 1989.
- 
-Radiation: Patchen M.L., MacVittie T, Jackson W; "Postirradiation glucan administration enhances the radioprotective effects of WR-2721. "Radiat. Res. 117:59-69. 1989.
- 
-Radiation: Patchen M.L., MacVittie T, Bowers GJ, Hirsch EF, Fink MP, "Glucan enhances survival in an intraabdominal infection model," J Surg Res, 47(2):183-8. Edward F. Hebert S of Medicine. Aug 1989.
- 
-Radiation: Patchen Ml, Chirigos MA, Brook I, "Use of glucan and other immunopharmacological agents in the prevention and treatment of acute radiation injuries," Fundam Appl Toxicol, 11(4):573-4. AFRRI, Nov 1988.
- 
-Radiation: Patchen M.L., D'Alesandro M.M., Brook I., Blakely W.F. McVittie T.J.; "Glucan: Mechanisms Involved in Its 'Radioprotective' Effect". J Leuc Biol.; 42:95-105. 1987.
-"These results suggest that early after irradiation glucan may mediate its radioprotection by enhancing resistance to microbial invasion via mechanisms not necessarily predicated on hemopoietic recovery. ...glucan can also function as an effective free radical scavenger. Because macrophages have been shown to selectively phagocytize and sequester glucan, the possibility that these specific cells may be protected by virtue of glucan's scavenging ability is also suggested."
- 
-Radiation: Pachen ML, MacVittie TJ, "Comparative effects of soluble and particulate glucans on survival in irradiated mice," J Biol Response Mod 5(1):45-60. Experimental Hematology Dept, Armed Forces Radiobiology Research Inst, Bethesda, MD. Feb 1986.
-"Both glucan-P and glucan-F enhanced the recovery of peripheral blood white cell numbers, platelet numbers, and hematocrit values. In addition, both agents increased endogenous pluripotent hemopoietic stem cell numbers in sublethally irradiated mice."
- 
-Radiation: Patchen M.L., McVittie T.J.; "Stimulated Hemopeiesis and Enhanced Survival Following Glucan Treatment in Sublethally and Lethally Irradiated Mice". Int. J. Immunopharmac; 7: 923-932. 1985.
- 
-Radiation: Patchen M.L., MacVittie T, Wathen L; "Effects of pre- and post-irradiation glucan treatment on pluripotent stem cells, granulocyte, macrophage and erythroid progenitor cells and hemopoietic stromal cells." Experientia. 40:1240-1244. 1984.
- 
-Radiation: Patchen M.L, MacVittie T.J.,"Dose-dependent responses of murine pluripotent stem cells and myeloid and erythroid progenitor cells following administration of immunomodulating agent glucan." Immunopharmacology, 5(4):303-13, Apr 1983.
-"The hemopoietic effects produced by six different doses of a commercially available glucan preparation were investigated....bone marrow pluripotent stem cells (CFU-s) content increased...In the spleen, all aspects of hemopoiesis increased after glucan administration."
- 
-Radiation: Patchen M.L., McVittie T.J.; Temporal Response of Murine Pluripotent Stem Cells and Myeloid and Erythroid Progenitor Cells to Low-dose Glucan Treatment. Acta Hemat; 70:281-288. Experimental Hematology Dept, Armed Forces Radiobiology Research Insti, Bethesda, MD. 1983.
-"Clearly, there are numerous possible uses for an agent such as glucan, which is a potent stimulator of hemopoietic activity. Currently, we [U.S. Armed Services] are using glucan to enhance hemopoietic proliferation in conjunction with hemopoietic injury induced by radiation."
- 
-Radiation: Patchen M.L., Lotzova E.; Modulation of murine hemopoiesis by glucan; Exp Hermatol 8: 409-422, 1980.
- 
-Radiation - White Blood Cell - Recovery: Pachen ML, MacVittie TJ, "Comparative effects of soluble and particulate glucans on survival in irradiated mice," J Biol Response Mod 5(1):45-60. Experimental Hematology Dept, Armed Forces Radiobiology Research Inst, Bethesda, MD. Feb 1986.
-"Both glucan-P and glucan-F enhanced the recovery of peripheral blood white cell numbers, platelet numbers, and hematocrit values. In addition, both agents increased endogenous pluripotent hemopoietic stem cell numbers in sublethally irradiated mice."
- 
-Radiation Recovery: Popisil, et al., "Glucan Induced Hemopoietic Recovery in Gamma-Irradiated Mice". Experientia; 38: 1232-1234. 1982.
- 
-Radiation: Hemopoietic Regeneration: Patchen M.L., MacVittie T, Jackson W; "Survival enhancement and hemopoietic regeneration following radiation exposure, therapeutic approach using glucan and granulocyte colony-stimulating factor. "Exp. Hematol. 18:1042-1048. 1990.
- 
-Respiratory: Jorgensen J.B., Robertsen B.; "Yeast beta-glucan stimulates respiratory burst activity of Atlantic salmon (Salmo salar L.) macrophages," Dev Comp Immunol 19: 43-57. 1995.*
- 
-Safety - FDA Classification: Carrow, D.J. MD; "Beta-1,3-glucan as a Primary Immune Activator," Townsend Letter; June 1996.
-"Beta 1,3-glucan is a safe and potent nutritional supplement with a profound systemic effect that can be described as nonspecific immune stimulation combined with its free radical scavenging activity. Remember, beta 1,3-glucan is generally recognized as safe (category GRAS, according to FDA) and has no known toxicity or side effects."
- 
-Safety - FDA: Federal Drug Administration, "Appendix A Food Additives," Yeast extract (Bakers) - FL/ADJ, GRAS, See Specs 184.1983. Washington DC. http://www.fda.gov 1997.
- 
-Safety: Williams D.L. ,et al; "Pre-clinical Safety Evaluation of Soluble Glucan", Int. J. Immunophamac. Vol. 10, No. 4: 405-414. Dept of Phys, Tulane U Sch of Med, New Orleans, LA. 1988.
-"Soluble glucan, a beta-1,3-linked glucopyranose biological response modifier, is effective in the therapy of experimental neoplasia, infectious diseases and immune suppression."
- 
-Sarcoma: Seljelid R, et al, "Evidence that tumor necrosis induced by an irradiated beta 1-3D polyglucose is mediated by a concerted action of local and systemic cytokines," Scand J Immuno 30(6): 687-694. Dec 1989.*
-"Aminated beta 1-3D polyglucose (AG) causes regression of Meth A sarcoma in syngeneic mice when injected systemically on day 7 after tumour inoculation. AG does not concentrate in the tumour, but distributes throughout the body. AG treatment causes release of large amounts of interleukin 1 (IL-1) both in vivo [in the body] and in macrophage cultures in vitro [out of body]."
- 
-Sarcoma: Williams DL, et al, "Therapeutic efficacy of glucan in a murine model of hepatic metastatic disease," Hepatology 5(2):198-206. Mar 1985.*
-"...coincubation of particulate glucan with diverse populations of normal or tumor cells in vitro indicated that glucan exerted a direct cytostatic effect on sarcoma and melanoma cells and, in contrast, had a proliferative effect on normal spleen and bone marrow cells."
- 
-Sepsis-Intraabdominal: Tzianabos AO, Cisnerol RL, et al; "Protection against intraabdominal sepsis by two polysaccharide immonumodulators (Beta 1,3/1,6 glucan), J Infect Dis, 178:1,200-6. 1998.
-"These data demonstrate the usefulness of [Beta 1,3/1,6 glucan]... in preventing experimental intraabdominal sepsis...and may represent a new adjunct to antibiotic regimens currently used to prevent clinical cases of this disease"
- 
-Septic Shock: Williams D.L. ,et al; "The role of complement in glucan-induced protection against septic shock." Circ. Shock. 25:53-60. 1988
- 
-Skin Damage: Donzis B.A.; Photoprotective composition containing yeast extract; U.S. Patent 5397773; 1995.
- 
-Skin Revitalization: Donzis B. A.; Sustantially purified beta (1,3) finely ground yeast cell wall glucan composition with dermatological and nutritional uses; U.S. Patent 5702719; 1997.
- 
-Skin Revitalization: Donzis B.A.; Method of revitalizing skin by applying topically water insoluble glucan; U.S. Patent 5223491; 1993.
- 
-Skin: Ber L., "The Skin Connection;" Natures Impact, Jan 1998.
- 
-Skin: Katz S.; "The skin as an Immunologic Organ," National Institutes of Health, Bethesda MD - J. Am. Academy of Dermatology; Vol 13:3; 530-536; 1985.
- 
-Skin: Murphy G, Messadi D, Fonterko E, Hancock W; "Phenotypic Transformation of Macrophages to Langerhans Cells in the skin;" Am. J. Pathology; Vol 123:401-406. 1986.
- 
-Staphylococcus aureus: Kokoshis PL, DiLuzio NR et al, "Increased resistance to Staphylococcus aureus infection and enhancement in serum lysozyme activity by glucan." Science, 199(4335);1340-1342; 1978:
-"Prior treatment of mice with glucan significantly enhanced their survival when they were challenged systemically with Staphylococcus aureus. These studies indicate glucan confers an enhanced state of host defense against bacterial infections."
- 
-Staphylococcus aureus: Onderdonk, A.B., et al., "Anti-Infective Effect of Poly-.beta.1-6 -Glucotrisyl-.beta.1-3-Glucopyranose Glucan In Vivo," Infec. Immun.; 60:1642-1647. 1992. Dept of Pathology, Channing Lab, Brigham and Women's Hospital, Boston, MA.*
-"Mice challenged with Escherichia coli or Staphylococcus aureus were protected against lethal peritonitis by the intravenous administration of 10 micrograms of poly-beta 1-6-glucotriosyl-beta 1-3-glucopyranose (PGG) glucan per animal 4 to 6 h prior to bacterial challenge."
- 
-Stress - Physical or Emotional: Carrow, D.J.; "Beta-1,3-glucan as a Primary Immune Activator," Townsend Letter; June 1996.
-"The following list includes benefits from the use of Beta 1,3-glucan supplementation: Professional and amateur athletes as well as people who work outdoors intensively. People under physical or emotional stress"
- 
-Structure - Beta Glucan and Immune System: Czop J.K., Gurish M.F., Kadish J.L., Production and Isolation of Rabbit Anti-idiotypic Antibodies Directed Against the Human Monocyte Receptor for Yeast B-glucans. Journal of Immunology; 145:995-1001. Dept of Med, Harvard Med Sch, Boston, MA.* 1990.
-(p1): "Beta-Glucans with 1,3 and/or 1,6 linkages are the major structural components of yeasts and fungi and are pharmacologic agents in animals...The cell wall glucans of S. cerevisiae consist of two structurally distinct Beta-glucans: major components comprised of consecutively, 1,3-linked glucopyranosyl residues with small numbers of 1,6-linked branches, and minor components with consecutive 1,6-linkages and 1,3-branches."
- 
-Structure - Macrophage: Goldman R., "Characteristics of the beta-glucan receptor of murine macrophages." Exp. Cell Res. 174:481-490. 1988.
- 
-Structure - Skin: Stingl G., Katz S, Clement L, Green I., Shevach E.; "Immunologic Functions of Ia-Bearing Epidermal Langerhans Cells;" J. Immunology, Vol 121 n5: 2005-2013; 1978.
- 
-Structure - Skin: Thiers B, Maize J, Spicer S, Cantor A; "The effect of Aging and Chronic Sun Exposure on Human Langerhans Cell Populations;" J. Investigative Dermatology; Vol 82:223-226. 1984.
- 
-Structure: Deslanders, et al., "Triple-Helical Structure (1,3)-.beta.-D-Glucans". Macromolecules 13: 1466-1471. 1980.
- 
-Structure: Donzis B.A.; Solubilized yeast glucan; U.S. Patent 5519009; 1996.
-Structure: Jamas S., Easson D., Ostroff G.R.; "Glucan Preparation," U.S. Patent 5622939. Issued April 22, 1997.*
- 
-Structure: Jones EW, Broach JR and Pringle JR; "The Molecular and Cellular Biology of the Yeast Saccharomyces cerevisiae;" Gene Expression; Cold Springs Harbor Laboratory Press, Cold Spring Harbor, New York. 1992.
- 
-Structure: Kapteyn J.C., Montijn R.C., et al; "Retention of Saccharomyces cerevisiae cell wall proteins through a phosphodiester-linked beta-1,3/beta-1,6-glucan heteropolymer," Glycobiology 6: 337-345. 1996.* Institute of Molecular Cell Biology, U of Amsterdam, The Netherlands.
- 
-Structure: Kollar R, Kapteyn J, et al; "Architecture of the yeast cell wall. Beta 1,6 glucan interconnects manoprotein, beta 1,3 glucan and chitin," J Biol Chem, 272:28,17762-75. Jul 1997. Structure: Kopecka M.; "Electron microscopic study of purified polysaccharide components glucans and mannan of the cell walls in the yeast Saccharomyces cerevisiae," J Basic Microbiol 25: 161-174. 1985.
- 
-Structure: Manners, D.J., et al., "The Structure of a .beta.-(1.fwdarw.3)-D-Glucan from Yeast Cell Walls," Biochem J.; 135: 19-30. 1973.
- 
-Structure: Mortimer RK, Contopoulou CR, King JS, "Genetic and physical maps of Saccharomyces cerevisiae," Edition 11. Yeast 8:817-902. 1992.
- 
-Structure: Seljelid R, "The rediscovery of the macrophage," APMIS Suppl 2:215-223. 1988.*
- 
-Structure: Seljelid R, Eskeland T, "The biology of macrophages: I. General principles and properties," Eur J Haematol 51(5):267-275. Nov 1993.*
- 
-Structure: Spiros J., Rha C., Sinskey AJ; "Glucan compositions and process for preparation thereof," U.S. Patent 4810646; Issued Mar 7, 1989.
- 
-Structure: Williams D.L. ,et al, "Development, Physicochemical Characterization and Preclinical Efficacy Evaluation of a Water Soluble Glucan Sulfate Derived from Saccharomyces cerrevisiae," Immunopharmacology; 22:139-156. 1991.
- 
-Trauma: Browder IW., Williams D., Pretus H., et al; Beneficial Effect of Enhanced Macrophage Function in the Trauma Patients. Ann. Surg.; Vol 211: 605-613. Dept of Surg and Physiol, Tulane U Sch of Med, LA and Istituto Di Chirurgia D'Urgenza, U of Torino, Torino, Italy.* 1990.
-"Previous studies have demonstrated that glucan, a beta-1,3-linked glucopyranose polymer, isolated from the inner cell wall of Saccharomyces cerevisiae, is a potent macrophage stimulant and is beneficial in the therapy of experimental bacterial, viral, and fungal diseases. Use of glucan in a murine model of hind-limb crush injury decreased macrophage PGE2 release while stimulating bone marrow proliferation. "
- 
-Trauma: Felippe J., Silva M., Maciel F.M., et al., Infection prevention in patients with severe multiple trauma with the immunomodulator beta(1-3)glucan 1-3 polyglucose (glucan). Surg. Gynecol Obstet., 177: 3833-388. 1993.
- 
-Trauma: Maurici da Rocha e Silva et al; "Infection Prevention in Patients with Severe Multiple Trauma with the Immunomodulater Beta 1-3 Polyglucose (glucan);" Surgery, Gynecology & Obstetrics; 177:383-388. 1993.
-"The incidence of hospital pneumonia of 55% and sepsis of 35% confirms results of previous studies of patients with multitrauma. Glucan decreased pneumonia and sepsis to a significantly lower level of 9.5%....The mortality rate related to infection decreased from 30.0 to 4.8%. The lower number of instances of pneumonia and sepsis....decreased the period of time in the intensive care and the hospital, with a global reduction of 40% on hospital cost."
- 
-Trypanosoma Cruizi: Williams D.L. ,et al; "Immunization against Trypanosoma cruizi: adjuvant effect of glucan." Int. J. Immunophar. 11:403-410. 1989.
- 
-Ttumor necrosis factor: Steadman R., Petersen M.M., et al; "Differential augmentation by recombinant human tumor necrosis factor-alpha of neutrophil responses to particulate zymosan and glucan," J. Immunol 144: 2712-2718. 1990.*
- 
-Tumors : Mansell P.W.A., Rowden G., Hammer C.; Clinical experiences with the use of glucan. Chirigos MA, ed.; Immune Modulation and Control of Neoplasia by Adjuvant Therapy. Raven Press, New York 255-280; 1978.
- 
-Tumors - Regression: Seljelid R, "A water-soluble aminated beta 1-3D-glucan derivative causes regression of solid tumors in mice," Biosci Rep 6(9):845-851. Sep 1986.*
-"When water-soluble aminated beta 1,-D-glucan (AG) was injected intravenously or intraperitoneally on day 7 of tumor growth, the tumors underwent complete regression."
- 
-Tumors - Sarcoma: Seljelid R, et al, "Evidence that tumor necrosis induced by an irradiated beta 1-3D polyglucose is mediated by a concerted action of local and systemic cytokines," Scand J Immuno 30(6): 687-694. Dec 1989.*
-"Aminated beta 1-3D polyglucose (AG) causes regression of Meth A sarcoma in syngeneic mice when injected systemically on day 7 after tumour inoculation. AG does not concentrate in the tumour, but distributes throughout the body."
- 
-Tumors: Bogwald J, Johnson E, Seljelid R;, "The Cytotoxic Effect of Mouse Macrophages Stimulated in vitro by a .beta. 1,3-D-Glucan from Yeast Cell Walls". Scand. J. Immuol. 15: 297-304. 1982. Institute of Med Bio, U of Tromso, Norway.
-"Macrophages stimulated by an insoluble beta 1-3-D-glucan from yeast cell walls were able to destroy tumour cells as measured by the release of radioactive label from prelabelled 14C-thymidine cells. Target cells were B-16 melanoma, P-815 mastocytoma, and the L-929 cell line. A significant target cell killing by macrophages stimulated by glucan was observed after 72-96 h."
- 
-Tumors: DiLuzio N.R., Hoffman E.D., "Glucan-induced enhancement of host resistance to experimental tumors." Prog. Cancer Therapy, 2: 475-499. 1977.
- 
-Tumors: DiLuzio N.R., McNamee R.B., Wiliams D.L., Gilbert K.M., Spanjers M.A., "Glucan induced inhibition of tumor growth and enhancement of survival in a variety of transplantable and spontaneous murine turmor models;" Adv Exp Med Biol 121A:269-290, 1980.
- 
-Tumors: DiLuzio N.R., Williams D.L., et al, "Comparative tumor-inhibotory and anti-bacterial activity of soluble and particulate glucan," Int J Cancer, 24(6):773-779. Dec 1979.*
-"...these studies demonstrate that a soluble glucan preparation exhibits significant anti-tumor and anti-staphylococcal activity."
- 
-Tumors: DiLuzio N.R.,"Immunopharmacology of glucan: a broad spectrum enhancer of host defense mechanisms," Trends in Pharmacol. SCI., 4:344-347. Dept of Physiology, Tulane U, New Orleans, LA.* 1983.
-(p347) "The broad spectrum of immunopharmacological activities of glucan includes not only the modification of certain bacterial, fungal, viral and parasitic infections, but also inhibition of tumor growth."
- 
-Tumors: Fukase S, Inoue T, Arai S, Sendo F; "Tumor cytotoxicity of polymorphonuclear leukocytes in beige mice: linkage of high responsiveness to linear beta-1,3-D-glucan with the beige gene." Cancer Res. 47:4842-4847. 1987.
- 
-Tumors: Glovsky MM, et al,; "Effects of particulate beta-1,3 glucan on human, rat, and guinea pig complement activity," J. Reticuloendothel Soc. 33:401-413. 1983.*
-"Glucan administration is associated with the modification of a variety of experimentally induced infectious disease states as well as the inhibition of growth of implantable and spontaneous tumors."
- 
-Tumors: Kasai, S., Fujimoto S., Nitta K., Baba H., Kunimoto T., "Antitumor activity of polymorphonuclear leukcytes activated by a B-1,3-D-glucan". J. Pharmacobiodyn. 14:519-525. Medline.
- 
-Tumors: Mansell P.W.A. and DiLuzio N.R., "The in vivo destruction of human tumor by glucan activated macrophages. Macrophage in Neoplasia Fink, ed. Academic Press, New York, pp. 227-243. 1976.
- 
-Tumors: Morikawa K., Takeda M., Yamazaki, M., and Mizuno D., "Induction of tumoricidal activity of polymorphonuclear leukocytes by a linear B-1,3-D-glucan and other immunomodulators in murine cells". Cancer Res., 45: 1496-1501. (Medline).
- 
-Tumors: Proctor J.W., Stiteler R.D., Yamamura Y., Mansell P.W., Winters R., "Effect of glucan and other adjuvants on the clearance of radiolabeled tumor cells from mouse lungs", Cancer Treat. Rep. ^2 (11): 1873-1880. (1978).
- 
-Tumors: Proctor, et al., "Development of a Bioassay for Anti-Tumor Activity of the Reticuloendoethelial Stimulant Class: Reproducibility of the Bioassay". J. Immunopharmacol.; 3: 385-395. 1981-1982.*
-"Intravenously administered DiLuzio glucan...caused dose dependent increases in the tumor cell loss from the lungs of ...mice challenged respectively with intravenous 125IuDR labelled B16 or T 1699 mammary carcinoma cells."
- 
-Tumors: Scholtz R.M., et al; "Association of macrophage activation with antitumor activity by synthetic and biological agents." Cancer Res., 37:3338-33343. 1977.
- 
-Tumors: Schultz, et al., "Association of Macrophage Activation with Anti-tumor Activity by Synthetic and Biologic Agents". Cancer Res.; 37:3338-43. 1977.
- 
-Tumors: Seljelid R, "Tumour regression after treatment with aminated beta 1-3D polyglucose is initiated by circulatory failure," Scand J Immunol 29(2): 181-192; Feb 1989.*
- 
-Tumors: Seljelid R, Busund LT, "The biology of macrophages: II. Inflammation and tumors," Eur J Haematol 52(1): 1-12. Jan 1994.* Dept of Exp Pathol, Inst of Med Biol, U of Tromso, Norway. Tumors: Yoshizawa, et al, "Effects of Natural Human Interleukin-6 on Thrombopoiesis and Tumor Progression in Tumor-Bearing Mice", Cancer Letters; vol. 79, pp. 83-89. 1994.
- 
-Tumors - Pulminary Metastases: Penna C, Dean P, Nelson H (Dept of Surgery-Mayo Clinic); "Pulmonary metastases neutralization and tumor rejection by in vivo administration of beta glucan and bispecific antibody;" Int J Cancer, 65.3,377-82. Jan 1996.
-"In the established tumor model, beta glucan + Bispecific antibody (BsAb) reduced the incidence of s.c. tumors as compared with control...It also prolonged survival of tumor-bearing mice compared with control. We conclude that T cells can be activated in vivo by beta glucan..."
- 
-Ulcers - Decubitus: Enhanced Healing of Decubitus Ulcers by Topical Application of Particulate Glucan. Tulane University School of Medicine; Research Summary. 1984.
- 
-Viral - staphylococcal mastitis : Buddle BM, et al, "Protective effect of glucan against experimentally induced staphylococcal mastitis in ewes." Vet Microbiol 16(1): 67-76, Jan 1988.
- 
-Viral Diseases: Browder IW., Williams D., Pretus H., et al; Beneficial Effect of Enhanced Macrophage Function in the Trauma Patients. Ann. Surg.; Vol 211: 605-613. Dept of Surg and Physiol, Tulane U Sch of Med, LA and Istituto Di Chirurgia D'Urgenza, U of Torino, Torino, Italy.* 1990.
-"Previous studies have demonstrated that glucan, a beta-1,3-linked glucopyranose polymer, isolated from the inner cell wall of Saccharomyces cerevisiae, is a potent macrophage stimulant and is beneficial in the therapy of experimental bacterial, viral, and fungal diseases."
- 
-Viral Infection: DiLuzio N.R.,"Immunopharmacology of glucan: a broad spectrum enhancer of host defense mechanisms," Trends in Pharmacol. SCI., 4:344-347. Dept of Physiology, Tulane U, New Orleans, LA.* 1983.
-"The broad spectrum of immunopharmacological activities of glucan includes not only the modification of certain bacterial, fungal, viral and parasitic infections, but also inhibition of tumor growth."
- 
-Visceral Leishmaniasis: Cook J.A., et al, "Protective Effect of Glucan Against Visceral Leishmaniasis in Hamsters". Immun.; 37: 1261-1269. 1982.
- 
-White Blood Cell - Recovery: Pachen ML, MacVittie TJ, "Comparative effects of soluble and particulate glucans on survival in irradiated mice," J Biol Response Mod 5(1):45-60. Experimental Hematology Dept, Armed Forces Radiobiology Research Inst, Bethesda, MD. Feb 1986.
-"Both glucan-P and glucan-F enhanced the recovery of peripheral blood white cell numbers, platelet numbers, and hematocrit values. In addition, both agents increased endogenous pluripotent hemopoietic stem cell numbers in sublethally irradiated mice."
- 
-Wound Healing: Browder IW., Williams D., Lucor P., Pretus H., McNamee R., Jones E., "Effect of enhanced macrophage function on early wound healing," Surgery, 104:224-230, 1988.
- 
-Wound Healing: Kaplan J.; "Acceleration of Wound Healing by a Live Yeast Cell Derivative". Archives and Surgery", Sep. 1984; 119:1005-1008. 1984.
- 
-Wound Healing: Leibovich S.J., et al., "Promotion of Wound Repair in Mice by Application of Glucan". J. Reticuloendothel, Soc. 27: 1-11. 1980.
-"Of all the substances tested, glucan was the only substance to exhibit a particularly marked enhancement of the proliferative phase of wound healing. It appears, from these experiments, that the effect observed by others in terms of the activation of reticuloendothelial function by glucan and the activation of macrophages, both locally and systematically, also apply to activation of macrophages in healing wounds."
- 
-Wound Healing: Portera CA, Love EJ, Memore L, Zhang L, Muller A, Browder W, Williams DL; "Effect of macrophage stimulation on collagen biosynthesis in the healing wound," Am Surg, 63:2,125-131. Feb 1997.
-"...macrophage modulation with glucan phosphate will increase tensile strength in experimental colon and skin wounds. In addition, we have observed a positive correlation between glucan phosphate treatment, wound tensile strength, and collagen biosynthesis."
- 
-Wound Healing: Williams D.L. ,Mueller A., Mueller P., Swails W., et. al., "Randomized phase I/II trial of a macrophage-specific immunomodulator (PGG-glucan) in high-risk surgical patients". Ann. Surg.; 220(5):601-609. 1994.
- 
-Wound Healing: Williams D.L., Browder I. and DiLuzio N.R., "Soluble phosphorylated glucan: methods and compositions for wound healing," U.S. Patent 4975421, Issued Dec 4, 1990.
-"The soluble phosphorylated glucans are useful for promoting the wound healing process. The soluble phosphorylated glucans are also useful for prophylactic and therapeutic applications against neoplastic, bacteria, viral, fungal and parasitic diseases."
- 
-Wound Healing: Wolk, M. and Danon, D.; "Promotion of Wound Healing by Yeast Glucan Evaluated on Single Animals"; Medical Biology; 63:73-80. 1985.*
- 
-Yeast Infections - See Candida Albicans (Note: While derived from yeast cell wall, Beta 1,3/1,6 glucan is purified in extraction and contains no yeast proteins and thus in no way causes or aggravates Candida Albicans.
- 
- 
-References and quotes contained herein should not be construed as express or implied representations, endorsements or warranties of Carmel Research, Inc.
- 
- 
-Fungal beta-glucan interacts with vitronectin and stimulates tumornecrosis factor alpha release from macrophagesEJ Olson, JE Standing, N Griego-Harper, OA Hoffman and AH Limper
-Department of Medicine, Mayo Clinic, Rochester, Minnesota 55905, USA.
- 
-beta-Glucans are polymers of D-glucose which represent major structural components of fungal cell walls. It was shown previously that fungi interact with macrophages through beta-glucan receptors, thereby inducing release of tumor necrosis factor alpha (TNF-alpha). Additional studies demonstrated that vitronectin, a host adhesive glycoprotein, binds to fungi and enhances macrophage recognition of these organisms. Since vitronectin contains a carbohydrate-binding region, we postulated that vitronectin binds fungal beta-glucans and subsequently augments macrophage TNF-alpha release in response to this fungal component. To study this, we first determined the release of TNF-alpha from alveolar macrophages stimulated with fungal beta-glucan. Maximal TNF-alpha release occurred with moderate concentrations of beta-glucan (100 to 200 micrograms/ml), whereas higher concentrations of beta-glucan (> or = 500 micrograms/ml) caused apparent suppression of the TNF-alpha activity released. This suppression of TNF-alpha activity by high concentrations of beta-glucan was mediated by the particulate beta- glucan binding soluble TNF-alpha, through the lectin-binding domain of the cytokine, rendering the TNF-alpha less available for measurement. Next, we assessed the interaction of vitronectin with beta-glucan. Binding of 125I-vitronectin to particulate fungal beta-glucan was dose dependent and specifically inhibitable by unlabeled vitronectin. Furthermore, treatment of beta-glucan with vitronectin substantially augmented macrophage TNF-alpha release in response to this fungal component. These findings demonstrate that fungal beta-glucan can directly modulate TNF-alpha release from macrophages. Further, these studies indicate that the host adhesive glycoprotein vitronectin specifically binds beta-glucan and augments macrophage cytokine release in response to this fungal element.
-
-
- 
-This article has been cited by other articles:
-·         Kottom, T. J., Kohler, J. R., Thomas, C. F. Jr., Fink, G. R., Limper, A. H. (2003). Lung Epithelial Cells and Extracellular Matrix Components Induce Expression of Pneumocystis carinii STE20, a Gene Complementing the Mating and Pseudohyphal Growth Defects of ste20 Mutant Yeast. Infect. Immun. 71: 6463-6471 [Abstract] [Full Text]  
-·         Hahn, P. Y., Evans, S. E., Kottom, T. J., Standing, J. E., Pagano, R. E., Limper, A. H. (2003). Pneumocystis carinii Cell Wall beta -Glucan Induces Release of Macrophage Inflammatory Protein-2 from Alveolar Epithelial Cells via a Lactosylceramide-mediated Mechanism. J. Biol. Chem. 278: 2043-2050 [Abstract] [Full Text]  
-·         Marr, K. A., Koudadoust, M., Black, M., Balajee, S. A. (2001). Early Events in Macrophage Killing of Aspergillus fumigatus Conidia: New Flow Cytometric Viability Assay. Clin. Diagn. Lab. Immunol. 8: 1240-1247 [Abstract] [Full Text]  
-·         Vassallo, R., Kottom, T. J., Standing, J. E., Limper, A. H. (2001). Vitronectin and Fibronectin Function as Glucan Binding Proteins Augmenting Macrophage Responses to Pneumocystis carinii. Am J Respir Cell Mol Biol 25: 203-211 [Abstract] [Full Text]  
-·         Kottom, T. J., Limper, A. H. (2000). Cell Wall Assembly by Pneumocystis carinii. EVIDENCE FOR A UNIQUE Gsc-1 SUBUNIT MEDIATING beta -1,3-GLUCAN DEPOSITION. J. Biol. Chem. 275: 40628-40634 [Abstract] [Full Text]  
-·         Vassallo, R., Standing, J. E., Limper, A. H. (2000). Isolated Pneumocystis carinii Cell Wall Glucan Provokes Lower Respiratory Tract Inflammatory Responses. J Immunol 164: 3755-3763 [Abstract] [Full Text]  
-·         Yu, M. L., Limper, A. H. (1997). Pneumocystis carinii induces ICAM-1 expression in lung epithelial cells through a TNF-alpha -mediated mechanism. Am. J. Physiol. 273: L1103-1111 [Abstract] [Full Text]  
-·         Chaffin, W. L., Lopez-Ribot, J. L., Casanova, M., Gozalbo, D., Martinez, J. P. (1998). Cell Wall and Secreted Proteins of Candida albicans: Identification, Function, and Expression. Microbiol Mol Biol Rev 62: 130-180 [Abstract] [Full Text]  
- 
- 
-The influence of glucan polymer structure and solution conformation on binding to (13)-ß-D-glucan receptors in a human monocyte-like cell line Antje Mueller2,6, John Raptis2,6, Peter J. Rice3,6, John H. Kalbfleisch4,6, Robert D. Stout5,6, Harry E. Ensley7, William Browder2 and David L. Williams1,2,6
-Departments of 2Surgery, 3Pharmacology, 4Medical Education, 5Microbiology, and 6Immunopharmacology Research Group, James H. Quillen College of Medicine, East Tennessee State University, Johnson City, TN 37614–0575, USA and 7Department of Chemistry, Tulane University, New Orleans, LA 70115, USA
-
-Glucans are (1–3)-ß-D-linked polymers of glucose that are produced as fungal cell wall constituents and are also released into the extracellular milieu. Glucans modulate immune function via macrophage participation. The first step in macrophage activation by (1–3)-ß-D-glucans is thought to be the binding of the polymer to specific macrophage receptors. We examined the binding/uptake of a variety of water soluble (1–3)-ß-D-glucans and control polymers with different physicochemical properties to investigate the relationship between polymer structure and receptor binding in the CR3- human promonocytic cell line, U937. We observed that the U937 receptors were specific for (13)-ß-D-glucan binding, since mannan, dextran, or barley glucan did not bind. Scleroglucan exhibited the highest binding affinity with an IC50 of 23 nM, three orders of magnitude greater than the other (13)-ß-D-glucan polymers examined. The rank order competitive binding affinities for the glucan polymers were scleroglucan>>>schizophyllan > laminarin > glucan phosphate > glucan sulfate. Scleroglucan also exhibited a triple helical solution structure ( = 1.82, ß = 0.8). There were two different binding/uptake sites on U937 cells. Glucan phosphate and schizophyllan interacted nonselectively with the two sites. Scleroglucan and glucan sulfate interacted preferentially with one site, while laminarin interacted preferentially with the other site. These data indicate that U937 cells have at least two non-CR3 receptor(s) which specifically interact with (13)-ß-D-glucans and that the triple helical solution conformation, molecular weight and charge of the glucan polymer may be important determinants in receptor ligand interaction.
-​
-1 To whom correspondence should be addressed at: Department of Surgery, James H. Quillen College of Medicine, East Tennessee State University, Johnson City, TN 37604–0575
- 
- 
-'Dectin-1 and its role in the recognition of beta-glucans in macrophages' Gordon D. Brown.  Sir William Dunn School of Pathology, University of Oxford.  gbrown@molbiol.ox.ac.uk
-
-The innate cellular recognition of pathogens is dependent on germ line encoded receptors which recognise conserved microbial structures. Using a novel method to isolate these receptors, we identified Dectin-1 as the macrophage b-glucan receptor. Dectin-1 acted as a classical pattern recognition receptor, recognising a variety of b-1,3 and/or b-1,6 linked glucans, as well as intact yeasts, and is the primary receptor for these carbohydrates in macrophages. Dectin-1 also mediates the phagocytosis of particulate glucans, an activity which is dependent of the cytoplasmic tail of this molecule. In addition to these exogenous ligands, the receptor recognised an endogenous ligand on T-cells, but through a binding site which was distinct from that which recognised b-glucans. We found Dectin-1 to be expressed in many tissues and highly expressed on the surface of immune cells, especially those of the monocyte / macrophage and neutrophil lineages. We have also identified the human homologue of Dectin-1 and have shown that it is structurally and functionally similar to the mouse receptor. 
