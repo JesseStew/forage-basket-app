@@ -1,4 +1,4 @@
-const data = require('./cellulitis.json')
+const data = require('./chemotherapy.json')
 const _ = require('lodash')
 const fs = require('fs')
 

@@ -1,0 +1,72 @@
+{
+  "title": "Chemotherapy",
+  "linkText": "Chemotherapy",
+  "order": 1,
+  "author": "White Sparrow, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Chemotherapy is not a treatment for cancer that is recommended by Natural Healers.  This simply is because of the high expense, proven more effective treatments, and the harm it does to the \"good\" cells of the body. ",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "The modern medical establishment uses chemotherapy, a simple treatment that involves the use of chemicals, to stop cancer cells from growing.  More than half of the people diagnosed with cancer receive chemotherapy.  It is designed to kill cancer cells and is administered through a vein, injected into a body cavity or taken orally in the form of a pill.  Yes the “chemo” kills cancer cells, but it also kills fast growing healthy cells like your hair cells and blood cells.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Some cancer cells grow slowly while others grow rapidly.  There are different chemotherapy drugs that target the growth patterns of specific cancer cells.  Chemotherapy kills the cancer, but one of the side effects is a lowered white blood cell count.  This means that the immune system is weak and increases the risks of infection.  Most cancer patients become very ill during these treatments.",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "There are other side effects that are temporary but can be life-threatening:",
+      "order": 4
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Nausea," },
+        { "order": 2, "content": "Vomiting" },
+        { "order": 3, "content": "Hair loss   " },
+        { "order": 4, "content": "Fatigue" },
+        { "order": 5, "content": "Diarrhea / Constipation" },
+        { "order": 6, "content": "Mouth sores / Ulcers " },
+        { "order": 7, "content": "Loss of appetite / weight loss" },
+        { "order": 8, "content": "Anxiety " },
+        { "order": 9, "content": "Insomnia " },
+        { "order": 10, "content": "Yeast infection" },
+        { "order": 11, "content": "Depression / headaches " },
+        {
+          "order": 12,
+          "content": "Low White and Red Blood Counts - (Neutropenia is a condition of a low white blood cell count.  White blood cells are the soldiers of the immune system that fight disease). "
+        },
+        {
+          "order": 13,
+          "content": "Low Blood Platelet Counts - (Thrombocytopenia is a condition of a low platelet count that may cause bruising or excessive bleeding).​"
+        },
+        {
+          "order": 14,
+          "content": "Anemia - results by a low red blood cell count that affects how much oxygen is circulating in the body to the cells.  "
+        }
+      ],
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "There is a lot of profit in proscribing chemotherapy and radiation treatments for cancer.   The proven more effective but lower cost treatments are almost always ignored.  (For example, scientific studies have proven that taking Black Cumin internally was more effective than both chemotherapy and radiation treatments and at almost 1/100th of the cost.)  Also, physicians normally do not share with their patients that 80% of them will have cancer again in a few short years.  The cancer returns simply because the chemotherapy or radiation treatments do not address the bodies original reason to why it developed cancer in the first place.",
+      "order": 6
+    },
+    {
+      "element": "p",
+      "content": "Natural Healers will turn to remedies that address fixes to why cancer was allowed to grow in the body in the first place.  For example, Shiaqga gives the proper nutrition to the body to modulate the body's immune system and therefore naturally increase your body's ability to eliminate cancer.  ",
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "Shiaqga is also safe to take while undergoing the modern medical establishments treatments.  Shiaqga so effectively builds up the healthy cells that are killed during such treatments, healers often hear the physicians express how amazed they are that the patent is responding so well to their chemo treatment while taking Shiaqga.",
+      "order": 8
+    }
+  ]
+}
