@@ -1,132 +1,162 @@
 [
   {
     "element": "p",
-    "content": "The lens of the eye is the clear part of the eye that helps to focus light or an image on the retina.  Light will pass through the lens to the retina where the light is changed into nerve signals that are sent to the brain.  The lens must be clear for the retina to receive a sharp image.  When the lens becomes clouded, the eye is unable to properly focus on objects and the image is blurred.  This is known as a cataract.  ",
+    "content": "Candidiasis is an infection caused by Candida albicans, normally a harmless yeast-type fungus found in the intestines, but is also regularly found in the mouth, throat, and genital tract.  When your body is functioning properly, it will keep Candida in check.  It is only when the body becomes unbalanced, problems arise.  ",
     "order": 1
   },
   {
     "element": "p",
-    "content": "Cataracts occur as a result of structural changes to protein fibers within the lens.  Normally, the lens will slowly change from clear to a yellow/brown, adding a brown tint to vision.  This is a gradual change starting with a slight cloudiness that could eventually affect the identification of colors; mostly blues and purples.  The softness and transparency of the eye lens is lost, making the eye lens become hard and dry.  As time passes, there is an opaque cloud that will increase till it covers the complete eye lens.  ",
+    "content": "Many things that contribute to a body's imbalance fall into three main categories:      ",
     "order": 2
   },
   {
-    "element": "p",
-    "content": "Cataracts usually develop in both eyes; but generally, one eye is more severely affected.  Cataracts are one of the leading causes of blindness for millions of Americans over the age of 40.  More than 12 million Americans suffer from cataracts.",
+    "element": "ul",
+    "content": [
+      {
+        "order": 1,
+        "content": "Toxins – pollution, poor toxic food choices, and other related issues.  "
+      },
+      {
+        "order": 2,
+        "content": "Emotional – stress, emotional lows, worry, and other related issues. "
+      },
+      {
+        "order": 3,
+        "content": "Deficiency – lack of vitamins, minerals, and other necessary building blocks  "
+      }
+    ],
     "order": 3
   },
-  { "element": "p", "content": "Types of cataracts:", "order": 4 },
   {
-    "element": "ul",
-    "order": 5,
-    "content": [
-      {
-        "order": 1,
-        "content": "Secondary cataracts can form as a result of other health problems like Hyperparathyroidism, Down’s Syndrome, atopic dermatitis, diabetes, hypoglycemia, high blood sugar levels, and low calcium levels. "
-      },
-      {
-        "order": 2,
-        "content": "Traumatic cataracts can develop after an eye injury, developing years later."
-      },
-      {
-        "order": 3,
-        "content": "Congenital cataracts occur if the mother had rubella during the first three months of pregnancy or if the infant has the inability to properly digest lactose.  These cataracts generally do not get worse.  "
-      },
-      {
-        "order": 4,
-        "content": "Toxic buildup.  Examples:  Hair dye has been scientifically shown to cause cataracts.  Studies show that 89% of those who dye their hair develop cataracts.  Other studies reveal that people who smoke, take steroids, have heavy metal poisoning, low immune system (stress, allergies, and so forth), or who eat seafood (ingesting mercury) are more likely to develop cataracts."
-      }
-    ]
+    "element": "p",
+    "content": "When you address these imbalances, the body then has the ability to heal itself.",
+    "order": 4
   },
-  { "element": "p", "content": "​Symptoms:", "order": 6 },
+  {
+    "element": "p",
+    "content": "Symptoms of a Candida overgrowth include:",
+    "order": 5
+  },
   {
     "element": "ul",
     "content": [
-      { "order": 1, "content": "Cloudy, blurred, or double vision" },
-      { "order": 2, "content": "Problems with lights" },
-      { "order": 3, "content": "Colors appear to be faded" },
-      { "order": 4, "content": "Poor night vision" },
-      { "order": 5, "content": "Frequent changes in eyeglass prescriptions" }
+      { "order": 1, "content": "Bad breath / Indigestion" },
+      { "order": 2, "content": "Constipation / Gas" },
+      { "order": 3, "content": "Chronic infections" },
+      { "order": 4, "content": "Depression" },
+      { "order": 5, "content": "Fatigue / Insomnia" },
+      { "order": 6, "content": "Food cravings" },
+      { "order": 7, "content": "Headaches" },
+      { "order": 8, "content": "Adrenal and thyroid problems" },
+      { "order": 9, "content": "Hiatal hernias" },
+      { "order": 10, "content": "Mental confusion / Panic attacks" },
+      { "order": 11, "content": "Menstrual problems" },
+      {
+        "order": 12,
+        "content": "Vaginal infections produce intense itching, accompanied by an odorless, white, cheesy discharge."
+      }
     ],
+    "order": 6
+  },
+  {
+    "element": "p",
+    "content": "Candida albicans overgrowth (too much) in the genital tract causes yeast infections and most often is caused by a weakened immune system.  More than 75% of all women have experienced a yeast infection during her lifetime and many will have a recurring infection.  (Sometimes bacterial vaginitis is mistaken for a yeast infection, but can be the result of a pelvic inflammatory disease and leads to infertility.)",
     "order": 7
   },
-  { "element": "p", "content": "Detection:", "order": 8 },
+  {
+    "element": "p",
+    "content": "A man can also get a yeast infection but is less likely to be aware this infection because there may not be any symptoms.  A lowered immunity and sexual contact with an infected partner are the most frequent causes of genital yeast infections in males.  About 12% to 15% of men can develop symptoms such as penile rash and itching.",
+    "order": 8
+  },
+  {
+    "element": "p",
+    "content": "Over $60 million annually is spent on over the counter (OTC) products to heal this infection in the United States.  These OTC treatments rarely address the imbalance that creates the problem in the first place.  Therefore repeated yeast infections will continue to arise. ",
+    "order": 9
+  },
+  {
+    "element": "p",
+    "content": "Below are some more specific issues that can through your body out of balance and cause a Candida overgrowth.",
+    "order": 10
+  },
   {
     "element": "ul",
     "content": [
       {
         "order": 1,
-        "content": "Visual acuity test – this eye chart test measures how well you see distances"
+        "content": "Hormones in the body change during the menstruation cycle, menopause, pregnancy, or the use of birth control pills."
       },
       {
         "order": 2,
-        "content": "With pupil dilation – the pupil is widened to allow the lens and retina to be viewed"
+        "content": "The prolonged use of antibiotics is probably the leading cause of chronic yeast infection.  Antibiotics kill the large variety of good bacteria in the gut and allow Candida to become dominant."
       },
       {
         "order": 3,
-        "content": "Tonometry is a test that measures the fluid pressure inside the eye.  Increased pressure may be a sign of glaucoma."
+        "content": "The imbalance called Diabetes causes an elevation of the blood sugar levels that feed a yeast infection."
       }
     ],
-    "order": 9
-  },
-  { "element": "p", "content": "Modern Medical Treatments: ", "order": 10 },
-  {
-    "element": "p",
-    "content": "The Modern Medical Establishment addresses symptoms rather than focusing on the root cause of the problem.  Taking drugs with serious side effects or having surgery is like trimming your prized rose bushes but never watering or fertilizing them.  This can eventually lead to the degradation or death of the plant. ",
     "order": 11
   },
-  { "element": "p", "content": "General Natural Health Cures:", "order": 12 },
   {
     "element": "p",
-    "content": "When you take care of your body and give it the proper building blocks, most modern health conditions never form in the first place.  There are many natural remedies that have been shown to assist or cure cataracts.  With any kind of health condition, the more good you give your body the easier it is for your body to heal itself.  Alternative healing regards the whole body.  Here are some beneficial things to do to stay in good health and combat cataracts.  ",
+    "content": "Other situations that may not be the direct cause, but they may increase the likelihood of an infection are:",
+    "order": 12
+  },
+  {
+    "element": "ul",
+    "content": [
+      { "order": 1, "content": "Hot, humid weather" },
+      { "order": 2, "content": "Tight clothing – poor ventilation" },
+      {
+        "order": 3,
+        "content": "Diet changes, poor nutrition, and junk food (high sugar content)"
+      },
+      { "order": 4, "content": "Poor hygiene" },
+      { "order": 5, "content": "Allergies (weakened immune system)" }
+    ],
     "order": 13
   },
   {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Obtain adequate rest at night.  Avoid sitting up watching television till late at night!  You are tiring the eyes and irritating them with harmful energies at the same time.  A lack of sleep will suppress the immune response and create a myriad of health problems."
-      },
-      {
-        "order": 2,
-        "content": "Eat mostly raw (uncooked) healthy plant-based foods.  Blueberries, blackberries, raspberries, grapes, papaya, and plums have clinically been shown to improve vision and produce better health.  Eating high mineral-rich greens (wheatgrass, kale, watercress, and dandelion greens), fruits, vegetables, whole grains, nuts, legumes, seeds, and sprouts (use 1/8 tsp. of MSM in water for soaking seeds) are the foundation of good health.  The human body is designed to heal itself from any condition provided that you feed it the proper fuel.  "
-      },
-      {
-        "order": 3,
-        "content": "Exercise early in the morning and avoid long exposure to the direct sun."
-      },
-      {
-        "order": 4,
-        "content": "Relaxing for a few minutes several times a day can give your body and your eyes a rest."
-      },
-      {
-        "order": 5,
-        "content": "Drink your water.  Take 4 ounces of water every 30 to 60 minutes."
-      }
-    ],
+    "element": "p",
+    "content": "Yeast lives on moist areas of the body, such as the lining of the mouth and the vagina.  When there is an alteration of the normal pH balance this usually allows the fungus to thrive.  For example, stress causes a reduction of the production of stomach acids.  This  lets the Candida invade the stomach and thrive, where it is normally never found.  As a result, less digested food enters the intestines.  The Candida in the intestine feed upon the improperly digested food and grows out of control.",
     "order": 14
   },
-  { "element": "p", "content": "Specific Cataract Cures:", "order": 15 },
+  {
+    "element": "p",
+    "content": "In the oral cavity, Candida is called thrush.  White sores may develop on the tongue, gums, and inside the cheeks.  Mothers can pass thrush on to their newborn children.  The baby’s tongue will appear red and be covered with white spots (generally noticed 8-9 days after delivery) that will appear like milk spots.  On the buttocks, thrush may resemble diaper rash.",
+    "order": 15
+  },
+  {
+    "element": "p",
+    "content": "The immune system recognizes disease as non-self, an invader to the body to attack and kill.  It is natural for the immune system to destroy disease, cancers, and infections with the assistance of the white blood cells that produce the antibodies.  Since Candida albicans is a normal part of the body, it is much harder for the body to recognize this infection.",
+    "order": 16
+  },
+  {
+    "element": "p",
+    "content": "Prevention can be the first defense by:",
+    "order": 17
+  },
   {
     "element": "ul",
     "content": [
       {
         "order": 1,
-        "content": "​Helichrysum italicum is a Therapeutic Essential Oil that I have personally witnessed many miracles with.  Plant essences derived from herbs, seeds, and leaves, are powerful medicines of our ancestors.  Therapeutic Essential Oils contain hundreds of molecules that work together to heal.  Helichrysum italicum is on the top of my list when dealing with cataracts and wounds.  I consider it a first aid kit in a bottle.  Helichrysum strengthens, repairs, and improve the eyes and eyesight.  Many have reported putting 50 to 100 drops of Helichrysum italicum into 1oz of organic castor oil and putting one drop in the eyes at night gets results in a few months.  Never put the pure Helichrysum oil directly in the eye but you can use it around the eye.          "
+        "content": "Learning to eat healthy food like garlic, broccoli, wheat grass, turnips, kale, collards, cabbage, millet, brown rice, beans and vegetables.  Almonds and nuts are okay, but avoid peanuts.  Add fiber to the diet because it assists to clean the colon.  Avoid sugary foods, cheese, alcohol, chocolate, fermented food, gluten grains (wheat, oats, rye, and barley), meat, pickles, raw mushrooms, or any yeast product.  "
       },
       {
         "order": 2,
-        "content": "A weak or non-functioning immune system, poor health, diet, an unhealthy environment, and age all contribute to disease.  When the body does not have the proper nutrients, it cannot heal.   The best defense against any ailment is the body’s immune system.  If you are deficient in nutrition, minerals, smoke, or use alcohol, this puts the immune system on overload.  Shiaqga is my first supplement of choice for immune system modulation and stem cell activation.  Please read more under the Shiaqga article.  "
+        "content": "Build-up the immune system by taking Shiaqga."
       },
       {
         "order": 3,
-        "content": "Use MSM (Methyl Sulfonyl Methane) eye drops often especially before bed.  To make MSM eye drops take two tablespoons distilled water and dissolve ¼ teaspoon of MSM crystals.  Try a drop in your eyes to see how it works.  If it is too strong, add more distilled water.  If it’s too weak, add more MSM.  I find people have a preference on the strength of the drops.  Put into a dropper bottle and use several times daily.  MSM is a sulfur-carrying compound that magnifies the nutritional effect of vitamins and assists build the amino acids responsible for protein building and muscle formation.  It supports the immune system and almost every major body function."
+        "content": "Take a probiotic to build the good bacteria in the body."
       },
+      { "order": 4, "content": "Drink plenty of water." },
+      { "order": 5, "content": "Get enough sleep to keep the body strong." },
       {
-        "order": 4,
-        "content": "Other supplements that contain greens also have powerful benefits for supporting the body in obtaining and maintain good health. "
+        "order": 6,
+        "content": "Use Therapeutic Essential Oils to balance the hormones (Clary Sage or Sage), reduce stress (Geranium), assist digestion (Fennel or Peppermint ), detoxify (Lemon ), and build the immune system (Frankincense).  "
       }
     ],
-    "order": 16
+    "order": 18
   }
 ]
