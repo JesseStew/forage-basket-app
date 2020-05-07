@@ -1,0 +1,53 @@
+{
+  "title": "Radioisotopes",
+  "linkText": "Radioisotopes",
+  "order": 1,
+  "author": "Unknown",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Shiaqga is a super nutritionally dense mushroom that contains immense amounts beneficial healing compounds that have been scientifically demonstrated in their health benefits and addressing serious chronic conditions such as cancer.  Referred to by the Southern Nez Perce as Shiaq’ga, which literally means “To Give Life” or “To Give Healing”.",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "In the world today, we are constantly bombarded with radioisotopes from testing nuclear weapons, global fallout from nuclear accidents, fracking, coal-fired power industries, and so forth.  Now add the onslaught of medical, cell phone, wifi, air travel, and other modern-day exposures and we literally have a silent epidemic.  Radioisotopes are accumulating in our food and bodies and are a major concern for those of us who desire to live a long, productive, and healthy life.  ",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "One of Shiaqga’s healing compounds that combat the radioisotopes in our environment is melanin.  Melanin has been proven to display radioprotective (protects from radiation) and radiotrophic (radiation transforming) properties.  Below is a few of the interesting research for you to look up and review:",
+      "order": 3
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "The 2012 study published in the journal Toxicology and Applied Pharmacology, titled, “Melanin, a promising radioprotector: mechanisms of actions in a mice model,” found melanin increased the mice’s survival to gamma radiation by 100% and stated, “diets rich in melanin may be beneficial to overcome radiation toxicity in humans.”"
+        },
+        {
+          "order": 2,
+          "content": "In a study published in 2012 in Cancer Biotherapy & Radiopharmaceuticles tiled, “Compton Scattering by Internal Shields Based on Melanin-Containing Mushrooms Provides Protection of Gastrointestinal Tract from Ionizing Radiation, the authors fed mice melanin rich mushrooms to mice one hour before giving them mega doses of radiation with the beta emitter Cesium137.  The research states, “All the control mice died in 13 days while ~90% of the mushroom-fed ones survived.”"
+        },
+        {
+          "order": 3,
+          "content": "Wember VV, Zhdanova NN (2001) Peculiarities of linear growth of the melanin-containing fungi Cladosporium sphaerospermum Penz. and Alternaria alternata (Fr.) Keissler. Mikrobiol. Z. 63: 3–12.  This study found melanin-rich fungi thriving in the Chernobyl meltdown reactor site."
+        },
+        {
+          "order": 4,
+          "content": "Zhdanova NN, Tugay T, Dighton J, Zheltonozhsky V, McDermott P (2004) Ionizing radiation attracts soil fungi. Mycol Res. 108: 1089–1096.  This study found melanin-rich fungi thriving in the surrounding soils of the Chernobyl site."
+        },
+        {
+          "order": 5,
+          "content": "C.E. Turick, A.S. Knox, C.L. Leverette, Y.G. Kritzas In-situ uranium stabilization by microbial metabolites J. Environ. Radioact., 99 (2008), pp. 890–899.  This study found pyomelanin-producing bacteria to be thriving in uranium-contaminated soils."
+        },
+        {
+          "order": 6,
+          "content": "L.M. Shields, L.W. Durrell Preliminary observations on radiosensitivity of algae and fungi from soils of the Nevada test site. Ecology, 42 (1961), pp. 440–441.  This study found melanin-rich fungi in a Nevada nuclear test site soil that survived 2,000 times the lethal human dose of radiation."
+        }
+      ],
+      "order": 4
+    }
+  ]
+}

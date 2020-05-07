@@ -1,87 +1,98 @@
 [
   {
     "element": "p",
-    "content": "We are exposed to bacteria constantly.  Bacteria are everywhere, but don’t be too worried because you have been living with them ever since you were a baby.  Some bacteria are “friendly” and highly beneficial to obtaining optimal health and some bacteria are \"harmful\" and can do damage in the body.  It is up to you to keep your “friendly” bacteria healthy and assist them in outnumbering the bad harmful bacteria.",
+    "content": "There are more than 29,000 known species of spiders.  There are many spiders in the United States that are poisonous, but many of those have fangs that are too short to cause any damage.  The Tarantula is the world’s largest spider and lives as far north as the southwestern U.S.  But its bite is no more dangerous to a human than the sting of a bee or wasp.  Most bites of spiders will cause minor reactions and they are excellent at insect control.  The two spiders that are extremely dangerous are the Black Widow and the Brown Recluse.    ",
     "order": 1
   },
   {
     "element": "p",
-    "content": "When there is a bacterial imbalance inside of you, you can struggle with symptoms such as fatigue, poor digestion, and suppressed immune function for weeks or months before an ideal balance can be re-established.  Here are some things that probiotics do for us:",
+    "content": "The Black Widow Spider is the most dangerous spider in the U.S.A.  It is a small black button-shaped spider with a red hourglass mark on the underside of the main body segment.  Only the female Black Widow Spider is dangerous to man and death usually results from complications, not from the actual bite.  ",
     "order": 2
   },
   {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "They provide protection we need from this toxic world that not only protects against illness, but also promotes optimal health and vitality."
-      },
-      {
-        "order": 2,
-        "content": "The probiotic Bifidobacteria produces important B vitamins, including niacin, B6, folic acid, and biotin.  Fewer bifidobacteria in your body may dramatically affect the body’s production of these B vitamins, also known as the anti-stress vitamins."
-      },
-      {
-        "order": 3,
-        "content": "Probiotics manufacture the enzyme lactase, which assists us digest dairy product."
-      },
-      {
-        "order": 4,
-        "content": "Probiotics improve digestive efficiency and encourage proper bowel function. "
-      },
-      { "order": 5, "content": "Probiotics literally recycle toxins." },
-      {
-        "order": 6,
-        "content": "Probiotics can work to reduce cholesterol levels by contributing to cholesterol metabolism and utilization. "
-      },
-      {
-        "order": 7,
-        "content": "Probiotics stimulate a positive, powerful immune system response, not just in the gastrointestinal system, but also throughout the body. "
-      },
-      {
-        "order": 8,
-        "content": "Probiotics can assist in treating a variety of illnesses."
-      }
-    ],
+    "element": "p",
+    "content": "The venom of the Black Widow spider, drop for drop, is more potent than the poison for a rattlesnake, copperhead, or cotton mouth yet each spider bite injects only an extremely small amount of venom.  The bites of this spider will release a toxin that can cause damage to the nervous system.  Four out of every 100 people bitten by a Black Widow die due to anaphylactic shock. ",
     "order": 3
   },
-  {
-    "element": "p",
-    "content": "Many people experience a bacterial imbalance due to some of these key reasons:",
-    "order": 4
-  },
+  { "element": "p", "content": "Some of the symptoms include:", "order": 4 },
   {
     "element": "ul",
     "content": [
       {
         "order": 1,
-        "content": "Antibiotic use – One of the most common ways we disrupt intestinal bacterial balance is with antibiotics.  One negative by-product of antibiotic overuse is the over-growth of Candida albicans, fungi in the yeast family.  Fortunately, candidiasis responds very favorably to probiotic treatments. "
+        "content": "Immediate pain, burning, swelling, rash, itching, or redness, and maybe fang marks."
       },
       {
         "order": 2,
-        "content": "Estrogen use – Birth control pills and prescription estrogen often disrupt normal intestinal flora balance."
+        "content": "Cramping pain and muscle rigidity in the stomach, chest, shoulders, and back."
       },
-      {
-        "order": 3,
-        "content": "Travel – Any kind of trip, especially out of the country, can influence the condition of the probiotics in the digestive tract."
-      },
-      {
-        "order": 4,
-        "content": "Stress – Emotional and physical stress can cause bacterial imbalance."
-      },
+      { "order": 3, "content": "Cold sweats, difficulty in breathing." },
+      { "order": 4, "content": "Headaches, dizziness, nausea, and vomiting." },
       {
         "order": 5,
-        "content": "Lifestyle factors – Lack of physical activity, not drinking enough water, low-fiber diet, stress, negative attitude, smoking, and drinking too much alcohol will all likely result in digestive disharmony."
+        "content": "Restlessness, anxiety, weakness, tremors, or paralysis, especially in the legs."
       },
-      {
-        "order": 6,
-        "content": "Food and water-borne contaminants – Four of the most common causes of food-borne infections are salmonella, E. coli, staphylococcus, and listeria.  One of the first lines of defense against these pathogens is your internal healthy friendly bacteria."
-      }
+      { "order": 6, "content": "Salivation or tearing of the eyes." }
     ],
     "order": 5
   },
   {
     "element": "p",
-    "content": "It is certainly in your best interest to keep your friendly bacteria in abundance and your digestive system stocked with them.  Your good bacteria continuously die off and are eliminated from the body.  It is vital to replenish your supply of flora continually to offset the bad bacteria that make their way into your system via food, air, water, and so forth. ",
+    "content": "The Brown Recluse Spider, also known as the violin spider, is about 3/8-inch long, with a dark, violin shaped mark on its upper back near the head.  It prefers to hide in dark places in the house like basements, closets, and attics.  Contrary to belief, this spider is not aggressive but will usually attack if trapped or held against the skin.",
     "order": 6
+  },
+  {
+    "element": "p",
+    "content": "It spins a sticky, irregular web, with threads running in all directions.  It can live for days without food or water and is found all over the U.S.  The venom of a bite from the Brown Recluse spider causes the flesh to decay and can require extensive treatment but death from a Brown Recluse is extremely rare.  ",
+    "order": 7
+  },
+  { "element": "p", "content": "Some of the symptoms include:", "order": 8 },
+  {
+    "element": "ul",
+    "content": [
+      { "order": 1, "content": "A burning, pain, itching, rash or redness" },
+      {
+        "order": 2,
+        "content": "A deep blue or purple area around the bite, surrounded by a whitish ring and large red outer ring like a “bulls eye”"
+      },
+      { "order": 3, "content": "An ulcer or blister that turns black" },
+      { "order": 4, "content": "Fever, nausea, or vomiting" },
+      {
+        "order": 5,
+        "content": "Eventually, most of the tissue dies around the bite, leaving a deep sore that may take months to heal."
+      }
+    ],
+    "order": 9
+  },
+  { "element": "p", "content": "Treatments:", "order": 10 },
+  {
+    "element": "ul",
+    "content": [
+      {
+        "order": 1,
+        "content": "Always contact a physician if it is a poisonous spider."
+      },
+      {
+        "order": 2,
+        "content": "Chew up and swallow 10 charcoal tablets with water.  Crush some more tablets, make a paste, and place on the bite as a compress.  Charcoal will powerfully draw out the poison if applied extremely fast."
+      },
+      {
+        "order": 3,
+        "content": "If there is swelling or pain after a poisonous spider bite, keep calm and apply a constricting band 2-4 inches above (not below) the bite.  Loosen the band for 15 seconds every 10 minutes.  Do not let the extremity turn blue!  Do not move the affected area; keep it below the heart level, if possible.  The victim should lie down.  Pack ice around the wound."
+      },
+      {
+        "order": 4,
+        "content": "For a normal spider bite wash the area with soap and water."
+      },
+      {
+        "order": 5,
+        "content": "Apply Therapeutic Essential Oils directly on the bite.  The oils contain hundreds of molecules that work together to kill viruses, bacteria, parasites, infections, and inflammation.  They are very beneficial for healing all areas of the body. "
+      },
+      {
+        "order": 6,
+        "content": "​Applying a drop or two of the Shiaqga supplement two or three times a day has been reported to have wonderful results with bites from spiders, snakes, and insects.  It also has been reported to heal wounds and skin cancers. "
+      }
+    ],
+    "order": 11
   }
 ]
