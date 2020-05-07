@@ -1,37 +1,156 @@
 [
   {
     "element": "p",
-    "content": "Diverticulitis refers to a medical condition where the small pockets or sacs called diverticuli in the mucus membrane of the bowel become inflamed.  The disease occurs almost exclusively in the elderly and is far more common in countries where poor nutrition foods (processed foods) are eaten regularly.  The modern diet has a lack of fiber/roughage which slows the bowel transit time and contributes to toxic buildup in the bowel.  This toxic buildup causes inflation.   ",
+    "content": "Earaches, that are described as an inner ear infection are common.  Everyone has probably experienced this at some time in their life.  The inner ear contains nerves that go to the brain that regulate balance.   An inner ear infection consists of the nerves become inflamed because of a virus and will result in some pain, sometimes hearing problems, and possible vertigo.  ",
     "order": 1
   },
-  { "element": "p", "content": "Diverticulitis Symptoms:", "order": 2 },
   {
-    "element": "ul",
-    "content": [
-      { "order": 1, "content": "Abdominal pain, bloating, gas" },
-      { "order": 2, "content": "Low-grade fever" },
-      { "order": 3, "content": "Elevated white blood cell count" },
-      { "order": 4, "content": "Fever and chills" },
-      { "order": 5, "content": "Diarrhea or constipation" },
-      { "order": 6, "content": "Nausea, vomiting, lack of appetite" },
-      { "order": 7, "content": "Blood in stools" }
-    ],
+    "element": "p",
+    "content": "Ear infections affect the middle ear, the otitis media, and the Eustachian tubes that is directly behind the eardrum and connects the ear to the throat.  These tubes can become infected, swollen, or clogged with fluid from the nose and throat that create an ideal environment for bacteria to thrive. ",
+    "order": 2
+  },
+  {
+    "element": "p",
+    "content": "Ear infections often happen to young children because their tubes are small.   The symptoms can result in a sense of fullness inside the ear, loss of hearing, a ringing tone that won't go away, a persistent itchiness, and a pain to the outside ear.  The pain will be worse at night because the body is lying down flat and it is more difficult for the eustachian tubes to drain out the phlegm.",
     "order": 3
   },
   {
     "element": "p",
-    "content": "The modern medical treatment of the disease will prescribe antibiotics and advise the patient to avoid foods (like seeds, nuts, grains, and so forth) that could lodge in the diverticular pouches.  Sadly, this advice tends to complicate/worsen the disease due to the harmful destruction of the friendly flora and the further reduction of dietary fiber needed to speed up bowel transit time.",
+    "content": "Earaches and ear infections can cause damage and need to be treated quickly.  (Scientists have discovered that you are six times more likely to have a reoccurring ear infection if you use pharmaceutical drugs rather than natural means to cure the condition.) ",
     "order": 4
   },
   {
     "element": "p",
-    "content": "Proper nutrition and supplements that contain Shiaqga have shown wonderful results when dealing with diverticulitis by strengthening and speeding up bowel transit time.  Shiaqga alone in many cases is enough to reduce the worst symptoms of the disease.  The Shiaqga contains Beta-glucans that in scientific research shows an expediential increase in a body’s immune response, anti-inflammatory action, and controls infection in the diverticuli.  Also, the Triterpenes found in Shiaqga will affect the production of bile and enzymes in the liver which are then passed down into the bowel.  This will regulate digestion and prevent constipation.",
+    "content": "Other Earaches and Ear Infections symptoms are:",
     "order": 5
   },
-  { "element": "p", "content": "Testimonial:", "order": 6 },
+  {
+    "element": "ul",
+    "content": [
+      { "order": 1, "content": "Ear drainage" },
+      { "order": 2, "content": "Swelling" },
+      { "order": 3, "content": "Trouble sleeping" },
+      { "order": 4, "content": "Balance difficulties" },
+      { "order": 5, "content": "Hearing problems" },
+      { "order": 6, "content": "Fever" },
+      { "order": 7, "content": "Aching or pain " },
+      { "order": 8, "content": "The feeling of the ears being plugged" },
+      { "order": 9, "content": "Nausea or vomiting " },
+      { "order": 10, "content": "Dizziness" }
+    ],
+    "order": 6
+  },
   {
     "element": "p",
-    "content": "Speaking about Shiaqga, P. Landis from Humansville, Missouri said, “I am a cancer survivor of twelve years and it has made all the difference in the world to me.  My diagnosis is T-cell Lymphoma of the bowel with 4th stage metastasis to the liver, prostate, vocal cords and lymph nodes of the abdomen and throat.  No treatment was suggested as my cancer was too far advanced to do anything about it.”",
+    "content": "As expected, ear infections are more frequent in bottle-fed infants than those that are breastfed.  Cow's milk produces inflammation and blockage of the infant's eustachian tubes that can cause infection from outside.  Breast milk contains immune globulin A that assists to strengthen the infant’s immune system that is developing. When a child is fed with a bottle while lying down, it may cause a problem with the ears.",
     "order": 7
+  },
+  {
+    "element": "p",
+    "content": "Swimming in public pools can increase chances of getting ear infections.  The “Swimmer’s Ear” is an infection of the outer ear canal that can result in a foul-smelling drainage from the ear.  As a precaution, you may want to use earplugs when swimming, or put in a small amount of vegetable oil in the ears before going in the water.  ",
+    "order": 8
+  },
+  {
+    "element": "p",
+    "content": "Ear pain can happen when the pressure changes and can be relieved by yawning or swallowing to reduce the pressure by opening the valves, or also by contracting the muscles of the Eustachian tubes by blowing your nose while holding both nostrils closed till you hear a small pop.  A smart tip is to chew gum while traveling on a plane to help relieve the pressure.",
+    "order": 9
+  },
+  {
+    "element": "p",
+    "content": "Ruptured or perforated eardrums may be caused when the tympanic membrane in the eardrum separates or is broken and can cause a temporary hearing loss.  The bones and nerve endings in the middle and inner ear send a nerve impulse to the brain.  This can happen from an inner pressure buildup from infection, outer pressure from buildup, foreign objects stuck in the ear canal, or from trauma.  Put nothing in the ear until the eardrum is healed.  A fomentation (warm moist compress) on the outside of the ear can be helpful.  This can be treated by putting warmth on the ear, keeping the ear clean, and using the Therapeutic Essential Oils for healing, like Helichrysum italicum.   ",
+    "order": 10
+  },
+  {
+    "element": "p",
+    "content": "Impacted ear wax can be loosened by taking a hot shower.  (The steam will soften the wax buildup.)",
+    "order": 11
+  },
+  {
+    "element": "p",
+    "content": "Allergies, sore throats, colds, or sinus infections can cause the mucous membranes in the Eustachian tubes to produce fluid and swell, blocking the fluid in the ear and not allowing it to drain naturally. ",
+    "order": 12
+  },
+  {
+    "element": "p",
+    "content": "Although not common, sometimes the ears will ache because there is trouble with the teeth, not because of infection.  If you have an ear pain in the ear, pull firmly on the earlobe.  If the pain increases, then you probably have an ear infection.  If the pain does not increase, you may have a dental problem. ",
+    "order": 13
+  },
+  {
+    "element": "p",
+    "content": "Natural remedy treatments for ear infections:",
+    "order": 14
+  },
+  {
+    "element": "ul",
+    "content": [
+      {
+        "order": 1,
+        "content": "Modulate the immune system by taking supplements with Shiaqga."
+      },
+      {
+        "order": 2,
+        "content": "Keep the ear warm and the person lying down with their head slightly elevated to assist natural drainage of the eustachian tubes."
+      },
+      {
+        "order": 3,
+        "content": "Swallowing and yawning assists open up the eustachian tubes and ease the pain."
+      },
+      { "order": 4, "content": "Only feed a child when he is sitting up." },
+      {
+        "order": 5,
+        "content": "Place a drop of Helichrysum italicum (my favorite), Juniper Berry, or Black Cumin on the tip of your little finger.  Now rub both little fingers together so the ends are each covered with oil.  Now place a finger in each ear and gently rub the oil around.  After that is done you can rub the extra oil behind the ears.  Sometimes using another drop of the Therapeutic Oil behind the ear is quite beneficial."
+      },
+      {
+        "order": 6,
+        "content": "For an earache cut an onion in half. Wrap one of the halves in aluminum foil. Warm oven to 350 degrees.  Put the onion in the oven and heat it until it becomes hot.  Take from oven and remove the foil.  Place a dry washcloth over the round part of the onion to retain the heat, and hold it with your hand.  Place cut surface of the onion directly on the ear.  To improve drainage of pus, lay on the bed with infected ear down, as you continue to hold the onion in place.  Relief normally comes within 3-5 minutes.  "
+      }
+    ],
+    "order": 15
+  },
+  { "element": "p", "content": "Things to avoid:", "order": 16 },
+  {
+    "element": "ul",
+    "content": [
+      {
+        "order": 1,
+        "content": "There is a tendency for people who have ear problems to be heavy earwax producers.   To reduce the amount of earwax the body makes, eat less saturated fatty acids.  Various fats contain different proportions of saturated fat.  Examples of foods containing a high proportion of saturated fat include animal fats such as cream, cheese, butter, suet, lard, and fatty meats; as well as certain vegetable products such as coconut oil, cottonseed oil, palm kernel oil, chocolate and many prepared foods.  Unsaturated fatty acids are not a problem."
+      },
+      {
+        "order": 2,
+        "content": "​A 1991 study showed children with chronic otitis media revealed that 78% were had sensitive food allergies to milk, corn, dairy products, peanuts, and wheat.  Further proof for eating healthy was that 86% of the children were cleared of all ear problems by eliminating those foods from their diets.  "
+      },
+      {
+        "order": 3,
+        "content": "Avoid smoking since it damages the immune system and can irritate the eardrum."
+      },
+      {
+        "order": 4,
+        "content": "Dairy products increase sticky mucus in the body which increases ear infections.  "
+      },
+      {
+        "order": 5,
+        "content": "Excessive sweets and starches lower immune resistance and intensify ear problems."
+      },
+      {
+        "order": 6,
+        "content": "Place drops of hydrogen peroxide (the low percentage that is commonly found in stores) in the ear, to help clean it out.  Then rinse it out with water.  Do not leave the peroxide in the ear since it can sink through the eardrum and produce a fizzing sound which some people have reported lasting for several years."
+      }
+    ],
+    "order": 17
+  },
+  {
+    "element": "p",
+    "content": "The immune system in the human body is designed to destroy cells foreign to the body.  That’s the body’s natural defense against disease and infection.   A weak or non-functioning immune system, poor diet, an unhealthy environment, and age all contribute to infection.  If you are deficient in nutrition, minerals, smoke, or use alcohol, this can put the immune system on overload.  Rebuild and strengthen the body’s natural immunity (or defenses) to destroy infections. ",
+    "order": 18
+  },
+  {
+    "element": "p",
+    "content": "Herbs and plants are the oldest medicine.  Plant essences, derived from herbs, seeds, and leaves, were the first medicines of our ancestors.    Therapeutic Essential Oils contain hundreds of molecules that work together to kill viruses and bacteria.   The modern world of medicine looks to pharmaceutical drugs for the cure, but all pharmaceutical drugs cause damage to the body and in almost all cases are not as effective as the alternative treatment. As a natural, alternative healer, I have found that the use of Helichrysum italicum is extremely beneficial for earaches caused by nerve damage, allergic conditions, bacterial, and fungus, virus, inflammation, and tooth or sinus infections.  It is an excellent pain reliever, infection fighter, and assists in healing and repairing.",
+    "order": 19
+  },
+  {
+    "element": "p",
+    "content": "Improve your lifestyle by eating healthy, taking high-quality supplements, drinking water, and moving.  The body has the power to heal itself given the proper tools.   Take charge of your body and your health.",
+    "order": 20
   }
 ]

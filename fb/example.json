@@ -120,6 +120,13 @@
       "element": "p",
       "content": "",
       "order": 11
+    },
+    {
+      "element": "link",
+      "link": "",
+      "local": false,
+      "linkText": "",
+      "order": 10
     }
   ]
 }
