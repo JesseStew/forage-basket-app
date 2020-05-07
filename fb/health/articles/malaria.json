@@ -1,0 +1,102 @@
+{
+  "title": "Malaria",
+  "linkText": "Malaria",
+  "order": 1,
+  "author": "Paway-yatanatu way-art, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Malaria is an infectious disease caused by a parasite, Plasmodium that infects the red blood cells.  It is transmitted to a human when an infected Anopheles mosquito bites a person and injects the malaria parasite (sporzoites) into the blood.  The sporozoites travel through the bloodstream to the liver to mature and eventually infect the red blood cells.  ",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "When a mosquito bites an infected human, it ingests the red blood cells that contain the parasites that travel through the mosquitoes’ system and is re-infected through the salivary glands.  Some of these parasites can remain dormant or hibernate for years in the liver cells.  ",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "There are four types of malaria:  Plasmodium falciparum, P. vivax, P. malariae, and P. ovale.  (Plasmodium flaciparum can be deadly.)",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "The symptoms are flu-like with fever, chills, muscle aches, headaches, sweating, sometimes nausea, vomiting, coughing, and jaundice to the skin and whites of the eyes.  A severe case of malaria can cause bleeding problems, shock, liver or kidney failure, central nervous system problems, and even death from complications of an infection.  ",
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "The incubation period is measured from the time of being bit by the mosquito and the beginning of malaria takes about one to three weeks.  A simple blood test can be used to diagnose malaria.  This disease affects more people in the world that any other, and generally occurs only in tropical climates; but it can, and does occur in the United States as well.",
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "By keeping yourself healthy your immune system has a better chance of fighting the parasites.  The human body has an immune system that is designed to heal itself.  The macrophages (white blood cells) are the first soldiers of the immune system that send messages to the body’s troops:  antibodies, when disease is in the body that needs to be destroyed.  The body treats disease as a foreign invader and attacks.  Inflammation is one of the body’s first responses of the immune system.  ",
+      "order": 6
+    },
+    {
+      "element": "p",
+      "content": "The first type of treatment should be the same as preventing the health issue in the first place.  Keeping the body healthy means you need to have a healthy, modulated immune system.  If you are deficient in nutrition or minerals, smoke, use alcohol, stressed, or surrounded by environmental toxins, your immune system is most likely on overload and your body is wearing down. ",
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "The immune system is working to keep the body living.  By eating healthy, taking high quality supplements, drinking plenty of pure water, and exercise, this can assist in giving the body proper fuel to fight the battle.  You are the one that needs to take charge of your health.  Educate yourself and start living a lifestyle to promote your optimal healthy.  ",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "The Therapeutic Oils that have been known to be beneficial in assisting Malaria:",
+      "order": 9
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Oregano – It is beneficial against fungus, infections, viruses, parasites, is an antiseptic, immune-stimulant, balancing the metabolism, and strengthens the vital centers of the body."
+        },
+        {
+          "order": 2,
+          "content": "Mountain Savory – is effective against fungus, viruses, malaria, major infections, inflammation of lymph nodes, and a general tonic for the body.  "
+        },
+        {
+          "order": 3,
+          "content": "Black Cumin – In the Mediterranean area it is said, “Black Cumin heals every disease except for death.”  It strengthens and stabilizes the immune system and is found in the Shiaqga supplement."
+        },
+        { "order": 4, "content": "" },
+        { "order": 5, "content": "" },
+        { "order": 6, "content": "" },
+        { "order": 7, "content": "" },
+        { "order": 8, "content": "" },
+        { "order": 9, "content": "" }
+      ],
+      "order": 10
+    },
+    { "element": "p", "content": "", "order": 11 },
+    { "element": "h3", "content": "", "order": 12 },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "" },
+        { "order": 2, "content": "" },
+        { "order": 3, "content": "" },
+        { "order": 4, "content": "" },
+        { "order": 5, "content": "" },
+        { "order": 6, "content": "" }
+      ],
+      "order": 13
+    },
+    { "element": "p", "content": "", "order": 14 },
+    { "element": "p", "content": "", "order": 15 },
+    { "element": "p", "content": "", "order": 16 },
+    { "element": "p", "content": "", "order": 17 },
+    {
+      "element": "link",
+      "link": "",
+      "local": false,
+      "linkText": "",
+      "order": 18
+    }
+  ]
+}

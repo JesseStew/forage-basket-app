@@ -1,4 +1,4 @@
-const data = require('./lymesDisease.json')
+const data = require('./minerals.json')
 const _ = require('lodash')
 const fs = require('fs')
 
