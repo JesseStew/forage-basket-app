@@ -1,0 +1,93 @@
+{
+  "title": "Probiotics the Friendly Bacteria",
+  "linkText": "Probiotics",
+  "order": 1,
+  "author": "Man Found Standing, Medicine Man Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "We are exposed to bacteria constantly.  Bacteria are everywhere, but don’t be too worried because you have been living with them ever since you were a baby.  Some bacteria are “friendly” and highly beneficial to obtaining optimal health and some bacteria are \"harmful\" and can do damage in the body.  It is up to you to keep your “friendly” bacteria healthy and assist them in outnumbering the bad harmful bacteria.",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "When there is a bacterial imbalance inside of you, you can struggle with symptoms such as fatigue, poor digestion, and suppressed immune function for weeks or months before an ideal balance can be re-established.  Here are some things that probiotics do for us:",
+      "order": 2
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "They provide protection we need from this toxic world that not only protects against illness, but also promotes optimal health and vitality."
+        },
+        {
+          "order": 2,
+          "content": "The probiotic Bifidobacteria produces important B vitamins, including niacin, B6, folic acid, and biotin.  Fewer bifidobacteria in your body may dramatically affect the body’s production of these B vitamins, also known as the anti-stress vitamins."
+        },
+        {
+          "order": 3,
+          "content": "Probiotics manufacture the enzyme lactase, which assists us digest dairy product."
+        },
+        {
+          "order": 4,
+          "content": "Probiotics improve digestive efficiency and encourage proper bowel function. "
+        },
+        { "order": 5, "content": "Probiotics literally recycle toxins." },
+        {
+          "order": 6,
+          "content": "Probiotics can work to reduce cholesterol levels by contributing to cholesterol metabolism and utilization. "
+        },
+        {
+          "order": 7,
+          "content": "Probiotics stimulate a positive, powerful immune system response, not just in the gastrointestinal system, but also throughout the body. "
+        },
+        {
+          "order": 8,
+          "content": "Probiotics can assist in treating a variety of illnesses."
+        }
+      ],
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "Many people experience a bacterial imbalance due to some of these key reasons:",
+      "order": 4
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Antibiotic use – One of the most common ways we disrupt intestinal bacterial balance is with antibiotics.  One negative by-product of antibiotic overuse is the over-growth of Candida albicans, fungi in the yeast family.  Fortunately, candidiasis responds very favorably to probiotic treatments. "
+        },
+        {
+          "order": 2,
+          "content": "Estrogen use – Birth control pills and prescription estrogen often disrupt normal intestinal flora balance."
+        },
+        {
+          "order": 3,
+          "content": "Travel – Any kind of trip, especially out of the country, can influence the condition of the probiotics in the digestive tract."
+        },
+        {
+          "order": 4,
+          "content": "Stress – Emotional and physical stress can cause bacterial imbalance."
+        },
+        {
+          "order": 5,
+          "content": "Lifestyle factors – Lack of physical activity, not drinking enough water, low-fiber diet, stress, negative attitude, smoking, and drinking too much alcohol will all likely result in digestive disharmony."
+        },
+        {
+          "order": 6,
+          "content": "Food and water-borne contaminants – Four of the most common causes of food-borne infections are salmonella, E. coli, staphylococcus, and listeria.  One of the first lines of defense against these pathogens is your internal healthy friendly bacteria."
+        }
+      ],
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "It is certainly in your best interest to keep your friendly bacteria in abundance and your digestive system stocked with them.  Your good bacteria continuously die off and are eliminated from the body.  It is vital to replenish your supply of flora continually to offset the bad bacteria that make their way into your system via food, air, water, and so forth. ",
+      "order": 6
+    }
+  ]
+}

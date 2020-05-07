@@ -1,0 +1,181 @@
+{
+  "title": "Parkinson",
+  "linkText": "Parkinson",
+  "order": 1,
+  "author": "White Sparrow, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Parkinson’s disease (PD) is a gradual degeneration of the nervous system.  The nerve cells in the basal ganglion of the brain are gradually destroyed.  It was discovered in 1817 by a British physician, James Parkinson, who called it “the shaking palsy”.  This disease is thought to not have existed before the industrial revolution.  One possible cause of this disorder is that too many toxins have been released in the body for the blood to filter out through the liver.  An excess of chemicals, drugs, and toxins in meat eating, and so forth are thought to be involved.  One of the chemicals in heroin directly destroys the key brain cells which prevent Parkinson’s.  A chronic poor diet, over many years, is also considered to be a significant factor. ",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "This is one of the most common debilitating diseases in the United States affecting more than 450,000 people.   More men are affected with Parkinson’s than women and most of those are over 60.  This disability takes 10-15 years before onset of symptoms is actually noticed.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Although the actual underlying cause is not known to the medical establishment, free-radical damage could be the cause, when there is a lack of dopamine in the brain.  Dopamine is made by the body and carries messages from one nerve cell to another.  In Parkinson’s, the problem generally is the destruction of cells which make dopamine.  Sometimes the cause is blockage of the dopamine receptors in the brain.  With the loss of dopamine, this results in an abnormal nerve “firing pattern” within the brain and impairs movement.  Parkinson’s disease occurs when nerve cells or neurons in an area of the brain die or become impaired.  The body, in a sense, is losing communication with itself; it’s like an electric circuit that has a short, there is not a constant current transmitting and it just keeps getting worse.",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "There are the four main symptoms that can often begin on one side of the body and progress:",
+      "order": 4
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Trembling hands, arms, legs, jaw or head." },
+        { "order": 2, "content": "A stiffness of the limbs and trunk." },
+        { "order": 3, "content": "A slowness of movement." },
+        { "order": 4, "content": "Instability or impaired balance." }
+      ],
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "These symptoms begin gradually and worsen with time; this is a chronic and progressive disease and with symptoms that vary from person to person:",
+      "order": 6
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Depression / emotional changes" },
+        {
+          "order": 2,
+          "content": "Difficulty swallowing and chewing.  Muscles in the mouth and the production of saliva often cause choking or drooling.  Speech is impaired."
+        },
+        {
+          "order": 3,
+          "content": "Urinary problems or constipation.  This is due to the autonomic nervous system."
+        },
+        {
+          "order": 4,
+          "content": "Skin problems – the face and scalp may become oily or dry and experience excessive sweating.  This is a result of an improperly functioning autonomic nervous system. "
+        },
+        {
+          "order": 5,
+          "content": "Sleep problems, fatigue, loss of energy – restless sleep, nightmares, sudden sleep during the day"
+        },
+        {
+          "order": 6,
+          "content": "Dementia / cognitive problems – memory loss, slow thinking, social judgment, language, reasoning and other mental skills."
+        },
+        {
+          "order": 7,
+          "content": "Orthostatic hypotension, a sudden drop in blood pressure, may cause dizziness, loss of balance or fainting."
+        },
+        {
+          "order": 8,
+          "content": "Pain – aching muscles and joints due to the rigidity and abnormal postures."
+        },
+        { "order": 9, "content": "Sexual dysfunction" }
+      ],
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "In Parkinson’s patients many of the brain cells contain Lewy bodies, which are unusual deposits or clumps of proteins.  These clumps may prevent the cells from functioning normally.  Scientific researchers believe that environmental toxins or virus exposures may increase a person’s risk of developing Parkinson’s.  Other research has suggested that mitochondria, an energy-producing component of the cells, are a source of free radicals.  This causes damage, called oxidative stress and results with free radical damage to DNA, proteins, and fats that have been detected in the brains of Parkinson’s patients.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "A person afflicted with Parkinson’s must keep very active because muscles that are not used atrophy more quickly.  The person’s own determination a faithfulness in an exercise program will forestall the progress of the disease better than almost anything else.  It is important to use a wide variety of simple exercises that will keep the muscles moving.  Here are some ideas:",
+      "order": 9
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Swinging the arms forcefully when walking" },
+        { "order": 2, "content": "Slowly turning the head from side to side" },
+        { "order": 3, "content": "Lifting small weights" },
+        { "order": 4, "content": "Bending and stretching " },
+        {
+          "order": 5,
+          "content": "Exercise for the fingers - playing with clay, typing, writing, playing the piano, or just stretching the fingers all the way out and in several times during the day.    "
+        },
+        { "order": 6, "content": "Breathe deeply in and out" },
+        {
+          "order": 7,
+          "content": "Read aloud to keep the mouth muscles in good condition"
+        },
+        {
+          "order": 8,
+          "content": "Any act difficult to perform should be done daily"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "element": "p",
+      "content": "Some things that will slow the effects of Parkinson’s:",
+      "order": 11
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "A diet that is full of nutrition.  Take supplements containing Antioxidants; especially vitamin E (3200 IU daily) and C (3000 mg daily), that has been known to slow down the progression of Parkinson’s by 2-3 years.  A person can actually prevent contracting Parkinson’s disease taking a significant dose of these vitamins. "
+        },
+        {
+          "order": 2,
+          "content": "Iron supplementation seems to assist in some cases."
+        },
+        { "order": 3, "content": "Drink enough fluids." },
+        {
+          "order": 4,
+          "content": "Get enough natural vitamin D from the sunlight."
+        },
+        { "order": 5, "content": "Maintain a healthy weight." },
+        {
+          "order": 6,
+          "content": "Avoid using aluminum (cookware, deodorants, and etc)."
+        },
+        { "order": 7, "content": "Avoid lead." },
+        {
+          "order": 8,
+          "content": "Avoid or limit processed food, coffee, tea, sugar, and tobacco."
+        }
+      ],
+      "order": 12
+    },
+    {
+      "element": "p",
+      "content": "L-dopa in the form of the drug brand, Levodopa, is a synthetic dopamine which is given to patients to supply the missing dopamine.  Interesting enough, actual dopamine from animal sources cannot be given, because it is rejected by the blood-brain barrier.  So Levodopa is given, which is accepted (through conversion to dopamine in the basal ganglion).  But two facts should be noted: ",
+      "order": 13
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Vitamin B6 reverses the effects of Levodopa, so efforts must be made to eliminate B6 from the diet.  Learn to eat in moderation bananas, oatmeal, peanuts, whole grains, potatoes, meat, and fish and only eat protein foods in the evening."
+        },
+        {
+          "order": 2,
+          "content": "Levodopa usually produces side effects, such as nausea, vomiting, insomnia, mental confusion, and agitation, as well as liver and kidney damage.  "
+        }
+      ],
+      "order": 14
+    },
+    {
+      "element": "p",
+      "content": "L-dopa and carbidopa can aggravate and speed up the progress of Parkinson’s disease in many cases; they are said to have little beneficial effect in over half the cases.",
+      "order": 15
+    },
+    {
+      "element": "p",
+      "content": "The Therapeutic Essential Oils that have shown to be beneficial for Parkinson’s disease are Vitex Berry, Cedarwood, Myrrh, and Sandalwood.",
+      "order": 16
+    },
+    { "element": "p", "content": "Rusty C. from Maramec, OK: ", "order": 17 },
+    {
+      "element": "p",
+      "content": ". . . I give a bottle of shiaqga to my dad who has Parkinson's.  He had Tremors very bad and had to shuffle his feet to walk.  He has been taking it for approximately 1 month and told me and it has helped slow with the trimmers down and he can walk much easier he plans on continue taking it.  Thank you very much. ",
+      "order": 18
+    }
+  ]
+}

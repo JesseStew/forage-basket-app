@@ -1,217 +1,87 @@
 [
   {
     "element": "p",
-    "content": "Osteoporosis simply means porous bones.  It is a reduction in the total mass of bone, so that the remaining bone is fragile or “brittle.”  This weakening continues to increase, making the bones actually become thinner.  This loss of bone mass occurs because bone formation is slowed and bone reabsorption increases.  Bone reabsorption means that the body is removing calcium and other minerals from the bones to use some other place. ",
+    "content": "We are exposed to bacteria constantly.  Bacteria are everywhere, but don’t be too worried because you have been living with them ever since you were a baby.  Some bacteria are “friendly” and highly beneficial to obtaining optimal health and some bacteria are \"harmful\" and can do damage in the body.  It is up to you to keep your “friendly” bacteria healthy and assist them in outnumbering the bad harmful bacteria.",
     "order": 1
   },
   {
     "element": "p",
-    "content": "A common result of having osteoporosis, are fractures that can occur in the spine, hip, or wrist.  Bones can become so brittle that even coughing or bending can cause a fracture.  This is just a result from low levels of calcium and minerals in the bones.  ",
+    "content": "When there is a bacterial imbalance inside of you, you can struggle with symptoms such as fatigue, poor digestion, and suppressed immune function for weeks or months before an ideal balance can be re-established.  Here are some things that probiotics do for us:",
     "order": 2
   },
   {
-    "element": "p",
-    "content": "Osteoporosis was once thought to be just a woman’s disease.  About 25-30 percent of all white females in the U.S. reveal symptoms of this condition, especially after menopause.  White females tend to lose 30-40 percent of their bone mass between ages 55-70.  Research indicates that osteoporosis often begins early in life rather than just after menopause, however, bone loss definitely accelerates after that time due to drops in estrogen levels.",
+    "element": "ul",
+    "content": [
+      {
+        "order": 1,
+        "content": "They provide protection we need from this toxic world that not only protects against illness, but also promotes optimal health and vitality."
+      },
+      {
+        "order": 2,
+        "content": "The probiotic Bifidobacteria produces important B vitamins, including niacin, B6, folic acid, and biotin.  Fewer bifidobacteria in your body may dramatically affect the body’s production of these B vitamins, also known as the anti-stress vitamins."
+      },
+      {
+        "order": 3,
+        "content": "Probiotics manufacture the enzyme lactase, which assists us digest dairy product."
+      },
+      {
+        "order": 4,
+        "content": "Probiotics improve digestive efficiency and encourage proper bowel function. "
+      },
+      { "order": 5, "content": "Probiotics literally recycle toxins." },
+      {
+        "order": 6,
+        "content": "Probiotics can work to reduce cholesterol levels by contributing to cholesterol metabolism and utilization. "
+      },
+      {
+        "order": 7,
+        "content": "Probiotics stimulate a positive, powerful immune system response, not just in the gastrointestinal system, but also throughout the body. "
+      },
+      {
+        "order": 8,
+        "content": "Probiotics can assist in treating a variety of illnesses."
+      }
+    ],
     "order": 3
   },
   {
     "element": "p",
-    "content": "Older men, above 50, can also have osteoporosis, but normally to a lesser degree than women.  Osteoporosis is rare in black men, but somewhat common in black women.  People with larger and denser bones tend will naturally tend to have less trouble with osteoporosis later in life because they started out with a more boney structure.",
+    "content": "Many people experience a bacterial imbalance due to some of these key reasons:",
     "order": 4
   },
   {
-    "element": "p",
-    "content": "There are two types of osteoporosis:",
-    "order": 5
-  },
-  {
     "element": "ul",
     "content": [
       {
         "order": 1,
-        "content": "Type I, is thought to be caused by hormonal changes, especially a loss of estrogen."
+        "content": "Antibiotic use – One of the most common ways we disrupt intestinal bacterial balance is with antibiotics.  One negative by-product of antibiotic overuse is the over-growth of Candida albicans, fungi in the yeast family.  Fortunately, candidiasis responds very favorably to probiotic treatments. "
       },
       {
         "order": 2,
-        "content": "Type II, traces its cause to dietary factors such as a lack of good calcium or vitamin D, poor absorption, and the intake of foods or drinks which block absorption or are acid forming.  ​"
-      }
-    ],
-    "order": 6
-  },
-  {
-    "element": "p",
-    "content": "(Note by Man Found Standing, Native American Medicine Man:",
-    "order": 7
-  },
-  {
-    "element": "p",
-    "content": "To understand nutrition/calcium you must understand there is “good calcium” and “bad calcium”.  Although most doctors and chemists don’t differentiate between the two, there are dramatic differences in their healing properties.  No matter how much you eat of the good calcium, will only do good in the body.  Your body uses what it needs and dumps the rest.  Now in contrast, if you take too much of the bad calcium, your body will use it to do some good things but it will also have bad effects like creating bone spurs and heart valve problems.",
-    "order": 8
-  },
-  {
-    "element": "p",
-    "content": "The main difference between the good and the bad calcium is found in their structure and energy makeup.  The simple rule to go by with all minerals and nutritional support is the “good” is found in the plant source and the “bad” is found in the animal and mineral source.  Example:  Calcium found in spinach is “good” and the calcium from cow’s milk is “bad”.) ",
-    "order": 9
-  },
-  {
-    "element": "p",
-    "content": "Weakened bones often are not too obvious until the bones are quite weak.  Symptoms are:",
-    "order": 10
-  },
-  {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Back pain – (that could indicated a fractured or collapsed vertebra)"
-      },
-      { "order": 2, "content": "Loss of height – up to several inches" },
-      {
-        "order": 3,
-        "content": "Deformities – such as a hump in the upper back"
-      },
-      {
-        "order": 4,
-        "content": "Stooped posture and rounding of the shoulders"
-      },
-      {
-        "order": 5,
-        "content": "Fractures of the vertebra, wrist, hip, or some other bone"
-      }
-    ],
-    "order": 11
-  },
-  {
-    "element": "p",
-    "content": "Bones are continuously changing – new bone is made and old bone is broken down (desorption) – this process is called remodeling or bone turnover.  Normally, the body makes new bone faster than the body breaks down old bone and bone mass increases up to the age of 30, where it reaches peak bone mass.  After that, bone remodeling continues, losing slightly more bone mass that the body rebuilds.",
-    "order": 12
-  },
-  {
-    "element": "p",
-    "content": "The strength of the body’s bones depends on the size and density of the bones.  Bone density is part calcium, phosphorus, and other minerals.  If there is a deficiency of minerals in the body, the minerals will be taken from the bones.  ",
-    "order": 13
-  },
-  { "element": "p", "content": "Causes of osteoporosis are:", "order": 14 },
-  {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Poor eating and drinking habits which include the lack of adequate good calcium intake or the inability to absorb the calcium over a period of years."
-      },
-      {
-        "order": 2,
-        "content": "Too much phosphorus in the diet causing an imbalance with the calcium."
-      },
-      { "order": 3, "content": "Lack of exercise." },
-      { "order": 4, "content": "Lack of certain hormones." },
-      { "order": 5, "content": "Tobacco use.  " },
-      { "order": 6, "content": "Late puberty." },
-      {
-        "order": 7,
-        "content": "Eating disorders – anorexia nervosa or bulimia attribute to a lower bone density."
-      },
-      { "order": 8, "content": "A sedentary lifestyle." },
-      {
-        "order": 9,
-        "content": "Excessive alcohol consumption.  Alcohol affects the body’s ability to absorb calcium."
-      },
-      { "order": 10, "content": "Corticosteroid medications damage the bone." },
-      {
-        "order": 11,
-        "content": "Age – with menopause, the body produces less estrogen which is essential for bone strength."
-      },
-      {
-        "order": 12,
-        "content": "Early menopause – natural or artificially induced."
-      },
-      {
-        "order": 13,
-        "content": "Frame size – exceptionally thin, a body mass of 19 or less."
-      },
-      {
-        "order": 14,
-        "content": "Thyroid hormones – too much causes bone loss."
-      },
-      {
-        "order": 15,
-        "content": "Surgical procedures: stomach surgery, weight-loss surgery inhibits the body’s ability to absorb calcium."
-      },
-      {
-        "order": 16,
-        "content": "Medical conditions: Crohn’s disease, celiac disease, hyperparathyroidism, and Cushing’s disease – the adrenal glands produce excessive corticosteroid hormones."
-      },
-      { "order": 17, "content": "Chronic liver or kidney disease." },
-      { "order": 18, "content": "Long-term use of anti-seizure medications." },
-      {
-        "order": 19,
-        "content": "Vitamin C deficiency can make the bones less able to retain bone-building minerals"
-      }
-    ],
-    "order": 15
-  },
-  { "element": "p", "content": "Keeping the bones healthy:", "order": 16 },
-  {
-    "element": "p",
-    "content": "It is never too late to take steps to keep the bones strong.  Calcium  and magnesium is essential for the body to build and maintain teeth and bones.  The bones contain these minerals and when there is not enough in your daily diet, the body will rob the minerals from the bones, thus creating osteoporosis.  The body steals minerals from the bones when the body is in an acid pH state.  To be in an acid pH means not enough alkaline foods and water have been taken in to balance the body’s natural acid/alkaline state.  ",
-    "order": 17
-  },
-  {
-    "element": "p",
-    "content": "When the acid gets out of balance the body steals minerals from the bones.  The main foods and drinks in the modern diet that are acid forming are sodas, dairy products, most grains, sugar, meat, alcohol, and drinks that contain caffeine.  When sugar, for example, is consumed regularly over a period of time the health of the bones are sacrificed.    Remember, that when items containing these acid forming foods are eaten, the body requires extra alkaline minerals such as calcium, potassium, and magnesium to keep the alkaline/acid balance.  This is why vegetables and especially greens are important in the daily diet.  (I find the best source for getting my minerals, including calcium and magnesium for the bones, is 2oz of green juice a day.  Minerals are necessary for energy production, cellular maintenance, bone and tooth formation, muscle function, nerve transmission, hemoglobin and hormone production.  A daily shot of green juice from plants like spinach, wheatgrass, watercress, kale, dandelion greens, basil, and so forth does wonders for your health.)  ",
-    "order": 18
-  },
-  {
-    "element": "p",
-    "content": "Another time when the calcium intake needs to be increased is when a woman is pregnant since she is supplying calcium for both her body and the growing baby.  Keeping the body’s pH in balance is also beneficial to the bones.  Acids build up in the body and will deplete the body of potassium, calcium, and magnesium that are essential for the organs and bones to be healthy.    ",
-    "order": 19
-  },
-  { "element": "p", "content": "Try these tips:", "order": 20 },
-  {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Eat alkaline foods rich in good calcium such as almonds (always soaked), broccoli, Chinese cabbage, dark green leafy vegetables, white beans, sesame seeds, molasses, maple syrup, tofu, Brussels sprouts, spinach, kale, figs, prunes, dates, onions, kidney and soy beans, and lentils.  Not only are these foods rich in calcium but also many of the bone-building minerals."
-      },
-      {
-        "order": 2,
-        "content": "Get your vitamin D by going out in the sunlight."
+        "content": "Estrogen use – Birth control pills and prescription estrogen often disrupt normal intestinal flora balance."
       },
       {
         "order": 3,
-        "content": "Exercise assists to build strong bones and slows bone loss."
+        "content": "Travel – Any kind of trip, especially out of the country, can influence the condition of the probiotics in the digestive tract."
       },
       {
         "order": 4,
-        "content": "Avoid smoking.  Smoking increases bone loss by decreasing the amount of estrogen the body makes and reduces the absorption of calcium."
+        "content": "Stress – Emotional and physical stress can cause bacterial imbalance."
       },
       {
         "order": 5,
-        "content": "Avoid excessive alcohol, this decreases bone formation and reduces the body’s ability to absorb calcium."
+        "content": "Lifestyle factors – Lack of physical activity, not drinking enough water, low-fiber diet, stress, negative attitude, smoking, and drinking too much alcohol will all likely result in digestive disharmony."
       },
       {
         "order": 6,
-        "content": "Sleep on a firm bed to give support to the spine."
-      },
-      { "order": 7, "content": "When you lift heavy objects, lift properly." }
+        "content": "Food and water-borne contaminants – Four of the most common causes of food-borne infections are salmonella, E. coli, staphylococcus, and listeria.  One of the first lines of defense against these pathogens is your internal healthy friendly bacteria."
+      }
     ],
-    "order": 21
-  },
-  { "element": "p", "content": "Healing the body!", "order": 22 },
-  {
-    "element": "p",
-    "content": "There is a massage technique called “tapotement” that builds bone mass.  It is a light tapping on the body that mimics the bone-building stimulation from exercise.  Bring the fingers of each hand together so there is no space between them (as if you were about to take a swimming stroke.  Next, bend the palm and fingers to make a cup shape. Then, using the tips of your fingers and bottom of your palms, tap very lightly over your hips, ribs, and (with one hand at a time) your forearms.  These are the three areas commonly weakened by osteoporosis.  ",
-    "order": 23
+    "order": 5
   },
   {
     "element": "p",
-    "content": "A few of the Therapeutic Oils to massage over the area before starting this technique would be: Marjoram, Peppermint, and Wintergreen.",
-    "order": 24
-  },
-  {
-    "element": "p",
-    "content": "Alternative healing regards the whole body.  Maintain a healthy lifestyle by eating a balanced diet that is high in greens, fresh fruits, and vegetables, drink sixteen of 4oz glasses of water a day, exercise, and take natural quality supplements .  ",
-    "order": 25
+    "content": "It is certainly in your best interest to keep your friendly bacteria in abundance and your digestive system stocked with them.  Your good bacteria continuously die off and are eliminated from the body.  It is vital to replenish your supply of flora continually to offset the bad bacteria that make their way into your system via food, air, water, and so forth. ",
+    "order": 6
   }
 ]

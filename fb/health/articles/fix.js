@@ -1,4 +1,4 @@
-const data = require('./osteoporosis.json')
+const data = require('./probiotics.json')
 const _ = require('lodash')
 const fs = require('fs')
 

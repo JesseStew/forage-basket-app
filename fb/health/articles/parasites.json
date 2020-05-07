@@ -1,0 +1,261 @@
+{
+  "title": "Parasites",
+  "linkText": "Parasites",
+  "order": 1,
+  "author": "Paway-yatanatu way-art, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Parasites are organisms that live inside the human body.  They are dependent on the host body for food. They tend to eat your food and reduce the amount of nutrients which are absorbed into your bloodstream.  They feed on the host and eat away body tissue and cells.  The parasites also produce toxic waste which is harmful to your body.  An estimated 55 million people, worldwide, are infected with intestinal parasites.  Parasites kill and disable millions of people every year.",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Parasites live mostly in the gastrointestinal tract and irritate the intestinal lining or burrow from that tract into the muscles.  The degree of infestation is determined by examination by the type, size, and number of worms found.  Several types of parasites can live in human intestines including: ",
+      "order": 2
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Tapeworms – They are contracted from eating poorly cooked meat.  The most common one is the beef tapeworm that can grow up to 20 feet in length in the human intestine.​"
+        },
+        {
+          "order": 2,
+          "content": "Hookworms – They are found in southern soil and sand and enter the body by boring into the feet.  They could also enter when eating with unwashed hands.​"
+        },
+        {
+          "order": 3,
+          "content": "Pinworms – They are very tiny white worms, which cause rectal itching at night.  They are contracted by eating raw or poorly cooked vegetables which have been watered with contaminated water.    ​"
+        },
+        {
+          "order": 4,
+          "content": "Whipworms – They tend to thrive in tropical climates where the weather is warm and humid. The main way whipworms are spread to humans is when people come in contact with soil that has been contaminated with whipworm eggs. The eggs get into the soil through fecal matter that has not been properly disposed.​"
+        },
+        {
+          "order": 5,
+          "content": "Roundworms – These are most common in children.  They core through the intestinal wall and settle in other organs.  "
+        }
+      ],
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "Parasitic infections are prevalent in rural or underdeveloped countries.  There are more than 100 types of human parasites.  These cases are on the rise in the United States due to the increase of travel to underdeveloped countries. Nearly half of all Americans have at least one form of parasite and don’t know it because parasites can live inside the human body for years without any symptoms.   Parasitic infections can also affect people with a weakened immune system, such as those who have AIDS or who take drugs that suppress the immune system and are more common in places with poor sanitation.",
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "There are two main types of parasites: ",
+      "order": 5
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Large intestinal worms include roundworms, flukes, and tapeworms.  They usually lay their eggs on the intestinal walls.  When they hatch, the larvae feed on the food in the intestine.  They grow and reproduce, starting the cycle all over.  They can dig through the digestive tract and go into the bloodstream, muscles and other organs.  This type often causes malnutrition and anemia because they rob the body of essential nutrients.​"
+        },
+        {
+          "order": 2,
+          "content": "Small parasites, protozoa and amoebae, can be seen with a microscope.  These parasites stay in the intestines and migrate from the bloodstream and muscles to organs such as the brain, lungs, liver, or other organs."
+        }
+      ],
+      "order": 6
+    },
+    {
+      "element": "p",
+      "content": "​Parasites are everywhere and infection can happen through many different ways such as:",
+      "order": 7
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Insect bites." },
+        { "order": 2, "content": "Walking barefoot on soil." },
+        {
+          "order": 3,
+          "content": "Eating raw or undercooked port, beef or fish."
+        },
+        {
+          "order": 4,
+          "content": "Eating contaminated raw fruits and vegetables.  Wash vegetables and fruits thoroughly before eating them raw."
+        },
+        {
+          "order": 5,
+          "content": "Have all family members wash hands frequently, especially after using the toilet, before meals, and bedtime."
+        },
+        { "order": 6, "content": "Do not bite nails." },
+        {
+          "order": 7,
+          "content": "Eating foods prepared by infected handlers."
+        },
+        {
+          "order": 8,
+          "content": "Watercress eaten raw can have parasites because many of the streams it grows in are polluted.  Watercress eaten raw must come from clean sources."
+        },
+        {
+          "order": 9,
+          "content": "Keep the house clean.  Wash all underclothing, bed clothes, and sheets frequently in hot water.  Worms tend to come out of the anus during sleep because of the warmth of the bed.  Inspect that area on children after they are asleep.  "
+        },
+        { "order": 10, "content": "Sterilize toilet seats." },
+        { "order": 11, "content": "The infected person should sleep alone." },
+        { "order": 12, "content": "Drinking contaminated water." },
+        {
+          "order": 13,
+          "content": "By contact with an infected person (sexual contact, kissing, sharing drinks, shaking hands, etc.)."
+        },
+        {
+          "order": 14,
+          "content": "Improper disposal of animal and human waste."
+        },
+        {
+          "order": 15,
+          "content": "Inhaling dust that contains parasitic eggs or cysts."
+        },
+        {
+          "order": 16,
+          "content": "Touching pet litter contaminated with parasitic eggs or cysts."
+        }
+      ],
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "The risk factors for getting parasitic infections include a weakened immune system caused by:",
+      "order": 9
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Disease or long term exposure to toxic chemicals or pollution."
+        },
+        { "order": 2, "content": "Prolonged antibiotic use." },
+        { "order": 3, "content": "Alcohol or drug abuse." },
+        { "order": 4, "content": "Smoking" },
+        { "order": 5, "content": "Emotional and /or physical stress" },
+        { "order": 6, "content": "Diet high in fat and sugar / low in fiber." },
+        { "order": 7, "content": "Food allergies" },
+        { "order": 8, "content": "Malan sorption syndrome" },
+        { "order": 9, "content": "Obesity" }
+      ],
+      "order": 10
+    },
+    { "element": "p", "content": "Symptoms include:", "order": 11 },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Diarrhea or sudden changes in bowel habits, bloating, gas, indigestion"
+        },
+        {
+          "order": 2,
+          "content": "Constant grumbling or gurgling in the stomach area not related to hunger."
+        },
+        { "order": 3, "content": "Heartburn or chest pain" },
+        {
+          "order": 4,
+          "content": "Flu-like symptoms - coughing, fever, congestion"
+        },
+        { "order": 5, "content": "Itching around the nose, ears, and anus" },
+        {
+          "order": 6,
+          "content": "Losing weight, constant hunger, loss of appetite"
+        },
+        { "order": 7, "content": "Nausea, vomiting" },
+        { "order": 8, "content": "Diabetes" },
+        { "order": 9, "content": "Headaches, muscle aches and pains" },
+        { "order": 10, "content": "Lupus" },
+        { "order": 11, "content": "Sinus trouble" },
+        { "order": 12, "content": "Back and neck pain" },
+        { "order": 13, "content": "Cancer" },
+        { "order": 14, "content": "Skin rashes" },
+        { "order": 15, "content": "Memory loss" },
+        { "order": 16, "content": "Shortness of breath" },
+        { "order": 17, "content": "Allergies" },
+        { "order": 18, "content": "Arthritis" },
+        { "order": 19, "content": "Colitis" }
+      ],
+      "order": 12
+    },
+    { "element": "p", "content": "To Purge Worms:", "order": 13 },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Aloe Vera, taken in any form, is especially helpful in eliminating worms."
+        },
+        {
+          "order": 2,
+          "content": "Diatomaceous earth capsules taken for 3 weeks will assist in getting rid of the parasites."
+        },
+        {
+          "order": 3,
+          "content": "Grapefruit-seed extract helps destroy parasites."
+        },
+        { "order": 4, "content": "Eat pumpkin seeds and figs." },
+        {
+          "order": 5,
+          "content": "Folk healers in India give turmeric for getting rid of worms.  It has four anti-parasitic compounds."
+        },
+        {
+          "order": 6,
+          "content": "A hot-water enema, with 3 teaspoons of salt to a quart of water, may get rid of pinworms."
+        },
+        {
+          "order": 7,
+          "content": "Some of the Therapeutic Essential Oils that repel or discourage parasites from taking up house with you are Artemesia, Cinnamon Bark, Clove Bud, Hyssop, Mountain Savory, Oregano, Rosewood, Spearmint, and Thyme.   They help to alleviate parasites (also in animals) by massage and then applying a compress across the stomach area."
+        }
+      ],
+      "order": 14
+    },
+    {
+      "element": "p",
+      "content": "Treatment also should include improving nutrition and taking supplements to strengthen the immune system.  Take a supplemental probiotics to assist cultivate normal intestinal flora and suppress the spread of parasites.  The immune system is designed to fight and kill infection and disease, the body’s natural defense against parasitic infections.  ",
+      "order": 15
+    },
+    {
+      "element": "p",
+      "content": "Start by eating a diet that includes fiber, vegetables, fruits, whole grains, nuts, and seeds.  Good nutrition improves immune function and protects the body.  Try to limit dairy, sugar and hydrogenated fat.  Parasites feed on these foods.",
+      "order": 16
+    },
+    {
+      "element": "p",
+      "content": "Preventive measures that should assist to prevent parasitic infections are:",
+      "order": 17
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Eating a proper diet and taking supplements to build-up the immune system."
+        },
+        {
+          "order": 2,
+          "content": "Wash hands before eating and after using the restroom."
+        },
+        { "order": 3, "content": "Wear gloves when gardening." },
+        { "order": 4, "content": "Wash fruits and vegetables." },
+        { "order": 5, "content": "Avoid eating raw meat." },
+        {
+          "order": 6,
+          "content": "Wear protective clothing when walking in the woods."
+        }
+      ],
+      "order": 18
+    },
+    {
+      "element": "link",
+      "link": "",
+      "local": false,
+      "linkText": "",
+      "order": 19
+    }
+  ]
+}
