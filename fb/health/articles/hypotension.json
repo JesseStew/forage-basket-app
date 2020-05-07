@@ -1,0 +1,71 @@
+{
+  "title": "Hypotension -Low Blood Pressure",
+  "linkText": "Hypotension",
+  "order": 1,
+  "author": "Man Found Standing, Medicine Man Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Low blood pressure is supposed to be a good thing, right?  That means that the heart is not working too hard.  Why do I need to be concerned about low blood pressure?",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "The body’s blood pressure is measured by the amount of blood that is pumped by the left ventricle of the heart into the arteries and the resistance of the flow of blood caused by the walls of the arteries or veins.  ",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Blood pressure consists of two numbers:  systolic and diastolic.  Normal pressure readings would be 120 /80.  That is read as 120 (systolic) over 80 (diastolic).  The 120 number shows how hard the blood pushes when the heart is pumping.  The 80 number shows how hard the blood pushes between heartbeats and when the heart is relaxed and filling with blood.   A resting heart, for a healthy adult, will beat between 60-80 beats a minute.  The strengthened heart of a trained athlete can have a resting heart rate as low as 40-50 beats per minute. ",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "Having a blood pressure too low can be unhealthy.  Low blood pressure (hypotension) can cause symptoms, due to the low flow of blood through the arteries and veins, so that not enough oxygen or nutrients can be delivered to the brain, heart, and kidneys.  This can cause permanent organ damage.  Symptoms may develop if the blood pressure drops to 100/60 or below.  ",
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "There are nerve sensors that sense the blood pressure in the walls of the arteries and send signals to the brain that will transmit messages to the heart, arteries, and kidneys to make changes that will lower or increase blood pressure.  The heart can adjust the speed, contraction, and amount of blood to adjust the pressure that causes the veins to expand and narrow.  When the veins expand, more blood can be stored in the veins and less blood returns to the heart and this makes the blood pressure lower.  When the veins narrow, there is less blood stored in the veins and that makes the heart pump more which makes the pressure higher.  Even the kidneys respond to the changes in blood pressure by the increase or decrease in the amount of urine that is produced.    (When the kidneys make urine, water is taken from the blood; this makes an increase in the blood pressure.)",
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "When the blood pressure is low, there is not enough blood supplied to the organs of the body.  This can cause symptoms of dizziness, fainting, chest pains, a heart attack, shock, and kidney failure.  Some conditions that may lead to low blood pressure are:",
+      "order": 6
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Drug toxicity" },
+        {
+          "order": 2,
+          "content": "Bleeding – moderate or severe bleeding (from trauma, surgery, ulcers, tumors, or diverticulitis)"
+        },
+        { "order": 3, "content": "Heart Disease" },
+        {
+          "order": 4,
+          "content": "Dehydration – prolonged nausea, vomiting, and diarrhea (loss of water)"
+        },
+        { "order": 5, "content": "Toxic Buildup" },
+        { "order": 6, "content": "Lack of Nutrition" }
+      ],
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "How should low blood pressure be treated?",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "Sadly it seems that Modern medicine‘s answer for every ailment is to take a toxic drug.  This also seems to be the case for low blood pressure.  Despite the known serious side effects of synthetic drugs, this form of treatment only addresses the symptoms and not the root cause of the problem.  ",
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "​In order to live a long, active, and health life, the body needs to have the building blocks to regenerate.  Being healthy requires a lifestyle that includes nutritional food, the proper high quality supplements, exercise, fresh air, water, and learning to deal with stress.",
+      "order": 10
+    }
+  ]
+}

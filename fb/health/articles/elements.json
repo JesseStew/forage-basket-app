@@ -1,71 +1,46 @@
 [
   {
     "element": "p",
-    "content": "Hypoglycemia is considered a diet related condition simply because a proper diet can eliminate this condition.  Scientists consider as many as 100 million people in the U.S.A. suffer from it.  Simply put, Hypoglycemia is low blood glucose often called low blood sugar (when the blood glucose drops below a normal level).   The food that we eat is broken down and turned into glucose in the small intestine and absorbed into the bloodstream and carried to the cells.  When the blood glucose falls, glucagon (a hormone made by the pancreas) signals to the liver to release stored glucose into the bloodstream.  In-between meals, during exercise, or when you sleep, the liver releases stored glucose to supply the body with energy.  ",
+    "content": "Leukemia is a cancer of the blood or bone marrow.  All blood cells develop from bone marrow stem cells.  The white blood cells fight infection, the red blood cells carry oxygen to tissues throughout the body and platelets help form blood clots that control bleeding.",
     "order": 1
   },
   {
     "element": "p",
-    "content": "With hypoglycemia, the pancreas sends out too much insulin and the blood glucose plummets low.  When the blood glucose is too low, in a sense, it starves the cells that need the glucose for fuel, thus causing physical and emotional symptoms.  This usually happens in people with diabetes.  There are two types of hypoglycemia that can occur in people who do not have diabetes:  reactive hypoglycemia (post-prandial hypoglycemia) that occurs within 4 hours after meals and fasting hypoglycemia (post-absorptive hypoglycemia) that could be related to an underlying disease.  ",
+    "content": "Stems cells can mature into a myeloid blast that form red blood cells, platelets, or a type of white blood cell.  Other stem cells mature into lymphoid blast cells that form the white blood B and T cells.  ",
     "order": 2
   },
   {
     "element": "p",
-    "content": "Severe hypoglycemia can cause a person to pass out and can even be life threatening.  The known causes are:",
+    "content": "Leukemia cells are abnormal that do not die and end up crowding out the normal white, red, and platelet cells.  Leukemia cells travel through the bloodstream and will collect in different parts of the body.  When the human body allows leukemia cells to develop, that means that the immune system is not working properly.  The immune system is the body’s natural defense against disease and infection.  The immune system is like an army with soldiers that locate, attack, and destroy disease.  The normal process is for macrophages (white blood cells) to locate foreign invaders (disease) and send messages to antibodies (immunoglobulins) to mark the invaders for destruction.  Through toxic buildup and the lack of proper nutrition, the body’s immune system can become confused thus allowing the leukemia cells to grow.",
     "order": 3
+  },
+  {
+    "element": "p",
+    "content": "The types of leukemia are grouped into two categories based upon how quickly the disease develops.",
+    "order": 4
   },
   {
     "element": "ul",
     "content": [
-      { "order": 1, "content": "Diets lacking in proper nutrition.  " },
+      {
+        "order": 1,
+        "content": "Chronic leukemia is categorized as slow because it can perform the duties of the white blood cells for awhile.  "
+      },
       {
         "order": 2,
-        "content": "Environmental toxins (pollution) or other harmful chemicals (including smoking and so forth)."
-      },
-      {
-        "order": 3,
-        "content": "Alcohol – Drinking alcohol on an empty stomach, even days later.  (The body’s breakdown of alcohol interferes with the liver’s efforts to raise the blood glucose.  This can even cause death)."
-      },
-      {
-        "order": 4,
-        "content": "Increased physical activity – up to 24 hours afterward."
-      },
-      {
-        "order": 5,
-        "content": "Meals or snacks that are too small, delayed, or skipped.  "
-      },
-      {
-        "order": 6,
-        "content": "Hormonal deficiencies – especially in young children, but rarely in adults.  "
-      },
-      {
-        "order": 7,
-        "content": "Tumors -  Insulinomas are insulin-producing tumors in the pancreas.  "
-      },
-      {
-        "order": 8,
-        "content": "Critical Illnesses can affect the liver, heart, or kidneys.  "
-      },
-      {
-        "order": 9,
-        "content": "Medications - including some medicines that are used to treat diabetes."
+        "content": "Acute leukemia is considered a fast disease as it develops quickly.  These leukemia cells do not do any work of a normal white blood cell and multiply rapidly."
       }
     ],
-    "order": 4
-  },
-  {
-    "element": "p",
-    "content": "Since the brain is one of the first organs affected by low glucose, the symptoms of hypoglycemia can happen suddenly.  If left untreated, confusion, clumsiness, or fainting may occur.  Severe hypoglycemia can lead to seizures, coma, brain damage, and even death.  (The brain is dependent on a continual supply of glucose from the blood and tissues within the central nervous system.)",
     "order": 5
   },
   {
     "element": "p",
-    "content": "Some of the symptoms, that can vary from person to person, are hunger, shakiness, nervousness, sweating, dizziness (light-headedness), sleepiness, confusion, difficulty speaking, anxiety, and weakness.  Hypoglycemia can even happen during sleep that includes crying out or having nightmares, sweating, feeling tired, being irritable or being confused after waking.  ",
+    "content": "Quite often people with leukemia may not have any symptoms.  Down the road when the leukemia cells increase in the blood, symptoms such as swollen lymph nodes, fevers, night sweats, easy bleeding / bruising, bleeding gums, weight loss, pain in the bones/joints, swelling in the abdomen (from a swollen spleen or liver), feeling weak, or frequent infections appear.",
     "order": 6
   },
   {
     "element": "p",
-    "content": "If you are not diabetic, and when you feel like you are experiencing hypoglycemia, try this:",
+    "content": "There are four common types of leukemia:",
     "order": 7
   },
   {
@@ -73,25 +48,67 @@
     "content": [
       {
         "order": 1,
-        "content": "Eating small meals and snacks about every 3 hours"
-      },
-      { "order": 2, "content": "being physically active" },
-      { "order": 3, "content": "eating a variety of healthy foods" },
-      { "order": 4, "content": "eating foods high in fiber" },
-      {
-        "order": 5,
-        "content": "limit foods high in sugar – especially on an empty stomach"
+        "content": "Chronic lymphocytic leukemia affects lymphoid cells.  More than 15,000 cases are diagnosed each year.  This type is more common in people over the age of fifty five.  "
       },
       {
-        "order": 6,
-        "content": "Be prepared.  When your blood sugar is too low, a high-glucose food can be a quick-fix to raise the sugar level.  Honey, fruit juice, or anything that has high carbohydrates can all be used.​"
+        "order": 2,
+        "content": "Chronic myeloid leukemia affects myeloid cells and grows slow.  About 5,000 new cases are diagnosed each year.  This mainly affects adults."
+      },
+      {
+        "order": 3,
+        "content": "Acute lymphocytic leukemia affects lymphoid cells and grows very quickly.   About 5,000 new cases are diagnosed each year.  This is the most common type of leukemia found in children, but also affects adults."
+      },
+      {
+        "order": 4,
+        "content": "Acute myeloid leukemia affects myeloid cells and grows quickly.  About 13,000 new cases are diagnosed each year. This occurs in both adults and children."
       }
     ],
     "order": 8
   },
   {
     "element": "p",
-    "content": "​Depending on the frequency and severity of the hypoglycemia, you may want to keep a diary to document the time of day, time since the last meal, previous episodes, what you ate or your physical and mental state to help recognize what the cause may be.  If hypoglycemia is due to a chronic pancreas related condition, look into supplements like Shiaqga that active the cellular communication, especially stem cells. ",
+    "content": "The modern medical establishment state the cause for leukemia is unknown and there is no cure.  Their medical treatments include the use of drugs or surgery, but since they have no cure it really is a lost cause.  Doctors do state that the following risk factors would increase the odds for leukemia to develop:",
     "order": 9
+  },
+  {
+    "element": "ul",
+    "content": [
+      {
+        "order": 1,
+        "content": "Radiation  and radiation therapy  exposure to various  levels of radiation"
+      },
+      {
+        "order": 2,
+        "content": "Atomic Bomb explosions contain very high levels of radiation "
+      },
+      {
+        "order": 3,
+        "content": "Diagnostic x-rays and CT scans allow exposure to lower levels of radiation "
+      },
+      { "order": 4, "content": "Smoking" },
+      {
+        "order": 5,
+        "content": "Benzene is a chemical used in chemical industry (found in cigarettes and gasoline also)"
+      },
+      { "order": 6, "content": "Chemotherapy  drugs" },
+      { "order": 7, "content": "Down syndrome and family history of leukemia" },
+      { "order": 8, "content": "Blood disorders" }
+    ],
+    "order": 10
+  },
+  {
+    "element": "p",
+    "content": "Alternative medicine takes a different approach to leukemia and your body’s overall health.  With the understanding that we all grew from a single cell into the being we now are, Natural Healers see the body as having the ability to heal itself from any condition provided the proper building blocks are available.  They also understand the risk factors listed above, and all cases of leukemia, really fall into the two categories of toxic buildup and lack of proper nutritional support.",
+    "order": 11
+  },
+  {
+    "element": "p",
+    "content": "Modern medicine’s treatments use drugs or surgery, but this only addresses the symptoms and does not address the cause of the leukemia.  The real problem is the body is overloaded and can not perform its job properly.  By modulating the immune system and giving your body the proper nutritional support, miracles can and do happen.  ",
+    "order": 12
+  },
+  {
+    "element": "p",
+    "content": "Natural Healers know that the treatment for leukemia is the same as the treatment to prevention leukemia in the first place.  Keeping the body healthy means a healthy modulated immune system.  If you are deficient in nutrition, minerals, smoke, use alcohol, or engulfed by the environments toxins, your immune system will suffer and your body will not regenerate the way it should.  By eating healthy, taking high quality supplements that modulate the immune system, drinking plenty of water, and getting exercise, your body can heal and maintain optimal health.    ",
+    "order": 13
   }
 ]

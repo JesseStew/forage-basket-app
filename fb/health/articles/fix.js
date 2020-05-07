@@ -1,4 +1,4 @@
-const data = require('./hypoglycemia.json')
+const data = require('./leukemia.json')
 const _ = require('lodash')
 const fs = require('fs')
 
