@@ -1,4 +1,4 @@
-const data = require('./goodHealth.json')
+const data = require('./heavyMetalToxicity.json')
 const _ = require('lodash')
 const fs = require('fs')
 

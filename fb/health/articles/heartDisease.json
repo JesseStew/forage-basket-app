@@ -1,0 +1,67 @@
+{
+  "title": "Heart Disease",
+  "linkText": "Heart Disease",
+  "order": 1,
+  "author": "White Sparrow, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Heart Disease is a term used to describe a variety of diseases that affect the heart.  The heart pumps the blood throughout the body, supplying oxygen and nutrients to tissues.  All organs in the body, like the brain or kidneys, are dependant on the heart pumping blood efficiently so the heart is considered by many to be the most important organ in the body.  If the heart stops, death occurs within minutes.    ",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Heart disease can happen to anyone at any age.  It is the number one killer in the USA and the major cause of disability worldwide.  Some times, there are no symptoms.  Heart disease is known as the silent killer because it can take years to develop.  What this means is that this starts to happen at a very early age.  ",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Western Medicine focuses on treating the symptoms of the problem, not treating the cause of the problem.  Through proper nutrition Natural Medicine has shown that not only does your body have the ability to avoid Heart Disease, but it also has the ability to heal itself from those conditions. ",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "There are many types of heart disease:",
+      "order": 4
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Coronary artery disease is caused by an accumulation of plaque or a thickening of the walls of the arteries.  Plaque obstructs the flow of the blood supply that can lead to chest pains (angina- a warning sign) or a heart attack.  In the USA, this is the major cause of death.  Modern Medicine’s treatments may include bypass surgery, atherectomy (surgery to remove plaque build-up), and medications.  Alternative Medicine would look at options to reduce and eliminate the accumulation of plaque and the thickening of the arteries.  Simple solutions would be a more healthy diet, taking enzymes between meals, immune system modulation and stem cell activation supplements like Shiaqga.  "
+        },
+        {
+          "order": 2,
+          "content": "Cardiomyopathy is a disease or degeneration of the heart muscles.  Western Medicine’s treatments may include medication, implanting a pacemaker, using a defibrillator, ablation, or ventricular assist.  Alternative Medicine would look at options to assist the heart in regenerating, especially activating stem cells with Shiaqga."
+        },
+        {
+          "order": 3,
+          "content": "Ischemic heart disease causes a reduction in the blood supply to the cardiac muscle.  Symptoms include angina and a reduction of the ability to be active.  Risks for this type of heart disease are age, hypertension (high blood pressure), a family history/lifestyle, smoking, diabetes and high cholesterol.  Modern treatments include medication, and/or angioplasty (mechanically widening a narrowed or obstructed blood vessel).  Simply by giving your body the nutritional support it needs, Alternative Medicine assists to support your body’s natural healing abilities. "
+        },
+        {
+          "order": 4,
+          "content": "Hypertensive heart disease is caused by high blood pressure.  This can lead any type of heart disease: coronary, cardiac, heart failure, and others.  Most often the medical establishment will try to regulate the “bad” in the diet and medicate.  Other alternative healing options would include the intake of greater nutrition and supplement support to enhance the immune system and assist in better cellular communication."
+        },
+        {
+          "order": 5,
+          "content": "Cardiovascular disease affects the heart and blood vessels (degeneration, hardening, widening, narrowing, and etc.).  Western Medicine will try to slow the damage by medication, maintaining their version of a healthy diet, encouraging more exercise, and eliminating smoking.  Again in the alternative medical field, we know that by giving your body the proper support in the first place, this would avoid or eliminate this condition.   "
+        },
+        {
+          "order": 6,
+          "content": "Heart Failure / Congestive Heart Failure happens when the heart is unable to supply enough blood that is required by the body.  Symptoms are shortness of breath, swollen ankles, and a decrease in physical activity.  Western Medicine treatments include medication, surgery, and a change of lifestyle.  Alternative Medicine knows that the lifestyle of the patient probably caused this and all of the other conditions in the first place.  Our bodies have the ability to prevent and heal itself from any condition.  It is by giving the body the proper support and activating the cellular communication for optimal health to be obtained.  "
+        },
+        {
+          "order": 7,
+          "content": "Inflammatory heart disease describes inflammation in the heart or the surrounding area.  Doctors routinely proscribe synthetic drugs and perform surgery even though they have proven that natural beta glucan support reduces or eliminates inflammation.           "
+        }
+      ],
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "Prevention and education are the real preventative and cure for heart disease.  Simple, healthy lifestyle decisions that are made everyday will contribute to a healthy, active, and long life.  Start today with learning to eat properly, taking supplemental support, dealing correctly with stress, and exercising the heart.",
+      "order": 6
+    }
+  ]
+}

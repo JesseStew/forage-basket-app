@@ -1,0 +1,267 @@
+{
+  "title": "Headaches",
+  "linkText": "Headaches",
+  "order": 1,
+  "author": "White Sparrow, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Headaches are generally classified as pain in the upper portion of the head.  With over 45 million Americans have headaches on a regular basis and about 18 million Americans experience those as migraines; understanding headaches is important part of holistic medicine.  ",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Headaches may be caused by numerous different conditions like dehydration, toxins, stress, and even distension of arteries at the base of the brain from fever, hangovers, or high blood pressure.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Research shows that women tend to have headaches three times more than men.  It also shows that 80% of all headaches go away within thirty minutes of drinking a liter of water.   ",
+      "order": 3
+    },
+    { "element": "p", "content": "Headache Triggers:", "order": 4 },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Anything with caffeine" },
+        {
+          "order": 2,
+          "content": "Allergies to food (Keep a food diary to see if there are any common factors between eating and you’re experiencing a headache.  Sometimes the headache will show up as late as 48 hours after eating a specific food.), pollens, chemicals, perfumes, airborne pollutants, and industrial fumes"
+        },
+        { "order": 3, "content": "Processed meats containing nitrates " },
+        { "order": 4, "content": "Too much salt " },
+        { "order": 5, "content": "Ice cream chilling the roof of the mouth." },
+        { "order": 6, "content": "Food dyes, artificial sweeteners, MSG" },
+        { "order": 7, "content": "Tobacco, alcohol, and drugs" },
+        { "order": 8, "content": "Stress and anxiety" },
+        { "order": 9, "content": "Skipped meals/hunger" },
+        { "order": 10, "content": "Hormonal imbalance" },
+        { "order": 11, "content": "Trauma to the head" },
+        { "order": 12, "content": "Nutritional deficiencies" },
+        { "order": 13, "content": "Constipation " },
+        { "order": 14, "content": "Sinus inflammation or ear infection" },
+        { "order": 15, "content": "Medication overuse" },
+        { "order": 16, "content": "Carbon monoxide poisoning" },
+        { "order": 17, "content": "Excess sun exposure" },
+        { "order": 18, "content": "Eyestrain" },
+        { "order": 19, "content": "Muscle tension " },
+        { "order": 20, "content": "Poor ventilation or a lack of fresh air" },
+        {
+          "order": 21,
+          "content": "Infections, fevers, diseases of the eyes, nose, or throat."
+        },
+        { "order": 22, "content": "Spinal misalignment" }
+      ],
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "Symptoms that indicate a more serious medical condition that may need medical attention are:",
+      "order": 6
+    },
+    { "element": "h3", "content": "", "order": 7 },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Headaches accompanied by a fever and stiff neck could indicate meningitis."
+        },
+        {
+          "order": 2,
+          "content": "Visual changes, blurry vision or double vision"
+        },
+        {
+          "order": 3,
+          "content": "Headaches that persist after a head injury or accident"
+        },
+        {
+          "order": 4,
+          "content": "Headaches that change the personality or have unusual behavior"
+        },
+        {
+          "order": 5,
+          "content": "Headaches accompanied by severe nausea or vomiting"
+        },
+        {
+          "order": 6,
+          "content": "A fever, rash, or stiff neck that occurs with a headache"
+        },
+        {
+          "order": 7,
+          "content": "A headache that develops in minutes with an inability to move a limb, may be signs of a stroke."
+        },
+        {
+          "order": 8,
+          "content": "A headache with mental confusion, may be encephalitis, an inflammation of the brain due to a virus."
+        },
+        {
+          "order": 9,
+          "content": "Repeated headaches may be a symptom of a serious disorder."
+        },
+        {
+          "order": 10,
+          "content": "Sensitivity to light can cause eyestrain and headaches."
+        },
+        { "order": 11, "content": "Loss of speech or confusing" },
+        {
+          "order": 12,
+          "content": "Pounding heartbeat, throbbing of the head and temples"
+        },
+        { "order": 13, "content": "Feeling that your head may explode" }
+      ],
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "The treatment for headaches depends on the underlying cause.  Headaches that are caused by a certain specific problem will frequently return.  Try to identify what is causing the headache to avoid recurring headaches in the future.  (What is sometimes thought to be a sinus headache is actually a tension headache, migraine, or cluster headache.  When the headache is recurring, it is probably not sinus trouble.)",
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "A very powerful way to deal with a headache is to apply one of the following Therapeutic Oils to the area and massage it in:",
+      "order": 10
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Helichrysum italicum or Helichrysum gymnocephalium – assists inflammation and an excellent pain reliever. "
+        },
+        {
+          "order": 2,
+          "content": "Lavender – beneficial used for relaxation, spasms, inflammation, muscle pain, and headaches. "
+        },
+        {
+          "order": 3,
+          "content": "Marjoram – beneficial used for migraine headaches, muscular aches, and stiffness."
+        },
+        {
+          "order": 4,
+          "content": "Peppermint – assists with inflammation, spasms, stress, migraines, and headaches."
+        },
+        {
+          "order": 5,
+          "content": "Rosemary – assists with poor circulation, muscular spasms, and headaches."
+        }
+      ],
+      "order": 11
+    },
+    { "element": "p", "content": "Other possible remedies:", "order": 12 },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Make healthy dietary and lifestyle changes."
+        },
+        { "order": 2, "content": "Apply a cold compresses to the area." },
+        {
+          "order": 3,
+          "content": "Regular exercise assists with stress reduction and improves circulation."
+        },
+        { "order": 4, "content": "Get enough sleep." },
+        {
+          "order": 5,
+          "content": "Avoid overdoing.  Learn to live within your limits.  Use relaxation such as meditation, deep breathing, or yoga to keep yourself calm.  "
+        },
+        { "order": 6, "content": "Eat on time and do not eat problem foods." },
+        { "order": 7, "content": "Acupuncture" },
+        { "order": 8, "content": "Massage therapy" },
+        {
+          "order": 9,
+          "content": "Many people have reported that doing an enema eliminates their headache."
+        },
+        {
+          "order": 10,
+          "content": "Avoid chewing gum since the repetitive chewing can bring on a tension headache."
+        },
+        {
+          "order": 11,
+          "content": "For high altitudes take additional vitamin C plus ginger to avoid a high-altitude headache."
+        },
+        {
+          "order": 12,
+          "content": "Keep a diary to help determine the cause of the headaches.  Note the date, time of day, where the pain is felt and any comments about what you think might be the possible cause.  Use this diary to determine the causing factor(s) for your headaches."
+        },
+        {
+          "order": 13,
+          "content": "Remove toxins and preservatives from your diet will stop or improve headache symptoms.  "
+        }
+      ],
+      "order": 13
+    },
+    {
+      "element": "p",
+      "content": "There are many types of headaches but below are a few types with simple remedies.  (Remember, that any of the Therapeutic Oils mentioned above, and many others, may be beneficial for headaches.)",
+      "order": 14
+    },
+    { "element": "p", "content": "", "order": 15 },
+    {
+      "element": "link",
+      "link": "",
+      "local": false,
+      "linkText": "",
+      "order": 16
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "What is referred to as Episodic Tension Headache or Nervous Tension Headache, are the most common type of headache that usually causes pain on both sides of the head.  This is a result from contractions of the face and neck muscles, often due to fatigue and stress.  The scientific experts tell us that 90% of all known headaches are caused by emotional issues like tension, worry, conflicts with others, and etc.  Nervousness causes the muscles to tighten making it feel like there is a tightening around the head and neck accompanied with an ache.  These mild to moderate pain tension headaches will be on both sides of the head and generally last from about 2 to 12 hours. Treatment of this most common of headaches includes application of therapeutic oils on the neck and upper back followed by an ice pack if desired.  Drink water, relax or meditate, get some exercise by going for a walk, take extra vitamin C with bioflavonoids, and avoid sugar, caffeine, and food allergens."
+        },
+        {
+          "order": 2,
+          "content": "Cluster headaches are more severe and recurring; with a strong, throbbing pain on one side of head, tearing of eyes, flushing of face, and congestion in the nose.   These are related to allergic reactions.  They may be caused by inhaling allergens such as perfume, house dust, or cigarette smoke.  They can occur just by themselves but often they are associated with other problems and diseases like chronic fatigue syndrome.  Ninety percent of those people who suffer from cluster headaches are men.  Cluster headaches will only be on one side of the head and generally last from 30 to 90 minutes at a time, yet they can reoccur 1 to 3 times a day for weeks or months.  Take the Ultra 1 supplement, enough protein found in plants (nuts are a great source), avoid inhalant allergens, and keep a diet diary to learn the triggers."
+        },
+        {
+          "order": 3,
+          "content": "Hangover headaches involve a throbbing pain and that is caused by drinking excess liquor.  Put a Therapeutic Oil along with an ice on the neck.  Drink lots of water and fruit juices to replenish the body.  Stop drinking alcohol in excess."
+        },
+        {
+          "order": 4,
+          "content": "Exertion headaches can be caused by physical exertion or sexual excess.  Apply ice packs to the point of pain, improve the diet, and stop the excesses."
+        },
+        {
+          "order": 5,
+          "content": "Caffeine headaches are a throbbing pain that happens when you try to quit your coffee addiction too fast.  Drink a small amount of coffee to stop the headache, and then gradually reduce the amount and frequency to get away from this addiction."
+        },
+        {
+          "order": 6,
+          "content": "Sinus headaches are pains that can be to the right and left of the nose and over it.  Apply a Therapeutic Oil, moist heat to the area, and take vitamin C."
+        },
+        {
+          "order": 7,
+          "content": "Bilious headaches involve throbbing temples with a dull headache in the forehead.  It is caused by overeating, wrong eating, and inactivity.  Take an enema, change your diet, take high quality supplements, and get more exercise."
+        },
+        {
+          "order": 8,
+          "content": "Menstrual headaches can occur during menstruation or ovulation.  It will feel like a migraine.  Take potassium, magnesium, and vitamin B6."
+        },
+        {
+          "order": 9,
+          "content": "Hunger headaches are headaches that occur just before mealtime and are caused by skipping meals or excessive dieting.  Eat better and more healthy meals and snack on nutritious alternatives."
+        },
+        {
+          "order": 10,
+          "content": "Eyestrain headaches can be a pain in the frontal lobes, just behind the eyes.  Many think this is caused by uncorrected vision problems but it really is caused by stress.  Learn to let go and do not perform too much “brain work” at late hours.  Also changing your eyeglasses so you are not stressing the eyes as much."
+        },
+        {
+          "order": 11,
+          "content": "Arthritis headaches can be a pain at the back of the head or neck that increases with movement.  Massaging with therapeutic oils is recommended."
+        },
+        {
+          "order": 12,
+          "content": "Hypertension headaches consist of a dull pain over much of the head that increases with movement.  Reduce your blood pressure.  "
+        },
+        {
+          "order": 13,
+          "content": "Migraine headaches are throbbing pain that occur on either or both sides of the head, often accompanied by nausea, vomiting, blurred vision, and sensitivity to light and sound.  The migraine generally lasts between 4 to 72 hours and the pain can be mild to severe.  There can be a blueness of the fingers from the lack of circulation and oxygen.  A hemiplegic migraine is associated with a weakness on one side of the face, arm, or leg.  Use the Therapeutic Oils, eat a better diet that includes supplements like Shiaqga, relax, drink a small amount of water (4oz) every 30 to 60 minutes, and keep a food journal."
+        }
+      ],
+      "order": 17
+    }
+  ]
+}
