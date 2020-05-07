@@ -1,0 +1,65 @@
+{
+  "title": "High Blood Pressure / Hypertension",
+  "linkText": "High Blood Pressure",
+  "order": 1,
+  "author": "White Sparrow, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Blood pressure measures how hard the blood pushes against the walls of the arteries and moves through the body.  It is normal for the blood pressure to fluctuate throughout the day.  When the blood pressure stays up, that is called hypertension.  Sometimes routine activities during the day can cause the blood pressure to rise:  driving, smoking, family meetings, and even going to the doctor’s office.",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "High blood pressure damages the blood vessels, heart, brain, eyes, kidneys, and other areas of the body.  It can lead to heart attack, stroke and other life treating problems.  Serious symptoms for high blood pressure include headaches, chest pain, vision problems, nausea, and vomiting.  Often people may not have any symptoms so high blood pressure is known as a silent killer.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "When taking someone’s blood pressure, it consists of two numbers:  systolic (heart pumping) and diastolic (between heartbeats).  Normal pressure readings would be 120 /80 or lower.  That is read as 120 (systolic) over 80 (diastolic).  You are considered to have hypertension with a reading of 140/90 or higher.  ",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "Normal - less than 120 over 80 or less",
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "Prehypertension - 120 to 139 over or 80 – 89",
+      "order": 5
+    },
+    { "element": "p", "content": "Hypertension ", "order": 6 },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Stage 1 - 140 to 159 over or 90 – 99" },
+        { "order": 2, "content": "Stage 2 - 160+ over or 100+ " },
+        { "order": 3, "content": "Emergency Care Needed - 180+ over or 110+" }
+      ],
+      "order": 7
+    },
+    { "element": "p", "content": "What do doctors suggest?", "order": 8 },
+    {
+      "element": "p",
+      "content": "Doctors tell us that your risk of high blood pressure increases as you age.  They state that many high blood pressure problems can be regulated by a change in lifestyle like loosing that extra weight, eating less salt (2300 milligrams of sodium per day – that’s one teaspoon of salt), exercising, limiting your alcohol intake (two drinks a day), and getting 3500 milligrams of potassium in the diet.   They also state that in some people, high blood pressure cannot be regulated without medication.    ",
+      "order": 9
+    },
+    { "element": "p", "content": "Is there a cure? ", "order": 10 },
+    {
+      "element": "p",
+      "content": "Really having high blood pressure all comes down to not taking the proper care of your body.  With our modern lifestyles of stress, environmental toxins, and poor nutrition, hypertension is rapidly becoming a major epidemic.  Being overweight, drinking too much alcohol, being inactive, long-term use of pain medicines or other synthetic drugs,  and not having enough potassium or calcium in you diet will just compound your risk of having high blood pressure.",
+      "order": 11
+    },
+    {
+      "element": "p",
+      "content": "Blood pressure commonly rises as you get older due to the body’s accumulation of toxins and lack of regeneration.  By giving your body the proper building blocks of good health through the food we eat or the supplements we take, the body heals itself.  It’s that simple.",
+      "order": 12
+    },
+    {
+      "element": "p",
+      "content": "The Shiaqga supplement activates the body's ability to eliminate toxins and regeneration so naturally there are many testimonials about it assisting hypertension. ",
+      "order": 13
+    }
+  ]
+}

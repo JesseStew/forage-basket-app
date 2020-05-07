@@ -1,47 +1,97 @@
 [
   {
     "element": "p",
-    "content": "This viral disease is caused by both herpes simplex virus type 1 (HSV-1) and type 2 (HSV-2).  These infections, oral herpes (type 1 - usually above the waist) or genital herpes (type 2 - usually below the waist) are categorized by the site of the infection.  Both types have visible symptoms that resemble cold sores or fever blisters and are capable of infecting the skin at any location of the body.  ",
+    "content": "Hypoglycemia is considered a diet related condition simply because a proper diet can eliminate this condition.  Scientists consider as many as 100 million people in the U.S.A. suffer from it.  Simply put, Hypoglycemia is low blood glucose often called low blood sugar (when the blood glucose drops below a normal level).   The food that we eat is broken down and turned into glucose in the small intestine and absorbed into the bloodstream and carried to the cells.  When the blood glucose falls, glucagon (a hormone made by the pancreas) signals to the liver to release stored glucose into the bloodstream.  In-between meals, during exercise, or when you sleep, the liver releases stored glucose to supply the body with energy.  ",
     "order": 1
   },
   {
     "element": "p",
-    "content": "Many people are infected with this virus and have no symptoms.  This is because the immune system is producing antibodies against the herpes virus.  This response assists to reduce a recurrence for the virus and makes it hard for the virus to get a “foothold” anywhere else in the body.  Since the family of herpes simplex viruses can become latent and hide from the immune system in the cell bodies of nerves, it is vital to maintain a modulated immune system.  If the infected person’s immune system is weakened (most often due to poor nutrition, stress, or toxins) the virus can reactivate and an outbreak can occur.   ",
+    "content": "With hypoglycemia, the pancreas sends out too much insulin and the blood glucose plummets low.  When the blood glucose is too low, in a sense, it starves the cells that need the glucose for fuel, thus causing physical and emotional symptoms.  This usually happens in people with diabetes.  There are two types of hypoglycemia that can occur in people who do not have diabetes:  reactive hypoglycemia (post-prandial hypoglycemia) that occurs within 4 hours after meals and fasting hypoglycemia (post-absorptive hypoglycemia) that could be related to an underlying disease.  ",
     "order": 2
   },
   {
     "element": "p",
-    "content": "The family of herpes simplex viruses also causes other disorders such as herpetic whitlow, herpes gladiatorum, ocular herpes (keratitis), cerebral herpes, infection encephalitis, Mollaret’s meningitis, and neonatal herpes.  These viruses are contagious and can be transmitted by person-to-person contact by touching an infected area, through salvia and bodily fluids.  ",
+    "content": "Severe hypoglycemia can cause a person to pass out and can even be life threatening.  The known causes are:",
     "order": 3
   },
   {
-    "element": "p",
-    "content": "To the modern medical world, there is no cure or vaccine for the herpes; this is a life-time virus.  With Natural Healers the modulation of the immune system can prevent the virus and also be the treatment.  Through having a modulated immune system and by keeping the body healthy, your natural defenses can fight and win.  For this purpose, nature has provided us with plants than contain wonderful healing properties.  (All medications proscribed by your doctor can find their roots in nature.)  Therapeutic Essential Oils contain high concentrations of anti viral properties.  ",
+    "element": "ul",
+    "content": [
+      { "order": 1, "content": "Diets lacking in proper nutrition.  " },
+      {
+        "order": 2,
+        "content": "Environmental toxins (pollution) or other harmful chemicals (including smoking and so forth)."
+      },
+      {
+        "order": 3,
+        "content": "Alcohol – Drinking alcohol on an empty stomach, even days later.  (The body’s breakdown of alcohol interferes with the liver’s efforts to raise the blood glucose.  This can even cause death)."
+      },
+      {
+        "order": 4,
+        "content": "Increased physical activity – up to 24 hours afterward."
+      },
+      {
+        "order": 5,
+        "content": "Meals or snacks that are too small, delayed, or skipped.  "
+      },
+      {
+        "order": 6,
+        "content": "Hormonal deficiencies – especially in young children, but rarely in adults.  "
+      },
+      {
+        "order": 7,
+        "content": "Tumors -  Insulinomas are insulin-producing tumors in the pancreas.  "
+      },
+      {
+        "order": 8,
+        "content": "Critical Illnesses can affect the liver, heart, or kidneys.  "
+      },
+      {
+        "order": 9,
+        "content": "Medications - including some medicines that are used to treat diabetes."
+      }
+    ],
     "order": 4
   },
   {
     "element": "p",
-    "content": "If you are like most people in our modern society, your immune system is already on overload.  Start improving your defenses with eating a healthy diet, taking supplements like Shiaqga, drinking enough water, and exercising the body.  ",
+    "content": "Since the brain is one of the first organs affected by low glucose, the symptoms of hypoglycemia can happen suddenly.  If left untreated, confusion, clumsiness, or fainting may occur.  Severe hypoglycemia can lead to seizures, coma, brain damage, and even death.  (The brain is dependent on a continual supply of glucose from the blood and tissues within the central nervous system.)",
     "order": 5
   },
   {
     "element": "p",
-    "content": "Man Found Standing states, “I want to share with you my personal experience with the herpes simplex virus type 1.  When I was in my mid teens about every six months a cold sore would appear that would last for about two weeks.  They were not only quite painful but very embarrassing as well.  ",
+    "content": "Some of the symptoms, that can vary from person to person, are hunger, shakiness, nervousness, sweating, dizziness (light-headedness), sleepiness, confusion, difficulty speaking, anxiety, and weakness.  Hypoglycemia can even happen during sleep that includes crying out or having nightmares, sweating, feeling tired, being irritable or being confused after waking.  ",
     "order": 6
   },
   {
     "element": "p",
-    "content": "During one of my outbreaks that was halfway formed, my Grandfather happened to see me and suggested an ancient Australian Aboriginal remedy.  This oil extracted from the wild Tea Tree leaves was my first introduction to Therapeutic Essential Oils.  He gave me a bottle and told me to test it out.",
+    "content": "If you are not diabetic, and when you feel like you are experiencing hypoglycemia, try this:",
     "order": 7
   },
   {
-    "element": "p",
-    "content": "I put a drop on my finger and then rubbed it on the blister.  There was a painful burning sensation that lasted about thirty seconds and then the area was pain free.  I continued to put a drop of oil on the area every four or five hours when the pain started to return.",
+    "element": "ul",
+    "content": [
+      {
+        "order": 1,
+        "content": "Eating small meals and snacks about every 3 hours"
+      },
+      { "order": 2, "content": "being physically active" },
+      { "order": 3, "content": "eating a variety of healthy foods" },
+      { "order": 4, "content": "eating foods high in fiber" },
+      {
+        "order": 5,
+        "content": "limit foods high in sugar – especially on an empty stomach"
+      },
+      {
+        "order": 6,
+        "content": "Be prepared.  When your blood sugar is too low, a high-glucose food can be a quick-fix to raise the sugar level.  Honey, fruit juice, or anything that has high carbohydrates can all be used.​"
+      }
+    ],
     "order": 8
   },
   {
     "element": "p",
-    "content": "Within days the area was completely healed.  I was further amazed that no blisters returned.  Now, over thirty years later, I still have not had another outbreak.  I thank my Grandfather for sharing this wisdom with me.” ",
+    "content": "​Depending on the frequency and severity of the hypoglycemia, you may want to keep a diary to document the time of day, time since the last meal, previous episodes, what you ate or your physical and mental state to help recognize what the cause may be.  If hypoglycemia is due to a chronic pancreas related condition, look into supplements like Shiaqga that active the cellular communication, especially stem cells. ",
     "order": 9
   }
 ]

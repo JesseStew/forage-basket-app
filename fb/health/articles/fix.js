@@ -1,4 +1,4 @@
-const data = require('./herpesSimplex.json')
+const data = require('./hypoglycemia.json')
 const _ = require('lodash')
 const fs = require('fs')
 

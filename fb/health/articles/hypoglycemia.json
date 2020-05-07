@@ -1,0 +1,103 @@
+{
+  "title": "Hypoglycemia",
+  "linkText": "Hypoglycemia",
+  "order": 1,
+  "author": "White Sparrow, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Hypoglycemia is considered a diet related condition simply because a proper diet can eliminate this condition.  Scientists consider as many as 100 million people in the U.S.A. suffer from it.  Simply put, Hypoglycemia is low blood glucose often called low blood sugar (when the blood glucose drops below a normal level).   The food that we eat is broken down and turned into glucose in the small intestine and absorbed into the bloodstream and carried to the cells.  When the blood glucose falls, glucagon (a hormone made by the pancreas) signals to the liver to release stored glucose into the bloodstream.  In-between meals, during exercise, or when you sleep, the liver releases stored glucose to supply the body with energy.  ",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "With hypoglycemia, the pancreas sends out too much insulin and the blood glucose plummets low.  When the blood glucose is too low, in a sense, it starves the cells that need the glucose for fuel, thus causing physical and emotional symptoms.  This usually happens in people with diabetes.  There are two types of hypoglycemia that can occur in people who do not have diabetes:  reactive hypoglycemia (post-prandial hypoglycemia) that occurs within 4 hours after meals and fasting hypoglycemia (post-absorptive hypoglycemia) that could be related to an underlying disease.  ",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Severe hypoglycemia can cause a person to pass out and can even be life threatening.  The known causes are:",
+      "order": 3
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Diets lacking in proper nutrition.  " },
+        {
+          "order": 2,
+          "content": "Environmental toxins (pollution) or other harmful chemicals (including smoking and so forth)."
+        },
+        {
+          "order": 3,
+          "content": "Alcohol – Drinking alcohol on an empty stomach, even days later.  (The body’s breakdown of alcohol interferes with the liver’s efforts to raise the blood glucose.  This can even cause death)."
+        },
+        {
+          "order": 4,
+          "content": "Increased physical activity – up to 24 hours afterward."
+        },
+        {
+          "order": 5,
+          "content": "Meals or snacks that are too small, delayed, or skipped.  "
+        },
+        {
+          "order": 6,
+          "content": "Hormonal deficiencies – especially in young children, but rarely in adults.  "
+        },
+        {
+          "order": 7,
+          "content": "Tumors -  Insulinomas are insulin-producing tumors in the pancreas.  "
+        },
+        {
+          "order": 8,
+          "content": "Critical Illnesses can affect the liver, heart, or kidneys.  "
+        },
+        {
+          "order": 9,
+          "content": "Medications - including some medicines that are used to treat diabetes."
+        }
+      ],
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "Since the brain is one of the first organs affected by low glucose, the symptoms of hypoglycemia can happen suddenly.  If left untreated, confusion, clumsiness, or fainting may occur.  Severe hypoglycemia can lead to seizures, coma, brain damage, and even death.  (The brain is dependent on a continual supply of glucose from the blood and tissues within the central nervous system.)",
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "Some of the symptoms, that can vary from person to person, are hunger, shakiness, nervousness, sweating, dizziness (light-headedness), sleepiness, confusion, difficulty speaking, anxiety, and weakness.  Hypoglycemia can even happen during sleep that includes crying out or having nightmares, sweating, feeling tired, being irritable or being confused after waking.  ",
+      "order": 6
+    },
+    {
+      "element": "p",
+      "content": "If you are not diabetic, and when you feel like you are experiencing hypoglycemia, try this:",
+      "order": 7
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Eating small meals and snacks about every 3 hours"
+        },
+        { "order": 2, "content": "being physically active" },
+        { "order": 3, "content": "eating a variety of healthy foods" },
+        { "order": 4, "content": "eating foods high in fiber" },
+        {
+          "order": 5,
+          "content": "limit foods high in sugar – especially on an empty stomach"
+        },
+        {
+          "order": 6,
+          "content": "Be prepared.  When your blood sugar is too low, a high-glucose food can be a quick-fix to raise the sugar level.  Honey, fruit juice, or anything that has high carbohydrates can all be used.​"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "​Depending on the frequency and severity of the hypoglycemia, you may want to keep a diary to document the time of day, time since the last meal, previous episodes, what you ate or your physical and mental state to help recognize what the cause may be.  If hypoglycemia is due to a chronic pancreas related condition, look into supplements like Shiaqga that active the cellular communication, especially stem cells. ",
+      "order": 9
+    }
+  ]
+}
