@@ -1,0 +1,286 @@
+{
+  "title": "Multiple Sclerosis",
+  "linkText": "Multiple Sclerosis",
+  "order": 1,
+  "author": "Medicine Woman Practitioner - Paway-yatanatu way-akt",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Multiple Sclerosis (MS) is a progressive, degenerative disorder of the central nervous system.  MS destroys the nerve covering called myelin, leaving scar tissue (called plaques) in its place.  Eventually, the nerves themselves become hardened and stop functioning.   More than 350,000 people in the US have Multiple Sclerosis.  It usually begins between the ages of 25 to 40, but cases have been found in children and the elderly as well.  This disease occurs twice as often in women than in men.  It is the most common acquired disease of the nervous system in young adults.",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Multiple Sclerosis affects the central nervous system including the brain and spinal cord.  Myelin acts as insulation wrapped around the nerves and helps transmit electronic signals from the brain to all parts of the body.  MS causes inflammation and deteriorates the myelin on the nerves, causing the electronic signals to be intermittent or broken. The nerves are attacked and become damaged.  When these attacks happen, this affects vision, speech, walking, writing, and memory.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "It is interesting, that researchers have found that there are a few things people with MS have in common before the diagnosis.  Some of them are being overworked, emotional stress, fatigue, acute respiratory infections, chemical poisoning, and a poor diet.  These common factors are all issues that compromise the immune system response.",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "The human body is designed with an immune system that protects the body.  With disease and infection, the immune system sees theses and treats them as foreign invaders and attacks.  This process depends upon rapid communication among the immune cells and white blood cells that then attack the invader (disease).",
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "With Multiple Sclerosis, confuse will enter the immune system and it will perceive the myelin sheath as an invader and attack, damaging normal, healthy tissue.  This process, where the immune system attacks itself, is called autoimmunity disorder.",
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "Some of the main possible causes of Multiple Sclerosis are:",
+      "order": 6
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Malnutrition or poor diet" },
+        { "order": 2, "content": "Stress" },
+        {
+          "order": 3,
+          "content": "Possible food allergies (dairy products or gluten)"
+        },
+        { "order": 4, "content": "Metal poisonings such as lead or mercury" },
+        { "order": 5, "content": "Chemicals from industry or pesticides" },
+        {
+          "order": 6,
+          "content": "Toxins from vaccinations, bacteria, or fungi in the body"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "MS is categorized into four types:",
+      "order": 8
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Relapsing-remitting has unpredictable relapses followed by periods of months to years of remission.  This is 85-90% of the cases of MS."
+        },
+        {
+          "order": 2,
+          "content": "Secondary progressive (galloping MS) relapsing-remitting MS and has a progressive neurologic decline between acute attacks with no periods of remission."
+        },
+        {
+          "order": 3,
+          "content": "Primary progressive is the progression of disability from the beginning with no remission periods.  It slowly gets worse."
+        },
+        {
+          "order": 4,
+          "content": "Progressive relapsing is described to have a steady neurological decline with attacks.  This is the least common."
+        }
+      ],
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "All of these categories are just stages in a compromised immune system and body health.  During an attack in the earlier stages a person may experience:",
+      "order": 10
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Occasional dizziness" },
+        { "order": 2, "content": "Mood swings or depression" },
+        { "order": 3, "content": "Numbness in the fingers and the feet" },
+        { "order": 4, "content": "Loss of balance and coordination" },
+        { "order": 5, "content": "Nausea and vomiting" },
+        { "order": 6, "content": "Tremors " },
+        { "order": 7, "content": "Muscular stiffness or spasms" },
+        { "order": 8, "content": "Slurred speech" },
+        { "order": 9, "content": "Difficult breathing" },
+        { "order": 10, "content": "Fatigue" },
+        { "order": 11, "content": "A prickling pain" },
+        { "order": 12, "content": "Loss of sensation" },
+        { "order": 13, "content": "Decreased concentration or memory loss" },
+        { "order": 14, "content": "Attention deficits" },
+        { "order": 15, "content": "Impaired judgment" },
+        { "order": 16, "content": "Blurred vision" }
+      ],
+      "order": 11
+    },
+    {
+      "element": "p",
+      "content": "In later stages a person may experience:",
+      "order": 12
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Difficulty in walking" },
+        { "order": 2, "content": "A staggering gait." }
+      ],
+      "order": 13
+    },
+    {
+      "element": "p",
+      "content": "​In still later stages a person may experience:",
+      "order": 14
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Spastic momements" },
+        { "order": 2, "content": "Paralysis" },
+        { "order": 3, "content": "Extreme fatigue" },
+        {
+          "order": 4,
+          "content": "As the disease worsens, experience with sexual dysfunction and reduced bowel and bladder control occur.   "
+        }
+      ],
+      "order": 15
+    },
+    {
+      "element": "p",
+      "content": "These attacks can be followed by a period of remission until another attack happens.  These attacks may be weeks to decades between relapses.  ",
+      "order": 16
+    },
+    {
+      "element": "p",
+      "content": "Modern science had no known cure for MS and since 1993 medications have been used to “alter” the immune system to manage the symptoms of MS.  All of these medications have harmful side effects.  These drugs also just treat the symptoms, not the cause.    ",
+      "order": 17
+    },
+    {
+      "element": "p",
+      "content": "Natural Medicine goes about treating illnesses through treating the whole body.  By assisting the entire body, many health conditions are reversed.  Here are some potential beneficial solutions for MS:",
+      "order": 18
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Supplement with Shiaqga.  You will need to build up your intake of Shiaqga until you feel you have reached your body’s desired intake.  You can know your body’s preferred intake by how you feel.  If you feel better by taking more, then take more.  If you feel better by taking less, then take less."
+        },
+        {
+          "order": 2,
+          "content": "Take an enzyme with each meal and also one upon waking at least one hour before eating.  Enzymes assist to break down your food ensuring better nutrition and health."
+        },
+        {
+          "order": 3,
+          "content": "Give attention to solving as many of the above possible dietetic and environmental causes as possible."
+        },
+        {
+          "order": 4,
+          "content": "Fresh fruit, vegetable, and green juices are important.  "
+        },
+        {
+          "order": 5,
+          "content": "Avoid meat, milk, eggs, dairy products, caffeine, and alcohol."
+        },
+        {
+          "order": 6,
+          "content": "Avoid sugar, excess fat, white-flour, rancid oils, and fried foods; all of these destroy nerve cells."
+        },
+        {
+          "order": 7,
+          "content": "Mercury fillings in your teeth may be a factor.  People with MS have mercury levels seven times higher than those without MS.  Some researchers believe mercury poisoning is a significant cause of MS.  Get rid of your amalgam dental fillings or increase your Shiaqga herb supplement for its chelation therapy effects."
+        },
+        { "order": 8, "content": "Keep mentally active." },
+        {
+          "order": 9,
+          "content": "Massage and regular exercise are beneficial."
+        },
+        {
+          "order": 10,
+          "content": "Emotional stress, anxiety, and excessive fatigue may bring on an attack."
+        },
+        {
+          "order": 11,
+          "content": "Avoid smoking and second-hand smoke.  You need oxygen without pollution."
+        },
+        {
+          "order": 12,
+          "content": "Short cleansing fasts are quite beneficial.  (I personally do these quite often.)  "
+        }
+      ],
+      "order": 19
+    },
+    {
+      "element": "p",
+      "content": "Here are other special helps you might find beneficial:",
+      "order": 20
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "In Dr. Roy Swank’s 20 years of studying the MS problem, he found that high-saturated fat diet makes the problem worse.  He feels it is important you only maintain a low-fat, unsaturated fat diet consisting of only two tablespoons daily of raw flaxseed oil and no other oil.  Also take one teaspoon granular lecithin daily."
+        },
+        {
+          "order": 2,
+          "content": "Take 375 mg of magnesium daily.  Purslane is the herb richest in magnesium followed by poppy seeds.  You can find Purslane growing wild throughout North America.  It is good steamed or eaten raw in a salad."
+        },
+        {
+          "order": 3,
+          "content": "Gamma-linolenic acid (GLA) found in black currant, borage and evening primrose oil is very good for MS."
+        },
+        {
+          "order": 4,
+          "content": "The oligomeric procyanidins (OPC’s) found in blueberries help prevent myelin sheath destruction.  They also relieve anti-inflammatory activity in MS."
+        },
+        {
+          "order": 5,
+          "content": "Pineapple contains two enzymes, pancreatin, and bromelain, that break up protein molecules in the stomach so they can be digested better.  These enzymes also reduce circulating immune complexes (CIC’s) which occur in several autoimmune diseases.  The CIC’s activate the immune system to attack the body."
+        },
+        {
+          "order": 6,
+          "content": "Walk in the sun or take vitamin D.  MS occurs more frequently in locations farther away from the equator."
+        },
+        {
+          "order": 7,
+          "content": "Some folk medicine treatments which has assisted many people.  Find stinging nettle plants and, handling them with gloves, slap it against exposed skin.  This places the tiny, hair-like stingers into the skin and gives microinjections of several beneficial chemicals, including histamine.  Or another method is to get stung by honey bees.  Both methods include similar helpful chemicals which can help the condition but will not cure it.  It would probably be best to use the stinging nettle since the plant can grow new leaves whereas the honey bees give their life."
+        }
+      ],
+      "order": 21
+    },
+    {
+      "element": "p",
+      "content": "Some of the Therapeutic Oils available from I Am Essential Oils that would be beneficial for repairing the myelin sheath are:",
+      "order": 22
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Helichrysum italic – is the species that is extremely beneficial for any nerve problem and is an excellent pain reliever."
+        },
+        {
+          "order": 2,
+          "content": "Clove Bud – is beneficial for inflammation, viruses of the nerves, fungus, and parasites."
+        },
+        {
+          "order": 3,
+          "content": "Frankincense – is an incredible immune builder and beneficial against inflammation.  It is calming and soothing bringing peace."
+        },
+        {
+          "order": 4,
+          "content": "Black Cumin – is beneficial for every disease.  It strengthens and stabilizes the immune system and is effective in the treatment of immune disorders."
+        },
+        {
+          "order": 5,
+          "content": "Pain Free – contains Helichrysum gymnocephalium, Basil, Wintergreen, Lemongrass, Peppermint, and Lavender.  It is beneficial when used for muscle and joint discomfort, inflammation, and pain."
+        },
+        {
+          "order": 6,
+          "content": "Joint Support – contains Neem, Lemongrass, Spruce, Peppermint, Helichrysum gymnocephalum, and Black Pepper.  In Africa and India, the Neem tree has been known for centuries as “the tree that heals.” "
+        }
+      ],
+      "order": 23
+    },
+    {
+      "element": "p",
+      "content": "Keep the body healthy by building-up and strengthening the immune system.   The immune system is the body’s natural defense against disease and Shiaqga is the most powerful natural medicine I have ever come across for supporting the immune system.  If you are deficient in nutrition, minerals, smoke, use alcohol, are under severe stress, or are surrounded by environmental toxins; this can all put the immune system on overload and weaken the body.  The body is in battle every day.  The immune system is working to keep the body living.  Learn how to eat healthy, relax, and look for positive ways to bring happiness into your life. ",
+      "order": 24
+    }
+  ]
+}

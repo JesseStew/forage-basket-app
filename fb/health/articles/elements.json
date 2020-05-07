@@ -1,138 +1,217 @@
 [
   {
     "element": "p",
-    "content": "Minerals, vitamins, and phytochemical assist the body to function properly and repair itself.  They regulate the body’s pH to prevent acidosis, an increase in acidity in the body, and maintain the body’s proper cellular alkalinity.  Because of modern farming practices and our modern diets, people are usually not getting the nutrition they need for optimal health.  I like to look towards herbs and superfoods to assist in giving my body the building blocks of good health and to achieve a homeostatic balance of the body’s chemistry.  Taking supper food drinks or green shots daily is a wonderful way to assist the body in getting the proper nutrition it needs.",
+    "content": "Osteoporosis simply means porous bones.  It is a reduction in the total mass of bone, so that the remaining bone is fragile or “brittle.”  This weakening continues to increase, making the bones actually become thinner.  This loss of bone mass occurs because bone formation is slowed and bone reabsorption increases.  Bone reabsorption means that the body is removing calcium and other minerals from the bones to use some other place. ",
     "order": 1
   },
   {
     "element": "p",
-    "content": "We should understand the importance of minerals.  Every living cell on the planet, plant or animal, depend on minerals for their proper structure and function. Vitamins often outshine minerals, but minerals truly are the life-sustaining elements. We could not live without minerals and trace minerals.  Getting the proper mineral supplementation assists us in living a long, healthy, and active life.  Minerals have two main functions:      ",
+    "content": "A common result of having osteoporosis, are fractures that can occur in the spine, hip, or wrist.  Bones can become so brittle that even coughing or bending can cause a fracture.  This is just a result from low levels of calcium and minerals in the bones.  ",
     "order": 2
   },
   {
-    "element": "ol",
-    "content": [
-      {
-        "order": 1,
-        "content": "As an actual constituent of the body in both hard and soft tissue."
-      },
-      {
-        "order": 2,
-        "content": "As buffers and catalysts necessary to perform all body functions."
-      }
-    ],
+    "element": "p",
+    "content": "Osteoporosis was once thought to be just a woman’s disease.  About 25-30 percent of all white females in the U.S. reveal symptoms of this condition, especially after menopause.  White females tend to lose 30-40 percent of their bone mass between ages 55-70.  Research indicates that osteoporosis often begins early in life rather than just after menopause, however, bone loss definitely accelerates after that time due to drops in estrogen levels.",
     "order": 3
   },
   {
     "element": "p",
-    "content": "Some important roles minerals play in the body:",
+    "content": "Older men, above 50, can also have osteoporosis, but normally to a lesser degree than women.  Osteoporosis is rare in black men, but somewhat common in black women.  People with larger and denser bones tend will naturally tend to have less trouble with osteoporosis later in life because they started out with a more boney structure.",
     "order": 4
+  },
+  {
+    "element": "p",
+    "content": "There are two types of osteoporosis:",
+    "order": 5
   },
   {
     "element": "ul",
     "content": [
       {
         "order": 1,
-        "content": "Needed for energy production, cellular maintenance, and function."
+        "content": "Type I, is thought to be caused by hormonal changes, especially a loss of estrogen."
       },
       {
         "order": 2,
-        "content": "Necessary for bone formation and tooth development."
-      },
-      { "order": 3, "content": "Ideal for muscle function." },
-      {
-        "order": 4,
-        "content": "Vital for enzyme systems, acting as inorganic cofactors which regulate cellular metabolism."
-      },
-      {
-        "order": 5,
-        "content": "Required for nerve transmission throughout the body."
-      },
-      {
-        "order": 6,
-        "content": "Crucial for hemoglobin production, protein synthesis, and the production of hormones."
+        "content": "Type II, traces its cause to dietary factors such as a lack of good calcium or vitamin D, poor absorption, and the intake of foods or drinks which block absorption or are acid forming.  ​"
       }
     ],
-    "order": 5
-  },
-  {
-    "element": "p",
-    "content": "Through Dr. Linus Pauling research he came to the conclusion, “You can trace every sickness, every disease, and every ailment ultimately to a mineral deficiency.”  It is believed that most all people are mineral deficient because of modern eating habits.  Sadly most of the supplements and processed foods on the market today have been fortified with minerals in the improper form and size for our cells to be able to absorb and use.  These supplements and foods are actually harmful for our bodies.  For the average person, it is vital to take supplements that actually work.  ",
     "order": 6
   },
   {
     "element": "p",
-    "content": "When larger mineral particles are taken, the blood eventually absorbs them, but because they are too large to be absorbed by the individual cells, they stay in the bloodstream and are eventually deposited in various locations resulting in toxic or “heavy metal” build-up.  To get the proper ionic minerals, vitamins, and phytochemical in your diet you need to look for them in the plants and superfoods you eat.",
+    "content": "(Note by Man Found Standing, Native American Medicine Man:",
     "order": 7
   },
   {
     "element": "p",
-    "content": "By eating or supplementing with plenty of vegetables, fruits, nuts, seeds, sprouts, berries, and herbs, we are actually assisting our bodies to get the proper ionic size minerals as well as eliminating the build-up of heavy metals.  Not getting enough vital nutrients causes acidosis.  In Dr. Baroody’s book “Alkalize or Die,” he states, “The countless names of illnesses do not really matter. What does matter is that they all come from the same root cause… too much tissue acid waste in the body!”",
+    "content": "To understand nutrition/calcium you must understand there is “good calcium” and “bad calcium”.  Although most doctors and chemists don’t differentiate between the two, there are dramatic differences in their healing properties.  No matter how much you eat of the good calcium, will only do good in the body.  Your body uses what it needs and dumps the rest.  Now in contrast, if you take too much of the bad calcium, your body will use it to do some good things but it will also have bad effects like creating bone spurs and heart valve problems.",
     "order": 8
   },
   {
     "element": "p",
-    "content": "There are many high quality greens, superfoods, and supplements in nature’s pharmacy.  Here are a few of my favorites: ",
+    "content": "The main difference between the good and the bad calcium is found in their structure and energy makeup.  The simple rule to go by with all minerals and nutritional support is the “good” is found in the plant source and the “bad” is found in the animal and mineral source.  Example:  Calcium found in spinach is “good” and the calcium from cow’s milk is “bad”.) ",
     "order": 9
   },
-  { "element": "p", "content": "Dandelion Greens:", "order": 10 },
   {
     "element": "p",
-    "content": "Rich in vitamins and minerals A, B1, B2, B3, C, E, calcium, chromium, iron, magnesium, manganese, phosphorus, potassium, sodium, selenium, silicon, and zinc.  The therapeutic properties of the dandelion leaves assist to regulate blood sugar levels, cleanses the kidneys and liver, stop allergies, fix skin conditions, is considered a diuretic, laxative, choleretic, tonic, antioxidant, and is anti-inflammatory.",
+    "content": "Weakened bones often are not too obvious until the bones are quite weak.  Symptoms are:",
+    "order": 10
+  },
+  {
+    "element": "ul",
+    "content": [
+      {
+        "order": 1,
+        "content": "Back pain – (that could indicated a fractured or collapsed vertebra)"
+      },
+      { "order": 2, "content": "Loss of height – up to several inches" },
+      {
+        "order": 3,
+        "content": "Deformities – such as a hump in the upper back"
+      },
+      {
+        "order": 4,
+        "content": "Stooped posture and rounding of the shoulders"
+      },
+      {
+        "order": 5,
+        "content": "Fractures of the vertebra, wrist, hip, or some other bone"
+      }
+    ],
     "order": 11
   },
-  { "element": "p", "content": "Watercress:", "order": 12 },
   {
     "element": "p",
-    "content": "Contains beta-carotene and vitamins B1, B2, B6, C, and E.  High in minerals such as copper, calcium, phosphorus, magnesium, potassium and sodium.  Watercress has antioxidant and anti-cancer properties, protects the eyes, assists to maintain the skin, promotes healing of wounds, burns, or tendons, and promotes bone formation.",
+    "content": "Bones are continuously changing – new bone is made and old bone is broken down (desorption) – this process is called remodeling or bone turnover.  Normally, the body makes new bone faster than the body breaks down old bone and bone mass increases up to the age of 30, where it reaches peak bone mass.  After that, bone remodeling continues, losing slightly more bone mass that the body rebuilds.",
+    "order": 12
+  },
+  {
+    "element": "p",
+    "content": "The strength of the body’s bones depends on the size and density of the bones.  Bone density is part calcium, phosphorus, and other minerals.  If there is a deficiency of minerals in the body, the minerals will be taken from the bones.  ",
     "order": 13
   },
-  { "element": "p", "content": "Elemental Magnesium:", "order": 14 },
+  { "element": "p", "content": "Causes of osteoporosis are:", "order": 14 },
   {
-    "element": "p",
-    "content": "An essential mineral for more than 300 biochemical reactions in the body and aids the body’s absorption of calcium.  The health benefits of magnesium include the transmission of nerve impulses, body temperature regulation, detoxification, keeping the heart healthy, regulates blood pressure, maintains muscle function, and the formation of healthy bones and teeth.  Magnesium is also good for backaches, migraines, insomnia, depression, and diabetes.",
+    "element": "ul",
+    "content": [
+      {
+        "order": 1,
+        "content": "Poor eating and drinking habits which include the lack of adequate good calcium intake or the inability to absorb the calcium over a period of years."
+      },
+      {
+        "order": 2,
+        "content": "Too much phosphorus in the diet causing an imbalance with the calcium."
+      },
+      { "order": 3, "content": "Lack of exercise." },
+      { "order": 4, "content": "Lack of certain hormones." },
+      { "order": 5, "content": "Tobacco use.  " },
+      { "order": 6, "content": "Late puberty." },
+      {
+        "order": 7,
+        "content": "Eating disorders – anorexia nervosa or bulimia attribute to a lower bone density."
+      },
+      { "order": 8, "content": "A sedentary lifestyle." },
+      {
+        "order": 9,
+        "content": "Excessive alcohol consumption.  Alcohol affects the body’s ability to absorb calcium."
+      },
+      { "order": 10, "content": "Corticosteroid medications damage the bone." },
+      {
+        "order": 11,
+        "content": "Age – with menopause, the body produces less estrogen which is essential for bone strength."
+      },
+      {
+        "order": 12,
+        "content": "Early menopause – natural or artificially induced."
+      },
+      {
+        "order": 13,
+        "content": "Frame size – exceptionally thin, a body mass of 19 or less."
+      },
+      {
+        "order": 14,
+        "content": "Thyroid hormones – too much causes bone loss."
+      },
+      {
+        "order": 15,
+        "content": "Surgical procedures: stomach surgery, weight-loss surgery inhibits the body’s ability to absorb calcium."
+      },
+      {
+        "order": 16,
+        "content": "Medical conditions: Crohn’s disease, celiac disease, hyperparathyroidism, and Cushing’s disease – the adrenal glands produce excessive corticosteroid hormones."
+      },
+      { "order": 17, "content": "Chronic liver or kidney disease." },
+      { "order": 18, "content": "Long-term use of anti-seizure medications." },
+      {
+        "order": 19,
+        "content": "Vitamin C deficiency can make the bones less able to retain bone-building minerals"
+      }
+    ],
     "order": 15
   },
-  { "element": "p", "content": "Broken Cell Wall Chlorella:", "order": 16 },
+  { "element": "p", "content": "Keeping the bones healthy:", "order": 16 },
   {
     "element": "p",
-    "content": "Has large amounts of chlorophyll, enzymes, vitamins B-complex, C, B-carotene, B1, B2, B6, B12 and K.  Includes minerals such as niacin, pantothenic acid, folic acid, biotin, choline, lipoic acid inositol, phosphorus, calcium, zinc, iodine, magnesium, iron, and cooper.  The therapeutic properties include stimulating the immune system to protect from infections and cancers,  stimulates the production of interferon, tissue repair, and the production of red blood cells, increases oxygen to the cells, increase brain function, aids in digestion, cleanses the bloodstream, liver, kidneys, and feeds the friendly flora in the bowels.",
+    "content": "It is never too late to take steps to keep the bones strong.  Calcium  and magnesium is essential for the body to build and maintain teeth and bones.  The bones contain these minerals and when there is not enough in your daily diet, the body will rob the minerals from the bones, thus creating osteoporosis.  The body steals minerals from the bones when the body is in an acid pH state.  To be in an acid pH means not enough alkaline foods and water have been taken in to balance the body’s natural acid/alkaline state.  ",
     "order": 17
   },
-  { "element": "p", "content": "Royal Jelly:", "order": 18 },
   {
     "element": "p",
-    "content": "High in vitamin B, A, C, D E, and K, minerals, and 18 amino acids and 15% Aspartic acid (α-amino acid).  The therapeutic properties include accelerating healing, strengthening the immune system, is antibiotic and antiviral, lowers cholesterol, builds tissue and muscle, and regenerates cells.  Also beneficial for chronic fatigue, liver disease, kidney problems, insomnia, stomach ulcers, skin disorders, nervous disorders, and arthritis.",
+    "content": "When the acid gets out of balance the body steals minerals from the bones.  The main foods and drinks in the modern diet that are acid forming are sodas, dairy products, most grains, sugar, meat, alcohol, and drinks that contain caffeine.  When sugar, for example, is consumed regularly over a period of time the health of the bones are sacrificed.    Remember, that when items containing these acid forming foods are eaten, the body requires extra alkaline minerals such as calcium, potassium, and magnesium to keep the alkaline/acid balance.  This is why vegetables and especially greens are important in the daily diet.  (I find the best source for getting my minerals, including calcium and magnesium for the bones, is 2oz of green juice a day.  Minerals are necessary for energy production, cellular maintenance, bone and tooth formation, muscle function, nerve transmission, hemoglobin and hormone production.  A daily shot of green juice from plants like spinach, wheatgrass, watercress, kale, dandelion greens, basil, and so forth does wonders for your health.)  ",
+    "order": 18
+  },
+  {
+    "element": "p",
+    "content": "Another time when the calcium intake needs to be increased is when a woman is pregnant since she is supplying calcium for both her body and the growing baby.  Keeping the body’s pH in balance is also beneficial to the bones.  Acids build up in the body and will deplete the body of potassium, calcium, and magnesium that are essential for the organs and bones to be healthy.    ",
     "order": 19
   },
-  { "element": "p", "content": "Ionic Crystaline Calcium:", "order": 20 },
+  { "element": "p", "content": "Try these tips:", "order": 20 },
   {
-    "element": "p",
-    "content": "Despite all of the hype, coral calcium for the most part is harmful to the body.  There is only a small percentage, less than 8%, of good, useful calcium found in coral calcium.  Due to a special process, the good aragonite crystalline calcium is able to be extracted out of the coral calcium.  It takes 13 pounds of regular coral calcium to make 1 pound of ionic crystalline calcium.  This extract is a very fine powder, only 3.3 microns in particle size.  The size, structure, and ionization of the calcium concentrate enables better absorption and effective calcium assimilation.  According to scientific studies by Dr. Yamauchi, our calcium concentrate is at least 6 times more soluble in water than that of calcium carbonate CaCO3.  It also does not build up in the system causing bone spurs and heart valve problems, like most all other calcium supplements.",
+    "element": "ul",
+    "content": [
+      {
+        "order": 1,
+        "content": "Eat alkaline foods rich in good calcium such as almonds (always soaked), broccoli, Chinese cabbage, dark green leafy vegetables, white beans, sesame seeds, molasses, maple syrup, tofu, Brussels sprouts, spinach, kale, figs, prunes, dates, onions, kidney and soy beans, and lentils.  Not only are these foods rich in calcium but also many of the bone-building minerals."
+      },
+      {
+        "order": 2,
+        "content": "Get your vitamin D by going out in the sunlight."
+      },
+      {
+        "order": 3,
+        "content": "Exercise assists to build strong bones and slows bone loss."
+      },
+      {
+        "order": 4,
+        "content": "Avoid smoking.  Smoking increases bone loss by decreasing the amount of estrogen the body makes and reduces the absorption of calcium."
+      },
+      {
+        "order": 5,
+        "content": "Avoid excessive alcohol, this decreases bone formation and reduces the body’s ability to absorb calcium."
+      },
+      {
+        "order": 6,
+        "content": "Sleep on a firm bed to give support to the spine."
+      },
+      { "order": 7, "content": "When you lift heavy objects, lift properly." }
+    ],
     "order": 21
   },
-  { "element": "p", "content": "Sulfur:", "order": 22 },
+  { "element": "p", "content": "Healing the body!", "order": 22 },
   {
     "element": "p",
-    "content": "All cells need sulfur.  It is beneficial for skin conditions, allergies, asthma, emphysema, arthritis, diabetics, kidney problems, and high blood pressure.",
+    "content": "There is a massage technique called “tapotement” that builds bone mass.  It is a light tapping on the body that mimics the bone-building stimulation from exercise.  Bring the fingers of each hand together so there is no space between them (as if you were about to take a swimming stroke.  Next, bend the palm and fingers to make a cup shape. Then, using the tips of your fingers and bottom of your palms, tap very lightly over your hips, ribs, and (with one hand at a time) your forearms.  These are the three areas commonly weakened by osteoporosis.  ",
     "order": 23
   },
-  { "element": "p", "content": "Turmeric:", "order": 24 },
   {
     "element": "p",
-    "content": "Rich in fiber, iron, manganese, potassium, and vitamin B6.  The therapeutic properties of turmeric include detoxification of the liver, reduces inflammation and cholesterol levels, improves blood circulation, and encourages the growth of digestive flora.",
+    "content": "A few of the Therapeutic Oils to massage over the area before starting this technique would be: Marjoram, Peppermint, and Wintergreen.",
+    "order": 24
+  },
+  {
+    "element": "p",
+    "content": "Alternative healing regards the whole body.  Maintain a healthy lifestyle by eating a balanced diet that is high in greens, fresh fruits, and vegetables, drink sixteen of 4oz glasses of water a day, exercise, and take natural quality supplements .  ",
     "order": 25
-  },
-  { "element": "p", "content": "Wild Native American Shiaqga:", "order": 26 },
-  {
-    "element": "p",
-    "content": "The 3-beta-D-glucans, which make up part of the cellular structure of Shiaqga, cause a pan-systemic modulation of T-Cells.  Shiaqga contains bitter triterpene compounds that support the thymus and spleen (essential to insuring that immune cells are properly programmed), anti-tumor polysaccharides, blood pressure-reducing angiotensin re-uptake inhibitors, and perhaps the highest source of germanium in nature.  Germanium is an oxygen catalyst and one of the most powerful free-radical scavengers found in nature.",
-    "order": 27
-  },
-  { "element": "p", "content": "Wild Native American Chapara:", "order": 28 },
-  {
-    "element": "p",
-    "content": "Is antibiotic, antioxidant, analgesic, expectorant, and anti-inflammatory.  The health benefits include treating conditions such as cancer, arthritis, skin disorders, and colds.  It also assists to improve liver function and is cleansing to the urinary tract.",
-    "order": 29
   }
 ]
