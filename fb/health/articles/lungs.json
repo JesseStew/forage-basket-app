@@ -1,0 +1,55 @@
+{
+  "title": "Lungs - The Breath of Life",
+  "linkText": "Lungs",
+  "order": 1,
+  "author": "Man Found Standing, Native American Medicine Man",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Let’s take a few minutes and talk about our lungs.  We can’t live without them, unless we want to be hooked up to a machine for the rest of our lives.  With oxygen being such a critical component of life, why then, do we not take better care of our lungs?",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "We need to remember just how much we need them, even though they are not something we consider very often.  Anyone who has experienced lung diseases and illnesses, such as Asthma, Peripheral Edema, and Lung Cancer, know how it important it is to have healthy lungs.  Often if better care was taken, many would not have to experience any of the painful episodes mentioned above.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "The lungs are quite fragile, yet resilient.  Their main purpose is to bring in oxygen to the bloodstream and release carbon dioxide.  The lungs are made up of a sponge like substance, and therefore tend to soak up whatever we inhale into them.  With our modern day lifestyles, we are bombarded with toxins and many of our “bad” habits cause damage to the lungs, due to this sponginess.  When our lungs soak up pollution, smoke, pollen, and so forth…, they retain these substances and end up damaged.  (Like a sponge, the lungs will retain only so much of anything and then end up oversaturated and unable to perform its duty to any extent.)  The healthier these lung cells are, the healthier our entire bodies will be.  ",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "Since the environment of the lungs is very moist, if the body’s natural defenses get weakened, the lungs make a very hospitable location for bacteria to breed.  Many respiratory illnesses are the result of bacterial or viral infection of the lungs.  (Inflammation of the lungs is known as pneumonia.  Pleurisy is the inflammation of the pleura surrounding the lungs.)   ",
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "Taking proper care of your lungs starts with healthy living choices.  Proper eating habits, good supplementation, and body detoxifying protocols all play their part in leading the body back to optimal health.   ",
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "Some wonderful Therapeutic Essential Oils for the lungs are as follows:",
+      "order": 6
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Eucalyptus" },
+        { "order": 2, "content": "Lemon" },
+        { "order": 3, "content": "Myrtle" },
+        { "order": 4, "content": "Peppermint" },
+        { "order": 5, "content": "Ravintsara" },
+        { "order": 6, "content": "Rosemary" }
+      ],
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "Just rub a few drops on the chest or diffuse the oil in the home.",
+      "order": 8
+    }
+  ]
+}

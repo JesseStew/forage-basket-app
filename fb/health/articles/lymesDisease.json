@@ -1,0 +1,94 @@
+{
+  "title": "Lyme Disease",
+  "linkText": "Lyme Disease",
+  "order": 1,
+  "author": "Man Found Standing, Medicine Man Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Lyme disease is the fastest growing infectious disease in the United States.  There is an estimated 225,000 new cases of Lyme disease each year.  This disease was first discovered in 1975, in Old Lyme, Connecticut, and is transmitted by the bite of an infected deer tick. ",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Not all ticks carry the bacteria (Borrelia burgdorferi) for Lyme disease and only a small minority of deer tick bites leads to infection.  The longer the tick remains attached to your skin, the greater the risk of getting the disease.  You can have an allergic reaction from tick saliva that occurs at the site of the bite, but that will disappear after a few days and is not Lyme disease.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "If you have been bitten by an infected tick, this bacterium is transmitted from the skin into the bloodstream and will flow to different parts of the body including the joints, connective tissues to the heart, spine, brain, and other areas.  This bacterium the causes the immune system to jump into action.  ",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "The body’s natural defense is the immune system.  The normal process of the macrophages (white blood cells), sound the alarm when disease (foreign invaders) are in the body that need to be destroyed.  Antibodies (immunoglobulin), proteins produced by B cells, mark the invaders for destruction.  The macrophages send messages to the T (lymphocyte) cells that seek and destroy the Lyme spirochetes and repair and replenish the body. ",
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "The true warriors for this battle against disease, comes from having a healthy immune system.  If you are like most people living in modern society, your immune system will be deficient due to lack of proper nutrition, toxic overload (environmental pollutions), stress, use of alcohol, or long-term use of antibiotics.  Because almost everyone’s immune system is in a weakened condition, it is unable to properly do its job when attacked by the Lyme disease bacteria.  ",
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "If you have been bitten by an infected tick, quick action is your best protection.  Apply a Therapeutic Oil (my favorite to use is Clove Bud), to the bite, and take the Shiaqga supplement for immune system modulation.  (I would suggest you double or triple up the normal suggested dosage to be completely safe.)  Most ticks rarely transmit a disease unless they have been attached for four or more hours.  If Lyme disease is left untreated, it can cause severe neurological problems and pain. ",
+      "order": 6
+    },
+    { "element": "p", "content": "The major symptoms are:", "order": 7 },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "A rash at the bite area that can resemble a bull’s-eye, a red ring surrounding a clear area with a red center that can be up to 2 inches in diameter."
+        },
+        {
+          "order": 2,
+          "content": "Flu-like symptoms including fever, chills, fatigue, and body aches, headaches, and swollen lymph nodes."
+        },
+        {
+          "order": 3,
+          "content": "Swelling and joint pain – the knees or other joints can be affected (known as Lyme arthritis)."
+        },
+        {
+          "order": 4,
+          "content": "Neurological problems – an irritation or inflammation of the membranes surrounding the brain (meningitis), a temporary paralysis of facial muscles, a numbness or weakness in the arms and legs."
+        },
+        {
+          "order": 5,
+          "content": "An attack on the central nervous system that can lead to a stiff neck, confusion, memory loss, poor coordination."
+        },
+        {
+          "order": 6,
+          "content": "Problems including an irregular heartbeat and hepatitis (inflammation of the liver) can be experienced even weeks after being infected."
+        }
+      ],
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "Ticks thrive in the humid wooded areas with long grasses, weeds, and leaves.  Some precautionary measures would be to keep the grass and weeds around your home cut.  Avoid wooded areas.  Walk in the center of trails.  Wear light-colored clothing to more easily see ticks on them.   Where long sleeves and pants that can protect the skin. ",
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "The best prevention to Lymes is to have a healthy immune system.  With our modern day lifestyle it is critical to be on a supplement that feeds the immune system so it can stay properly modulated.  (For long term use, make sure you do not use supplements that stimulate the immune system.  Stimulation causes the immune system to be overworked and that is harmful for the long term.  For long term health, use supplements that modulate the immune system like Shiaqga.)  You may also consider taking a couple of drops of a powerful antibiotic therapeutic oil, like Oregano, in water.",
+      "order": 10
+    },
+    {
+      "element": "p",
+      "content": "Our bodies are bombarded by toxins and infectious diseases are quickly spread worldwide.  It is always wise to be prepared with immune system modulation before an issue or pandemic strikes!",
+      "order": 11
+    },
+    {
+      "element": "p",
+      "content": "If you have been suffering from the lyme disease for a while, the bacterial overload in your body will be great.  As you modulate your immune system, your natural defenses will begin to kill off the foreign invader.  This kill off can create a very toxic environment inside your body and can actually cause you to feel sicker.  To avoid this \"improvement reaction\" your body must eliminate the toxins quickly.  Do things that can assist in eliminating the toxins like drinking more water, adding lemon to your water, take hot baths, eat easily digested and healthy foods, and fasting for a few days have all been effective.",
+      "order": 12
+    },
+    {
+      "element": "p",
+      "content": "I personally had an interaction with lymes disease myself.  About seven years ago I was thinking I was immune to everything because I was taking the Shiaqga for such a long time.  I went out into the Southern Missouri Wilderness and was traipsing around for many hours.  When I came back I started not feeling very well.  For the next three days, I was the sickest I have ever been in my life.  (I really worried my wife I was so sick.  I stayed in bed -- something I normally never did even when I was feeling sick because there is always work to be done.)  After three days I was all better and happened to be talking to a doctor friend of mine.  He  tested my blood and was amazed to find the antibodies for lymes but no lymes in my system.  He said I must have completely processed that bacteria in the three days I was sick.  ",
+      "order": 13
+    }
+  ]
+}
