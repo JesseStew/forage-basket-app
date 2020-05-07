@@ -1,0 +1,43 @@
+{
+  "title": "Diverticulitis",
+  "linkText": "Diverticulitis",
+  "order": 1,
+  "author": "Man Found Standing, Practitioner Medicine Man",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Diverticulitis refers to a medical condition where the small pockets or sacs called diverticuli in the mucus membrane of the bowel become inflamed.  The disease occurs almost exclusively in the elderly and is far more common in countries where poor nutrition foods (processed foods) are eaten regularly.  The modern diet has a lack of fiber/roughage which slows the bowel transit time and contributes to toxic buildup in the bowel.  This toxic buildup causes inflation.   ",
+      "order": 1
+    },
+    { "element": "p", "content": "Diverticulitis Symptoms:", "order": 2 },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Abdominal pain, bloating, gas" },
+        { "order": 2, "content": "Low-grade fever" },
+        { "order": 3, "content": "Elevated white blood cell count" },
+        { "order": 4, "content": "Fever and chills" },
+        { "order": 5, "content": "Diarrhea or constipation" },
+        { "order": 6, "content": "Nausea, vomiting, lack of appetite" },
+        { "order": 7, "content": "Blood in stools" }
+      ],
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "The modern medical treatment of the disease will prescribe antibiotics and advise the patient to avoid foods (like seeds, nuts, grains, and so forth) that could lodge in the diverticular pouches.  Sadly, this advice tends to complicate/worsen the disease due to the harmful destruction of the friendly flora and the further reduction of dietary fiber needed to speed up bowel transit time.",
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "Proper nutrition and supplements that contain Shiaqga have shown wonderful results when dealing with diverticulitis by strengthening and speeding up bowel transit time.  Shiaqga alone in many cases is enough to reduce the worst symptoms of the disease.  The Shiaqga contains Beta-glucans that in scientific research shows an expediential increase in a body’s immune response, anti-inflammatory action, and controls infection in the diverticuli.  Also, the Triterpenes found in Shiaqga will affect the production of bile and enzymes in the liver which are then passed down into the bowel.  This will regulate digestion and prevent constipation.",
+      "order": 5
+    },
+    { "element": "p", "content": "Testimonial:", "order": 6 },
+    {
+      "element": "p",
+      "content": "Speaking about Shiaqga, P. Landis from Humansville, Missouri said, “I am a cancer survivor of twelve years and it has made all the difference in the world to me.  My diagnosis is T-cell Lymphoma of the bowel with 4th stage metastasis to the liver, prostate, vocal cords and lymph nodes of the abdomen and throat.  No treatment was suggested as my cancer was too far advanced to do anything about it.”",
+      "order": 7
+    }
+  ]
+}
