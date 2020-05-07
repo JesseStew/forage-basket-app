@@ -1,4 +1,4 @@
-const data = require('./fluoride.json')
+const data = require('./goodHealth.json')
 const _ = require('lodash')
 const fs = require('fs')
 
