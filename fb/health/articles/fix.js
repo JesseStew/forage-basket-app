@@ -1,4 +1,4 @@
-const data = require('./ulcerativeColitis.json')
+const data = require('./vertigo.json')
 const _ = require('lodash')
 const fs = require('fs')
 

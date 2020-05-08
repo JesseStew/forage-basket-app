@@ -1,0 +1,225 @@
+{
+  "title": "Vertigo",
+  "linkText": "Vertigo",
+  "order": 1,
+  "author": "Paway-yatanatu way-art, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Vertigo is caused by an impaired sense of balance and equilibrium, and is generally due to an inner ear disorder (labyrinthitis).  Balance that is maintained by the body is something that we all just take for granted.  Vertigo causes dizziness and illusions of movement, symptoms that cause over 8 million people to visit a physician in a year.  As expected, older people have it more often than those who are younger.",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "The brain coordinates equilibrium in the body, specifically at the brainstem but it is the ear that is considered the organ of balance:  the vestibular system that consists of fluid-filled tubes and sacs.  These are located in the labyrinth of the inner ear.  With movement, the liquid in the tubes acts as a level that is read by nerve cells.  This information is sent to the brain to calculate movement.  Problems with balance originate in the vestibular system.  It’s a combination of the eyes, ears, and the brain in constant communication just to move.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Vertigo can also be caused by changes in the parts of the brain, the cerebellum and the brain stem that are involved in controlling balance.  There can be interruptions in the neural structures of the cerebellum, brain stem, and fibers along the spine. ",
+      "order": 3
+    },
+    { "element": "p", "content": "Causes of vertigo:", "order": 4 },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Concussion, skull fracture, or injury to the inner ear – dizziness may occur long after the injury supposedly healed."
+        },
+        {
+          "order": 2,
+          "content": "Benign paroxysmal positional vertigo (BPPV) – is the most common form and is characterized the sensation of motion, head positions that are caused by calcium deposits in the ear canal.  This is temporary and not serious."
+        },
+        {
+          "order": 3,
+          "content": "Labyrinthitis – inflammation in the middle and inner ear that is most often caused by bacteria or a virus.  This inflammation can cause hearing loss. "
+        },
+        {
+          "order": 4,
+          "content": "Meniere’s disease – described with three distinct symptoms:  ringing in the ears, episodes of vertigo, and hearing loss.  Scientists are still trying to determine the cause for this disease. "
+        },
+        {
+          "order": 5,
+          "content": "Neuronitis – virus that affects the nerves of the vestibular system or blood clots that lodges in the blood vessels that feed the inner ear.  This may cause ringing in the ear."
+        },
+        {
+          "order": 6,
+          "content": "Head trauma and neck injury can damage the inner ear, a decreased of blood flow to the brain, or bleeding in the brain from a cerebellum hemorrhage. "
+        },
+        {
+          "order": 7,
+          "content": "Migraines or headaches can cause vertigo due to blood flow."
+        },
+        {
+          "order": 8,
+          "content": "Antibotictis can cause damage to the vestibular system with high doses or prolonged use."
+        },
+        {
+          "order": 9,
+          "content": "Other causes are anemia, brain tumors, high or low blood pressure, psychological stress, lack of oxygen or glucose in the blood, nutritional deficiencies, fever, changes in atmospheric pressure, the use of certain drugs, middle ear infection, excess wax in the ear, or blockage of the ear canal or eustachian tube."
+        },
+        {
+          "order": 10,
+          "content": "Low oxygen levels at higher altitudes can also cause it, as well as vitamin B6 and niacin deficiency."
+        },
+        {
+          "order": 11,
+          "content": "You can expect that you may temporarily experience vertigo if you engage in certain activities, such as amusement park rides, sailing, or virtual reality games.  "
+        },
+        {
+          "order": 12,
+          "content": "Warning: Dizziness can be a warning sign of a coming heart attack or stroke.  It can also indicate that a concussion or brain damage has just occurred."
+        }
+      ],
+      "order": 5
+    },
+    { "element": "p", "content": "Symptoms:", "order": 6 },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Dizziness, faintness, or light-headedness.  The person may feel that he is falling or sinking or that the room is moving around him, sometimes even spinning."
+        },
+        {
+          "order": 2,
+          "content": "A sense of disorientation, difficulty walking"
+        },
+        { "order": 3, "content": "Nausea or vomiting" },
+        { "order": 4, "content": "Sweating or perspiration" },
+        { "order": 5, "content": "Abnormal eye movements, double vision" },
+        { "order": 6, "content": "A decreased level of consciousness" },
+        { "order": 7, "content": "Headaches" },
+        { "order": 8, "content": "Weakness" },
+        { "order": 9, "content": "Difficulty speaking" },
+        { "order": 10, "content": "Hearing loss" },
+        { "order": 11, "content": "Ringing in the ears" }
+      ],
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "​Many diseases are known to cause dizziness.  Dizziness is not the same as vertigo.  From time to time, anyone can experience some dizziness or faintness.  Those with low-blood pressure will frequently experience this when standing up.  Depending on the cause of the vertigo, there may be certain tests that will pinpoint the problems:",
+      "order": 8
+    },
+    {
+      "element": "ul",
+      "content": [
+        { "order": 1, "content": "Blood tests to check blood sugar levels" },
+        {
+          "order": 2,
+          "content": "Electrocardiogram (ECG) to check heart rhythm"
+        },
+        { "order": 3, "content": "CT scan if brain injury is suspected" }
+      ],
+      "order": 9
+    },
+    { "element": "p", "content": "Preventive measures:", "order": 10 },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "When you feel dizzy immediately sit down your feet flat on the floor and look at a fixed object for several minutes."
+        },
+        {
+          "order": 2,
+          "content": "When the attack occurs immediately restrict your head movement and keep your eyes fixed on a stationary object a long ways away.  Or another method is to lie down, with your unaffected ear against the floor, and look in the direction of the affected ear."
+        },
+        {
+          "order": 3,
+          "content": "If it is an inner ear disorder it needs to be treated."
+        },
+        {
+          "order": 4,
+          "content": "If the cause is low blood pressure, lower your head letting the blood flow into your head."
+        },
+        {
+          "order": 5,
+          "content": "Eat a nutritious diet which includes the entire B vitamin complex.  Extra vitamin C, vitamin E, and lecithin are also needed."
+        },
+        {
+          "order": 6,
+          "content": "When you get over 2,000 mg of sodium in a day it may disrupt the functions of the inner ear. "
+        },
+        {
+          "order": 7,
+          "content": "Avoid nicotine, caffeine, alcohol, and fried foods."
+        },
+        {
+          "order": 8,
+          "content": "Not enough glucose or low blood sugar may be the problem.  Decrease simple carbohydrates in the diet like sugar and flour while increasing the intake of fiber. To overcome brief dizziness, drink a glass of fruit juice.  Snacking on candies or refined carbohydrates such as cookies, donuts, chips, and pastries may intensify symptoms."
+        },
+        {
+          "order": 9,
+          "content": "If vertigo begins after taking some new drug, stop using it immediately and consult your doctor. "
+        }
+      ],
+      "order": 11
+    },
+    {
+      "element": "p",
+      "content": "The “modern world of medicine” looks to pharmaceutical drugs for the answer to treat the patient’s symptoms, where as Natural Healers regard the whole body.  Plants, herbs, seeds, and leaves, were the first medicines of our ancestors.  The Therapeutic Essential Oils are powerful healers and contain hundreds of molecules that work together to kill viruses, bacteria, fungus, molds, parasites, and microbes.   ",
+      "order": 12
+    },
+    {
+      "element": "p",
+      "content": "Maintaining a healthy lifestyle by eating a balanced diet that is high in greens (greens such as wheatgrass, kale, watercress, and dandelion are especially healing), fresh fruits and vegetables, and stay hydrated by drinking plenty of water.  It is important to drink an ounce of water for every pound of your weight.  Make sure it is only water you are counting this way.  You can drink other drinks but avoid counting them as part of your water intake.",
+      "order": 13
+    },
+    {
+      "element": "p",
+      "content": "Other modalities that will assist would be to practice balancing exercises, yoga, and take quality natural supplements.  Avoid nicotine, caffeine, alcohol, and fried foods.  Limit your intake of chocolate, avoid regular table salt that contains potentially harmful additives (use Himalayan salt instead), and processed foods.  A diet low in sugar and fat can eliminate repeated dizziness.  ",
+      "order": 14
+    },
+    { "element": "p", "content": "Natural Relief:", "order": 15 },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "A drop of coriander oil to a glass of water and drink."
+        },
+        {
+          "order": 2,
+          "content": "Add a drop black pepper and lemon oil to a glass of water and drink."
+        },
+        {
+          "order": 3,
+          "content": "Add lemon or lime to the diet.  They are good in salad dressing or water."
+        },
+        {
+          "order": 4,
+          "content": "Peppermint oil is good for motion sickness.  Add a drop to water and drink."
+        },
+        {
+          "order": 5,
+          "content": "Lavender oil is good to put around the ears and for aromatherapy."
+        },
+        {
+          "order": 6,
+          "content": "Helichrysum italicum is beneficial for hearing problems caused by nerve damage.  Apply around the ears or put a drop on cotton and put in the ears about 2 times a day."
+        },
+        {
+          "order": 7,
+          "content": "Ginkgo (60-240 mg daily) in Europe is prescribed for vertigo.  In one French study, people with chronic vertigo showed 47% improvement using ginko."
+        },
+        {
+          "order": 8,
+          "content": "A U.S. Navy study showed ginger reduced dizziness by 38%.  One gram of ginger relieved vertigo better than the standard drug they were issuing."
+        },
+        {
+          "order": 9,
+          "content": "Celery seed has been used by the Chinese for dizziness."
+        }
+      ],
+      "order": 16
+    },
+    {
+      "element": "p",
+      "content": "The Shiaqga supplement has the benefits to strengthen the immune system, lower blood pressure and stimulate circulation.  Some people have reported getting relief from vertigo by using this supplement.",
+      "order": 17
+    }
+  ]
+}
