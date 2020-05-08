@@ -1,0 +1,93 @@
+{
+  "title": "",
+  "linkText": "",
+  "order": 1,
+  "author": "",
+  "elements": [
+    {
+      "element": "img",
+      "src": "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/shiaqga-mushroom-top-picture_orig.jpg?alt=media&token=2375d9e9-e7aa-4c52-a182-f3357bbeb44f",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Our Shiaqga products are created exclusively with the authentic Wild Shiaqga mushroom.  The Native American Tribes of the Northern Plateau People of the Columbia River Basin have used the Shiaqga as an integral part of their daily healing regiment.  Now this life restoring gift is being share with the world.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Our product are NOT formulated with the much cheaper 'Chaga Mushroom' that are extremely high in kidney damaging oxalates that many companies attempt to pass off as a substitute, marketing under 'similar names' to the true Shiaqga.",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "Our Shiaqga is wild harvested at its natural peak potency and extracted with ultimate care and patience to ensure maximum potency for fullest therapeutic value.",
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "Shiaqga contains many times the therapeutic healing components, like beta-d-glucans and germanium, of those found in Chaga.  Also, when the Shiaqga mushroom is then super concentrated in its bioavailable liquid extract form, the therapeutic benefits grow exponentially.",
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "We maintain the highest and strictest standards at every stage to ensure every bottle is pure, unadulterated, with no 'extra fillers' (such as vegetable glycerin) that would in any way dilute and lessen the therapeutic effectiveness.",
+      "order": 6
+    },
+    {
+      "element": "p",
+      "content": "Our organic and wild crafted essential oils are also grown, harvested, and processed according to the same highest standards above and are added to the extract in their pure full potency form, again, with no dilution or adulteration to ensure maximum benefits.",
+      "order": 7
+    },
+    {
+      "element": "h3",
+      "content": "Shiaqga Original Formula Ingredients:",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "Extract of Wild Shiaqga Mushroom (now a 1200% concentrate) and Organic Essential Oils of Black Cumin, Lemon, Cinnamon Bark, Peppermint, and Wild Sacred Frankincense",
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "30 daily servings per bottle.",
+      "order": 10
+    },
+    {
+      "element": "p",
+      "content": "Suggested Use:  3 dropper squirts a day.  (You may want to switch to the Shiaqga Super Concentrate if you suffer from a chronic health condition.)  Direct sublingual or mixed in water according to personal preference.  Note:  The taste is considered mild and very pleasant by most - many pets like it as well.",
+      "order": 11
+    },
+    {
+      "element": "p",
+      "content": "The Shiaqga Super Concentrate Formula contains all the same ingredients of the original formula but is different in the following ways:",
+      "order": 12
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "It is in a 4oz bottle.  That is twice the size as our original formula."
+        },
+        {
+          "order": 2,
+          "content": "The Shiaqga it contains is now a 2000% concentrated extract."
+        },
+        {
+          "order": 3,
+          "content": "There is 10 times more of the advanced technology extracted Sacred Frankincense than in the original formula.  This naturally causes a reduction of all other essential oils in the formula."
+        }
+      ],
+      "order": 13
+    },
+    {
+      "element": "link",
+      "link": "https://www.shiaqga.com/research.html",
+      "local": true,
+      "linkText": "CLICK HERE TO VISIT THE RESEARCH TAB TO LEARN MORE",
+      "order": 14
+    }
+  ]
+}
