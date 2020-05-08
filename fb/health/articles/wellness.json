@@ -1,0 +1,118 @@
+{
+  "title": "Good Health & Wellness Practices",
+  "linkText": "Wellness",
+  "order": 1,
+  "author": "Man Found Standing, Medicine Man Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Good health is important to everyone:  feeling fit and fine, having lots of energy, being disease-free, and living an active lifestyle well into advanced years.  Good health does not come automatically; it’s having the proper lifestyle.  It all starts with eating the proper foods and getting enough exercise to be able to have the strength and energy to be physically and mentally fit.  Why be 90 years old and be in poor health for the last 20 years?  Live to be 90 years old and have an active, full life.  Heck, why don’t you feel so good that you can go out and run a marathon for your 90th birthday if you want to? ",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Eating healthy, what does that really mean?  “You are what you eat.”  What you eat affects your health in more ways than most medical doctors realize.  Whole foods, fruits, vegetables, and greens contain the nutrition that the body needs.  The human body uses food to repair its self.  Many people suffer from diseases and the simple answer is poor habits.",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "When you eat a balanced all plant-based diet, your body receives the right nutrition.  You will see your body quickly improve in health while reducing its risk of chronic diseases such as heart, stroke, and cancer.  Eating the right food is not only for prevention but for the cure as well.  It is an everyday decision.   It is not too late to start eating healthy.  Simple changes in your diet can cause a great difference in a short period of time. ",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "In our modern world, the people of the Earth experience many scientific advancements.  Sadly, those advancements have come at a severe price.  The environmental toxins have increased exponentially over the last 100 years.  Just imagine, at your age, you are taking in more toxins in a single day than your parents did at your same age in an entire year. ",
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "Along with our toxic environment, we are also experiencing a shocking lack of nutrition in the foods we eat.  Because of modern farming techniques of quantity rather than quality, the plants we eat have become less nutritious.  We all have probably experienced the major quality difference between a homegrown tomato and a regular store-bought tomato.  The wonderful taste of your garden tomato is all from the nutrition it receives!  ",
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "So, with our toxic environment and lack of nutrition, what do you think is happening to your body?  Simply put, our bodies are so overworked with repair and detoxifying that we can no longer live a healthy life.  How many 90-year-olds do you see moving around working all day?  Did you know in some cultures, where the modern diet has not yet been introduced, it is normal to see 90-year-olds out working in their field all day long?  With their family and villagers willing to assist them, they don’t do this out of necessity but out of the simple joy of being active.  ",
+      "order": 6
+    },
+    {
+      "element": "p",
+      "content": "It is not too late to turn your health around.  Our bodies have tremendous healing abilities and by giving your body the proper building blocks, miracles can and do happen.  Try these simple approaches:",
+      "order": 7
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Avoid toxins – Smoking and other toxic habits will lower your quality of health"
+        },
+        {
+          "order": 2,
+          "content": "Drink more water – Recommended consumption is 8-12 glasses a day. "
+        },
+        {
+          "order": 3,
+          "content": "Breathe more – Exercise and deep breathing will increase your oxygen intake."
+        },
+        {
+          "order": 4,
+          "content": "Eat healthy – Switch to an all plant-based diet and notice drastic health improvements.        "
+        },
+        {
+          "order": 5,
+          "content": "Supplement – In the world we live in it is extremely important to use high-quality supplements."
+        }
+      ],
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "With our modern lifestyles, almost every single one of us is not getting the nutritional support we need for optimal health.  Just like there is a difference in the nutrition you get from your garden versus the nutrition you get at the fast food restaurant, there is a difference in supplements.  Are you wasting money on low-quality supplements that really don’t do any good and can even harm your body?  Look at high-quality supplements that are all natural and free from harmful fillers.  ",
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "There is a wide range of lifestyles so the supplemental requirements of each individual will vary.  Below are three of the top supplemental suggestions that should be in almost everyone’s life:",
+      "order": 10
+    },
+    { "element": "p", "content": "Immune System ", "order": 11 },
+    {
+      "element": "p",
+      "content": "The immune system not only protects the body but it also assists all other body systems.  Literally, by having a better immune system, your body functions better on all levels.  Make sure you purchase a supplement, like Shiaqga, that modulates your immune response (produces healthy more active cells) and does not just stimulate it (makes your cells work harder). ",
+      "order": 12
+    },
+    { "element": "p", "content": "Enzymes", "order": 13 },
+    {
+      "element": "p",
+      "content": "Living cells and tissues require nutrients to be able to divide and grow.  The human body is able to absorb nutrients that create energy from the food we eat.  Enzymes are the catalysts that help process the digestive and metabolic systems of the body.  Digestive enzymes help break down the food so it can be absorbed by the body.  With about 3000 known enzymes, they are considered the fountain of life.  They are responsible for all of the functions of every organ of the body.  Food that has been heated to 118 degrees F for more than 15 minutes destroys all the enzymes.  It is better to eat foods raw to get the necessary enzymes.",
+      "order": 14
+    },
+    { "element": "p", "content": "Probiotics", "order": 15 },
+    {
+      "element": "p",
+      "content": "To assist in restoring the internal balance that protects us against illness and promotes optimal health, we need probiotics.  They provide protection in a toxic world and have a far-reaching impact on your overall health.",
+      "order": 16
+    },
+    { "element": "p", "content": "Greens", "order": 17 },
+    {
+      "element": "p",
+      "content": "The chimpanzee is the closest genetically related animal to us humans.  If you look at the wild chimpanzee’s diet, you will find that they eat about 40% greens and even more fruit.  The building blocks of health are found in the greens.  Modern eating habits don’t even get near to that percentage of greens in the diet.  Greens assist the body in the detoxification process and they give it the vital vitamins, minerals, and other nutrients necessary for optimal health.        ",
+      "order": 18
+    },
+    {
+      "element": "p",
+      "content": "Take charge of your life and seek your own path to good health.  Make the changes that work for you and your lifestyle and reap the benefits for years to come.",
+      "order": 19
+    },
+    {
+      "element": "p",
+      "content": "Thomas Edison said, “The doctor of the future will give no medicine, but will interest his patients in the care of the human frame, in diet, and in the cause and prevention of disease.”",
+      "order": 20
+    },
+    {
+      "element": "p",
+      "content": "“Let food be your medicine and medicine be your food.” -- Hippocrates, 400 B.C.",
+      "order": 21
+    }
+  ]
+}

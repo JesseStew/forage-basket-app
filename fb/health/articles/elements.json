@@ -1,219 +1,112 @@
 [
   {
     "element": "p",
-    "content": "Vertigo is caused by an impaired sense of balance and equilibrium, and is generally due to an inner ear disorder (labyrinthitis).  Balance that is maintained by the body is something that we all just take for granted.  Vertigo causes dizziness and illusions of movement, symptoms that cause over 8 million people to visit a physician in a year.  As expected, older people have it more often than those who are younger.",
+    "content": "Good health is important to everyone:  feeling fit and fine, having lots of energy, being disease-free, and living an active lifestyle well into advanced years.  Good health does not come automatically; it’s having the proper lifestyle.  It all starts with eating the proper foods and getting enough exercise to be able to have the strength and energy to be physically and mentally fit.  Why be 90 years old and be in poor health for the last 20 years?  Live to be 90 years old and have an active, full life.  Heck, why don’t you feel so good that you can go out and run a marathon for your 90th birthday if you want to? ",
     "order": 1
   },
   {
     "element": "p",
-    "content": "The brain coordinates equilibrium in the body, specifically at the brainstem but it is the ear that is considered the organ of balance:  the vestibular system that consists of fluid-filled tubes and sacs.  These are located in the labyrinth of the inner ear.  With movement, the liquid in the tubes acts as a level that is read by nerve cells.  This information is sent to the brain to calculate movement.  Problems with balance originate in the vestibular system.  It’s a combination of the eyes, ears, and the brain in constant communication just to move.",
+    "content": "Eating healthy, what does that really mean?  “You are what you eat.”  What you eat affects your health in more ways than most medical doctors realize.  Whole foods, fruits, vegetables, and greens contain the nutrition that the body needs.  The human body uses food to repair its self.  Many people suffer from diseases and the simple answer is poor habits.",
     "order": 2
   },
   {
     "element": "p",
-    "content": "Vertigo can also be caused by changes in the parts of the brain, the cerebellum and the brain stem that are involved in controlling balance.  There can be interruptions in the neural structures of the cerebellum, brain stem, and fibers along the spine. ",
+    "content": "When you eat a balanced all plant-based diet, your body receives the right nutrition.  You will see your body quickly improve in health while reducing its risk of chronic diseases such as heart, stroke, and cancer.  Eating the right food is not only for prevention but for the cure as well.  It is an everyday decision.   It is not too late to start eating healthy.  Simple changes in your diet can cause a great difference in a short period of time. ",
     "order": 3
   },
-  { "element": "p", "content": "Causes of vertigo:", "order": 4 },
   {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Concussion, skull fracture, or injury to the inner ear – dizziness may occur long after the injury supposedly healed."
-      },
-      {
-        "order": 2,
-        "content": "Benign paroxysmal positional vertigo (BPPV) – is the most common form and is characterized the sensation of motion, head positions that are caused by calcium deposits in the ear canal.  This is temporary and not serious."
-      },
-      {
-        "order": 3,
-        "content": "Labyrinthitis – inflammation in the middle and inner ear that is most often caused by bacteria or a virus.  This inflammation can cause hearing loss. "
-      },
-      {
-        "order": 4,
-        "content": "Meniere’s disease – described with three distinct symptoms:  ringing in the ears, episodes of vertigo, and hearing loss.  Scientists are still trying to determine the cause for this disease. "
-      },
-      {
-        "order": 5,
-        "content": "Neuronitis – virus that affects the nerves of the vestibular system or blood clots that lodges in the blood vessels that feed the inner ear.  This may cause ringing in the ear."
-      },
-      {
-        "order": 6,
-        "content": "Head trauma and neck injury can damage the inner ear, a decreased of blood flow to the brain, or bleeding in the brain from a cerebellum hemorrhage. "
-      },
-      {
-        "order": 7,
-        "content": "Migraines or headaches can cause vertigo due to blood flow."
-      },
-      {
-        "order": 8,
-        "content": "Antibotictis can cause damage to the vestibular system with high doses or prolonged use."
-      },
-      {
-        "order": 9,
-        "content": "Other causes are anemia, brain tumors, high or low blood pressure, psychological stress, lack of oxygen or glucose in the blood, nutritional deficiencies, fever, changes in atmospheric pressure, the use of certain drugs, middle ear infection, excess wax in the ear, or blockage of the ear canal or eustachian tube."
-      },
-      {
-        "order": 10,
-        "content": "Low oxygen levels at higher altitudes can also cause it, as well as vitamin B6 and niacin deficiency."
-      },
-      {
-        "order": 11,
-        "content": "You can expect that you may temporarily experience vertigo if you engage in certain activities, such as amusement park rides, sailing, or virtual reality games.  "
-      },
-      {
-        "order": 12,
-        "content": "Warning: Dizziness can be a warning sign of a coming heart attack or stroke.  It can also indicate that a concussion or brain damage has just occurred."
-      }
-    ],
+    "element": "p",
+    "content": "In our modern world, the people of the Earth experience many scientific advancements.  Sadly, those advancements have come at a severe price.  The environmental toxins have increased exponentially over the last 100 years.  Just imagine, at your age, you are taking in more toxins in a single day than your parents did at your same age in an entire year. ",
+    "order": 4
+  },
+  {
+    "element": "p",
+    "content": "Along with our toxic environment, we are also experiencing a shocking lack of nutrition in the foods we eat.  Because of modern farming techniques of quantity rather than quality, the plants we eat have become less nutritious.  We all have probably experienced the major quality difference between a homegrown tomato and a regular store-bought tomato.  The wonderful taste of your garden tomato is all from the nutrition it receives!  ",
     "order": 5
   },
-  { "element": "p", "content": "Symptoms:", "order": 6 },
   {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Dizziness, faintness, or light-headedness.  The person may feel that he is falling or sinking or that the room is moving around him, sometimes even spinning."
-      },
-      {
-        "order": 2,
-        "content": "A sense of disorientation, difficulty walking"
-      },
-      { "order": 3, "content": "Nausea or vomiting" },
-      { "order": 4, "content": "Sweating or perspiration" },
-      { "order": 5, "content": "Abnormal eye movements, double vision" },
-      { "order": 6, "content": "A decreased level of consciousness" },
-      { "order": 7, "content": "Headaches" },
-      { "order": 8, "content": "Weakness" },
-      { "order": 9, "content": "Difficulty speaking" },
-      { "order": 10, "content": "Hearing loss" },
-      { "order": 11, "content": "Ringing in the ears" }
-    ],
+    "element": "p",
+    "content": "So, with our toxic environment and lack of nutrition, what do you think is happening to your body?  Simply put, our bodies are so overworked with repair and detoxifying that we can no longer live a healthy life.  How many 90-year-olds do you see moving around working all day?  Did you know in some cultures, where the modern diet has not yet been introduced, it is normal to see 90-year-olds out working in their field all day long?  With their family and villagers willing to assist them, they don’t do this out of necessity but out of the simple joy of being active.  ",
+    "order": 6
+  },
+  {
+    "element": "p",
+    "content": "It is not too late to turn your health around.  Our bodies have tremendous healing abilities and by giving your body the proper building blocks, miracles can and do happen.  Try these simple approaches:",
     "order": 7
   },
   {
-    "element": "p",
-    "content": "​Many diseases are known to cause dizziness.  Dizziness is not the same as vertigo.  From time to time, anyone can experience some dizziness or faintness.  Those with low-blood pressure will frequently experience this when standing up.  Depending on the cause of the vertigo, there may be certain tests that will pinpoint the problems:",
+    "element": "ul",
+    "content": [
+      {
+        "order": 1,
+        "content": "Avoid toxins – Smoking and other toxic habits will lower your quality of health"
+      },
+      {
+        "order": 2,
+        "content": "Drink more water – Recommended consumption is 8-12 glasses a day. "
+      },
+      {
+        "order": 3,
+        "content": "Breathe more – Exercise and deep breathing will increase your oxygen intake."
+      },
+      {
+        "order": 4,
+        "content": "Eat healthy – Switch to an all plant-based diet and notice drastic health improvements.        "
+      },
+      {
+        "order": 5,
+        "content": "Supplement – In the world we live in it is extremely important to use high-quality supplements."
+      }
+    ],
     "order": 8
   },
   {
-    "element": "ul",
-    "content": [
-      { "order": 1, "content": "Blood tests to check blood sugar levels" },
-      {
-        "order": 2,
-        "content": "Electrocardiogram (ECG) to check heart rhythm"
-      },
-      { "order": 3, "content": "CT scan if brain injury is suspected" }
-    ],
+    "element": "p",
+    "content": "With our modern lifestyles, almost every single one of us is not getting the nutritional support we need for optimal health.  Just like there is a difference in the nutrition you get from your garden versus the nutrition you get at the fast food restaurant, there is a difference in supplements.  Are you wasting money on low-quality supplements that really don’t do any good and can even harm your body?  Look at high-quality supplements that are all natural and free from harmful fillers.  ",
     "order": 9
   },
-  { "element": "p", "content": "Preventive measures:", "order": 10 },
-  {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "When you feel dizzy immediately sit down your feet flat on the floor and look at a fixed object for several minutes."
-      },
-      {
-        "order": 2,
-        "content": "When the attack occurs immediately restrict your head movement and keep your eyes fixed on a stationary object a long ways away.  Or another method is to lie down, with your unaffected ear against the floor, and look in the direction of the affected ear."
-      },
-      {
-        "order": 3,
-        "content": "If it is an inner ear disorder it needs to be treated."
-      },
-      {
-        "order": 4,
-        "content": "If the cause is low blood pressure, lower your head letting the blood flow into your head."
-      },
-      {
-        "order": 5,
-        "content": "Eat a nutritious diet which includes the entire B vitamin complex.  Extra vitamin C, vitamin E, and lecithin are also needed."
-      },
-      {
-        "order": 6,
-        "content": "When you get over 2,000 mg of sodium in a day it may disrupt the functions of the inner ear. "
-      },
-      {
-        "order": 7,
-        "content": "Avoid nicotine, caffeine, alcohol, and fried foods."
-      },
-      {
-        "order": 8,
-        "content": "Not enough glucose or low blood sugar may be the problem.  Decrease simple carbohydrates in the diet like sugar and flour while increasing the intake of fiber. To overcome brief dizziness, drink a glass of fruit juice.  Snacking on candies or refined carbohydrates such as cookies, donuts, chips, and pastries may intensify symptoms."
-      },
-      {
-        "order": 9,
-        "content": "If vertigo begins after taking some new drug, stop using it immediately and consult your doctor. "
-      }
-    ],
-    "order": 11
-  },
   {
     "element": "p",
-    "content": "The “modern world of medicine” looks to pharmaceutical drugs for the answer to treat the patient’s symptoms, where as Natural Healers regard the whole body.  Plants, herbs, seeds, and leaves, were the first medicines of our ancestors.  The Therapeutic Essential Oils are powerful healers and contain hundreds of molecules that work together to kill viruses, bacteria, fungus, molds, parasites, and microbes.   ",
+    "content": "There is a wide range of lifestyles so the supplemental requirements of each individual will vary.  Below are three of the top supplemental suggestions that should be in almost everyone’s life:",
+    "order": 10
+  },
+  { "element": "p", "content": "Immune System ", "order": 11 },
+  {
+    "element": "p",
+    "content": "The immune system not only protects the body but it also assists all other body systems.  Literally, by having a better immune system, your body functions better on all levels.  Make sure you purchase a supplement, like Shiaqga, that modulates your immune response (produces healthy more active cells) and does not just stimulate it (makes your cells work harder). ",
     "order": 12
   },
+  { "element": "p", "content": "Enzymes", "order": 13 },
   {
     "element": "p",
-    "content": "Maintaining a healthy lifestyle by eating a balanced diet that is high in greens (greens such as wheatgrass, kale, watercress, and dandelion are especially healing), fresh fruits and vegetables, and stay hydrated by drinking plenty of water.  It is important to drink an ounce of water for every pound of your weight.  Make sure it is only water you are counting this way.  You can drink other drinks but avoid counting them as part of your water intake.",
-    "order": 13
-  },
-  {
-    "element": "p",
-    "content": "Other modalities that will assist would be to practice balancing exercises, yoga, and take quality natural supplements.  Avoid nicotine, caffeine, alcohol, and fried foods.  Limit your intake of chocolate, avoid regular table salt that contains potentially harmful additives (use Himalayan salt instead), and processed foods.  A diet low in sugar and fat can eliminate repeated dizziness.  ",
+    "content": "Living cells and tissues require nutrients to be able to divide and grow.  The human body is able to absorb nutrients that create energy from the food we eat.  Enzymes are the catalysts that help process the digestive and metabolic systems of the body.  Digestive enzymes help break down the food so it can be absorbed by the body.  With about 3000 known enzymes, they are considered the fountain of life.  They are responsible for all of the functions of every organ of the body.  Food that has been heated to 118 degrees F for more than 15 minutes destroys all the enzymes.  It is better to eat foods raw to get the necessary enzymes.",
     "order": 14
   },
-  { "element": "p", "content": "Natural Relief:", "order": 15 },
+  { "element": "p", "content": "Probiotics", "order": 15 },
   {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "A drop of coriander oil to a glass of water and drink."
-      },
-      {
-        "order": 2,
-        "content": "Add a drop black pepper and lemon oil to a glass of water and drink."
-      },
-      {
-        "order": 3,
-        "content": "Add lemon or lime to the diet.  They are good in salad dressing or water."
-      },
-      {
-        "order": 4,
-        "content": "Peppermint oil is good for motion sickness.  Add a drop to water and drink."
-      },
-      {
-        "order": 5,
-        "content": "Lavender oil is good to put around the ears and for aromatherapy."
-      },
-      {
-        "order": 6,
-        "content": "Helichrysum italicum is beneficial for hearing problems caused by nerve damage.  Apply around the ears or put a drop on cotton and put in the ears about 2 times a day."
-      },
-      {
-        "order": 7,
-        "content": "Ginkgo (60-240 mg daily) in Europe is prescribed for vertigo.  In one French study, people with chronic vertigo showed 47% improvement using ginko."
-      },
-      {
-        "order": 8,
-        "content": "A U.S. Navy study showed ginger reduced dizziness by 38%.  One gram of ginger relieved vertigo better than the standard drug they were issuing."
-      },
-      {
-        "order": 9,
-        "content": "Celery seed has been used by the Chinese for dizziness."
-      }
-    ],
+    "element": "p",
+    "content": "To assist in restoring the internal balance that protects us against illness and promotes optimal health, we need probiotics.  They provide protection in a toxic world and have a far-reaching impact on your overall health.",
     "order": 16
+  },
+  { "element": "p", "content": "Greens", "order": 17 },
+  {
+    "element": "p",
+    "content": "The chimpanzee is the closest genetically related animal to us humans.  If you look at the wild chimpanzee’s diet, you will find that they eat about 40% greens and even more fruit.  The building blocks of health are found in the greens.  Modern eating habits don’t even get near to that percentage of greens in the diet.  Greens assist the body in the detoxification process and they give it the vital vitamins, minerals, and other nutrients necessary for optimal health.        ",
+    "order": 18
   },
   {
     "element": "p",
-    "content": "The Shiaqga supplement has the benefits to strengthen the immune system, lower blood pressure and stimulate circulation.  Some people have reported getting relief from vertigo by using this supplement.",
-    "order": 17
+    "content": "Take charge of your life and seek your own path to good health.  Make the changes that work for you and your lifestyle and reap the benefits for years to come.",
+    "order": 19
+  },
+  {
+    "element": "p",
+    "content": "Thomas Edison said, “The doctor of the future will give no medicine, but will interest his patients in the care of the human frame, in diet, and in the cause and prevention of disease.”",
+    "order": 20
+  },
+  {
+    "element": "p",
+    "content": "“Let food be your medicine and medicine be your food.” -- Hippocrates, 400 B.C.",
+    "order": 21
   }
 ]

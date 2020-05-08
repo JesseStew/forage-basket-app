@@ -1,0 +1,166 @@
+{
+  "title": "Warts",
+  "linkText": "Warts",
+  "order": 1,
+  "author": "Medicine Woman Practitioner Paway-yatanatu way-akt",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Warts are small, usually painless growths on the skin caused by a virus called Human Papilloma Virus (HPV).  Most, but not all, are generally harmless.  These skin growths grow in clusters and are typically seen on the fingers and feet, however, warts can affect the genital and rectal areas.  Warts appear more frequently in adolescents who are experiencing hormonal changes, especially between the ages of 12 and 16.",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "Warts can be annoying, painful, disfiguring, embarrassing, and can spread all over the body.  They may spread from one person to another, but this is uncommon.  Some warts are spread through sexual contact.  ",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Warts often go away on their own within two years, but when they are found around and under the nails warts are much more difficult to cure.  Warts can even recur, even when they appear to be fully treated.  Minor scars can form after removal.",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "The typical wart is a raised round or oval growth on the skin with a rough surface.",
+      "order": 4
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "The spot may be lighter, darker, or black (rare) colored compared to other skin."
+        },
+        { "order": 2, "content": "Some warts have smooth or flat surfaces." },
+        { "order": 3, "content": "Some warts cause pain, others do not. " }
+      ],
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "Different types of warts include:",
+      "order": 6
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Common warts usually appear on the hands, but can appear anywhere.  They usually do not cause pain unless they are repeatedly rubbed against."
+        },
+        {
+          "order": 2,
+          "content": "Flat warts are generally found on the face and forehead.  They are common in children, less common in teens, and rare in adults."
+        },
+        {
+          "order": 3,
+          "content": "Genital warts are usually found on the genitals, in the pubic area, and in the area between the thighs, but they can also appear inside the vagina and anal canal."
+        },
+        {
+          "order": 4,
+          "content": "Plantar warts are found on the soles of the feet.  They can be very painful.  Many of them on the foot may cause difficulty walking or running."
+        },
+        {
+          "order": 5,
+          "content": "Subungual and periungual warts appear under and around the fingernails or toenails.   "
+        },
+        {
+          "order": 6,
+          "content": "Filiform warts are often found on the face.  They are long, slender growths appearing on the eyelids, armpits, or neck.  They most often appear on people who are overweight and middle-aged."
+        },
+        { "order": 7, "content": "Mosaic warts are tiny seed warts." }
+      ],
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "Avoid attempting to remove a wart yourself by burning, cutting, tearing, picking, or any other method.  Since everyone seems to respond differently there is a variety of treatments.  It is said that no form of wart treatment is 100% effective for all people.  Over-the-counter medications are available to remove warts.  Below are some natural remedies for getting rid of warts:",
+      "order": 8
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Oregano oil and white grapefruit oil are good for wart removal.  First, use an emery board to file the wart when your skin is damp.  For example, after a bath or shower.  This helps remove dead tissue.  Do not use the same emery board on your nails.  Apply the essential oil to the wart.  Just rub the oil into the wart and cover with a Band-Aid.  Do this two times a day till the wart dies. "
+        },
+        {
+          "order": 2,
+          "content": "Apple cider vinegar applied to the wart two times a day and cover with a Band-Aid until the wart dies."
+        },
+        {
+          "order": 3,
+          "content": "By soaking the wart for 30-90 minutes twice a week in hot water (ll3-118 degrees) eliminated half the warts according to one medical study."
+        },
+        { "order": 4, "content": "Cover the wart with honey for 15 days." },
+        {
+          "order": 5,
+          "content": "Milkweed sap applied several times a day.  In England people have also been known to use the juice of a dandelion stalk."
+        },
+        {
+          "order": 6,
+          "content": "For plantar warts on the bottom of the foot, apply a plantain poultice using the leaf itself."
+        },
+        {
+          "order": 7,
+          "content": "Place the inner sides (white part) of a fresh banana peel over the wart and hold it there with tape or rub it on 2-4 times a day for 5-7 days.  Change daily after washing the entire area.  Once a week the thickened outer horny layer is removed.  Maximum time for complete disappearance of a wart is six weeks, with no recurrence within two years."
+        }
+      ],
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "The usual methods of removing warts such as surgery, acids, burning, electrotherapy, or freezing often results in their reappearance.  To truly cure warts, or any infection, the underlying causes should be eliminated.  Warts appear because the body has a lowered vitality and lack of resistance.  Improve the diet by eating foods high in vitamins A, B complex, C, and zinc. ",
+      "order": 10
+    },
+    {
+      "element": "p",
+      "content": "Other helpful practices include keeping proper hours of wakefulness, exercising in the open air, and breathing deeply.  Deficiencies in all four are related to an increased incidence of viral infections.  Also increase the sulfur-containing amino acids in the diet, such as are found in asparagus, citrus fruits, garlic, and onions.",
+      "order": 11
+    },
+    { "element": "p", "content": "See a practitioner if:  ", "order": 12 },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "There are signs of infection (red streaking, pus, discharge, or fever) or bleeding.  Warts can bleed a little, but if bleeding is significant or not easily stopped by light pressure, see a doctor."
+        },
+        {
+          "order": 2,
+          "content": "The wart does not respond to self-care and you want it removed."
+        },
+        { "order": 3, "content": "You have pain associated with the wart." },
+        { "order": 4, "content": "You have anal or genital warts." },
+        {
+          "order": 5,
+          "content": "You have diabetes or a weakened immune system (for example, HIV) and have developed warts."
+        },
+        {
+          "order": 6,
+          "content": "There is any change in the color or appearance of the wart."
+        }
+      ],
+      "order": 13
+    },
+    { "element": "p", "content": "Ways to prevent warts:", "order": 14 },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Avoid direct skin contact with a wart on someone else. "
+        },
+        {
+          "order": 2,
+          "content": "After filing your wart, wash the file carefully since you can spread the virus to other parts of your body.  You can infect yourself again by touching the wart and then another part of your body. "
+        },
+        {
+          "order": 3,
+          "content": "After touching any of your warts, wash your hands carefully.  Warts are easily spread by direct contact with the virus and you can infect another person by sharing towels, razors, or other personal items. After contact with HPV, it can take many months of slow growth beneath the skin before you notice a wart although it is extremely unlikely that you will get a wart every time you come in contact with HPV. "
+        }
+      ],
+      "order": 15
+    }
+  ]
+}

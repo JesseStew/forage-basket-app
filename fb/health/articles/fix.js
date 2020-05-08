@@ -1,4 +1,4 @@
-const data = require('./vertigo.json')
+const data = require('./wellness.json')
 const _ = require('lodash')
 const fs = require('fs')
 

@@ -1,0 +1,119 @@
+{
+  "title": "Viral Infections (also see Superbugs)",
+  "linkText": "Viral Infections",
+  "order": 1,
+  "author": "Paway-yatanatu way-akt, Medicine Woman Practitioner",
+  "elements": [
+    {
+      "element": "p",
+      "content": "Viruses can be especially serious.  Viral infections are caused by small, infectious organisms that must invade a living cell to reproduce.  The virus will attach itself to a cell and release DNA or RNA (genetic material) inside the cell to be able to reproduce the virus.  The viral infection causes the cell to die during the reproduction of the virus that then spreads them to other cells.",
+      "order": 1
+    },
+    {
+      "element": "p",
+      "content": "This infection changes the normal DNA of the cell which can become cancerous.  A virus can remain dormant for a time, only to start an infectious cycle again.  Viruses are transmitted by swallowing, inhaling, insect bites, parasites, or sexual contact.  There are over 200 different types of viral infections and all are contagious. ",
+      "order": 2
+    },
+    {
+      "element": "p",
+      "content": "Despite the modern medical practice of prescribing antibiotics, antibiotics only fight bacteria invasions and are useless against viral infections.",
+      "order": 3
+    },
+    {
+      "element": "p",
+      "content": "The human body‘s first line of defense against infections are the skin and mucous membranes.  The second line of defense is the immune system with its army of white blood cells that recognize, attack, and kill a virus (foreign invader).  Trouble begins when the invaders are strong and many, and the body is in a weakened or in a sluggish condition. ",
+      "order": 4
+    },
+    {
+      "element": "p",
+      "content": "Now, the good news is once the immune system has fought a certain virus, it has the ability to remember the invader in the future.  So when it is attacked by the same virus again, this triggers memory cells that will create a more rapid, more intense immune response.  This is called an acquired immune response.",
+      "order": 5
+    },
+    {
+      "element": "p",
+      "content": "The most common type of viral infections involves the respiratory system and causes the common cold, flu, and bronchiolitis that can lead to lung or a heart disorder.  Symptoms include body chills, fever, headache, muscle aches, joint aches, and a sore throat.  ",
+      "order": 6
+    },
+    {
+      "element": "p",
+      "content": "The gastrointestinal system is affected by viruses with symptoms like diarrhea and vomiting.  This can be spread through contaminated food or water that can cause gastroenteritis, an inflammation of the stomach and intestines.  Poor hygiene and improper washing of the hands helps spread this virus.  ",
+      "order": 7
+    },
+    {
+      "element": "p",
+      "content": "The skin can also be infected by viruses.  Chicken pox with symptoms that include an itchy rash, fever, and headache, is a virus that in most cases stays in the body forever.  Also in most cases, if you have been infected once, will not be infected again.",
+      "order": 8
+    },
+    {
+      "element": "p",
+      "content": "The herpes simplex virus (HSV) can infect the mouth, genitals, and anus.  This virus will cause sores that can “flare-up” and disappear.  Modern medicine says there is no cure and the virus will remain in the body forever causing outbreaks for life.  It is also very contagious even when sores during outbreaks aren’t present.  ",
+      "order": 9
+    },
+    {
+      "element": "p",
+      "content": "West Nile virus can be transmitted to humans by mosquitoes.  Most human infections are mild, causing a flu-like illness that lasts only a few days.  A minority develop encephalitis, characterized by headaches, fevers, a neck stiffness, and muscle weakness, that has proved fatal in some cases.  Modern medicine has no cure for this virus.  In severe cases, intensive medical care, involving intravenous fluids and respiratory support is necessary to keep the patient alive. ",
+      "order": 10
+    },
+    {
+      "element": "p",
+      "content": "Viral infections can be prevented and cured in most all cases by keeping the immune system modulated.  (Strong and health and in an aggressive posture.)  The Shiaqga supplement is currently the best supplement in the market for not only modulating the immune system but also for activating the adult stem cells.  Building-up the immune system is vital for optimal health.  Having a modulated immune system will allow your body to have the best natural defense against virus, infection, or disease.",
+      "order": 11
+    },
+    {
+      "element": "p",
+      "content": "If you are deficient in nutrition, minerals, smoke, or use alcohol, this can put the immune system on overload.  You can’t fight a battle with weak soldiers.  Start with eating a healthy diet, taking supplements, drinking enough water, and exercise the body.  This will assist you in having the fuel to fight the battles of disease.",
+      "order": 12
+    },
+    {
+      "element": "p",
+      "content": "Some essential oils that are known to be beneficial against viral infections are:",
+      "order": 13
+    },
+    {
+      "element": "ul",
+      "content": [
+        {
+          "order": 1,
+          "content": "Cinnamon Bark is an immune stimulant and it has been found that viruses, bacteria, and fungus cannot live in this oil.  Caution:  cinnamon is extremely “hot” and will burn the skin so always dilute heavily.   "
+        },
+        {
+          "order": 2,
+          "content": "Clove Bud is an antiseptic and beneficial for inflammation, viruses, bacteria, fungus, tumors, and parasites.  It is beneficial for a virus of the nerves (MS), and viral hepatitis."
+        },
+        {
+          "order": 3,
+          "content": "Black Cumin, because of its complex chemical structure (more than one hundred active ingredients, has positive effects on the respiratory, circulatory, digestive, immune, and urinary systems of the body.  Recent research has verified claims that Black Cumin strengthens and stabilizes the immune system and is effective in the treatment of other immune disorders."
+        },
+        {
+          "order": 4,
+          "content": "Melissa has powerful anti-viral constituents."
+        },
+        {
+          "order": 5,
+          "content": "Mountain Savory is effective against fungus, viruses, major infections, and has been used as a general tonic for the body.  It is an immune stimulant."
+        },
+        {
+          "order": 6,
+          "content": "Tea Tree is beneficial against viruses, bacteria, infections (especially against staph, strap, respiratory, ear, nose, and throat infections), and against such infectious diseases as chickenpox.  Tea Tree stimulates lymphatic circulation and is an immune stimulant."
+        },
+        {
+          "order": 7,
+          "content": "Oregano has a broad spectrum of bactericidal and anti-microbial action. It is beneficial against fungus, infections, parasites, viruses, is an immune-stimulant, balancing the metabolism, and strengthens the vital centers of the body.  Caution:  Oregano is extremely “hot” and will irritate the skin so always dilute.  "
+        },
+        {
+          "order": 8,
+          "content": "Palmarosa fights microbes, bacteria, viruses, infections, fungus, is an antiseptic, stimulants digestion and circulation, and assists all types of healing."
+        },
+        {
+          "order": 9,
+          "content": "Rosemary, a general all around oil, is called the “Universal Oil” because of its many benefits.  It acts as a restorative against spasms, viruses, bacteria, infections, and catarrh (clears mucus quickly), bronchitis, asthma, whooping cough, colds, and flu.  It assists the immune and endocrine systems."
+        },
+        {
+          "order": 10,
+          "content": "Ravintsara is referred to “the oil that heals” in Madagascar.  This is another of the “universal oils” and may be used for many purposes.  It fights infection, fungus, viruses, bacteria, is an anti-biotic, antiseptic, an expectorant, and supporting to the nerves.  It assists respiratory problems, colds, bronchitis, coughs, flu, sore throats, lung infections, viral hepatitis, and herpes."
+        }
+      ],
+      "order": 14
+    }
+  ]
+}
