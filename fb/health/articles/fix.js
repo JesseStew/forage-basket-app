@@ -1,4 +1,4 @@
-const data = require('./spiderBites.json')
+const data = require('./ulcerativeColitis.json')
 const _ = require('lodash')
 const fs = require('fs')
 

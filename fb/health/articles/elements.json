@@ -1,98 +1,67 @@
 [
   {
     "element": "p",
-    "content": "There are more than 29,000 known species of spiders.  There are many spiders in the United States that are poisonous, but many of those have fangs that are too short to cause any damage.  The Tarantula is the world’s largest spider and lives as far north as the southwestern U.S.  But its bite is no more dangerous to a human than the sting of a bee or wasp.  Most bites of spiders will cause minor reactions and they are excellent at insect control.  The two spiders that are extremely dangerous are the Black Widow and the Brown Recluse.    ",
+    "content": "Ulcerative colitis generally strikes adults in the second, third and fourth decades of life, with the majority of cases being women and young adults.  It is a chronic (prolonged duration) inflammatory disease for which no definite cause has been identified, but which many health care professionals consider the product of our modern diet and lifestyle.  Jewish origin, Caucasian race and having a close family member with the disease are considered risk factors.",
     "order": 1
   },
   {
     "element": "p",
-    "content": "The Black Widow Spider is the most dangerous spider in the U.S.A.  It is a small black button-shaped spider with a red hourglass mark on the underside of the main body segment.  Only the female Black Widow Spider is dangerous to man and death usually results from complications, not from the actual bite.  ",
+    "content": "​Although no absolute cause has been identified, it is generally understood by medical doctors that infection, dietary triggers, immune dysfunction or genetic causes are to blame.  Because some evidence has been noted in leading publications regarding the role of immune dysfunction in the development of the disease, most medical research in this area is working toward shutting down the immune-inflammatory response as a method of treatment.  This type of focus is unfortunate, especially in view of the fact that other immune dysfunction diseases have been most effectively treated with immune modulation – working with the immune system rather than against it.",
     "order": 2
   },
   {
     "element": "p",
-    "content": "The venom of the Black Widow spider, drop for drop, is more potent than the poison for a rattlesnake, copperhead, or cotton mouth yet each spider bite injects only an extremely small amount of venom.  The bites of this spider will release a toxin that can cause damage to the nervous system.  Four out of every 100 people bitten by a Black Widow die due to anaphylactic shock. ",
+    "content": "From my own personal experience in battling the disease, I believe that the cause is multi-factorial and involves dietary impropriety and the consequent infection which triggers immune dysfunction.  It is my belief that genetic factors are less important than the inherited lifestyle that predisposes whole families to the disease.",
     "order": 3
   },
-  { "element": "p", "content": "Some of the symptoms include:", "order": 4 },
   {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Immediate pain, burning, swelling, rash, itching, or redness, and maybe fang marks."
-      },
-      {
-        "order": 2,
-        "content": "Cramping pain and muscle rigidity in the stomach, chest, shoulders, and back."
-      },
-      { "order": 3, "content": "Cold sweats, difficulty in breathing." },
-      { "order": 4, "content": "Headaches, dizziness, nausea, and vomiting." },
-      {
-        "order": 5,
-        "content": "Restlessness, anxiety, weakness, tremors, or paralysis, especially in the legs."
-      },
-      { "order": 6, "content": "Salivation or tearing of the eyes." }
-    ],
+    "element": "p",
+    "content": "Ulcerative colitis has an insidious onset with relatively silent inflammation beginning deep in a fold of the large bowel.  Damage to the mucous membrane is caused by the inflammatory cells of the immune system which are confused by the relative non-self environment of the toxic, infected mucosal lining of the intestine.  In this environment, the process of healing never really finishes, the damaged mucosa eventually ulcerates, and the inflammatory process begins to involve the deeper layers of the bowel wall.",
+    "order": 4
+  },
+  {
+    "element": "p",
+    "content": "Mucosal destruction causes cramping, bleeding and the constant urge to defecate.  The disease process described to this point occurs at multiple sites in the bowel and results in blood-tinged, pus-laden diarrhea.  Patients can have up to 10 to 15 stools a day.",
     "order": 5
   },
   {
     "element": "p",
-    "content": "The Brown Recluse Spider, also known as the violin spider, is about 3/8-inch long, with a dark, violin shaped mark on its upper back near the head.  It prefers to hide in dark places in the house like basements, closets, and attics.  Contrary to belief, this spider is not aggressive but will usually attack if trapped or held against the skin.",
+    "content": "While serious bleeding is rare, usually occurring only in severe disease involving extensive portions of the colon, anemia from blood loss is not uncommon.  Dehydration, weight loss, low grade fever, and constant cramping pain render patients truly miserable and often disabled entirely.  Strictures of the bowel and anal fissures or abscesses are frequent problems.  Worst of all, after years of the disease, the risk of colon cancer increases significantly.  In fact, sufferers of ulcerative colitis are as much as twenty times more likely to develop cancer of the colon and related organs.",
     "order": 6
   },
   {
     "element": "p",
-    "content": "It spins a sticky, irregular web, with threads running in all directions.  It can live for days without food or water and is found all over the U.S.  The venom of a bite from the Brown Recluse spider causes the flesh to decay and can require extensive treatment but death from a Brown Recluse is extremely rare.  ",
+    "content": "Modern treatments are aimed at decreasing inflammation, but the steroids and anti-inflammatories used both orally and rectally have numerous, dangerous side effects.  In extensive disease, hospitalization for IV rehydration or antibiotic treatment of infection is not an uncommon occurrence.",
     "order": 7
   },
-  { "element": "p", "content": "Some of the symptoms include:", "order": 8 },
   {
-    "element": "ul",
-    "content": [
-      { "order": 1, "content": "A burning, pain, itching, rash or redness" },
-      {
-        "order": 2,
-        "content": "A deep blue or purple area around the bite, surrounded by a whitish ring and large red outer ring like a “bulls eye”"
-      },
-      { "order": 3, "content": "An ulcer or blister that turns black" },
-      { "order": 4, "content": "Fever, nausea, or vomiting" },
-      {
-        "order": 5,
-        "content": "Eventually, most of the tissue dies around the bite, leaving a deep sore that may take months to heal."
-      }
-    ],
+    "element": "p",
+    "content": "The Role of Shiaqga in Ulcerative Colitis",
+    "order": 8
+  },
+  {
+    "element": "p",
+    "content": "To complete the process of healing requires that the neutrophils and macrophages of the bowel perform their function without confusion.  Because these cells are also involved in the overall cleanup of the environment of the bowel, their healing function can be overridden by the need to transport toxic materials away from the affected mucosa.  In the chronically infected and toxic state of the bowel in ulcerative colitis, these important cells are not able to perform their healing functions.  More cells are needed.  Beta – glucan causes a modulation (dramatic increase) of the important cells so that both functions may be carried out simultaneously.",
     "order": 9
   },
-  { "element": "p", "content": "Treatments:", "order": 10 },
   {
-    "element": "ul",
-    "content": [
-      {
-        "order": 1,
-        "content": "Always contact a physician if it is a poisonous spider."
-      },
-      {
-        "order": 2,
-        "content": "Chew up and swallow 10 charcoal tablets with water.  Crush some more tablets, make a paste, and place on the bite as a compress.  Charcoal will powerfully draw out the poison if applied extremely fast."
-      },
-      {
-        "order": 3,
-        "content": "If there is swelling or pain after a poisonous spider bite, keep calm and apply a constricting band 2-4 inches above (not below) the bite.  Loosen the band for 15 seconds every 10 minutes.  Do not let the extremity turn blue!  Do not move the affected area; keep it below the heart level, if possible.  The victim should lie down.  Pack ice around the wound."
-      },
-      {
-        "order": 4,
-        "content": "For a normal spider bite wash the area with soap and water."
-      },
-      {
-        "order": 5,
-        "content": "Apply Therapeutic Essential Oils directly on the bite.  The oils contain hundreds of molecules that work together to kill viruses, bacteria, parasites, infections, and inflammation.  They are very beneficial for healing all areas of the body. "
-      },
-      {
-        "order": 6,
-        "content": "​Applying a drop or two of the Shiaqga supplement two or three times a day has been reported to have wonderful results with bites from spiders, snakes, and insects.  It also has been reported to heal wounds and skin cancers. "
-      }
-    ],
+    "element": "p",
+    "content": "Beta – glucans cause a systemic (body-wide) immune cascade as well.  This so enhances the body’s response to infection that mucosal damage is reduced.  Healing is allowed to take place because the chronic nature of the triggering infection is overcome.  ",
+    "order": 10
+  },
+  {
+    "element": "p",
+    "content": "In addition to its Beta – glucan content, Shiaqga contains powerful, steroid-like triterpenes that help to control bowel inflammation without the side effects of chemotherapeutic anti-inflammatory drugs.  These triterpenoid compounds also assist the liver in proper bile and digestive enzyme production ensuring a more toxin free bowel environment.",
     "order": 11
+  },
+  {
+    "element": "p",
+    "content": "I am a cancer survivor of twelve years and it (Shiaqga) has made all the difference in the world to me.  My diagnosis is T-cell Lymphoma of the bowel with 4th stage metastasis to the liver, prostate, vocal cords and lymph nodes of the abdomen and throat.  No treatment was suggested as my cancer was too far advanced to do anything about it.",
+    "order": 12
+  },
+  {
+    "element": "p",
+    "content": "Please read the following Beta – glucan link carefully.  Complete abstracts of the research is available but your doctor should be able to obtain it more quickly and easily than you or I.",
+    "order": 13
   }
 ]
