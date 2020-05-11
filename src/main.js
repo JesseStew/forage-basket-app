@@ -8,6 +8,7 @@ import firebase from 'firebase/app'
 import 'firebase/auth'
 import { firestorePlugin } from 'vuefire'
 import _ from 'lodash'
+import vuetify from './plugins/vuetify';
 
 Object.defineProperty(Vue.prototype, '$_', { value: _ })
 
@@ -65,5 +66,6 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
-  render: (h) => h(App),
+  vuetify,
+  render: (h) => h(App)
 }).$mount('#app')

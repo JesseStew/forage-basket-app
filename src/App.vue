@@ -1,9 +1,11 @@
 <template>
-  <div id="app">
+  <v-app>
     <Navigation />
-    <router-view />
-    <BaseFooter />
-  </div>
+    <!-- <v-content> -->
+    <!-- Content Goes Here, -->
+    <!-- <p>hello</p>
+    </v-content> -->
+  </v-app>
 </template>
 
 <script>

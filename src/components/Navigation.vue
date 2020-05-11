@@ -1,126 +1,27 @@
 <template>
-  <div id="nav">
-    <div class="header container">
-      <div class="hamburger" @click="show = !show">
-        <svg
-          width="24"
-          height="18"
-          viewBox="0 0 24 18"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+  <nav>
+    <v-app-bar color="primary" dark>
+      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+
+      <v-toolbar-title>Forage Basket</v-toolbar-title>
+    </v-app-bar>
+
+    <v-navigation-drawer v-model="drawer" absolute temporary>
+      <v-list nav dense>
+        <v-list-item-group
+          v-model="group"
+          active-class="deep-purple--text text--accent-4"
         >
-          <line
-            y1="-1"
-            x2="24"
-            y2="-1"
-            transform="matrix(-1 0 0 1 24 2)"
-            stroke="black"
-            stroke-width="2"
-          />
-          <line
-            y1="-1"
-            x2="24"
-            y2="-1"
-            transform="matrix(-1 0 0 1 24 18)"
-            stroke="black"
-            stroke-width="2"
-          />
-          <line
-            y1="-1"
-            x2="24"
-            y2="-1"
-            transform="matrix(-1 0 0 1 24 10)"
-            stroke="black"
-            stroke-width="2"
-          />
-        </svg>
-      </div>
-      <div class="location-pin">
-        <svg
-          width="16"
-          height="21"
-          viewBox="0 0 16 21"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M15.5 7.5C15.5 12.5 11.5 17.5 8.5 20C5.50003 17.5 1.00003 12.5 1 7.5C1.00003 5.5 3.00003 1 8.5 1C14.1 1 15.5 5.5 15.5 7.5Z"
-            stroke="black"
-          />
-          <circle cx="8.50003" cy="8.5" r="2.5" stroke="black" />
-        </svg>
-      </div>
-      <div class="logo">
-        <router-link :to="{ name: 'Home' }">
-          Forage Basket
-        </router-link>
-      </div>
-      <div class="search-icon">
-        <svg
-          width="22"
-          height="19"
-          viewBox="0 0 22 19"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M17.7 8.23333C17.7 12.4584 13.8979 15.9667 9.1 15.9667C4.30209 15.9667 0.5 12.4584 0.5 8.23333C0.5 4.00824 4.30209 0.5 9.1 0.5C13.8979 0.5 17.7 4.00824 17.7 8.23333Z"
-            stroke="black"
-          />
-          <line
-            y1="-0.5"
-            x2="7.5519"
-            y2="-0.5"
-            transform="matrix(0.741536 0.670913 -0.741536 0.670913 15.4 13.9333)"
-            stroke="black"
-          />
-        </svg>
-      </div>
-      <div class="cart">
-        <svg
-          width="21"
-          height="20"
-          viewBox="0 0 21 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0 1.34189H2M5.52566 13L1.52566 1M17 13.3419H5M20.4569 4.04496L16.4569 13.045M20 4.34189H3"
-            stroke="black"
-          />
-          <circle cx="15" cy="17.8419" r="1.5" stroke="black" />
-          <circle cx="8" cy="17.8419" r="1.5" stroke="black" />
-        </svg>
-      </div>
-      <form class="search" action="" method="">
-        <div class="nested search-template">
-          <input class="search-input" type="text" name="" id="" />
-          <button class="search-input">
-            <svg
-              width="22"
-              height="19"
-              viewBox="0 0 22 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M17.7 8.23333C17.7 12.4584 13.8979 15.9667 9.1 15.9667C4.30209 15.9667 0.5 12.4584 0.5 8.23333C0.5 4.00824 4.30209 0.5 9.1 0.5C13.8979 0.5 17.7 4.00824 17.7 8.23333Z"
-                stroke="white"
-              />
-              <line
-                y1="-0.5"
-                x2="7.5519"
-                y2="-0.5"
-                transform="matrix(0.741536 0.670913 -0.741536 0.670913 15.4 13.9333)"
-                stroke="white"
-              />
-            </svg>
-          </button>
-        </div>
-      </form>
-    </div>
-    <NavMenu :show="show" @close-menu="closeMenu" />
-  </div>
+          <v-list-item v-for="link in links" router :to="link.path">
+            <v-list-item-icon>
+              <v-icon> {{ link.icon }} </v-icon>
+            </v-list-item-icon>
+            <v-list-item-title> {{ link.name }} </v-list-item-title>
+          </v-list-item>
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>
+  </nav>
 </template>
 
 <script>
@@ -129,12 +30,64 @@ export default {
   name: 'Navigation',
   data() {
     return {
-      show: false,
+      drawer: false,
+      links: [
+        {
+          path: '/',
+          name: 'Home',
+          icon: 'mdi-home',
+        },
+        {
+          path: '/information',
+          name: 'Information',
+          icon: 'mdi-information',
+        },
+        {
+          path: '/testimonies',
+          name: 'Testimonies',
+          icon: 'mdi-comment-account',
+        },
+        {
+          path: '/health',
+          name: 'Health',
+          icon: 'mdi-google-fit',
+        },
+        {
+          path: '/essential-oils',
+          name: 'Essential Oils',
+          icon: 'mdi-water',
+        },
+        {
+          path: '/shop',
+          name: 'Shop',
+          icon: 'mdi-storefront',
+        },
+        {
+          path: '/research',
+          name: 'Research',
+          icon: 'mdi-school',
+        },
+        {
+          path: '/contact',
+          name: 'Contact',
+          icon: 'mdi-account-question',
+        },
+        {
+          path: '/product',
+          name: 'Product',
+          icon: 'mdi-storefront',
+        },
+        {
+          path: '/user-account',
+          name: 'User Account',
+          icon: 'mdi-account',
+        },
+      ],
     }
   },
   methods: {
     closeMenu() {
-      this.show = false
+      this.drawer = false
     },
   },
   components: {
