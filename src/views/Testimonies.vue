@@ -22,7 +22,6 @@
             <v-col v-for="photoUrl in document.photoUrls" :key="photoUrl.id">
               <img height="300" width="300" :src="photoUrl" alt="" />
             </v-col>
-            <!-- <SlideShow :sources="document.photoUrls" /> -->
           </v-row>
         </v-col>
       </v-row>
@@ -42,8 +41,6 @@
 </template>
 
 <script>
-import SlideShow from '@/components/SlideShow.vue'
-
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 
@@ -59,9 +56,6 @@ export default {
   methods: {},
   firestore: {
     documents: db.collection('testimonies').orderBy('order'),
-  },
-  components: {
-    SlideShow,
   },
   computed: {},
 }
