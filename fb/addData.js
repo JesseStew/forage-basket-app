@@ -1,6 +1,7 @@
 const firebase = require('../node_modules/firebase')
 const data = require('./health/health.json')
-// import data from './data.json'
+const glob = require('glob')
+const path = require('path')
 
 const firebaseConfig = {
   apiKey: 'AIzaSyBnHjfJLfjTWBe9RBlGIZKM44wSAOFDiEk',
@@ -16,7 +17,19 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig)
 
 const db = firebase.firestore()
-
 const informationRef = db.collection('health')
 
-informationRef.doc().set(data)
+let itr = 1
+
+glob.sync('./health/articles/*.json').forEach((file) => {
+  console.log(file)
+  let data = require(file)
+  console.log(data.order)
+  data.order = itr++
+  console.log(data.order)
+  informationRef.doc().set(data)
+})
+
+// const informationRef = db.collection('health')
+
+// informationRef.doc().set(data)
