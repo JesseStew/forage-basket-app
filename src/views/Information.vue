@@ -42,10 +42,14 @@
       adulteration to ensure maximum benefits.
     </p>
     <!-- Create components -->
-    <div v-for="document in orderDocuments(documents)" :key="document.id">
+    <v-expansion-panels popout>
       <!-- here, fix order -->
-      <InformationLink :document="document" />
-    </div>
+      <InformationLink
+        v-for="document in orderDocuments(documents)"
+        :key="document.id"
+        :document="document"
+      />
+    </v-expansion-panels>
     <h2>
       Shiaqga Original Formula Ingredients:
     </h2>

@@ -1,12 +1,15 @@
 <template>
-  <div id="information-link">
-    <button v-if="document.link" @click="openNewTab(document.link)">
+  <v-expansion-panel>
+    <v-expansion-panel-header
+      v-if="document.link"
+      @click="openNewTab(document.link)"
+    >
       {{ document.linkText }}
-    </button>
-    <button v-else @click="displayInfo">
+    </v-expansion-panel-header>
+    <v-expansion-panel-header v-else @click="displayInfo">
       {{ document.linkText }}
-    </button>
-    <div v-if="display">
+    </v-expansion-panel-header>
+    <v-expansion-panel-content>
       <h2>{{ document.title }}</h2>
       <h3 v-if="document.author">by {{ document.author }}</h3>
       <div
@@ -45,8 +48,8 @@
           {{ element.linkText }}
         </button>
       </div>
-    </div>
-  </div>
+    </v-expansion-panel-content>
+  </v-expansion-panel>
 </template>
 
 <script>
@@ -67,9 +70,6 @@ export default {
     },
   },
   methods: {
-    displayInfo() {
-      return (this.display = !this.display)
-    },
     openNewTab(link) {
       window.open(link.toString())
     },
