@@ -1,6 +1,6 @@
 <template>
-  <nav>
-    <v-app-bar color="blue-grey lighten-5">
+  <nav style="height: 64px">
+    <v-app-bar fixed color="blue-grey lighten-5">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title>Forage Basket</v-toolbar-title>
@@ -12,7 +12,13 @@
           </v-btn>
         </template>
         <v-list>
-          <v-list-item v-for="(item, index) in items" :key="index" @click="">
+          <v-list-item
+            router
+            to="/user-account"
+            v-for="(item, index) in items"
+            :key="index"
+            @click=""
+          >
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item>
         </v-list>
