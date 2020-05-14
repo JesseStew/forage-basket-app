@@ -1,10 +1,7 @@
 <template>
   <v-app>
     <Navigation />
-    <!-- <v-content> -->
-    <!-- Content Goes Here, -->
-    <!-- <p>hello</p>
-    </v-content> -->
+    <router-view />
   </v-app>
 </template>
 

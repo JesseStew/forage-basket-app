@@ -1,90 +1,295 @@
 <template>
   <div class="home">
-    <img src="../assets/images/shiaqga-green.png" alt="shiaqga-bottle-green" />
-    <p>
-      The Native American wild Shiaqga mushroom is considered one of the most
-      powerful weapons in protection against illness, disease, and aging. It is
-      a certified ceremonial sacrament for use by all Medicine Men and Women in
-      traditional Native American Healing." - Chieftess Pahamy, Medicine Woman
-      Practitioner
-    </p>
-    <h2>
-      Our Guarantee
-    </h2>
-    <p>
-      Even though many health issues are dealt with rather quickly, we
-      understand that health conditions vary and some people may take longer to
-      notice the benefits of taking Shiaqga. Still, we are confident that you
-      will see the benefit if you allow your body to build upon the nutritional
-      support the Shiaqga offers. Because of this, we offer a full 120 Day Money
-      Back Guarantee on your purchases. Take the Shiaqga supplements for four
-      months and if you don't notice positive benefits, contact us for a full
-      refund.
-    </p>
-    <img
-      src="../assets/images/alignment-front-bottle-graphic-500x500.jpg"
-      alt="essential-oil-bottle"
-    />
-    <p>
-      We are pleased to announce the addition of truly Therapeutic Essential
-      Oils to ​ our product line.
-    </p>
-    <router-link :to="{ name: 'Essential Oils' }">
-      Please click here to find out the difference in our essential oils and what other companies offer.
-    </router-link>
-    <iframe width="320" height="160" src="https://www.youtube.com/embed/wkRP_XbiVmk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </iframe>
-    <iframe width="320" height="160" src="https://www.youtube.com/embed/ROR2Lii741s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <img src="../assets/images/shiaqga-red.png" alt="shiaqga-bottle-red" srcset="">
-    <p>Our products are formulated with true Shiaqga not with the much cheaper 'Chaga Mushroom' that many companies attempt to pass off as true Shiaqga.</p>
-    <p>"When I first learned about Shiaqga I asked my Medicine Chief what the difference was between that and the Chaga mushroom I was familiar with.  He said, 'Oh, Shiaqga is 1000% times better.' " - Man Found Standing, Medicine Man Practitioner</p>
-    <h2>
-      Assist your body to heal itself!
-    </h2>
-    <p>
-      "The modulation of the immune system is a given when taking Shiaqga.  I have seen the immune system increase over 4000% within 20 hours after taking Shiaqga.  Over time the modulation of the immune system will start the activation of the body's healing stem cells." - Chief Man Found Standing, Medicine Man Practitioner
-    </p>
-    <router-link :to="{ name: 'Essential Oils' }">
-      Click here for more Shiaqga Information
-    </router-link>
-    <iframe width="320" height="160" src="https://www.youtube.com/embed/YXN-hi8-b9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="320" height="160" src="https://www.youtube.com/embed/wkRP_XbiVmk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="320" height="160" src="https://www.youtube.com/embed/rGgikMEI2XM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="320" height="160" src="https://www.youtube.com/embed/FVUopBRstbk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <v-container>
+      <v-row align="center" class="my-10">
+        <v-col cols="3">
+          <img
+            src="../assets/images/shiaqga-green.png"
+            alt="shiaqga-bottle-green"
+          />
+        </v-col>
+        <v-col cols="9" class="">
+          <p class="headline">
+            The Native American wild Shiaqga mushroom is considered one of the
+            most powerful weapons in protection against illness, disease, and
+            aging. It is a certified ceremonial sacrament for use by all
+            Medicine Men and Women in traditional Native American Healing
+          </p>
+          <p class="title text-right">
+            - Chieftess Pahamy, Medicine Woman Practitioner
+          </p>
+        </v-col>
+      </v-row>
+      <v-row class="my-10">
+        <v-divider></v-divider>
+      </v-row>
+      <v-row no-gutters>
+        <h2 class="display-1">
+          Our Guarantee
+        </h2>
+      </v-row>
+      <v-row no-gutters>
+        <br />
+        <p class="subtitle-1 pt-5 pb-9">
+          Even though many health issues are dealt with rather quickly, we
+          understand that health conditions vary and some people may take longer
+          to notice the benefits of taking Shiaqga. Still, we are confident that
+          you will see the benefit if you allow your body to build upon the
+          nutritional support the Shiaqga offers. Because of this, we offer a
+          full 120 Day Money Back Guarantee on your purchases. Take the Shiaqga
+          supplements for four months and if you don't notice positive benefits,
+          contact us for a full refund.
+        </p>
+      </v-row>
+      <v-row class="my-10">
+        <v-divider></v-divider>
+      </v-row>
+      <v-row align="center" no-gutters>
+        <v-col cols="3">
+          <img
+            style="width:100%"
+            src="../assets/images/alignment-front-bottle-graphic-500x500.jpg"
+            alt="essential-oil-bottle"
+          />
+        </v-col>
+        <v-col class="subtitle-1" cols="3">
+          <p>
+            We are pleased to announce the addition of truly Therapeutic
+            Essential Oils to ​ our product line.
+          </p>
+          <router-link :to="{ name: 'Essential Oils' }">
+            Please click here to find out the difference in our essential oils
+            and what other companies offer.
+          </router-link>
+        </v-col>
+        <v-col cols="6" class="pl-10">
+          <iframe
+            width="100%"
+            height="300"
+            src="https://www.youtube.com/embed/wkRP_XbiVmk"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </v-col>
+      </v-row>
+      <v-row align="center">
+        <v-col>
+          <v-btn x-large router to="/shop" class="ma-5">Shop Now</v-btn>
+        </v-col>
+      </v-row>
+      <v-row class="my-10">
+        <v-divider></v-divider>
+      </v-row>
+      <v-row>
+        <v-col cols="6">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/ROR2Lii741s"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </v-col>
+        <v-col cols="6" class="display-1">
+          <p>
+            Dr. Tim Chapman, M.D. from Sun City, California writes: "My comment
+            is . . . to acknowledge a product that has significantly created
+            immune system enhancing activities, both safely and repetitively. It
+            is called Shiaqga. Its anti-neoplastic and immune-stimulating
+            efficacies are superior."
+          </p>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="3">
+          <img
+            src="../assets/images/shiaqga-red.png"
+            alt="shiaqga-bottle-red"
+            srcset=""
+          />
+        </v-col>
+        <v-col cols="9">
+          <p>
+            Our products are formulated with true Shiaqga not with the much
+            cheaper 'Chaga Mushroom' that many companies attempt to pass off as
+            true Shiaqga.
+          </p>
+          <p>
+            "When I first learned about Shiaqga I asked my Medicine Chief what
+            the difference was between that and the Chaga mushroom I was
+            familiar with. He said, 'Oh, Shiaqga is 1000% times better.' " - Man
+            Found Standing, Medicine Man Practitioner
+          </p>
+        </v-col>
+      </v-row>
+      <v-row class="my-10">
+        <v-divider></v-divider>
+      </v-row>
+      <v-row>
+        <v-col>
+          <h2>
+            Assist your body to heal itself!
+          </h2>
+          <p>
+            "The modulation of the immune system is a given when taking Shiaqga.
+            I have seen the immune system increase over 4000% within 20 hours
+            after taking Shiaqga. Over time the modulation of the immune system
+            will start the activation of the body's healing stem cells." - Chief
+            Man Found Standing, Medicine Man Practitioner
+          </p>
+        </v-col>
+      </v-row>
+      <v-row align="center">
+        <v-col>
+          <v-btn x-large router to="/information">
+            <!-- here, change link -->
+            CLICK HERE FOR MORE SHIAQGA INFORMATION
+          </v-btn>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="6">
+          <iframe
+            class="pa-3"
+            width="100%"
+            height="300"
+            src="https://www.youtube.com/embed/YXN-hi8-b9w"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="pa-3"
+            width="100%"
+            height="300"
+            src="https://www.youtube.com/embed/rGgikMEI2XM"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </v-col>
+        <v-col cols="6">
+          <iframe
+            class="pa-3"
+            width="100%"
+            height="300"
+            src="https://www.youtube.com/embed/wkRP_XbiVmk"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
 
-    <h2>
-      More Videos
-    </h2>
-    <a href="https://youtu.be/2g2fUDDAuG0">How to Use The Shiaqga</a> |
-    <a href="https://www.youtube.com/watch?v=jLZN1ftDVZg">HOW TO USE SHIAQGA PET IMMUNITY</a>
-    <p>
-      <i>“The doctor of the future will give no medicine, but will interest her or his patients in the care of the human frame, in a proper diet, and in the cause and prevention of disease.”</i>
-      --Thomas A. Edison
-    </p>
-    <img src="../assets/images/shiaqga-green.png" alt="shiaqga-bottle-green" srcset="">
-    <img src="../assets/images/shiaqga-red.png" alt="shiaqga-bottle-red" srcset="">
-    <!-- <h3>
-      Enter your email below to  sign up for our Newsletter.
-    </h3>
-    <form>
-      <label for="email">
-        Email:
-      </label>
-      <input v-model="email" type="email" name="email" value />
-
-      <button type="submit" name="button">
-        Submit
-      </button>
-    </form> -->
-    <button type="submit" name="button">
-      CLICK HERE IF YOU WISH TO JOIN OUR SHIAQGA AFFILIATE PROGRAM AND RECEIVE 7% COMMISSION FOR YOUR DIRECT REFERRALS AND 10% COMMISSION ON YOUR SECOND TIER LEVEL. YOU WILL AUTOMATICALLY BE PLACED IN YOUR REFERRER'S FIRST LEVEL TIER. (IN THE FUTURE, A COMPANY-WIDE PROFIT SHARING PLAN BASED ON REFERRALS SALES WILL BE ADDED.)
-    </button>
-    <p>
-      "The Shiaqga product is  one of natures most powerful natural healers that I know about." - Chief SunStar
-    </p>
-    <p class="disclaimer">
-      Consumers should always seek the advice of a physician or other competent health care provider with any questions regarding medical conditions.  The educational information on our website and in our online advertisements has not been evaluated by the United States Food and Drug Administration and is not intended to diagnose, treat, cure or prevent any disease.  Consumers should never disregard medical advice or delay in seeking it because of something they have read on our Site or in our online advertisements.
-    </p>
+          <iframe
+            class="pa-3"
+            width="100%"
+            height="300"
+            src="https://www.youtube.com/embed/FVUopBRstbk"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <h2 class="display-1">
+            More Videos
+          </h2>
+        </v-col>
+      </v-row>
+      <v-row class="ma-5">
+        <v-col>
+          <v-btn x-large href="https://youtu.be/2g2fUDDAuG0" target="_blank">
+            HOW TO USE THE SHIAQGA - 1:13
+          </v-btn>
+        </v-col>
+        <v-col>
+          <v-btn
+            x-large
+            href="https://www.youtube.com/watch?v=jLZN1ftDVZg"
+            target="_blank"
+          >
+            HOW TO USE SHIAQGA PET IMMUNITY - 0:44
+          </v-btn>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <p class="subtitle-1">
+            “The doctor of the future will give no medicine, but will interest
+            her or his patients in the care of the human frame, in a proper
+            diet, and in the cause and prevention of disease.”
+          </p>
+          <span class="headline">--Thomas A. Edison</span>
+        </v-col>
+      </v-row>
+      <v-row align="center">
+        <v-col cols="4">
+          <img
+            src="../assets/images/shiaqga-green.png"
+            alt="shiaqga-bottle-green"
+            srcset=""
+          />
+        </v-col>
+        <v-col cols="4">
+          <img
+            src="../assets/images/shiaqga-red.png"
+            alt="shiaqga-bottle-red"
+            srcset=""
+          />
+        </v-col>
+        <v-col cols="4">
+          <h3 class="headline">
+            Enter your email below to sign up for our Newsletter.
+          </h3>
+          <v-form>
+            <!-- here, add logic -->
+            <v-text-field
+              v-model="email"
+              :rules="emailRules"
+              label="E-mail"
+              required
+            >
+            </v-text-field>
+            <v-btn>
+              Submit
+            </v-btn>
+          </v-form>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <!-- here, add link -->
+          <v-btn>
+            CLICK HERE IF YOU WISH TO JOIN OUR SHIAQGA AFFILIATE PROGRAM AND
+            RECEIVE 7% COMMISSION FOR YOUR DIRECT REFERRALS AND 10% COMMISSION
+            ON YOUR SECOND TIER LEVEL. YOU WILL AUTOMATICALLY BE PLACED IN YOUR
+            REFERRER'S FIRST LEVEL TIER. (IN THE FUTURE, A COMPANY-WIDE PROFIT
+            SHARING PLAN BASED ON REFERRALS SALES WILL BE ADDED.)
+          </v-btn>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <p>
+            "The Shiaqga product is one of natures most powerful natural healers
+            that I know about." - Chief SunStar
+          </p>
+          <p>
+            Consumers should always seek the advice of a physician or other
+            competent health care provider with any questions regarding medical
+            conditions. The educational information on our website and in our
+            online advertisements has not been evaluated by the United States
+            Food and Drug Administration and is not intended to diagnose, treat,
+            cure or prevent any disease. Consumers should never disregard
+            medical advice or delay in seeking it because of something they have
+            read on our Site or in our online advertisements.
+          </p>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
