@@ -15,7 +15,7 @@ export default new Vuex.Store({
     }
   },
   mutations: {
-    registerAccount(state, payload) {
+    updateState(state, payload) {
       state.user.email = payload.email
       state.user.displayName = payload.displayName
     }
@@ -41,11 +41,23 @@ export default new Vuex.Store({
               displayName: user.displayName,
               email: user.email,
             })
-            commit('registerAccount', payload)
+            commit('updateState', payload)
           }).catch(function(error) {
             // An error happened.
             console.log(error)
           })
+        })
+        .catch((err) => {
+          alert(err.message)
+        })
+    },
+    loginAccount({ commit }, payload) {
+      firebase
+        .auth()
+        .signInWithEmailAndPassword(payload.email, payload.password)
+        .then(() => {
+          commit('updateState', payload)
+          this.$router.replace('/comics')
         })
         .catch((err) => {
           alert(err.message)
