@@ -1,0 +1,34 @@
+{
+  "pdf": [
+    {
+      "title": "Cancer Research - Beta Glucan primes immune cells to fight cancer.",
+      "order": "1",
+      "src": "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Research%2Fcancer%2Fbeta_glucan_cancer_research.pdf?alt=media&token=8228f211-cdb3-47ce-8a41-23c64145b02e"
+    },
+    {
+      "title": "Cancer Research - Beta Glucan",
+      "order": "2",
+      "src": "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Research%2Fcancer%2Fcancer_research_-_beta_glucan.pdf?alt=media&token=096e093e-645a-4100-97a2-33726025b102"
+    },
+    {
+      "title": "Geraniin inhibits migration and invasion of human osteosarcoma cancer cells",
+      "order": "3",
+      "src": "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Research%2Fcancer%2Fgeraniin_inhibits_cancer.pdf?alt=media&token=baefc6af-92c4-4eee-a538-5dc8c39380f9"
+    },
+    {
+      "title": "Antitumor effect in mice of an organic germanium compound (Ge-132) when different administration methods are used.",
+      "order": "4",
+      "src": "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Research%2Fcancer%2Fgermanium_antitumor_effects_in_mice.pdf?alt=media&token=1b89fa39-e3b1-47b9-a043-fc10d723e9af"
+    },
+    {
+      "title": "Germanium compounds may have therapeutic value in the treatment of various cancers.",
+      "order": "5",
+      "src": "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Research%2Fcancer%2Fgermanium_treatment_of__various_cancers.pdf?alt=media&token=1cc900e4-c072-4fc9-af9f-d79ea838e339"
+    },
+    {
+      "title": "Germanium prevents pulmonary metastasis of Lewis lung cancer.",
+      "order": "6",
+      "src": "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Research%2Fcancer%2Fgermanium_prevents_lung_cancer.pdf?alt=media&token=32038f0e-ee37-4747-9767-7626af6af981"
+    }
+  ]
+}
