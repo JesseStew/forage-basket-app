@@ -1,16 +1,24 @@
 <template>
-  <div class="user-account container">
-    <h2 class="title">My Account, {{ email }}</h2>
-    <button v-if="email" class="sign-out" @click="signOut">Sign Out</button>
-    <span v-if="!email"></span>
-    <!-- User not signed in -->
-    <LoginAccount v-if="!email" />
-    <RegisterAccount v-if="!email" />
-    <!-- User Signed In -->
-    <div class="user-account">
-      <!-- Display if Logged In -->
-    </div>
-  </div>
+  <v-card>
+    <v-row align="center" justify="space-around" v-if="email">
+      <v-col>
+        <h2 class="title">My Account, {{ email }}</h2>
+      </v-col>
+      <v-col>
+        <v-btn class="sign-out" @click="signOut">
+          Sign Out
+        </v-btn>
+      </v-col>
+    </v-row>
+    <v-row align="center" justify="space-around">
+      <v-col align-self="center" cols="6">
+        <LoginAccount v-if="!email" />
+      </v-col>
+      <v-col align-self="center" cols="6">
+        <RegisterAccount v-if="!email" />
+      </v-col>
+    </v-row>
+  </v-card>
 </template>
 
 <script>

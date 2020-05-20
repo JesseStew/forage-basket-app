@@ -76,6 +76,14 @@ export const routes = [
         /* webpackChunkName: "information-link" */ '../components/InformationLink.vue'
       ),
   },
+  {
+    path: '/forgot-password',
+    name: 'Forgot Password',
+    component: () =>
+      import(
+        /* webpackChunkName: "information-link" */ '../views/ForgotPassword.vue'
+      ),
+  },
 ]
 
 const router = new VueRouter({

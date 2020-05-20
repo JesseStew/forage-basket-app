@@ -1,10 +1,44 @@
 <template>
-  <div class="login-account">
-    <h3>Sign In</h3>
-    <input type="text" v-model="email" placeholder="Email" /><br />
-    <input type="password" v-model="password" placeholder="Password" /><br />
-    <button @click="loginAccount">Sign In</button>
-  </div>
+  <v-card class="ml-5">
+    <v-card-title>
+      <h1 class="display-1">
+        Login
+      </h1>
+    </v-card-title>
+    <v-card-text>
+      <v-form>
+        <v-text-field
+          v-model="email"
+          prepend-icon="mdi-account-circle"
+          label="Email"
+          required
+        ></v-text-field>
+        <v-text-field
+          v-model="password"
+          :type="showPassword ? 'text' : 'password'"
+          label="Password"
+          prepend-icon="mdi-lock"
+          :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'"
+          @click:append="showPassword = !showPassword"
+          required
+        ></v-text-field>
+      </v-form>
+    </v-card-text>
+    <v-row>
+      <v-col>
+        <v-card-actions>
+          <v-row>
+            <v-col>
+              <v-btn class="mr-4" @click="loginAccount">Login</v-btn>
+              <v-btn class="mr-4" router to="forgot-password">
+                Forgot your password?
+              </v-btn>
+            </v-col>
+          </v-row>
+        </v-card-actions>
+      </v-col>
+    </v-row>
+  </v-card>
 </template>
 
 <script>
