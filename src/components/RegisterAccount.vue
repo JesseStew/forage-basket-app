@@ -8,13 +8,13 @@
     <v-card-text>
       <v-form>
         <v-text-field
-          v-model="displayName"
+          v-model="firstName"
           prepend-icon="mdi-account-circle"
           label="First Name"
           required
         ></v-text-field>
         <v-text-field
-          v-model="displayName"
+          v-model="lastName"
           prepend-icon="mdi-account-circle"
           label="Last Name"
           required
@@ -67,6 +67,9 @@ export default {
     return {
       email: '',
       password: '',
+      firstName: '',
+      lastName: '',
+      showPassword: false,
     }
   },
   methods: {

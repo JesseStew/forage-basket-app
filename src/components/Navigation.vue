@@ -1,10 +1,17 @@
 <template>
-  <nav style="height: 64px">
-    <v-app-bar fixed color="blue-grey lighten-5">
+  <nav style="height: 192px">
+    <v-app-bar prominent fixed color="blue-grey lighten-5">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-
+      <v-spacer></v-spacer>
       <v-toolbar-title>Forage Basket</v-toolbar-title>
       <v-spacer></v-spacer>
+      <template v-slot:extension>
+        <v-tabs centered>
+          <v-tab router :to="link.path" v-for="link in links" :key="link.name">
+            {{ link.name }}
+          </v-tab>
+        </v-tabs>
+      </template>
       <v-menu open-on-hover top offsety>
         <template v-slot:activator="{ on }">
           <v-btn v-on="on" icon class="subtitle-1" router to="/user-account">

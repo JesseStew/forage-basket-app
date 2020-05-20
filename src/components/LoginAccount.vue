@@ -52,6 +52,7 @@ export default {
     return {
       email: '',
       password: '',
+      showPassword: false,
     }
   },
   methods: {

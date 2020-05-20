@@ -2,7 +2,7 @@
   <v-card>
     <v-row align="center" justify="space-around" v-if="email">
       <v-col>
-        <h2 class="title">My Account, {{ email }}</h2>
+        <h2 class="title">My Account, {{ displayName }}</h2>
       </v-col>
       <v-col>
         <v-btn class="sign-out" @click="signOut">
@@ -44,6 +44,9 @@ export default {
   computed: {
     email: function() {
       return this.$store.state.user.email
+    },
+    displayName: function() {
+      return this.$store.state.user.displayName
     },
   },
   methods: {
