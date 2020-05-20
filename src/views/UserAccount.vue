@@ -10,12 +10,19 @@
         </v-btn>
       </v-col>
     </v-row>
-    <v-row align="center" justify="space-around">
+    <v-row v-if="!email">
+      <v-col>
+        <h1 class="display-1">
+          Login / Register
+        </h1>
+      </v-col>
+    </v-row>
+    <v-row v-if="!email" align="center" justify="space-around">
       <v-col align-self="center" cols="6">
-        <LoginAccount v-if="!email" />
+        <LoginAccount />
       </v-col>
       <v-col align-self="center" cols="6">
-        <RegisterAccount v-if="!email" />
+        <RegisterAccount />
       </v-col>
     </v-row>
   </v-card>
