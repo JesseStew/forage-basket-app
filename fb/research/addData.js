@@ -1,5 +1,4 @@
-const firebase = require('../node_modules/firebase')
-const data = require('./health/health.json')
+const firebase = require('firebase')
 const glob = require('glob')
 const path = require('path')
 
@@ -17,19 +16,12 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig)
 
 const db = firebase.firestore()
-const informationRef = db.collection('health')
+const informationRef = db.collection('research')
 
 let itr = 1
 
-glob.sync('./health/articles/*.json').forEach((file) => {
+glob.sync('./*/*.json').forEach((file) => {
   console.log(file)
   let data = require(file)
-  console.log(data.order)
-  data.order = itr++
-  console.log(data.order)
   informationRef.doc().set(data)
 })
-
-// const informationRef = db.collection('health')
-
-// informationRef.doc().set(data)
