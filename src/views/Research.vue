@@ -72,7 +72,7 @@
           Injection vs Oral Administration
         </h2>
         <p>
-          We would like to express our deep & sincere gratitude to Dr. Tim
+          We would like to express our deep &amp sincere gratitude to Dr. Tim
           Chapman, M.D. for his extraordinary assistance in the gathering of a
           wide variety of research documentation and putting it together for
           easy access here.
@@ -100,8 +100,8 @@
           We have included a PDF Summary of Dr. Chapman's 48-year medical career
           history and, if you are under medical professional care and have
           specific questions regarding the utilization of Shiaqga as a
-          complementary protocol in your health recovery program, please contact
-          us.
+          complementary protocol in your health recovery program, please
+          <router-link to="/contact">contact us</router-link>.
         </p>
         <p>
           Dr. Chapman will be happy to speak with your own physician(s)
@@ -238,8 +238,8 @@
     <v-row>
       <v-col>
         <h2>
-          Medical & Scientific Research on the Organic Essential Oils found in
-          the Shiaqga product:
+          Medical &amp Scientific Research on the Organic Essential Oils found
+          in the Shiaqga product:
         </h2>
         <p>
           (Shiaqga contains essential oils that synergize to create greater body
@@ -253,13 +253,16 @@
         </p>
         <v-row>
           <v-col cols="6">
-            <v-btn>
+            <v-btn router to="/essential-oils">
               <!-- here, add routing -->
               ESSENTIAL OILS
             </v-btn>
           </v-col>
           <v-col cols="6">
-            <v-btn>
+            <v-btn
+              target="_blank"
+              href="https://www.ncbi.nlm.nih.gov/books/NBK65874/"
+            >
               <!-- here, add routing -->
               PUBMED
             </v-btn>
