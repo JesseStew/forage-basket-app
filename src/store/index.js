@@ -64,7 +64,16 @@ export default new Vuex.Store({
       state.user.isAnonymous = profile.isAnonymous
       state.user.uid = profile.uid
     },
-    loginAccount(state, user) {},
+    loginAccount(state, profile) {
+      state.user.firstName = profile.firstName
+      state.user.lastName = profile.lastName
+      state.user.userName = profile.userName
+      state.user.email = profile.email
+      state.user.emailVerified = profile.emailVerified
+      state.user.photoURL = profile.photoURL
+      state.user.isAnonymous = profile.isAnonymous
+      state.user.uid = profile.uid
+    },
   },
   actions: {
     loggedIn({ commit }) {
@@ -134,12 +143,25 @@ export default new Vuex.Store({
       firebase
         .auth()
         .signInWithEmailAndPassword(payload.email, payload.password)
-        .then(function(user) {
-          commit('loginAccount', user)
-        })
-        .catch(function(err) {
-          alert('Loggin failure.')
-        })
+        .then(
+          function(user) {
+            let docRef = firebase
+              .firestore()
+              .collection('profile')
+              .doc(user.uid)
+            docRef.get().then((profile) => {
+              profile = profile.data()
+              profile.emailVerified = user.emailVerified
+              profile.photoURL = user.photoURL
+              profile.isAnonymous = user.isAnonymous
+              profile.uid = user.uid
+              commit('loginAccount', profile)
+            })
+          },
+          function(err) {
+            alert('Loggin failure.')
+          }
+        )
     },
   },
   modules: {},
