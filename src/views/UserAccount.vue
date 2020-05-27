@@ -1,31 +1,35 @@
 <template>
-  <v-card>
-    <v-row align="center" justify="space-around" v-if="email">
-      <v-col>
-        <h2 class="title">My Account, {{ displayName }}</h2>
-      </v-col>
-      <v-col>
-        <v-btn class="sign-out" @click="signOut">
-          Sign Out
-        </v-btn>
-      </v-col>
-    </v-row>
-    <v-row v-if="!email">
-      <v-col>
-        <h1 class="display-1">
-          Login / Register
-        </h1>
-      </v-col>
-    </v-row>
-    <v-row v-if="!email" align="center" justify="space-around">
-      <v-col align-self="center" cols="6">
-        <LoginAccount />
-      </v-col>
-      <v-col align-self="center" cols="6">
-        <RegisterAccount />
-      </v-col>
-    </v-row>
-  </v-card>
+  <div>
+    <div v-if="email">
+      <v-row align="center" justify="space-around">
+        <v-col>
+          <h2 class="title">My Account, {{ displayName }}</h2>
+        </v-col>
+        <v-col>
+          <v-btn class="sign-out" @click="signOut">
+            Sign Out
+          </v-btn>
+        </v-col>
+      </v-row>
+    </div>
+    <div v-if="!email">
+      <v-row>
+        <v-col>
+          <h1 class="display-1">
+            Login / Register
+          </h1>
+        </v-col>
+      </v-row>
+      <v-row align="center" justify="space-around">
+        <v-col align-self="center" cols="6">
+          <LoginAccount />
+        </v-col>
+        <v-col align-self="center" cols="6">
+          <RegisterAccount />
+        </v-col>
+      </v-row>
+    </div>
+  </div>
 </template>
 
 <script>

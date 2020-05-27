@@ -20,7 +20,7 @@
           required
         ></v-text-field>
         <v-text-field
-          v-model="displayName"
+          v-model="userName"
           prepend-icon="mdi-account-circle"
           label="Username"
           required
@@ -65,18 +65,23 @@ export default {
   name: 'RegisterAccount',
   data() {
     return {
-      email: '',
-      password: '',
       firstName: '',
       lastName: '',
+      userName: '',
+      email: '',
+      password: '',
       showPassword: false,
     }
   },
   methods: {
     registerAccount() {
       this.$store.dispatch('registerAccount', {
+        firstName: this.firstName,
+        lastName: this.lastName,
+        userName: this.userName,
         email: this.email,
         password: this.password,
+        showPassword: this.showPassword,
       })
     },
   },

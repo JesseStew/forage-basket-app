@@ -11,15 +11,14 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     user: {
-      displayName: '',
       firstName: '',
       lastName: '',
+      userName: '',
       email: '',
       emailVerified: false,
       photoURL: '',
       isAnonymous: false,
       uid: '',
-      providerData: '',
     },
   },
   mutations: {
@@ -31,8 +30,6 @@ export default new Vuex.Store({
         state.user.photoURL = user.photoURL
         state.user.isAnonymous = user.isAnonymous
         state.user.uid = user.uid
-        state.user.providerData = user.providerData
-        // alert('User Logged in.')
       } else {
         state.user.state = ''
         state.user.email = ''
@@ -40,7 +37,6 @@ export default new Vuex.Store({
         state.user.photoURL = ''
         state.user.isAnonymous = false
         state.user.uid = ''
-        state.user.providerData = ''
       }
     },
     signOut(state) {
@@ -50,17 +46,15 @@ export default new Vuex.Store({
       state.user.photoURL = ''
       state.user.isAnonymous = false
       state.user.uid = ''
-      state.user.providerData = ''
-      alert('Signed Out')
     },
-    registerAccount(state, user) {
-      state.user.state = user.state
-      state.user.email = user.email
-      state.user.emailVerified = user.emailVerified
-      state.user.photoURL = user.photoURL
-      state.user.isAnonymous = user.isAnonymous
-      state.user.uid = user.uid
-      state.user.providerData = user.providerData
+    registerAccount(state, profile) {
+      console.log('state.profile:', profile)
+      state.user.state = profile.state
+      state.user.email = profile.email
+      state.user.emailVerified = profile.emailVerified
+      state.user.photoURL = profile.photoURL
+      state.user.isAnonymous = profile.isAnonymous
+      state.user.uid = profile.uid
     },
     loginAccount(state, user) {
       state.user.state = user.state
@@ -69,7 +63,6 @@ export default new Vuex.Store({
       state.user.photoURL = user.photoURL
       state.user.isAnonymous = user.isAnonymous
       state.user.uid = user.uid
-      state.user.providerData = user.providerData
     },
   },
   actions: {
@@ -86,9 +79,7 @@ export default new Vuex.Store({
         .then(function() {
           commit('signOut')
         })
-        .catch(function(err) {
-          alert('Problem Signing Out')
-        })
+        .catch(function(err) {})
     },
     signUserUp({ commit }, payload) {
       commit('setLoading', true)
@@ -127,8 +118,35 @@ export default new Vuex.Store({
         .auth()
         .createUserWithEmailAndPassword(payload.email, payload.password)
         .then((user) => {
-          console.log(user.uid)
-          commit('registerAccount', user)
+          console.log('user: ', user)
+          let profile = {
+            firstName: payload.firstName,
+            lastName: payload.lastName,
+            userName: payload.userName,
+            email: user.user.email,
+            uid: user.user.uid,
+            emailVerified: user.user.emailVerified,
+            photoURL: user.user.photoURL,
+            isAnonymous: user.user.isAnonymous,
+          }
+          console.log(profile)
+          firebase
+            .firestore()
+            .collection('user')
+            .doc(user.user.uid)
+            .set({
+              firstName: payload.firstName,
+              lastName: payload.lastName,
+              userName: payload.userName,
+              email: payload.email,
+            })
+            .then(function() {
+              console.log('Document successfully written!')
+            })
+            .catch(function(error) {
+              console.error('Error writing document: ', error)
+            })
+          commit('registerAccount', profile)
         })
         .catch(function(err) {
           alert(err.message)
