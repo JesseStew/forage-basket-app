@@ -10,44 +10,60 @@
       {{ document.linkText }}
     </v-expansion-panel-header>
     <v-expansion-panel-content>
-      <h2>{{ document.title }}</h2>
-      <h3 v-if="document.author">by {{ document.author }}</h3>
-      <div
-        v-for="element in orderElements(document.elements)"
-        :key="element.id"
-      >
-        <h3 v-if="element.element == 'h3'">
-          {{ element.content }}
-        </h3>
-        <h3 v-if="element.title">{{ element.title }}</h3>
-        <img
-          class="image"
-          v-if="element.element == 'img'"
-          :src="element.src"
-          alt=""
-        />
-        <ul v-if="element.element == 'ul'">
-          <li v-for="item in orderElements(element.content)" :key="item.id">
-            {{ item.content }}
-          </li>
-        </ul>
-        <ol v-if="element.element == 'ol'">
-          <li v-for="item in orderElements(element.content)" :key="item.id">
-            {{ item.content }}
-          </li>
-        </ol>
-        <p v-if="element.element == 'p'">{{ element.content }}</p>
-        <blockquote v-if="element.element == 'blockquote'">
-          {{ element.content }}
-        </blockquote>
-        <button
-          v-if="element.element == 'link'"
-          @click="openNewTab(element.link)"
-        >
-          <!-- here, Add local logic -->
-          {{ element.linkText }}
-        </button>
-      </div>
+      <v-container>
+        <v-row>
+          <v-col>
+            <h2>{{ document.title }}</h2>
+            <h3 v-if="document.author">by {{ document.author }}</h3>
+            <div
+              v-for="element in orderElements(document.elements)"
+              :key="element.id"
+            >
+              <h3 v-if="element.element == 'h3'">
+                {{ element.content }}
+              </h3>
+              <h3 v-if="element.title">{{ element.title }}</h3>
+              <img
+                class="image"
+                v-if="element.element == 'img'"
+                :src="element.src"
+                alt=""
+              />
+              <v-row>
+                <v-col>
+                  <ul v-if="element.element == 'ul'">
+                    <li
+                      v-for="item in orderElements(element.content)"
+                      :key="item.id"
+                    >
+                      {{ item.content }}
+                    </li>
+                  </ul>
+                  <ol v-if="element.element == 'ol'">
+                    <li
+                      v-for="item in orderElements(element.content)"
+                      :key="item.id"
+                    >
+                      {{ item.content }}
+                    </li>
+                  </ol>
+                </v-col>
+              </v-row>
+              <p v-if="element.element == 'p'">{{ element.content }}</p>
+              <blockquote v-if="element.element == 'blockquote'">
+                {{ element.content }}
+              </blockquote>
+              <button
+                v-if="element.element == 'link'"
+                @click="openNewTab(element.link)"
+              >
+                <!-- here, Add local logic -->
+                {{ element.linkText }}
+              </button>
+            </div>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-expansion-panel-content>
   </v-expansion-panel>
 </template>
@@ -84,17 +100,4 @@ export default {
 }
 </script>
 
-<style scoped>
-blockquote {
-  display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding-left: 40px;
-  padding-right: 40px;
-  font-style: italic;
-}
-.image {
-  width: 100%;
-  height: auto;
-}
-</style>
+<style scoped></style>
