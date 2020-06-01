@@ -22,16 +22,16 @@ export default new Vuex.Store({
     },
   },
   mutations: {
-    loggedIn(state, profile) {
-      if (profile) {
-        state.user.firstName = profile.firstName
-        state.user.lastName = profile.lastName
-        state.user.userName = profile.userName
-        state.user.email = profile.email
-        state.user.emailVerified = profile.emailVerified
-        state.user.photoURL = profile.photoURL
-        state.user.isAnonymous = profile.isAnonymous
-        state.user.uid = profile.uid
+    loggedIn(state, user) {
+      if (user) {
+        state.user.firstName = user.firstName
+        state.user.lastName = user.lastName
+        state.user.userName = user.userName
+        state.user.email = user.email
+        state.user.emailVerified = user.emailVerified
+        state.user.photoURL = user.photoURL
+        state.user.isAnonymous = user.isAnonymous
+        state.user.uid = user.uid
       } else {
         state.user.firstName = ''
         state.user.lastName = ''
@@ -53,42 +53,47 @@ export default new Vuex.Store({
       state.user.isAnonymous = false
       state.user.uid = ''
     },
-    registerAccount(state, profile) {
-      console.log('state.profile:', profile)
-      state.user.firstName = profile.firstName
-      state.user.lastName = profile.lastName
-      state.user.userName = profile.userName
-      state.user.email = profile.email
-      state.user.emailVerified = profile.emailVerified
-      state.user.photoURL = profile.photoURL
-      state.user.isAnonymous = profile.isAnonymous
-      state.user.uid = profile.uid
+    registerAccount(state, user) {
+      // console.log('state.user:', user)
+      state.user.firstName = user.firstName
+      state.user.lastName = user.lastName
+      state.user.userName = user.userName
+      state.user.email = user.email
+      state.user.emailVerified = user.emailVerified
+      state.user.photoURL = user.photoURL
+      state.user.isAnonymous = user.isAnonymous
+      state.user.uid = user.uid
     },
-    loginAccount(state, profile) {
-      state.user.firstName = profile.firstName
-      state.user.lastName = profile.lastName
-      state.user.userName = profile.userName
-      state.user.email = profile.email
-      state.user.emailVerified = profile.emailVerified
-      state.user.photoURL = profile.photoURL
-      state.user.isAnonymous = profile.isAnonymous
-      state.user.uid = profile.uid
+    loginAccount(state, user) {
+      state.user.firstName = user.firstName
+      state.user.lastName = user.lastName
+      state.user.userName = user.userName
+      state.user.email = user.email
+      state.user.emailVerified = user.emailVerified
+      state.user.photoURL = user.photoURL
+      state.user.isAnonymous = user.isAnonymous
+      state.user.uid = user.uid
     },
   },
   actions: {
     loggedIn({ commit }) {
+      // here, fix later
+      // https://stackoverflow.com/questions/47893328/checking-if-a-particular-value-exists-in-the-firebase-database
+      // https://firebase.google.com/docs/reference/android/com/google/firebase/database/DatabaseReference
       firebase.auth().onAuthStateChanged((user) => {
+        // console.log(user)
         let docRef = firebase
           .firestore()
-          .collection('profile')
+          .collection('user')
           .doc(user.uid)
-        docRef.get().then((profile) => {
-          profile = profile.data()
-          profile.emailVerified = user.emailVerified
-          profile.photoURL = user.photoURL
-          profile.isAnonymous = user.isAnonymous
-          profile.uid = user.uid
-          commit('loggedIn', profile)
+        docRef.get().then((user) => {
+          user = user.data()
+          // console.log(user)
+          user.emailVerified = user.emailVerified
+          user.photoURL = user.photoURL
+          user.isAnonymous = user.isAnonymous
+          user.uid = user.uid
+          commit('loggedIn', user)
         })
       })
     },
@@ -106,26 +111,31 @@ export default new Vuex.Store({
         .auth()
         .createUserWithEmailAndPassword(payload.email, payload.password)
         .then((user) => {
-          let profile = {
+          // console.log(user)
+          let userProfile = {
             firstName: payload.firstName,
             lastName: payload.lastName,
             userName: payload.userName,
-            email: user.user.email,
+            email: payload.email,
             uid: user.user.uid,
             emailVerified: user.user.emailVerified,
             photoURL: user.user.photoURL,
             isAnonymous: user.user.isAnonymous,
           }
-          console.log(profile)
+          // console.log(userProfile)
           firebase
             .firestore()
-            .collection('profile')
+            .collection('user')
             .doc(user.user.uid)
             .set({
-              firstName: payload.firstName,
-              lastName: payload.lastName,
-              userName: payload.userName,
-              email: payload.email,
+              firstName: userProfile.firstName,
+              lastName: userProfile.lastName,
+              userName: userProfile.userName,
+              email: userProfile.email,
+              uid: userProfile.uid,
+              emailVerified: userProfile.emailVerified,
+              photoURL: userProfile.photoURL,
+              isAnonymous: userProfile.isAnonymous,
             })
             .then(function() {
               console.log('Document successfully written!')
@@ -133,7 +143,7 @@ export default new Vuex.Store({
             .catch(function(error) {
               console.error('Error writing document: ', error)
             })
-          commit('registerAccount', profile)
+          commit('registerAccount', userProfile)
         })
         .catch(function(err) {
           alert(err.message)
@@ -144,19 +154,22 @@ export default new Vuex.Store({
         .auth()
         .signInWithEmailAndPassword(payload.email, payload.password)
         .then(
-          function(user) {
-            let docRef = firebase
+          (user) => {
+            // console.log(user)
+            firebase
               .firestore()
-              .collection('profile')
-              .doc(user.uid)
-            docRef.get().then((profile) => {
-              profile = profile.data()
-              profile.emailVerified = user.emailVerified
-              profile.photoURL = user.photoURL
-              profile.isAnonymous = user.isAnonymous
-              profile.uid = user.uid
-              commit('loginAccount', profile)
-            })
+              .collection('user')
+              .doc(user.user.uid)
+              .get()
+              .then((user) => {
+                user = user.data()
+                // console.log(user)
+                user.emailVerified = user.emailVerified
+                user.photoURL = user.photoURL
+                user.isAnonymous = user.isAnonymous
+                user.uid = user.uid
+                commit('loginAccount', user)
+              })
           },
           function(err) {
             alert('Loggin failure.')
