@@ -11,11 +11,11 @@
           </v-btn>
         </v-col>
       </v-row>
-      <!-- <v-row>
+      <v-row>
         <v-col>
-          <StripeCheckout />
+          <StripeElements />
         </v-col>
-      </v-row> -->
+      </v-row>
     </div>
     <div v-if="!email">
       <v-row>
@@ -40,7 +40,7 @@
 <script>
 import RegisterAccount from '@/components/RegisterAccount.vue'
 import LoginAccount from '@/components/LoginAccount.vue'
-// import StripeCheckout from '@/components/StripeCheckout.vue'
+import StripeElements from '@/components/StripeElements.vue'
 
 export default {
   name: 'UserAccount',
@@ -50,6 +50,7 @@ export default {
   components: {
     RegisterAccount,
     LoginAccount,
+    StripeElements,
   },
   computed: {
     email: function() {
