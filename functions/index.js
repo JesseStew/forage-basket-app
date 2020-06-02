@@ -21,30 +21,26 @@ exports.createStripeCustomer = functions.auth.user().onCreate(async (user) => {
 })
 
 exports.createStripeSession = functions.https.onRequest((request, response) => {
-  // On Deployment Setup CORS correctly
-  cors(request, response, () => {
-    console.log('request:', request)
-    stripe.checkout.sessions.create(
+  // here, On Deployment Setup CORS correctly
+  cors(request, response, async () => {
+    const session = await stripe.checkout.sessions.create(
       {
         success_url: 'http://localhost:8080/cart',
         cancel_url: 'http://localhost:8080/cart',
-        customer: request.customer,
-        customer_email: request.customer_email,
+        customer: request.body.customer,
+        customer_email: request.body.customer_email,
         payment_method_types: ['card'],
-        mode: request.mode,
+        mode: request.body.mode,
         line_items: [
           {
             price: 'price_HO8XRlZdGcXJl7',
             quantity: 2,
           },
         ],
-      },
-      (err, session) => {
-        // asynchronously called
-        console.log(err.message)
-        response.end()
       }
     )
-    return response.send()
+    response.send({
+      sessionId: session.id
+    })
   })
 })
