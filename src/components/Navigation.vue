@@ -114,6 +114,11 @@ export default {
           name: 'User Account',
           icon: 'mdi-account',
         },
+        {
+          path: '/cart',
+          name: 'Cart',
+          icon: 'mdi-storefront',
+        },
       ],
     }
   },

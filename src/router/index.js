@@ -84,6 +84,12 @@ export const routes = [
         /* webpackChunkName: "information-link" */ '../views/ForgotPassword.vue'
       ),
   },
+  {
+    path: '/cart',
+    name: 'Cart',
+    component: () =>
+      import(/* webpackChunkName: "checkout" */ '../views/Cart.vue'),
+  },
 ]
 
 const router = new VueRouter({
