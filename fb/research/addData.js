@@ -1,6 +1,5 @@
 const firebase = require('firebase')
 const glob = require('glob')
-const path = require('path')
 
 const firebaseConfig = {
   apiKey: 'AIzaSyBnHjfJLfjTWBe9RBlGIZKM44wSAOFDiEk',
