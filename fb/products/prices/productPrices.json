@@ -1,0 +1,57 @@
+[
+  {
+    "nickname": "1 Bottle of Shiaqga",
+    "unit_amount": 7600,
+    "currency": "usd",
+    "product_data": {
+      "name": "​​Shiaqga Original Formula",
+      "active": true,
+      "type": "good",
+      "unit_label": 1
+    }
+  },
+  {
+    "nickname": "2 Bottles of Shiaqga",
+    "unit_amount": 15200,
+    "currency": "usd",
+    "product_data": {
+      "name": "​​Shiaqga Original Formula",
+      "active": true,
+      "type": "good",
+      "unit_label": 2
+    }
+  },
+  {
+    "nickname": "4 Bottles of Shiaqga",
+    "unit_amount": 30400,
+    "currency": "usd",
+    "product_data": {
+      "name": "​​Shiaqga Original Formula",
+      "active": true,
+      "type": "good",
+      "unit_label": 4
+    }
+  },
+  {
+    "nickname": "6 Bottles of Shiaqga",
+    "unit_amount": 45600,
+    "currency": "usd",
+    "product_data": {
+      "name": "​​Shiaqga Original Formula",
+      "active": true,
+      "type": "good",
+      "unit_label": 6
+    }
+  },
+  {
+    "nickname": "12 Bottles of Shiaqga",
+    "unit_amount": 91200,
+    "currency": "usd",
+    "product_data": {
+      "name": "​​Shiaqga Original Formula",
+      "active": true,
+      "type": "good",
+      "unit_label": 12
+    }
+  }
+]

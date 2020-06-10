@@ -6,18 +6,14 @@ const fs = require('fs')
 
 let weeblyProducts = require('./weeblyProducts.json')
 
-let uniqeWeeblyProducts = _.uniqBy(weeblyProducts.products, (product) => {
-  return product['PRODUCT ID']
-})
-
 let createStripeProducts = {
   products: [],
 }
 
-_.forEach(uniqeWeeblyProducts, (weeblyProduct) => {
+let itr = 1
+_.forEach(weeblyProducts.products, (weeblyProduct) => {
   addName(weeblyProduct)
-  addDescription(weeblyProduct)
-  addImages(weeblyProduct)
+  console.log('itr', itr++)
 })
 addActive()
 addShippable()
@@ -50,9 +46,10 @@ function addType() {
 }
 
 function addDescription(weeblyProduct) {
+  let description = weeblyProduct.DESCRIPTION
   _.find(createStripeProducts.products, (product) => {
     return product.name === weeblyProduct.TITLE
-  }).description = weeblyProduct.DESCRIPTION
+  }).description = description
 }
 
 // here, need to update images
@@ -62,36 +59,7 @@ function addImages(weeblyProduct) {
   }).images = [weeblyProduct.IMAGE]
 }
 
-function createJsonForStripeRateLimit(formattedJson) {
-  let itr = 1
-  let itr2 = 1
-  let localJson = { products: [] }
-  _.forEach(formattedJson.products, (product) => {
-    localJson.products.push(product)
-    // console.log(product)
-    if (itr % 19 === 0 || _.last(formattedJson.products) == product) {
-      localJson = JSON.stringify(localJson)
-      // console.log(localJson)
-      fs.writeFile(
-        'createStripeProducts' + itr2 + '.json',
-        localJson,
-        'utf8',
-        (err) => {
-          console.log(err)
-        }
-      )
-      localJson = { products: [] }
-      itr2 = itr2 + 1
-      // console.log(itr2)
-    }
-    itr++
-    console.log(itr)
-  })
-}
-
 // console.log(createStripeProducts)
-
-let formattedJson = createStripeProducts
 
 createStripeProducts = JSON.stringify(createStripeProducts)
 
@@ -103,8 +71,6 @@ fs.writeFile(
     console.log(err)
   }
 )
-
-createJsonForStripeRateLimit(formattedJson)
 
 // CREATE A PRODUCT:
 //     PARAMETERS:
@@ -191,20 +157,32 @@ createJsonForStripeRateLimit(formattedJson)
 //           A URL of a publicly-accessible webpage for this product. May only
 //           be set if type=good.
 
-// let numUniqueWeeblyProducts = 0
+// let formattedJson = createStripeProducts
+// createJsonForStripeRateLimit(formattedJson)
 
-// _.forEach(uniqeWeeblyProducts, (product) => {
-//   numUniqueWeeblyProducts++
-//   // console.log(product)
-//   // console.log('numUniqueWeeblyProducts: ', numUniqueWeeblyProducts)
-// })
-
-// let totalWeeblyProducts = 0
-
-// _.forEach(weeblyProducts.products, (product) => {
-//   totalWeeblyProducts++
-//   // console.log(product)
-//   // console.log('totalWeeblyProducts: ', totalWeeblyProducts)
-// })
-// console.log('numUniqueWeeblyProducts: ', numUniqueWeeblyProducts)
-// console.log('totalWeeblyProducts: ', totalWeeblyProducts)
+// function createJsonForStripeRateLimit(formattedJson) {
+//   let itr = 1
+//   let itr2 = 1
+//   let localJson = { products: [] }
+//   _.forEach(formattedJson.products, (product) => {
+//     localJson.products.push(product)
+//     // console.log(product)
+//     if (itr % 19 === 0 || _.last(formattedJson.products) == product) {
+//       localJson = JSON.stringify(localJson)
+//       // console.log(localJson)
+//       fs.writeFile(
+//         'createStripeProducts' + itr2 + '.json',
+//         localJson,
+//         'utf8',
+//         (err) => {
+//           console.log(err)
+//         }
+//       )
+//       localJson = { products: [] }
+//       itr2 = itr2 + 1
+//       // console.log(itr2)
+//     }
+//     itr++
+//     console.log(itr)
+//   })
+// }
