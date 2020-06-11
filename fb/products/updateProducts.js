@@ -493,20 +493,215 @@ let essentialOilSinglesParams = [
   },
 ]
 
-async function updateStripeProducts(productId, paramJSON) {
+let essentialOilBlendsParams = [
+  {
+    prod_HRTGGHJw32rqvA: {
+      description: '1 Bottle 15ml Meditate',
+      caption: '1 Bottle 15ml Meditate',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGdk80Fov6xn: {
+      description: '1 Bottle 15ml Thief Blend',
+      caption: '1 Bottle 15ml Thief Blend',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGQpZoLocpc1: {
+      description: '1 Bottle 15ml Tummy Soothe',
+      caption: '1 Bottle 15ml Tummy Soothe',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGmXuNhu8wNF: {
+      description: '1 Bottle 15ml Joint Support',
+      caption: '1 Bottle 15ml Joint Support',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGHduIiXxDwz: {
+      description: '1 Bottle 15ml To Be',
+      caption: '1 Bottle 15ml To Be',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGjot03aexyh: {
+      description: '1 Bottle 15ml Skin Renew',
+      caption: '1 Bottle 15ml Skin Renew',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGWDGkZxEadM: {
+      description: '1 Bottle 15ml Pain Free',
+      caption: '1 Bottle 15ml Pain Free',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGsWwVuUkJBE: {
+      description: '1 Bottle 15ml Rose Blend',
+      caption: '1 Bottle 15ml Rose Blend',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGttWsO9LFTw: {
+      description: '1 Bottle 15ml Thyroid Support',
+      caption: '1 Bottle 15ml Thyroid Support',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGOn0VQDyCud: {
+      description: '1 Bottle 15ml Peaceful',
+      caption: '1 Bottle 15ml Peaceful',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGYpiRCgiyeW: {
+      description: '1 Bottle 15ml Allergy Free',
+      caption: '1 Bottle 15ml Allergy Free',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGVjIRwjCOdD: {
+      description: '1 Bottle 15ml Deep Heat',
+      caption: '1 Bottle 15ml Deep Heat',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGIe1yBl1otb: {
+      description: '1 Bottle 15ml Flu Relief',
+      caption: '1 Bottle 15ml Flu Relief',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGCRXBZ3EB8D: {
+      description: '1 Bottle 15ml Joint Support',
+      caption: '1 Bottle 15ml Joint Support',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGo2ZO63di9I: {
+      description: '1 Bottle 15ml Intention',
+      caption: '1 Bottle 15ml Intention',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGXtpguvrt0i: {
+      description: '1 Bottle 15ml First Aid',
+      caption: '1 Bottle 15ml First Aid',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGAwD5VH7Ccf: {
+      description: '1 Bottle 15ml Circulate',
+      caption: '1 Bottle 15ml Circulate',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGxPHf1lml1r: {
+      description: '1 Bottle 15ml Hormone Balance',
+      caption: '1 Bottle 15ml Hormone Balance',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGIZz8LPNApn: {
+      description: '1 Bottle 15ml Breathe Free',
+      caption: '1 Bottle 15ml Breathe Free',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGObV01sgbUe: {
+      description: '1 Bottle 15ml Fit',
+      caption: '1 Bottle 15ml Fit',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGk4klOTgH7H: {
+      description: '1 Bottle 15ml DNA Release',
+      caption: '1 Bottle 15ml DNA Release',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTG4jdH4nV0s2: {
+      description: '1 Bottle 15ml Alignment',
+      caption: '1 Bottle 15ml Alignment',
+      shippable: true,
+    },
+  },
+]
+// Get Product Count
+// let itr2 = 1
+// _.forEach(essentialOilSinglesParams, () => {
+//   console.log('itr2', itr2++)
+// })
+
+stripeTimer(essentialOilBlendsParams, 15, updateStripeProducts)
+
+async function updateStripeProducts(productJSON, itr) {
+  let productId = _.keys(productJSON)[0]
+  let paramJSON = productJSON[_.keys(productJSON)[0]]
   await stripe.products.update(productId, paramJSON, function(err, product) {
     // asynchronously called
     if (err) {
       console.log(err)
     }
   })
-  // console.log('createStripeProduct')
+  // console.log('createStripeProduct', productId, 'itr: ', itr)
+  // console.log('productId: ', productId, '\nparamJSON: ', paramJSON)
 }
 
-// Update Stripe Products
-_.forEach(shiaqgaOriginalParams, (value) => {
-  let productId = _.keys(value)[0]
-  let paramJSON = value[_.keys(value)[0]]
-  // console.log('productId: ', productId, '\nparamJSON: ', paramJSON)
-  updateStripeProducts(productId, paramJSON)
-})
+function stripeTimer(products, length, stripeFunction) {
+  for (let itr = 1; itr <= length; itr++) {
+    let product = products[itr - 1]
+    if (itr === 1) {
+      console.log('products.length: ', products.length)
+    }
+    if (itr === length) {
+      console.log('itr: ', itr)
+    }
+    stripeFunction(product, itr)
+    if (itr === length) {
+      sleep(1500).then(() => {
+        let remainingProducts = _.slice(products, itr, products.length)
+        // console.log('itr: ', itr)
+        console.log('remainingProducts.length: ', remainingProducts.length)
+        if (remainingProducts.length < 1) {
+          return
+        } else {
+          if (remainingProducts.length < length) {
+            length = remainingProducts.length + 1
+          } else {
+            length = 16
+          }
+          stripeTimer(remainingProducts, length, stripeFunction)
+        }
+      })
+    }
+  }
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms)
+  })
+}
