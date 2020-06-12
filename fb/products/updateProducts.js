@@ -649,13 +649,51 @@ let essentialOilBlendsParams = [
     },
   },
 ]
+
+let shiaqgaPetImmunityParams = [
+  {
+    prod_HRTGLnpLKYy18b: {
+      description: '1 Container Shiaqga Pet Immunity',
+      caption: '1 Container Shiaqga Pet Immunity',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGBarQMyA665: {
+      description: '2 Containers Shiaqga Pet Immunity',
+      caption: '2 Containers Shiaqga Pet Immunity',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGcJGrolg7E7: {
+      description: '4 Containers Shiaqga Pet Immunity',
+      caption: '4 Containers Shiaqga Pet Immunity',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTGYlBlnRpSqe: {
+      description: '6 Containers Shiaqga Pet Immunity',
+      caption: '6 Containers Shiaqga Pet Immunity',
+      shippable: true,
+    },
+  },
+  {
+    prod_HRTG499YIsSXtf: {
+      description: '12 Containers Shiaqga Pet Immunity',
+      caption: '12 Containers Shiaqga Pet Immunity',
+      shippable: true,
+    },
+  },
+]
 // Get Product Count
 // let itr2 = 1
 // _.forEach(essentialOilSinglesParams, () => {
 //   console.log('itr2', itr2++)
 // })
 
-stripeTimer(essentialOilBlendsParams, 15, updateStripeProducts)
+stripeTimer(shiaqgaPetImmunityParams, 15, updateStripeProducts)
 
 async function updateStripeProducts(productJSON, itr) {
   let productId = _.keys(productJSON)[0]
