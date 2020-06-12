@@ -3,21 +3,30 @@
     "prod_HRTG7I7OTfdWww": {
       "description": "Large Black Travel Case",
       "caption": "Large Black Travel Case",
-      "shippable": true
+      "shippable": true,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Accessories%2FlargeBlackTravelCase.jpeg?alt=media&token=740c4dca-fbc9-4768-be98-14b02eb963ad"
+      ]
     }
   },
   {
     "prod_HRTGYY80xPJhWL": {
       "description": "Essential Oil Diffuser",
       "caption": "Essential Oil Diffuser",
-      "shippable": true
+      "shippable": true,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Accessories%2FessentialOilDiffuser.jpeg?alt=media&token=a4760f18-4f6e-489a-b9b3-3e17e4fe4cdd"
+      ]
     }
   },
   {
     "prod_HRTGIhilFiJ1JW": {
       "description": "Book - The Benefits of Essential Oils and How to Use Them",
       "caption": "Book - The Benefits of Essential Oils and How to Use Them",
-      "shippable": true
+      "shippable": true,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Accessories%2FessentialOilDiffuser.jpeg?alt=media&token=a4760f18-4f6e-489a-b9b3-3e17e4fe4cdd"
+      ]
     }
   }
 ]

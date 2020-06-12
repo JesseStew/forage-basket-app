@@ -3,35 +3,50 @@
     "prod_HRTG11G02igxx7": {
       "description": "1 Bottle Shiaqga Original Formula",
       "caption": "1 Bottle Shiaqga Original Formula",
-      "shippable": true
+      "shippable": true,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Shiaqga%20-%20Droppers%2Fshiaqga-red.png?alt=media&token=4573a428-fcf1-438e-891a-42af2eb265e9"
+      ]
     }
   },
   {
     "prod_HRTGWQgPKGG2cW": {
       "description": "2 Bottles Shiaqga Original Formula",
       "caption": "2 Bottles Shiaqga Original Formula",
-      "shippable": true
+      "shippable": true,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Shiaqga%20-%20Droppers%2Fshiaqga-red.png?alt=media&token=4573a428-fcf1-438e-891a-42af2eb265e9"
+      ]
     }
   },
   {
     "prod_HRTGMAOxXbXjkf": {
       "description": "4 Bottles Shiaqga Original Formula",
       "caption": "4 Bottles Shiaqga Original Formula",
-      "shippable": true
+      "shippable": true,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Shiaqga%20-%20Droppers%2Fshiaqga-red.png?alt=media&token=4573a428-fcf1-438e-891a-42af2eb265e9"
+      ]
     }
   },
   {
     "prod_HRTGmbzZ7eynMm": {
       "description": "6 Bottles Shiaqga Original Formula",
       "caption": "6 Bottles Shiaqga Original Formula",
-      "shippable": true
+      "shippable": true,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Shiaqga%20-%20Droppers%2Fshiaqga-red.png?alt=media&token=4573a428-fcf1-438e-891a-42af2eb265e9"
+      ]
     }
   },
   {
     "prod_HRTGgSo5EipMpn": {
       "description": "12 Bottles Shiaqga Original Formula",
       "caption": "12 Bottles Shiaqga Original Formula",
-      "shippable": true
+      "shippable": true,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Shiaqga%20-%20Droppers%2Fshiaqga-red.png?alt=media&token=4573a428-fcf1-438e-891a-42af2eb265e9"
+      ]
     }
   }
 ]
