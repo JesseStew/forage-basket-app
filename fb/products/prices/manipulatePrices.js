@@ -4,11 +4,12 @@ const glob = require('glob')
 const path = require('path')
 const fs = require('fs')
 
-let weeblyProducts = require('./weeblyProducts.json')
+const weeblyProducts = require('../weeblyImport/weeblyProducts.json')
+const products = require('../createdProducts.json')
 
 // Omit unnecessary data, add id
 let productPrices = []
-_.forEach(weeblyProducts.products, (product) => {
+_.forEach(weeblyProducts, (product) => {
   renameKeys(product)
   product.currency = 'usd'
   if (product['SALE PRICE'] != '') {
@@ -39,13 +40,15 @@ _.forEach(weeblyProducts.products, (product) => {
       'SALE PRICE',
     ])
   )
-  if (
-    product.nickname === 'Shiaqga' ||
-    product.nickname === 'Shiaqga Super Concentrate'
-  ) {
-    // console.log(productPrices.pop())
-  }
 })
+
+console.log(productPrices)
+
+// productPrices = JSON.stringify(productPrices)
+
+// fs.writeFile('productPrices.json', productPrices, 'utf8', (err) => {
+//   console.log(err)
+// })
 
 // FUNCTIONS
 function createProduct(product, salePrice) {
@@ -76,12 +79,6 @@ function renameKeys(object) {
   object['product'] = object['id']
   delete object['id']
 }
-
-productPrices = JSON.stringify(productPrices)
-
-fs.writeFile('productPrices.json', productPrices, 'utf8', (err) => {
-  console.log(err)
-})
 
 // console.log(createStripeProducts)
 

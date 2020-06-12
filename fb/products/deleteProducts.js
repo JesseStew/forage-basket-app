@@ -6,7 +6,8 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
 
 let products = require('./createdProducts.json')
 
-stripeTimer(products, 16, deleteStripeProducts)
+// Safety
+// stripeTimer(products, 16, deleteStripeProducts)
 
 async function deleteStripeProducts(product) {
   console.log('Delete product... ', product.Name)

@@ -110,16 +110,6 @@
     "Url": ""
   },
   {
-    "id": "prod_HRTGmXuNhu8wNF",
-    "Name": "15ml Joint Support",
-    "Type": "good",
-    "Date (UTC)": "2020-06-10 20:15",
-    "Description": "1 Bottle 15ml Joint Support",
-    "Statement Descriptor": "",
-    "Unit Label": "",
-    "Url": ""
-  },
-  {
     "id": "prod_HRTGHduIiXxDwz",
     "Name": "15ml To Be",
     "Type": "good",
@@ -310,16 +300,6 @@
     "Url": ""
   },
   {
-    "id": "prod_HRTGhuCcfIsQRV",
-    "Name": "15ml Organically Grown Thyme",
-    "Type": "good",
-    "Date (UTC)": "2020-06-10 20:15",
-    "Description": "1 Bottle 15ml Organically Grown Thyme",
-    "Statement Descriptor": "",
-    "Unit Label": "",
-    "Url": ""
-  },
-  {
     "id": "prod_HRTGB3Hpu7NBpm",
     "Name": "15ml Organic Wintergreen",
     "Type": "good",
@@ -405,16 +385,6 @@
     "Type": "good",
     "Date (UTC)": "2020-06-10 20:14",
     "Description": "1 Bottle 15ml Wild Sandalwood",
-    "Statement Descriptor": "",
-    "Unit Label": "",
-    "Url": ""
-  },
-  {
-    "id": "prod_HRTGRxjzpSHKZ4",
-    "Name": "15ml Wild Oregano",
-    "Type": "good",
-    "Date (UTC)": "2020-06-10 20:14",
-    "Description": "1 Bottle 15ml Wild Oregano",
     "Statement Descriptor": "",
     "Unit Label": "",
     "Url": ""
@@ -620,16 +590,6 @@
     "Url": ""
   },
   {
-    "id": "prod_HRTGZOcreS33Nf",
-    "Name": "15ml Organically Grown Geranium",
-    "Type": "good",
-    "Date (UTC)": "2020-06-10 20:14",
-    "Description": "1 Bottle 15ml Organically Grown Geranium",
-    "Statement Descriptor": "",
-    "Unit Label": "",
-    "Url": ""
-  },
-  {
     "id": "prod_HRTGJ80qMwI7LA",
     "Name": "15ml Organically Grown Hyssop",
     "Type": "good",
@@ -685,16 +645,6 @@
     "Type": "good",
     "Date (UTC)": "2020-06-10 20:14",
     "Description": "1 Bottle 15ml Organically Grown Celery Seed",
-    "Statement Descriptor": "",
-    "Unit Label": "",
-    "Url": ""
-  },
-  {
-    "id": "prod_HRTGHLFgYH1aQQ",
-    "Name": "15ml Organic Black Cumin",
-    "Type": "good",
-    "Date (UTC)": "2020-06-10 20:14",
-    "Description": "1 Bottle 15ml Organic Black Cumin",
     "Statement Descriptor": "",
     "Unit Label": "",
     "Url": ""

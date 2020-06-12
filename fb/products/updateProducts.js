@@ -29,6 +29,8 @@ let paramsExample = {
     'A URL of a publicly-accessible webpage for this product. May only be set if type=good.',
 }
 
+let createdProducts = require('./createdProducts.json')
+
 let shiaqgaSuperConcentrateParams = require('./productsByCategory/shiaqgaSuperConcentrate.json')
 let shiaqgaOriginalParams = require('./productsByCategory/shiaqgaOriginal.json')
 let essentialOilSinglesParams = require('./productsByCategory/essentialOilsSingles.json')
@@ -37,7 +39,8 @@ let shiaqgaPetImmunityParams = require('./productsByCategory/shiaqgaPetImmunity.
 let necklacesParams = require('./productsByCategory/necklaces.json')
 let essentialOilsAccessoriesParams = require('./productsByCategory/essentialOilsAccessories.json')
 
-getCount(essentialOilBlendsParams)
+getCount(createdProducts)
+findDuplicatesCreatedProducts(createdProducts)
 
 // stripeTimer(essentialOilsAccessoriesParams, 15, updateStripeProducts)
 
@@ -50,6 +53,21 @@ function getCount(products) {
       console.log('Total count: ', itr)
     }
     itr++
+  })
+}
+
+function findDuplicatesCreatedProducts(products) {
+  _.forEach(products, (itr) => {
+    let itrDescription = itr.Description
+    let description1 = _.find(products, (product) => {
+      return itrDescription == product.Description
+    })
+    let description2 = _.findLast(products, (product) => {
+      return itrDescription == product.Description
+    })
+    if (description1 != description2) {
+      console.log(description1, ' has a duplicate')
+    }
   })
 }
 
