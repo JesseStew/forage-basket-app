@@ -1,0 +1,37 @@
+[
+  {
+    "prod_HRTG11G02igxx7": {
+      "description": "1 Bottle Shiaqga Original Formula",
+      "caption": "1 Bottle Shiaqga Original Formula",
+      "shippable": true
+    }
+  },
+  {
+    "prod_HRTGWQgPKGG2cW": {
+      "description": "2 Bottles Shiaqga Original Formula",
+      "caption": "2 Bottles Shiaqga Original Formula",
+      "shippable": true
+    }
+  },
+  {
+    "prod_HRTGMAOxXbXjkf": {
+      "description": "4 Bottles Shiaqga Original Formula",
+      "caption": "4 Bottles Shiaqga Original Formula",
+      "shippable": true
+    }
+  },
+  {
+    "prod_HRTGmbzZ7eynMm": {
+      "description": "6 Bottles Shiaqga Original Formula",
+      "caption": "6 Bottles Shiaqga Original Formula",
+      "shippable": true
+    }
+  },
+  {
+    "prod_HRTGgSo5EipMpn": {
+      "description": "12 Bottles Shiaqga Original Formula",
+      "caption": "12 Bottles Shiaqga Original Formula",
+      "shippable": true
+    }
+  }
+]
