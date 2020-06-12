@@ -6,51 +6,118 @@ const fs = require('fs')
 
 const weeblyProducts = require('../weeblyImport/weeblyProducts.json')
 const products = require('../createdProducts.json')
+const productPrices = require('./productPrices.json')
 
-// Omit unnecessary data, add id
-let productPrices = []
-_.forEach(weeblyProducts, (product) => {
-  renameKeys(product)
-  product.currency = 'usd'
-  if (product['SALE PRICE'] != '') {
-    // console.log("product['SALE PRICE']: ", product['SALE PRICE'])
-  }
-  if (product['OPTION1 VALUE'] != '') {
-    // console.log("product['OPTION1 VALUE']: ", product['OPTION1 VALUE'])
-  }
-  product.unit_amount = product.unit_amount * 100
-  product.product_data = createProduct(product)
+manipulateProductPrices(productPrices)
 
-  productPrices.push(
-    _.omit(product, [
-      'PRODUCT ID',
-      'DESCRIPTION',
-      'IMAGE',
-      'CATEGORIES',
-      'TRACK INVENTORY',
-      'TAXABLE',
-      'SKU',
-      'INVENTORY',
-      'WEIGHT',
-      'PRODUCT TYPE',
-      'OPTION1 NAME',
-      'OPTION1 TYPE',
-      'OPTION1 VALUE',
-      'TITLE',
-      'SALE PRICE',
-    ])
-  )
-})
-
-console.log(productPrices)
-
-// productPrices = JSON.stringify(productPrices)
-
-// fs.writeFile('productPrices.json', productPrices, 'utf8', (err) => {
-//   console.log(err)
-// })
+// createPrices(weeblyProducts, products)
 
 // FUNCTIONS
+function manipulateProductPrices(productPrices) {
+  _.forEach(productPrices, (price) => {
+    priceShiaqgaPetImmunity(price)
+    priceShiaqgaSuperConcentrate(price)
+    priceShiaqgaOriginalFormula(price)
+    // delete price.description
+  })
+  // console.log(productPrices)
+  productPrices = JSON.stringify(productPrices)
+
+  fs.writeFile('productPrices.json', productPrices, 'utf8', (err) => {
+    console.log(err)
+  })
+}
+
+function priceShiaqgaPetImmunity(price) {
+  if (price.description == '1 Container Shiaqga Pet Immunity') {
+    price.unit_amount = 6800
+  }
+  if (price.description == '2 Containers Shiaqga Pet Immunity') {
+    price.unit_amount = 13600
+  }
+  if (price.description == '4 Containers Shiaqga Pet Immunity') {
+    price.unit_amount = 27200
+  }
+  if (price.description == '6 Containers Shiaqga Pet Immunity') {
+    price.unit_amount = 40800
+  }
+  if (price.description == '12 Containers Shiaqga Pet Immunity') {
+    price.unit_amount = 81600
+  }
+}
+
+function priceShiaqgaSuperConcentrate(price) {
+  if (price.description == '1 Bottle Shiaqga Super Concentrate') {
+    price.unit_amount = 17600
+  }
+  if (price.description == '2 Bottles Shiaqga Super Concentrate') {
+    price.unit_amount = 35200
+  }
+  if (price.description == '4 Bottles Shiaqga Super Concentrate') {
+    price.unit_amount = 70400
+  }
+  if (price.description == '6 Bottles Shiaqga Super Concentrate') {
+    price.unit_amount = 105600
+  }
+  if (price.description == '12 Bottles Shiaqga Super Concentrate') {
+    price.unit_amount = 211200
+  }
+}
+
+function priceShiaqgaOriginalFormula(price) {
+  if (price.description == '1 Bottle Shiaqga Original Formula') {
+    price.unit_amount = 7600
+  }
+  if (price.description == '2 Bottles Shiaqga Original Formula') {
+    price.unit_amount = 15200
+  }
+  if (price.description == '4 Bottles Shiaqga Original Formula') {
+    price.unit_amount = 30400
+  }
+  if (price.description == '6 Bottles Shiaqga Original Formula') {
+    price.unit_amount = 45600
+  }
+  if (price.description == '12 Bottles Shiaqga Original Formula') {
+    price.unit_amount = 91200
+  }
+}
+
+function createPrices(weeblyProducts, createdProducts) {
+  let prices = []
+  let itr = 0
+  _.forEach(createdProducts, (product) => {
+    if (
+      product.id === 'prod_HRTG11G02igxx7' ||
+      product.id === 'prod_HRTGWQgPKGG2cW' ||
+      product.id === 'prod_HRTGMAOxXbXjkf' ||
+      product.id === 'prod_HRTGmbzZ7eynMm' ||
+      product.id === 'prod_HRTGgSo5EipMpn'
+    ) {
+      product.Name = 'Shiaqga'
+    }
+    let weeblyProductMatch = _.find(weeblyProducts, (o) => {
+      return product.Name === o.TITLE
+    })
+    _.pull(weeblyProducts, weeblyProductMatch)
+    if (weeblyProductMatch) {
+      itr++
+      prices.push({
+        product: product.id,
+        unit_amount: weeblyProductMatch.PRICE * 100,
+        currency: 'usd',
+        description: product.Description,
+      })
+    }
+  })
+  console.log(prices)
+  console.log('Num Products: ', itr)
+  productPrices = JSON.stringify(prices)
+
+  fs.writeFile('productPrices.json', productPrices, 'utf8', (err) => {
+    console.log(err)
+  })
+}
+
 function createProduct(product, salePrice) {
   // console.log(product)
   if (salePrice) {

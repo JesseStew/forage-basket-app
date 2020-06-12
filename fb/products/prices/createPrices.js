@@ -3,12 +3,52 @@ const _ = require('lodash')
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
 const productPrices = require('./productPrices.json')
 
+// Safety
+// stripeTimer(productPrices, 15, createStripePrice)
+
 async function createStripePrice(price) {
+  // console.log(price)
   await stripe.prices.create(price, function(err, price) {
     // asynchronously called
     if (err) {
       console.log(err)
     }
+  })
+}
+
+function stripeTimer(products, length, stripeFunction) {
+  for (let itr = 1; itr < length; itr++) {
+    let product = products[itr - 1]
+    if (itr === 1) {
+      console.log('products.length: ', products.length)
+    }
+    if (itr === length - 1) {
+      console.log('itr: ', itr)
+    }
+    stripeFunction(product)
+    if (itr === length - 1) {
+      sleep(1500).then(() => {
+        let remainingProducts = _.slice(products, itr, products.length)
+        // console.log('itr: ', itr)
+        console.log('remainingProducts.length: ', remainingProducts.length)
+        if (remainingProducts.length < 1) {
+          return
+        } else {
+          if (remainingProducts.length < length) {
+            length = remainingProducts.length + 1
+          } else {
+            length = 16
+          }
+          stripeTimer(remainingProducts, length, stripeFunction)
+        }
+      })
+    }
+  }
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms)
   })
 }
 
@@ -25,8 +65,6 @@ async function callStripePriceCreate(prices) {
     })
   }
 }
-
-callStripePriceCreate(productPrices)
 
 // CREATE A PRODUCT:
 //     PARAMETERS:
