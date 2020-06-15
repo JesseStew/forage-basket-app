@@ -1,18 +1,18 @@
 <template>
   <div class="product">
-    <h3>
-      {{ productId }}
-    </h3>
-
-    <div class="product-image">
-      <!-- <img :src="image" /> -->
+    <h1>
+      {{ name }}
+    </h1>
+    <div v-for="image in images" :key="image.id">
+      <img :src="image" />
     </div>
+    <p>
+      {{ description }}
+    </p>
 
-    <div class="product-info">
-      <v-btn @click="getStripeProduct">
-        Get Product
-      </v-btn>
-    </div>
+    <v-btn @click="getStripeProduct">
+      Get Product
+    </v-btn>
     <!-- <product-review @review-submitted="addReview"></product-review> -->
   </div>
 </template>
@@ -29,6 +29,10 @@ export default {
       stripeAPIToken: 'pk_test_sMRjdB96GQu0iJit6U4PBv1i00llNerPaZ',
       errorMessage: null,
       stripe: '',
+      active: false,
+      images: [],
+      name: '',
+      description: '',
     }
   },
   methods: {
@@ -52,11 +56,12 @@ export default {
     async getStripeProduct() {
       http
         .get('widgets/getStripeProduct/' + this.productId)
-        .then((response) => {
-          console.log('response: ', response)
-          // console.log('response.data.sessionId: ', response.data.sessionId)
-          // this.sessionId = response.data.sessionId
-          // this.redirectToCheckout()
+        .then((res) => {
+          console.log('res: ', res)
+          this.active = res.data.active
+          this.images = res.data.images
+          this.name = res.data.name
+          this.description = res.data.description
         })
         .catch(function(error) {
           console.log(error)
@@ -74,6 +79,7 @@ export default {
         this.configureStripe()
       }.bind(this)
     )
+    this.getStripeProduct()
   },
 }
 </script>
