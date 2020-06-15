@@ -57,7 +57,7 @@ export const routes = [
       import(/* webpackChunkName: "contact" */ '../views/Contact.vue'),
   },
   {
-    path: '/product',
+    path: '/product/:id',
     name: 'Product',
     component: () =>
       import(/* webpackChunkName: "product" */ '../views/Product.vue'),

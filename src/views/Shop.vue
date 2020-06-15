@@ -1,15 +1,15 @@
 <template>
   <div class="shop">
-    <v-content>
+    <v-container>
       <v-row>
-        <v-col>
+        <v-col cols="8">
           <p>
             Those professionals and retail establishments looking to purchase
             wholesale, please contact us for a list of our wholesale
             requirements.
           </p>
         </v-col>
-        <v-col>
+        <v-col cols="4">
           <iframe
             width="300"
             height="300"
@@ -24,53 +24,31 @@
         <v-divider></v-divider>
       </v-row>
       <v-row>
-        <v-col cols="6">
-          <h2>
-            ​​Shiaqga - Original Formula 2oz - $76 or less per bottle
-          </h2>
-          <img
-            height="370"
-            src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/shiaqga-red.png?alt=media&token=24232b24-24f0-4731-ab3a-abd6e1502d85"
-            alt=""
+        <v-col cols="6" class="text-center">
+          <Product
+            :title="'​​Shiaqga - Original Formula 2oz - $76 or less per bottle'"
+            :imgSrc="
+              'https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/shiaqga-red.png?alt=media&token=24232b24-24f0-4731-ab3a-abd6e1502d85'
+            "
+            :text="
+              'Ingredients: Wild Shiaqga (1200% Extract), Organic essential oils of Black Cumin, Lemon, Cinnamon Bark, Peppermint, and Wild Sacred Frankincense.'
+            "
+            :productId="'prod_HRTG11G02igxx7'"
           />
-
-          <p>
-            Ingredients: Wild Shiaqga (1200% Extract), Organic essential oils of
-            Black Cumin, Lemon, Cinnamon Bark, Peppermint, and Wild Sacred
-            Frankincense. ​
-          </p>
-          <v-row>
-            <v-col>
-              <!-- here, add routing -->
-              <v-btn>
-                View Details
-              </v-btn>
-            </v-col>
-          </v-row>
         </v-col>
-        <v-col cols="6">
-          <h2>
-            Shiaqga - Super Concentrate 4oz - $176 or less per bottle
-          </h2>
-          <img
-            height="350"
-            src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/shiaqga-green.png?alt=media&token=74d24f08-9f31-4ba5-a3a6-a68659f36b55"
-            alt=""
+        <v-col cols="6" class="text-center">
+          <Product
+            :title="
+              '​​Shiaqga - Super Concentrate 4oz - $176 or less per bottle'
+            "
+            :imgSrc="
+              'https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/shiaqga-green.png?alt=media&token=74d24f08-9f31-4ba5-a3a6-a68659f36b55'
+            "
+            :text="
+              'Ingredients: Wild Shiaqga (2000% Extract), Organic Black Cumin, Wild Sacred Frankincense, Organic Lemon, Organic Cinnamon Bark, and Organic Peppermint'
+            "
+            :productId="'prod_HRTGHbm4A02KE1'"
           />
-
-          <p>
-            Ingredients: Wild Shiaqga (2000% Extract), Organic Black Cumin, Wild
-            Sacred Frankincense, Organic Lemon, Organic Cinnamon Bark, and
-            Organic Peppermint ​​
-          </p>
-          <v-row>
-            <v-col>
-              <!-- here, add routing -->
-              <v-btn>
-                View Details
-              </v-btn>
-            </v-col>
-          </v-row>
         </v-col>
       </v-row>
       <v-row class="my-10">
@@ -282,6 +260,14 @@
           </v-row>
         </v-col>
       </v-row>
-    </v-content>
+    </v-container>
   </div>
 </template>
+<script>
+import Product from '@/components/Product.vue'
+export default {
+  components: {
+    Product,
+  },
+}
+</script>

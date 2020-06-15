@@ -60,7 +60,7 @@ export default {
         .doc('stripe_customer')
         .get()
       http
-        .post('/createStripeSession', {
+        .post('/widgets/create-session', {
           customer: this.customer.stripe_customer_id,
           customer_email: this.email,
           mode: this.mode,

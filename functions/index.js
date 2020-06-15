@@ -2,11 +2,42 @@
 
 const functions = require('firebase-functions')
 const admin = require('firebase-admin')
-const cors = require('cors')({ origin: true })
+const cors = require('cors')
+const express = require('express')
+const app = express()
 
 admin.initializeApp()
 // const logging = require('@google-cloud/logging')()
 const stripe = require('stripe')(functions.config().stripe.token)
+
+app.use(cors({ origin: true }))
+
+app.get('/getStripeProduct/:productId', async (req, res) => {
+  const product = await stripe.products.retrieve(req.params.productId)
+  res.send(product)
+})
+
+app.post('/create-session', async (req, res) => {
+  const session = await stripe.checkout.sessions.create({
+    success_url: 'http://localhost:8080/cart',
+    cancel_url: 'http://localhost:8080/cart',
+    customer: req.body.customer,
+    customer_email: req.body.customer_email,
+    payment_method_types: ['card'],
+    mode: req.body.mode,
+    line_items: [
+      {
+        price: 'price_HO8XRlZdGcXJl7',
+        quantity: 2,
+      },
+    ],
+  })
+  res.send({
+    sessionId: session.id,
+  })
+})
+
+exports.widgets = functions.https.onRequest(app)
 
 // When a user is created, register them with Stripe
 exports.createStripeCustomer = functions.auth.user().onCreate(async (user) => {
@@ -20,27 +51,25 @@ exports.createStripeCustomer = functions.auth.user().onCreate(async (user) => {
     .set({ stripe_customer_id: customer.id })
 })
 
-exports.createStripeSession = functions.https.onRequest((request, response) => {
-  // here, On Deployment Setup CORS correctly
-  cors(request, response, async () => {
-    const session = await stripe.checkout.sessions.create(
-      {
-        success_url: 'http://localhost:8080/cart',
-        cancel_url: 'http://localhost:8080/cart',
-        customer: request.body.customer,
-        customer_email: request.body.customer_email,
-        payment_method_types: ['card'],
-        mode: request.body.mode,
-        line_items: [
-          {
-            price: 'price_HO8XRlZdGcXJl7',
-            quantity: 2,
-          },
-        ],
-      }
-    )
-    response.send({
-      sessionId: session.id
-    })
-  })
-})
+// exports.createStripeSession = functions.https.onRequest((request, response) => {
+//   // here, On Deployment Setup CORS correctly
+//   cors(request, response, async () => {
+//     const session = await stripe.checkout.sessions.create({
+//       success_url: 'http://localhost:8080/cart',
+//       cancel_url: 'http://localhost:8080/cart',
+//       customer: request.body.customer,
+//       customer_email: request.body.customer_email,
+//       payment_method_types: ['card'],
+//       mode: request.body.mode,
+//       line_items: [
+//         {
+//           price: 'price_HO8XRlZdGcXJl7',
+//           quantity: 2,
+//         },
+//       ],
+//     })
+//     response.send({
+//       sessionId: session.id,
+//     })
+//   })
+// })
