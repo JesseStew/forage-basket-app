@@ -18,6 +18,7 @@ app.get('/getStripeProduct/:productId', async (req, res) => {
 })
 
 app.post('/create-session', async (req, res) => {
+  console.log('req.body: ', req.body)
   const session = await stripe.checkout.sessions.create({
     success_url: 'http://localhost:8080/cart',
     cancel_url: 'http://localhost:8080/cart',
@@ -25,12 +26,7 @@ app.post('/create-session', async (req, res) => {
     customer_email: req.body.customer_email,
     payment_method_types: ['card'],
     mode: req.body.mode,
-    line_items: [
-      {
-        price: 'price_HO8XRlZdGcXJl7',
-        quantity: 2,
-      },
-    ],
+    line_items: req.body.line_items,
   })
   res.send({
     sessionId: session.id,

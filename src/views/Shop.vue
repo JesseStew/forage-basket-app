@@ -48,6 +48,7 @@
               'Ingredients: Wild Shiaqga (2000% Extract), Organic Black Cumin, Wild Sacred Frankincense, Organic Lemon, Organic Cinnamon Bark, and Organic Peppermint'
             "
             :productId="'prod_HRTGHbm4A02KE1'"
+            :priceId="'price_1GtHmWHhLIxiPD1kLYHNR5l3'"
           />
         </v-col>
       </v-row>

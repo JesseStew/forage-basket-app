@@ -19,6 +19,7 @@ export default new Vuex.Store({
       photoURL: '',
       isAnonymous: false,
       uid: '',
+      cart: [],
     },
   },
   mutations: {
@@ -73,6 +74,13 @@ export default new Vuex.Store({
       state.user.photoURL = user.photoURL
       state.user.isAnonymous = user.isAnonymous
       state.user.uid = user.uid
+    },
+    addToCart(state, payload) {
+      let lineItem = {
+        price: payload.priceId,
+        quantity: payload.quantity,
+      }
+      state.user.cart.push(lineItem)
     },
   },
   actions: {
@@ -175,6 +183,9 @@ export default new Vuex.Store({
             alert('Loggin failure.')
           }
         )
+    },
+    addToCart({ commit }, payload) {
+      commit('addToCart', payload)
     },
   },
   modules: {},

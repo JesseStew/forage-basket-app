@@ -15,7 +15,13 @@
         </p>
       </v-col>
       <v-col cols="12">
-        <v-btn :to="{ name: 'Product', params: { id: productId } }">
+        <v-btn
+          :to="{
+            name: 'Product',
+            params: { id: productId },
+            query: { priceId: priceId },
+          }"
+        >
           View Details
         </v-btn>
       </v-col>
@@ -39,6 +45,10 @@ export default {
       required: true,
     },
     productId: {
+      type: String,
+      required: true,
+    },
+    priceId: {
       type: String,
       required: true,
     },
