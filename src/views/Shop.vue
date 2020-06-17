@@ -24,8 +24,8 @@
         <v-divider></v-divider>
       </v-row>
       <v-row>
-        <v-col cols="6" class="text-center">
-          <Product
+        <v-col cols="6">
+          <ProductLink
             :title="'​​Shiaqga - Original Formula 2oz - $76 or less per bottle'"
             :imgSrc="
               'https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/shiaqga-red.png?alt=media&token=24232b24-24f0-4731-ab3a-abd6e1502d85'
@@ -34,10 +34,11 @@
               'Ingredients: Wild Shiaqga (1200% Extract), Organic essential oils of Black Cumin, Lemon, Cinnamon Bark, Peppermint, and Wild Sacred Frankincense.'
             "
             :productId="'prod_HRTG11G02igxx7'"
+            :priceId="'price_1GtHmWHhLIxiPD1kfhwqgxzl'"
           />
         </v-col>
         <v-col cols="6" class="text-center">
-          <Product
+          <ProductLink
             :title="
               '​​Shiaqga - Super Concentrate 4oz - $176 or less per bottle'
             "
@@ -57,21 +58,15 @@
       </v-row>
       <v-row>
         <v-col>
-          <h2>​Shiaqga Pet Immunity</h2>
-          <img
-            height="350"
-            src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Shiaqga%20-%20Pet%2Fshiaqga-pet_1.jpg?alt=media&token=90acabea-c865-42f1-8fcd-9d0a24b49d80"
-            alt=""
+          <ProductLink
+            :title="'Shiaqga Pet Immunity'"
+            :imgSrc="
+              'https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Shiaqga%20-%20Pet%2Fshiaqga-pet_1.jpg?alt=media&token=90acabea-c865-42f1-8fcd-9d0a24b49d80'
+            "
+            :text="'Ingredients: 100% ground Shiaqga.'"
+            :productId="'prod_HRTGLnpLKYy18b'"
+            :priceId="'price_1GtHmPHhLIxiPD1kEL8A24xt'"
           />
-          <p>
-            Ingredients: 100% ground Shiaqga.
-          </p>
-          <p></p>
-          <!-- here, add routing -->
-          <!-- <br /> -->
-          <v-btn>
-            View Details
-          </v-btn>
         </v-col>
         <v-col>
           <iframe
@@ -173,34 +168,17 @@
       </v-row>
       <v-row>
         <v-col>
-          <h2>
-            Energy Balancing Necklace
-          </h2>
-          <img
-            height="350"
-            src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Accessories%2Fnecklace-closeup_1.jpg?alt=media&token=26d6ad21-d146-45e3-84dc-b776ba1b727a"
-            alt=""
+          <ProductLink
+            :title="'Energy Balancing Necklace'"
+            :imgSrc="
+              'https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Accessories%2Fenergy-necklace_2_orig.jpg?alt=media&token=70eb4a98-b686-4a6e-bb31-6676d653ad0d'
+            "
+            :text="
+              'The Energy Balancing Necklace was designed to be a protection against harmful electromagnetic energies, such as computers, cell phones, and so forth. It also provides powerful assistance in recovering from exposure to low-level radiation sources.'
+            "
+            :productId="'prod_HRTGAPVyQhAn9R'"
+            :priceId="'price_1GtHmYHhLIxiPD1kkqIdB9Ux'"
           />
-          <img
-            height="350"
-            src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Accessories%2Fenergy-necklace_2_orig.jpg?alt=media&token=70eb4a98-b686-4a6e-bb31-6676d653ad0d"
-            alt=""
-          />
-
-          <p>
-            The Energy Balancing Necklace was designed to be a protection
-            against harmful electromagnetic energies, such as computers, cell
-            phones, and so forth. It also provides powerful assistance in
-            recovering from exposure to low-level radiation sources.
-          </p>
-          <v-row>
-            <v-col>
-              <!-- here, add routing -->
-              <v-btn>
-                Energy Balancing Necklace
-              </v-btn>
-            </v-col>
-          </v-row>
         </v-col>
       </v-row>
       <v-row class="my-10">
@@ -265,10 +243,10 @@
   </div>
 </template>
 <script>
-import Product from '@/components/Product.vue'
+import ProductLink from '@/components/ProductLink.vue'
 export default {
   components: {
-    Product,
+    ProductLink,
   },
 }
 </script>

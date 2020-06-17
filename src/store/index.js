@@ -19,8 +19,8 @@ export default new Vuex.Store({
       photoURL: '',
       isAnonymous: false,
       uid: '',
-      cart: [],
     },
+    cart: [],
   },
   mutations: {
     loggedIn(state, user) {
@@ -79,8 +79,9 @@ export default new Vuex.Store({
       let lineItem = {
         price: payload.priceId,
         quantity: payload.quantity,
+        productId: payload.productId,
       }
-      state.user.cart.push(lineItem)
+      state.cart.push(lineItem)
     },
   },
   actions: {

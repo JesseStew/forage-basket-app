@@ -1,6 +1,6 @@
 <template>
   <v-containter>
-    <v-row>
+    <v-row class="text-center">
       <v-col cols="12">
         <h2>
           {{ title }}

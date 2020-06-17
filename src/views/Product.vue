@@ -7,14 +7,16 @@
       <img :src="image" />
     </div>
     <p>
-      {{ uid }}
       {{ description }}
     </p>
 
     <v-btn @click="addToCart()">
-      Buy Product
+      Add to Cart
     </v-btn>
-    <v-text-field v-model="quantity" type="number"></v-text-field>
+    <v-btn @click="createStripeSession()">
+      Buy Items in Cart
+    </v-btn>
+    <v-text-field v-model="quantity" type="number" min="1"></v-text-field>
   </div>
 </template>
 
@@ -50,7 +52,7 @@ export default {
       return this.$store.state.user.email
     },
     cart: function() {
-      return this.$store.state.user.cart
+      return this.$store.state.cart
     },
   },
   methods: {
@@ -58,12 +60,19 @@ export default {
       let payload = {
         priceId: this.priceId,
         quantity: this.quantity,
+        productId: this.productId,
       }
       this.$store.dispatch('addToCart', payload)
-      this.createStripeSession()
+      // this.createStripeSession()
     },
     async createStripeSession() {
       console.log('uid: ', this.uid)
+      console.log('cart: ', this.cart)
+      console.log(
+        this.$_.map(this.cart, (o) => {
+          return this.$_.omit(o, [productId])
+        })
+      )
       this.customer = await firebase
         .firestore()
         .collection('user')
@@ -76,7 +85,9 @@ export default {
           customer: this.customer.stripe_customer_id,
           customer_email: this.email,
           mode: this.mode,
-          line_items: this.cart,
+          line_items: this.$_.map(this.cart, (o) => {
+            return this.$_.omit(o, [productId])
+          }),
         })
         .then((response) => {
           console.log('response: ', response)
