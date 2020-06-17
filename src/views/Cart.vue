@@ -1,28 +1,33 @@
 <template>
   <div class="product">
     <h1>
-      {{ name }}
+      Items in Cart
     </h1>
-    <div v-for="image in images" :key="image.id">
-      <img :src="image" />
-    </div>
-    <p>
-      {{ description }}
-    </p>
-    <div v-for="product in products" :key="product.id">
-      <ProductLink
-        :title="product.name"
-        :imgSrc="product.images[0]"
-        :text="product.description"
-        :productId="'prod_HRTGHbm4A02KE1'"
-        :priceId="'price_1GtHmWHhLIxiPD1kLYHNR5l3'"
-      />
-      <!-- {{ product }} -->
-    </div>
+    <v-list>
+      <v-list-item-group v-model="product">
+        <v-list-item
+          :to="{
+            name: 'Product',
+            params: { id: product.productId },
+            query: { priceId: product.priceId },
+          }"
+          avatar
+          v-for="product in products"
+          :key="product.id"
+        >
+          <v-list-item-avatar>
+            <v-img :src="product.images[0]"></v-img>
+          </v-list-item-avatar>
+          <v-list-item-title v-html="product.name"> </v-list-item-title>
+          <v-list-item-content
+            v-html="product.description"
+          ></v-list-item-content>
+        </v-list-item>
+      </v-list-item-group>
+    </v-list>
     <v-btn @click="createStripeSession()">
       Buy Items in Cart
     </v-btn>
-    <v-text-field v-model="quantity" type="number" min="1"></v-text-field>
   </div>
 </template>
 
@@ -131,7 +136,7 @@ export default {
       }
       scriptTag.parentNode.insertBefore(object, scriptTag)
     },
-    async getStripeProduct(productId) {
+    async getStripeProduct(productId, priceId) {
       http
         .get('widgets/getStripeProduct/' + productId)
         .then((res) => {
@@ -141,6 +146,8 @@ export default {
             images: res.data.images,
             name: res.data.name,
             description: res.data.description,
+            priceId: priceId,
+            productId: productId,
           })
         })
         .catch(function(error) {
@@ -149,8 +156,8 @@ export default {
     },
     getStripeProducts() {
       this.$_.forEach(this.cart, (item) => {
-        console.log(item.productId)
-        this.getStripeProduct(item.productId)
+        console.log(item)
+        this.getStripeProduct(item.productId, item.price)
       })
     },
     configureStripe() {

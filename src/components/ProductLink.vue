@@ -7,7 +7,15 @@
         </h2>
       </v-col>
       <v-col cols="12">
-        <img height="370" :src="imgSrc" />
+        <router-link
+          :to="{
+            name: 'Product',
+            params: { id: productId },
+            query: { priceId: priceId },
+          }"
+        >
+          <img height="370" :src="imgSrc"
+        /></router-link>
       </v-col>
       <v-col cols="12">
         <p>
