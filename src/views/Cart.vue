@@ -1,30 +1,12 @@
 <template>
   <div class="product">
-    <h1>
+    <h1 v-if="cart.length > 0">
       Items in Cart
     </h1>
-    <v-list>
-      <v-list-item-group v-model="product">
-        <v-list-item
-          :to="{
-            name: 'Product',
-            params: { id: product.productId },
-            query: { priceId: product.priceId },
-          }"
-          avatar
-          v-for="product in products"
-          :key="product.id"
-        >
-          <v-list-item-avatar>
-            <v-img :src="product.images[0]"></v-img>
-          </v-list-item-avatar>
-          <v-list-item-title v-html="product.name"> </v-list-item-title>
-          <v-list-item-content
-            v-html="product.description"
-          ></v-list-item-content>
-        </v-list-item>
-      </v-list-item-group>
-    </v-list>
+    <h1 v-else>
+      Cart is Empty
+    </h1>
+    <v-data-table :headers="headers" :items="cart"> </v-data-table>
     <v-btn @click="checkout()">
       Buy Items in Cart
     </v-btn>
@@ -35,6 +17,7 @@
 import http from '../http-common'
 import firebase from 'firebase/app'
 import 'firebase/firestore'
+import { mapState } from 'vuex'
 
 import ProductLink from '@/components/ProductLink.vue'
 
@@ -54,18 +37,27 @@ export default {
       priceId: '',
       quantity: 1,
       products: [],
+      headers: [
+        {
+          text: 'Product Name',
+          align: 'start',
+          value: 'product.name',
+        },
+        {
+          text: 'Price',
+          align: 'start',
+          value: 'price',
+        },
+        {
+          text: 'Quantity',
+          align: 'start',
+          value: 'quantity',
+        },
+      ],
     }
   },
   computed: {
-    uid: function() {
-      return this.$store.state.user.uid
-    },
-    email: function() {
-      return this.$store.state.user.email
-    },
-    cart: function() {
-      return this.$store.state.cart
-    },
+    ...mapState(['cart', 'user']),
   },
   methods: {
     checkout() {
@@ -86,18 +78,20 @@ export default {
         })
     },
     getStripeProducts() {
-      this.$_.forEach(this.cart, (item) => {
-        console.log(item.product)
-        this.products.push({
-          active: item.product.active,
-          images: item.product.images,
-          name: item.product.name,
-          description: item.product.description,
-          priceId: item.priceId,
-          productId: item.product.productId,
-          quantity: item.quantity,
+      if (this.cart.length > 0) {
+        this.$_.forEach(this.cart, (item) => {
+          console.log(item.product)
+          this.products.push({
+            active: item.product.active,
+            images: item.product.images,
+            name: item.product.name,
+            description: item.product.description,
+            priceId: item.priceId,
+            productId: item.product.productId,
+            quantity: item.quantity,
+          })
         })
-      })
+      }
     },
   },
   created() {
