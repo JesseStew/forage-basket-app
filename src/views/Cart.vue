@@ -25,7 +25,7 @@
         </v-list-item>
       </v-list-item-group>
     </v-list>
-    <v-btn @click="createStripeSession()">
+    <v-btn @click="checkout()">
       Buy Items in Cart
     </v-btn>
   </div>
@@ -38,18 +38,17 @@ import 'firebase/firestore'
 
 import ProductLink from '@/components/ProductLink.vue'
 
+const stripe = Stripe('pk_test_sMRjdB96GQu0iJit6U4PBv1i00llNerPaZ')
+
 export default {
   name: 'Cart',
   data: function() {
     return {
-      stripeAPIToken: 'pk_test_sMRjdB96GQu0iJit6U4PBv1i00llNerPaZ',
       customer: '',
       sessionId: '',
       errorMessage: null,
-      stripe: '',
       active: false,
       images: [],
-
       description: '',
       mode: 'payment',
       priceId: '',
@@ -69,47 +68,14 @@ export default {
     },
   },
   methods: {
+    checkout() {
+      this.$store.dispatch('checkout')
+    },
     removeFromCart() {
       // here,
     },
-    async createStripeSession() {
-      console.log('uid: ', this.uid)
-      console.log('cart: ', this.cart)
-      let cart = []
-      this.$_.forEach(this.cart, (item) => {
-        cart.push({
-          price: item.price,
-          quantity: item.quantity,
-        })
-        console.log('price: ', item.price)
-        console.log('quantity: ', item.quantity)
-      })
-      this.customer = await firebase
-        .firestore()
-        .collection('user')
-        .doc(this.uid)
-        .collection('stripe')
-        .doc('stripe_customer')
-        .get()
-      http
-        .post('/widgets/create-session', {
-          customer: this.customer.stripe_customer_id,
-          customer_email: this.email,
-          mode: this.mode,
-          line_items: cart,
-        })
-        .then((response) => {
-          console.log('response: ', response)
-          console.log('response.data.sessionId: ', response.data.sessionId)
-          this.sessionId = response.data.sessionId
-          this.redirectToCheckout()
-        })
-        .catch(function(error) {
-          console.log(error)
-        })
-    },
     redirectToCheckout() {
-      this.stripe
+      stripe
         .redirectToCheckout({
           sessionId: this.sessionId,
         })
@@ -118,23 +84,6 @@ export default {
             this.errorMessage = result.error.message
           }
         })
-    },
-    includeStripe(URL, callback) {
-      let documentTag = document,
-        tag = 'script',
-        object = documentTag.createElement(tag),
-        scriptTag = documentTag.getElementsByTagName(tag)[0]
-      object.src = '//' + URL
-      if (callback) {
-        object.addEventListener(
-          'load',
-          function(e) {
-            callback(null, e)
-          },
-          false
-        )
-      }
-      scriptTag.parentNode.insertBefore(object, scriptTag)
     },
     getStripeProducts() {
       this.$_.forEach(this.cart, (item) => {
@@ -150,9 +99,6 @@ export default {
         })
       })
     },
-    configureStripe() {
-      this.stripe = Stripe(this.stripeAPIToken)
-    },
   },
   created() {
     this.productId = this.$route.params.id
@@ -161,12 +107,6 @@ export default {
     }
   },
   mounted() {
-    this.includeStripe(
-      'js.stripe.com/v3/',
-      function() {
-        this.configureStripe()
-      }.bind(this)
-    )
     this.$store.dispatch('loggedIn')
     this.getStripeProducts()
   },

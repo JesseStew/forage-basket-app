@@ -5,6 +5,10 @@ import Vuex from 'vuex'
 import firebase from 'firebase/app'
 import 'firebase/auth'
 import 'firebase/firestore'
+import _ from 'lodash'
+import http from '../http-common'
+
+const stripe = Stripe('pk_test_sMRjdB96GQu0iJit6U4PBv1i00llNerPaZ')
 
 Vue.use(Vuex)
 
@@ -82,6 +86,9 @@ export default new Vuex.Store({
         product: payload.product,
       }
       state.cart.push(lineItem)
+    },
+    checkout(state) {
+      state.cart = []
     },
   },
   actions: {
@@ -187,6 +194,51 @@ export default new Vuex.Store({
     },
     addToCart({ commit }, payload) {
       commit('addToCart', payload)
+    },
+    async checkout({ commit, state }) {
+      console.log('uid: ', state.user.uid)
+      console.log('cart: ', state.cart)
+      let cart = []
+      _.forEach(state.cart, (item) => {
+        cart.push({
+          price: item.price,
+          quantity: item.quantity,
+        })
+        console.log('price: ', item.price)
+        console.log('quantity: ', item.quantity)
+      })
+      let customer = await firebase
+        .firestore()
+        .collection('user')
+        .doc(state.user.uid)
+        .collection('stripe')
+        .doc('stripe_customer')
+        .get()
+      http
+        .post('/widgets/create-session', {
+          customer: customer.stripe_customer_id,
+          customer_email: state.user.email,
+          mode: 'payment',
+          line_items: cart,
+        })
+        .then((response) => {
+          console.log('response: ', response)
+          console.log('response.data.sessionId: ', response.data.sessionId)
+          let sessionId = response.data.sessionId
+          stripe
+            .redirectToCheckout({
+              sessionId: sessionId,
+            })
+            .then((result) => {
+              if (result.error) {
+                this.errorMessage = result.error.message
+              }
+            })
+        })
+        .catch(function(error) {
+          console.log(error)
+        })
+      commit('checkout')
     },
   },
   modules: {},
