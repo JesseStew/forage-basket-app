@@ -9,7 +9,7 @@
     <p>
       {{ description }}
     </p>
-
+    <p>${{ unitAmount }}</p>
     <v-btn v-if="productLoaded" @click="addToCart()">
       Add to Cart
     </v-btn>
@@ -37,6 +37,7 @@ export default {
       priceId: '',
       quantity: 1,
       productLoaded: false,
+      unitAmount: null,
     }
   },
   methods: {
@@ -50,6 +51,7 @@ export default {
           images: this.images,
           name: this.name,
           description: this.description,
+          unitAmount: this.unitAmount,
         },
       }
       this.$store.dispatch('addToCart', payload)
@@ -68,6 +70,22 @@ export default {
           console.log(error)
         })
     },
+    async getStripePrice() {
+      http
+        .get('widgets/getStripePrice/' + this.priceId)
+        .then((res) => {
+          console.log('res.data: ', res.data)
+          this.unitAmount = (res.data.unit_amount / 100).toFixed(2)
+          // this.active = res.data.active
+          // this.images = res.data.images
+          // this.name = res.data.name
+          // this.description = res.data.description
+          // this.productLoaded = true
+        })
+        .catch(function(error) {
+          console.log(error)
+        })
+    },
   },
   created() {
     this.productId = this.$route.params.id
@@ -77,6 +95,7 @@ export default {
   },
   mounted() {
     this.getStripeProduct()
+    this.getStripePrice()
     this.$store.dispatch('loggedIn')
   },
 }

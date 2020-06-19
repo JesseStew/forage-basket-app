@@ -17,6 +17,11 @@ app.get('/getStripeProduct/:productId', async (req, res) => {
   res.send(product)
 })
 
+app.get('/getStripePrice/:priceId', async (req, res) => {
+  const price = await stripe.prices.retrieve(req.params.priceId)
+  res.send(price)
+})
+
 app.post('/create-session', async (req, res) => {
   console.log('req.body: ', req.body)
   const session = await stripe.checkout.sessions.create({
