@@ -10,7 +10,7 @@
       {{ description }}
     </p>
     <p>${{ unitAmount }}</p>
-    <v-btn v-if="productLoaded" @click="addToCart()">
+    <v-btn v-if="productLoaded && priceLoaded" @click="addToCart()">
       Add to Cart
     </v-btn>
     <v-btn :to="{ name: 'Cart' }">
@@ -37,6 +37,7 @@ export default {
       priceId: '',
       quantity: 1,
       productLoaded: false,
+      priceLoaded: false,
       unitAmount: null,
     }
   },
@@ -74,13 +75,7 @@ export default {
       http
         .get('widgets/getStripePrice/' + this.priceId)
         .then((res) => {
-          console.log('res.data: ', res.data)
           this.unitAmount = (res.data.unit_amount / 100).toFixed(2)
-          // this.active = res.data.active
-          // this.images = res.data.images
-          // this.name = res.data.name
-          // this.description = res.data.description
-          // this.productLoaded = true
         })
         .catch(function(error) {
           console.log(error)
@@ -91,6 +86,7 @@ export default {
     this.productId = this.$route.params.id
     if (this.$route.query.priceId) {
       this.priceId = this.$route.query.priceId
+      this.priceLoaded = true
     }
   },
   mounted() {

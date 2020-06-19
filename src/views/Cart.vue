@@ -6,7 +6,14 @@
     <h1 v-else>
       Cart is Empty
     </h1>
-    <v-data-table :headers="headers" :items="cart"> </v-data-table>
+    <v-data-table :headers="headers" :items="cart">
+      <template #item.unitAmount="{item}">
+        ${{ item.product.unitAmount }}
+      </template>
+      <template #item.total="{item}">
+        ${{ (item.quantity * item.product.unitAmount).toFixed(2) }}
+      </template>
+    </v-data-table>
     <v-btn @click="checkout()">
       Buy Items in Cart
     </v-btn>
@@ -35,12 +42,17 @@ export default {
         {
           text: 'Price',
           align: 'start',
-          value: 'price',
+          value: 'unitAmount',
         },
         {
           text: 'Quantity',
           align: 'start',
           value: 'quantity',
+        },
+        {
+          text: 'Total',
+          align: 'start',
+          value: 'total',
         },
       ],
     }
