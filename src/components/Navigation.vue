@@ -1,6 +1,6 @@
 <template>
   <nav style="height: 192px">
-    <v-app-bar prominent fixed color="blue-grey lighten-5">
+    <v-app-bar fixed color="blue-grey lighten-5">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-spacer></v-spacer>
       <v-toolbar-title>Forage Basket</v-toolbar-title>
