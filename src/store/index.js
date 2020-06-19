@@ -79,7 +79,7 @@ export default new Vuex.Store({
       let lineItem = {
         price: payload.priceId,
         quantity: payload.quantity,
-        productId: payload.productId,
+        product: payload.product,
       }
       state.cart.push(lineItem)
     },

@@ -10,10 +10,10 @@
       {{ description }}
     </p>
 
-    <v-btn @click="addToCart()">
+    <v-btn v-if="productLoaded" @click="addToCart()">
       Add to Cart
     </v-btn>
-    <v-btn @click="createStripeSession()">
+    <v-btn v-if="productLoaded" @click="createStripeSession()">
       Buy Items in Cart
     </v-btn>
     <v-text-field v-model="quantity" type="number" min="1"></v-text-field>
@@ -42,6 +42,7 @@ export default {
       productId: '',
       priceId: '',
       quantity: 1,
+      productLoaded: false,
     }
   },
   computed: {
@@ -60,10 +61,15 @@ export default {
       let payload = {
         priceId: this.priceId,
         quantity: this.quantity,
-        productId: this.productId,
+        product: {
+          productId: this.productId,
+          active: this.active,
+          images: this.images,
+          name: this.name,
+          description: this.description,
+        },
       }
       this.$store.dispatch('addToCart', payload)
-      // this.createStripeSession()
     },
     async createStripeSession() {
       console.log('uid: ', this.uid)
@@ -131,11 +137,11 @@ export default {
       http
         .get('widgets/getStripeProduct/' + this.productId)
         .then((res) => {
-          console.log('res: ', res)
           this.active = res.data.active
           this.images = res.data.images
           this.name = res.data.name
           this.description = res.data.description
+          this.productLoaded = true
         })
         .catch(function(error) {
           console.log(error)

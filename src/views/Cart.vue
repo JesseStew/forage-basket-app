@@ -49,7 +49,7 @@ export default {
       stripe: '',
       active: false,
       images: [],
-      name: '',
+
       description: '',
       mode: 'payment',
       priceId: '',
@@ -136,28 +136,18 @@ export default {
       }
       scriptTag.parentNode.insertBefore(object, scriptTag)
     },
-    async getStripeProduct(productId, priceId) {
-      http
-        .get('widgets/getStripeProduct/' + productId)
-        .then((res) => {
-          console.log('res: ', res)
-          this.products.push({
-            active: res.data.active,
-            images: res.data.images,
-            name: res.data.name,
-            description: res.data.description,
-            priceId: priceId,
-            productId: productId,
-          })
-        })
-        .catch(function(error) {
-          console.log(error)
-        })
-    },
     getStripeProducts() {
       this.$_.forEach(this.cart, (item) => {
-        console.log(item)
-        this.getStripeProduct(item.productId, item.price)
+        console.log(item.product)
+        this.products.push({
+          active: item.product.active,
+          images: item.product.images,
+          name: item.product.name,
+          description: item.product.description,
+          priceId: item.priceId,
+          productId: item.product.productId,
+          quantity: item.quantity,
+        })
       })
     },
     configureStripe() {
