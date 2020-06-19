@@ -24,7 +24,6 @@
 import http from '../http-common'
 import firebase from 'firebase/app'
 import 'firebase/firestore'
-import { mapState, mapActions } from 'vuex'
 
 export default {
   name: 'Product',
@@ -39,17 +38,6 @@ export default {
       quantity: 1,
       productLoaded: false,
     }
-  },
-  computed: {
-    uid: function() {
-      return this.$store.state.user.uid
-    },
-    email: function() {
-      return this.$store.state.user.email
-    },
-    cart: function() {
-      return this.$store.state.cart
-    },
   },
   methods: {
     addToCart() {
