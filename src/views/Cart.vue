@@ -10,6 +10,16 @@
       <template #item.unitAmount="{item}">
         ${{ item.product.unitAmount }}
       </template>
+
+      <template #item.quantity="{item}">
+        <v-text-field
+          v-model="item.quantity"
+          type="number"
+          min="0"
+          style="max-width: 15%"
+        ></v-text-field>
+      </template>
+
       <template #item.total="{item}">
         ${{ (item.quantity * item.product.unitAmount).toFixed(2) }}
       </template>
@@ -43,16 +53,19 @@ export default {
           text: 'Price',
           align: 'start',
           value: 'unitAmount',
+          sortable: false,
         },
         {
           text: 'Quantity',
           align: 'start',
           value: 'quantity',
+          sortable: false,
         },
         {
           text: 'Total',
           align: 'start',
           value: 'total',
+          sortable: false,
         },
       ],
     }

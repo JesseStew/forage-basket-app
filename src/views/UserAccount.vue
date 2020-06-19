@@ -11,11 +11,6 @@
           </v-btn>
         </v-col>
       </v-row>
-      <v-row>
-        <v-col>
-          <StripeCheckout />
-        </v-col>
-      </v-row>
     </div>
     <div v-if="!email">
       <v-row>
@@ -41,7 +36,6 @@
 import RegisterAccount from '@/components/RegisterAccount.vue'
 import LoginAccount from '@/components/LoginAccount.vue'
 // import StripeElements from '@/components/StripeElements.vue'
-import StripeCheckout from '@/components/StripeCheckout.vue'
 
 export default {
   name: 'UserAccount',
@@ -51,7 +45,6 @@ export default {
   components: {
     RegisterAccount,
     LoginAccount,
-    StripeCheckout,
   },
   computed: {
     email: function() {

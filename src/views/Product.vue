@@ -1,23 +1,44 @@
 <template>
-  <div class="product">
-    <h1>
-      {{ name }}
-    </h1>
-    <div v-for="image in images" :key="image.id">
-      <img :src="image" />
-    </div>
-    <p>
-      {{ description }}
-    </p>
-    <p>${{ unitAmount }}</p>
-    <v-btn v-if="productLoaded && priceLoaded" @click="addToCart()">
-      Add to Cart
-    </v-btn>
-    <v-btn :to="{ name: 'Cart' }">
-      View Cart
-    </v-btn>
-    <v-text-field v-model="quantity" type="number" min="1"></v-text-field>
-  </div>
+  <v-container class="product">
+    <v-row class="text-center">
+      <v-col cols="12">
+        <h1>
+          {{ name }}
+        </h1>
+      </v-col>
+      <v-col cols="12">
+        <div v-for="image in images" :key="image.id">
+          <img :src="image" />
+        </div>
+      </v-col>
+      <v-col cols="12">
+        <p>
+          {{ description }}
+        </p>
+      </v-col>
+      <v-col class="text-right" cols="6">
+        <p class="pt-5">${{ (unitAmount * quantity).toFixed(2) }}</p>
+      </v-col>
+      <v-col cols="6">
+        <v-text-field
+          style="max-width: 15%"
+          v-model="quantity"
+          type="number"
+          min="1"
+        ></v-text-field>
+      </v-col>
+      <v-col cols="6">
+        <v-btn v-if="productLoaded && priceLoaded" @click="addToCart()">
+          Add to Cart
+        </v-btn>
+      </v-col>
+      <v-col cols="6">
+        <v-btn :to="{ name: 'Cart' }">
+          View Cart
+        </v-btn>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -76,6 +97,7 @@ export default {
         .get('widgets/getStripePrice/' + this.priceId)
         .then((res) => {
           this.unitAmount = (res.data.unit_amount / 100).toFixed(2)
+          this.priceLoaded = true
         })
         .catch(function(error) {
           console.log(error)
@@ -86,7 +108,6 @@ export default {
     this.productId = this.$route.params.id
     if (this.$route.query.priceId) {
       this.priceId = this.$route.query.priceId
-      this.priceLoaded = true
     }
   },
   mounted() {

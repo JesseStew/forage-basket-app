@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import router from '../router'
 
 // Could slow down app
 import firebase from 'firebase/app'
@@ -207,38 +208,43 @@ export default new Vuex.Store({
         console.log('price: ', item.price)
         console.log('quantity: ', item.quantity)
       })
-      let customer = await firebase
-        .firestore()
-        .collection('user')
-        .doc(state.user.uid)
-        .collection('stripe')
-        .doc('stripe_customer')
-        .get()
-      http
-        .post('/widgets/create-session', {
-          customer: customer.stripe_customer_id,
-          customer_email: state.user.email,
-          mode: 'payment',
-          line_items: cart,
-        })
-        .then((response) => {
-          console.log('response: ', response)
-          console.log('response.data.sessionId: ', response.data.sessionId)
-          let sessionId = response.data.sessionId
-          stripe
-            .redirectToCheckout({
-              sessionId: sessionId,
-            })
-            .then((result) => {
-              if (result.error) {
-                this.errorMessage = result.error.message
-              }
-            })
-        })
-        .catch(function(error) {
-          console.log(error)
-        })
-      commit('checkout')
+      if (state.user.uid === '') {
+        router.push({ path: '/user-account' })
+        alert('Must register or log in.')
+      } else {
+        let customer = await firebase
+          .firestore()
+          .collection('user')
+          .doc(state.user.uid)
+          .collection('stripe')
+          .doc('stripe_customer')
+          .get()
+        http
+          .post('/widgets/create-session', {
+            customer: customer.stripe_customer_id,
+            customer_email: state.user.email,
+            mode: 'payment',
+            line_items: cart,
+          })
+          .then((response) => {
+            console.log('response: ', response)
+            console.log('response.data.sessionId: ', response.data.sessionId)
+            let sessionId = response.data.sessionId
+            stripe
+              .redirectToCheckout({
+                sessionId: sessionId,
+              })
+              .then((result) => {
+                if (result.error) {
+                  this.errorMessage = result.error.message
+                }
+                commit('checkout')
+              })
+          })
+          .catch(function(error) {
+            console.log(error)
+          })
+      }
     },
   },
   modules: {},
