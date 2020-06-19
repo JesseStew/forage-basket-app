@@ -17,25 +17,14 @@
 import http from '../http-common'
 import firebase from 'firebase/app'
 import 'firebase/firestore'
-import { mapState } from 'vuex'
+import { mapState, mapActions } from 'vuex'
 
 import ProductLink from '@/components/ProductLink.vue'
-
-const stripe = Stripe('pk_test_sMRjdB96GQu0iJit6U4PBv1i00llNerPaZ')
 
 export default {
   name: 'Cart',
   data: function() {
     return {
-      customer: '',
-      sessionId: '',
-      errorMessage: null,
-      active: false,
-      images: [],
-      description: '',
-      mode: 'payment',
-      priceId: '',
-      quantity: 1,
       products: [],
       headers: [
         {
@@ -60,38 +49,9 @@ export default {
     ...mapState(['cart', 'user']),
   },
   methods: {
-    checkout() {
-      this.$store.dispatch('checkout')
-    },
+    ...mapActions(['checkout', 'loggedIn']),
     removeFromCart() {
       // here,
-    },
-    redirectToCheckout() {
-      stripe
-        .redirectToCheckout({
-          sessionId: this.sessionId,
-        })
-        .then((result) => {
-          if (result.error) {
-            this.errorMessage = result.error.message
-          }
-        })
-    },
-    getStripeProducts() {
-      if (this.cart.length > 0) {
-        this.$_.forEach(this.cart, (item) => {
-          console.log(item.product)
-          this.products.push({
-            active: item.product.active,
-            images: item.product.images,
-            name: item.product.name,
-            description: item.product.description,
-            priceId: item.priceId,
-            productId: item.product.productId,
-            quantity: item.quantity,
-          })
-        })
-      }
     },
   },
   created() {
@@ -101,8 +61,7 @@ export default {
     }
   },
   mounted() {
-    this.$store.dispatch('loggedIn')
-    this.getStripeProducts()
+    this.loggedIn()
   },
   components: {
     ProductLink,
