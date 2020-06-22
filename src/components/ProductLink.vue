@@ -1,40 +1,37 @@
 <template>
-  <v-containter>
-    <v-row class="text-center">
-      <v-col cols="12">
-        <h2>
-          {{ title }}
-        </h2>
-      </v-col>
-      <v-col cols="12">
-        <router-link
-          :to="{
-            name: 'Product',
-            params: { id: productId },
-            query: { priceId: priceId },
-          }"
-        >
-          <img height="370" :src="imgSrc"
-        /></router-link>
-      </v-col>
-      <v-col cols="12">
-        <p>
-          {{ text }}
-        </p>
-      </v-col>
-      <v-col cols="12">
+  <router-link
+    :to="{
+      name: 'Product',
+      params: { id: productId },
+      query: { priceId: priceId },
+    }"
+  >
+    <v-card class="mx-auto" max-width="400">
+      <v-img class="white--text align-end" height="500px" :src="imgSrc">
+        <v-card-title class="blue darken-2">{{ title }}</v-card-title>
+      </v-img>
+
+      <!-- <v-card-subtitle class="pb-0">{{ title }}</v-card-subtitle> -->
+
+      <v-card-text class="text--primary">
+        {{ text }}
+      </v-card-text>
+
+      <v-card-actions>
         <v-btn
+          color="orange"
           :to="{
             name: 'Product',
             params: { id: productId },
             query: { priceId: priceId },
           }"
+          text
         >
           View Details
         </v-btn>
-      </v-col>
-    </v-row>
-  </v-containter>
+      </v-card-actions>
+    </v-card>
+  </router-link>
 </template>
 
 <script>
@@ -64,4 +61,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+a:link {
+  text-decoration: none;
+}
+</style>
