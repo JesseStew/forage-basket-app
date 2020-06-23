@@ -1,30 +1,29 @@
 <template>
-  <div class="health">
-    <v-container>
-      <v-row>
-        <v-col>
-          <p>
-            Click the headings below to read more. If you wish to know
-            information on a specific health condition and an alternative
-            treatment, please contact us with your request. We will pass your
-            request on to a competent natural health professional.
-          </p>
-          <v-expansion-panels popout>
-            <!-- here, fix order -->
-            <InformationLink
-              v-for="document in documents"
-              :key="document.id"
-              :document="document"
-            />
-          </v-expansion-panels>
-        </v-col>
-      </v-row>
-    </v-container>
-  </div>
+  <v-container>
+    <v-row>
+      <v-col>
+        <p>
+          Click the headings below to read more. If you wish to know information
+          on a specific health condition and an alternative treatment, please
+          contact us with your request. We will pass your request on to a
+          competent natural health professional.
+        </p>
+        <v-expansion-panels popout>
+          <!-- here, fix order -->
+          <InformationLink
+            v-for="document in healthData"
+            :key="document.id"
+            :document="document"
+          />
+        </v-expansion-panels>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
 import InformationLink from '@/components/InformationLink.vue'
+import { mapState, mapActions } from 'vuex'
 
 import firebase from 'firebase/app'
 import 'firebase/firestore'
@@ -43,6 +42,7 @@ export default {
     },
   },
   computed: {
+    ...mapState(['healthData']),
     currentRouteName() {
       return this.$route.name
     },

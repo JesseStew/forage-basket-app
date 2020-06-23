@@ -43,6 +43,7 @@
 <script>
 import firebase from 'firebase/app'
 import 'firebase/firestore'
+import { mapState, mapActions } from 'vuex'
 
 const db = firebase.firestore()
 db.settings = { timestampsInSnapshots: true }
@@ -57,7 +58,9 @@ export default {
   firestore: {
     documents: db.collection('testimonies').orderBy('order'),
   },
-  computed: {},
+  computed: {
+    ...mapState(['testimonyData']),
+  },
   created() {
     this.$store.dispatch('loadTestimonyData')
   },

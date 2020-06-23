@@ -64,7 +64,7 @@
           <v-expansion-panels popout>
             <!-- here, fix order -->
             <InformationLink
-              v-for="document in orderDocuments(documents)"
+              v-for="document in informationData"
               :key="document.id"
               :document="document"
             />
@@ -122,31 +122,19 @@
 
 <script>
 import InformationLink from '@/components/InformationLink.vue'
-
-import firebase from 'firebase/app'
-import 'firebase/firestore'
-
-const db = firebase.firestore()
-db.settings = { timestampsInSnapshots: true }
+import { mapState, mapActions } from 'vuex'
 
 export default {
   data() {
-    return {
-      documents: [],
-    }
+    return {}
   },
-  methods: {
-    orderDocuments(elements) {
-      return this.$_.orderBy(elements, 'order')
-    },
-  },
-  firestore: {
-    documents: db.collection('information'),
-  },
+  methods: {},
   components: {
     InformationLink,
   },
-  computed: {},
+  computed: {
+    ...mapState(['informationData']),
+  },
   created() {
     this.$store.dispatch('loadInformationData')
   },

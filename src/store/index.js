@@ -304,8 +304,8 @@ export default new Vuex.Store({
 
       commit('loadShopData', shopData)
     },
-    async loadTestimonyData({ commit }) {
-      let testimonyData = await firebase
+    loadTestimonyData({ commit }) {
+      let testimonyData = firebase
         .firestore()
         .collection('testimonies')
         .get()
@@ -315,8 +315,8 @@ export default new Vuex.Store({
           commit('loadTestimonyData', documents)
         })
     },
-    async loadHealthData({ commit }) {
-      let healthData = await firebase
+    loadHealthData({ commit }) {
+      let healthData = firebase
         .firestore()
         .collection('health')
         .get()
