@@ -26,8 +26,13 @@ export default new Vuex.Store({
       uid: '',
     },
     cart: [],
+    shopData: {},
   },
   mutations: {
+    loadShopData(state, shopData) {
+      console.log('shopData: ', shopData)
+      state.shopData = shopData
+    },
     loggedIn(state, user) {
       if (user) {
         state.user.firstName = user.firstName
@@ -246,6 +251,78 @@ export default new Vuex.Store({
           })
       }
     },
+    async loadShopData({ commit }) {
+      let essentialOilSingles = await firebase
+        .firestore()
+        .collection('product')
+        .doc('essentialOilSingles')
+        .get()
+      let essentialOilBlends = await firebase
+        .firestore()
+        .collection('product')
+        .doc('essentialOilBlends')
+        .get()
+      let shiaqgaPetImmunity = await firebase
+        .firestore()
+        .collection('product')
+        .doc('shiaqgaPetImmunity')
+        .get()
+      let shiaqgaOriginalFormula = await firebase
+        .firestore()
+        .collection('product')
+        .doc('shiaqgaOriginalFormula')
+        .get()
+      let shiaqgaSuperConcentrate = await firebase
+        .firestore()
+        .collection('product')
+        .doc('shiaqgaSuperConcentrate')
+        .get()
+      let accessories = await firebase
+        .firestore()
+        .collection('product')
+        .doc('accessories')
+        .get()
+
+      console.log('hello')
+      let shopData = {
+        essentialOilSingles: essentialOilSingles.data(),
+        essentialOilBlends: essentialOilBlends.data(),
+        shiaqgaPetImmunity: shiaqgaPetImmunity.data(),
+        shiaqgaOriginalFormula: shiaqgaOriginalFormula.data(),
+        accessories: accessories.data(),
+        shiaqgaSuperConcentrate: shiaqgaSuperConcentrate.data(),
+      }
+
+      commit('loadShopData', shopData)
+    },
   },
   modules: {},
 })
+
+// loadTestimonyData() {
+//   let testimonyData = await firebase
+//       .firestore()
+//       .collection('user')
+//       .doc(state.user.uid)
+//       .collection('stripe')
+//       .doc('stripe_customer')
+//       .get()
+// },
+// loadHealthData() {
+//   let healthData = await firebase
+//       .firestore()
+//       .collection('user')
+//       .doc(state.user.uid)
+//       .collection('stripe')
+//       .doc('stripe_customer')
+//       .get()
+// },
+// loadInformationData() {
+//   let informationData = await firebase
+//       .firestore()
+//       .collection('user')
+//       .doc(state.user.uid)
+//       .collection('stripe')
+//       .doc('stripe_customer')
+//       .get()
+// },

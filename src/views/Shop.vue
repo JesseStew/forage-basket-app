@@ -1,11 +1,11 @@
 <template>
   <div class="shop">
-    <!-- <p>{{ shiaqgaOriginalFormula }}</p> -->
-    <!-- <p>{{ essentialOilSingles }}</p> -->
-    <!-- <p>{{ shiaqgaSuperConcentrate }}</p> -->
-    <!-- <p>{{ essentialOilBlends }}</p> -->
-    <!-- <p>{{ shiaqgaPetImmunity }}</p> -->
-    <!-- <p>{{ accessories }}</p> -->
+    <!-- <p>{{ shopData.shiaqgaOriginalFormula }}</p> -->
+    <!-- <p>{{ shopData.essentialOilSingles }}</p> -->
+    <!-- <p>{{ shopData.shiaqgaSuperConcentrate }}</p> -->
+    <!-- <p>{{ shopData.essentialOilBlends }}</p> -->
+    <!-- <p>{{ shopData.shiaqgaPetImmunity }}</p> -->
+    <!-- <p>{{ shopData.accessories }}</p> -->
     <v-container>
       <v-row>
         <v-col cols="8">
@@ -32,13 +32,13 @@
       <v-row>
         <v-col cols="6">
           <ProductLink
-            :productData="shiaqgaOriginalFormulaComputed"
+            :productData="shopData.shiaqgaOriginalFormula"
             :title="'Shiaqga Original Formula'"
           />
         </v-col>
         <v-col cols="6" class="text-center">
           <ProductLink
-            :productData="shiaqgaSuperConcentrateComputed"
+            :productData="shopData.shiaqgaSuperConcentrate"
             :title="'Shiaqga Super Concentrate'"
           />
           <!-- <ProductLink
@@ -247,46 +247,20 @@
 </template>
 <script>
 import ProductLink from '@/components/ProductLink.vue'
-
-import firebase from 'firebase/app'
-import 'firebase/firestore'
-
-const db = firebase.firestore()
-db.settings = { timestampsInSnapshots: true }
+import { mapState, mapActions } from 'vuex'
 
 export default {
   data() {
-    return {
-      essentialOilSingles: {},
-      shiaqgaSuperConcentrate: {},
-      essentialOilBlends: {},
-      shiaqgaPetImmunity: {},
-      shiaqgaOriginalFormula: {},
-      accessories: {},
-    }
+    return {}
   },
   components: {
     ProductLink,
   },
   computed: {
-    shiaqgaOriginalFormulaComputed() {
-      return this.shiaqgaOriginalFormula
-    },
-    shiaqgaSuperConcentrateComputed() {
-      return this.shiaqgaSuperConcentrate
-    },
+    ...mapState(['shopData']),
   },
-  firestore: {
-    essentialOilSingles: db.collection('product').doc('essentialOilSingles'),
-    shiaqgaSuperConcentrate: db
-      .collection('product')
-      .doc('shiaqgaSuperConcentrate'),
-    essentialOilBlends: db.collection('product').doc('essentialOilBlends'),
-    shiaqgaPetImmunity: db.collection('product').doc('shiaqgaPetImmunity'),
-    shiaqgaOriginalFormula: db
-      .collection('product')
-      .doc('shiaqgaOriginalFormula'),
-    accessories: db.collection('product').doc('accessories'),
+  created() {
+    this.$store.dispatch('loadShopData')
   },
 }
 </script>
