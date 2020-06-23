@@ -7,7 +7,7 @@ const fs = require('fs')
 let essentialOilSingles = require('./EssentialOilSingles/EssentialOilSingles.json')
 let accessories = require('./Accessories/accessories.json')
 let essentialOilBlends = require('./EssentialOilBlends/EssentialOilBlends.json')
-let shiagqaOriginalFormula = require('./ShiaqgaOriginalFormula/ShiagqaOriginalFormula.json')
+let shiaqgaOriginalFormula = require('./ShiaqgaOriginalFormula/ShiaqgaOriginalFormula.json')
 let shiaqgaPetImmunity = require('./ShiaqgaPetImmunity/shiaqgaPetImmunity.json')
 let shiaqgaSuperConcentrate = require('./ShiaqgaSuperConcentrate/ShiaqgaSuperConcentrate.json')
 
@@ -31,7 +31,8 @@ function createProps(category, jsonName) {
     })
   }
   let obj = {}
-  obj[jsonName] = props
+  // obj[jsonName] = props
+  obj['properties'] = props
 
   obj = JSON.stringify(obj)
 
@@ -42,6 +43,6 @@ function createProps(category, jsonName) {
 createProps(essentialOilSingles, 'essentialOilSingles')
 createProps(accessories, 'accessories')
 createProps(essentialOilBlends, 'essentialOilBlends')
-createProps(shiagqaOriginalFormula, 'shiagqaOriginalFormula')
+createProps(shiaqgaOriginalFormula, 'shiaqgaOriginalFormula')
 createProps(shiaqgaPetImmunity, 'shiaqgaPetImmunity')
 createProps(shiaqgaSuperConcentrate, 'shiaqgaSuperConcentrate')
