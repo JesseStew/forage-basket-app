@@ -1,5 +1,11 @@
 <template>
   <div class="shop">
+    <!-- <p>{{ shiaqgaOriginalFormula }}</p> -->
+    <!-- <p>{{ essentialOilSingles }}</p> -->
+    <!-- <p>{{ shiaqgaSuperConcentrate }}</p> -->
+    <!-- <p>{{ essentialOilBlends }}</p> -->
+    <!-- <p>{{ shiaqgaPetImmunity }}</p> -->
+    <!-- <p>{{ accessories }}</p> -->
     <v-container>
       <v-row>
         <v-col cols="8">
@@ -26,19 +32,16 @@
       <v-row>
         <v-col cols="6">
           <ProductLink
-            :title="'​​Shiaqga - Original Formula 2oz - $76 or less per bottle'"
-            :imgSrc="
-              'https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/shiaqga-red.png?alt=media&token=24232b24-24f0-4731-ab3a-abd6e1502d85'
-            "
-            :text="
-              'Ingredients: Wild Shiaqga (1200% Extract), Organic essential oils of Black Cumin, Lemon, Cinnamon Bark, Peppermint, and Wild Sacred Frankincense.'
-            "
-            :productId="'prod_HRTG11G02igxx7'"
-            :priceId="'price_1GtHmWHhLIxiPD1kfhwqgxzl'"
+            :productData="shiaqgaOriginalFormulaComputed"
+            :title="'Shiaqga Original Formula'"
           />
         </v-col>
         <v-col cols="6" class="text-center">
           <ProductLink
+            :productData="shiaqgaSuperConcentrateComputed"
+            :title="'Shiaqga Super Concentrate'"
+          />
+          <!-- <ProductLink
             :title="
               '​​Shiaqga - Super Concentrate 4oz - $176 or less per bottle'
             "
@@ -50,7 +53,7 @@
             "
             :productId="'prod_HRTGHbm4A02KE1'"
             :priceId="'price_1GtHmWHhLIxiPD1kLYHNR5l3'"
-          />
+          /> -->
         </v-col>
       </v-row>
       <v-row class="my-10">
@@ -58,7 +61,7 @@
       </v-row>
       <v-row>
         <v-col>
-          <ProductLink
+          <!-- <ProductLink
             :title="'Shiaqga Pet Immunity'"
             :imgSrc="
               'https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Shiaqga%20-%20Pet%2Fshiaqga-pet_1.jpg?alt=media&token=90acabea-c865-42f1-8fcd-9d0a24b49d80'
@@ -66,7 +69,7 @@
             :text="'Ingredients: 100% ground Shiaqga.'"
             :productId="'prod_HRTGLnpLKYy18b'"
             :priceId="'price_1GtHmPHhLIxiPD1kEL8A24xt'"
-          />
+          /> -->
         </v-col>
         <v-col>
           <iframe
@@ -168,7 +171,7 @@
       </v-row>
       <v-row>
         <v-col>
-          <ProductLink
+          <!-- <ProductLink
             :title="'Energy Balancing Necklace'"
             :imgSrc="
               'https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Accessories%2Fenergy-necklace_2_orig.jpg?alt=media&token=70eb4a98-b686-4a6e-bb31-6676d653ad0d'
@@ -178,7 +181,7 @@
             "
             :productId="'prod_HRTGAPVyQhAn9R'"
             :priceId="'price_1GtHmYHhLIxiPD1kkqIdB9Ux'"
-          />
+          /> -->
         </v-col>
       </v-row>
       <v-row class="my-10">
@@ -244,9 +247,46 @@
 </template>
 <script>
 import ProductLink from '@/components/ProductLink.vue'
+
+import firebase from 'firebase/app'
+import 'firebase/firestore'
+
+const db = firebase.firestore()
+db.settings = { timestampsInSnapshots: true }
+
 export default {
+  data() {
+    return {
+      essentialOilSingles: {},
+      shiaqgaSuperConcentrate: {},
+      essentialOilBlends: {},
+      shiaqgaPetImmunity: {},
+      shiaqgaOriginalFormula: {},
+      accessories: {},
+    }
+  },
   components: {
     ProductLink,
+  },
+  computed: {
+    shiaqgaOriginalFormulaComputed() {
+      return this.shiaqgaOriginalFormula
+    },
+    shiaqgaSuperConcentrateComputed() {
+      return this.shiaqgaSuperConcentrate
+    },
+  },
+  firestore: {
+    essentialOilSingles: db.collection('product').doc('essentialOilSingles'),
+    shiaqgaSuperConcentrate: db
+      .collection('product')
+      .doc('shiaqgaSuperConcentrate'),
+    essentialOilBlends: db.collection('product').doc('essentialOilBlends'),
+    shiaqgaPetImmunity: db.collection('product').doc('shiaqgaPetImmunity'),
+    shiaqgaOriginalFormula: db
+      .collection('product')
+      .doc('shiaqgaOriginalFormula'),
+    accessories: db.collection('product').doc('accessories'),
   },
 }
 </script>

@@ -61,19 +61,4 @@ export default {
 }
 </script>
 
-<style scoped>
-.testimonies {
-  text-align: left;
-  margin: 2em;
-}
-.testimonies h1 {
-  text-align: center;
-  margin: 2em;
-}
-.outline {
-  border-top: 1px solid #cbcbcb;
-  border-bottom: 1px solid #cbcbcb;
-  padding: 1.5em;
-  text-align: center;
-}
-</style>
+<style scoped></style>
