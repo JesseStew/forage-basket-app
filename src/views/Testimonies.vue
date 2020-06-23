@@ -58,6 +58,9 @@ export default {
     documents: db.collection('testimonies').orderBy('order'),
   },
   computed: {},
+  created() {
+    this.$store.dispatch('loadTestimonyData')
+  },
 }
 </script>
 

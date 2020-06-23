@@ -68,6 +68,9 @@ export default {
   components: {
     InformationLink,
   },
+  created() {
+    this.$store.dispatch('loadHealthData')
+  },
 }
 </script>
 

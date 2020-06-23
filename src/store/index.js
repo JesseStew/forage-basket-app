@@ -27,11 +27,22 @@ export default new Vuex.Store({
     },
     cart: [],
     shopData: {},
+    testimonyData: {},
+    healthData: {},
+    informationData: [],
   },
   mutations: {
-    loadShopData(state, shopData) {
-      console.log('shopData: ', shopData)
-      state.shopData = shopData
+    loadTestimonyData(state, data) {
+      state.testimonyData = data
+    },
+    loadHealthData(state, data) {
+      state.healthData = data
+    },
+    loadInformationData(state, data) {
+      state.informationData = data
+    },
+    loadShopData(state, data) {
+      state.shopData = data
     },
     loggedIn(state, user) {
       if (user) {
@@ -65,7 +76,6 @@ export default new Vuex.Store({
       state.user.uid = ''
     },
     registerAccount(state, user) {
-      // console.log('state.user:', user)
       state.user.firstName = user.firstName
       state.user.lastName = user.lastName
       state.user.userName = user.userName
@@ -283,7 +293,6 @@ export default new Vuex.Store({
         .doc('accessories')
         .get()
 
-      console.log('hello')
       let shopData = {
         essentialOilSingles: essentialOilSingles.data(),
         essentialOilBlends: essentialOilBlends.data(),
@@ -295,34 +304,39 @@ export default new Vuex.Store({
 
       commit('loadShopData', shopData)
     },
+    async loadTestimonyData({ commit }) {
+      let testimonyData = await firebase
+        .firestore()
+        .collection('testimonies')
+        .get()
+        .then((querySnapshot) => {
+          const documents = querySnapshot.docs.map((doc) => doc.data())
+          console.log('loadTestimonyData: ', documents)
+          commit('loadTestimonyData', documents)
+        })
+    },
+    async loadHealthData({ commit }) {
+      let healthData = await firebase
+        .firestore()
+        .collection('health')
+        .get()
+        .then((querySnapshot) => {
+          const documents = querySnapshot.docs.map((doc) => doc.data())
+          console.log('loadHealthData: ', documents)
+          commit('loadHealthData', documents)
+        })
+    },
+    loadInformationData({ commit }) {
+      let informationData = firebase
+        .firestore()
+        .collection('information')
+        .get()
+        .then((querySnapshot) => {
+          const documents = querySnapshot.docs.map((doc) => doc.data())
+          console.log('informationData: ', documents)
+          commit('loadInformationData', documents)
+        })
+    },
   },
   modules: {},
 })
-
-// loadTestimonyData() {
-//   let testimonyData = await firebase
-//       .firestore()
-//       .collection('user')
-//       .doc(state.user.uid)
-//       .collection('stripe')
-//       .doc('stripe_customer')
-//       .get()
-// },
-// loadHealthData() {
-//   let healthData = await firebase
-//       .firestore()
-//       .collection('user')
-//       .doc(state.user.uid)
-//       .collection('stripe')
-//       .doc('stripe_customer')
-//       .get()
-// },
-// loadInformationData() {
-//   let informationData = await firebase
-//       .firestore()
-//       .collection('user')
-//       .doc(state.user.uid)
-//       .collection('stripe')
-//       .doc('stripe_customer')
-//       .get()
-// },

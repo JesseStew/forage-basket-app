@@ -147,5 +147,8 @@ export default {
     InformationLink,
   },
   computed: {},
+  created() {
+    this.$store.dispatch('loadInformationData')
+  },
 }
 </script>
