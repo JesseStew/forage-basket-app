@@ -32,28 +32,15 @@
       <v-row>
         <v-col cols="6">
           <ProductLink
-            :productData="shopData.shiaqgaOriginalFormula"
-            :title="'Shiaqga Original Formula'"
+            :key="componentKey"
+            :productName="'shiaqgaOriginalFormula'"
           />
         </v-col>
         <v-col cols="6" class="text-center">
           <ProductLink
-            :productData="shopData.shiaqgaSuperConcentrate"
-            :title="'Shiaqga Super Concentrate'"
+            :key="componentKey"
+            :productName="'shiaqgaSuperConcentrate'"
           />
-          <!-- <ProductLink
-            :title="
-              '​​Shiaqga - Super Concentrate 4oz - $176 or less per bottle'
-            "
-            :imgSrc="
-              'https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/shiaqga-green.png?alt=media&token=74d24f08-9f31-4ba5-a3a6-a68659f36b55'
-            "
-            :text="
-              'Ingredients: Wild Shiaqga (2000% Extract), Organic Black Cumin, Wild Sacred Frankincense, Organic Lemon, Organic Cinnamon Bark, and Organic Peppermint'
-            "
-            :productId="'prod_HRTGHbm4A02KE1'"
-            :priceId="'price_1GtHmWHhLIxiPD1kLYHNR5l3'"
-          /> -->
         </v-col>
       </v-row>
       <v-row class="my-10">
@@ -61,15 +48,10 @@
       </v-row>
       <v-row>
         <v-col>
-          <!-- <ProductLink
-            :title="'Shiaqga Pet Immunity'"
-            :imgSrc="
-              'https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Shiaqga%20-%20Pet%2Fshiaqga-pet_1.jpg?alt=media&token=90acabea-c865-42f1-8fcd-9d0a24b49d80'
-            "
-            :text="'Ingredients: 100% ground Shiaqga.'"
-            :productId="'prod_HRTGLnpLKYy18b'"
-            :priceId="'price_1GtHmPHhLIxiPD1kEL8A24xt'"
-          /> -->
+          <ProductLink
+            :key="componentKey"
+            :productName="'shiaqgaPetImmunity'"
+          />
         </v-col>
         <v-col>
           <iframe
@@ -247,17 +229,27 @@
 </template>
 <script>
 import ProductLink from '@/components/ProductLink.vue'
-import { mapState, mapActions } from 'vuex'
+import { mapState } from 'vuex'
 
 export default {
   data() {
-    return {}
+    return {
+      componentKey: 0,
+    }
+  },
+  methods: {
+    forceRerender() {
+      this.componentKey += 1
+    },
   },
   components: {
     ProductLink,
   },
   computed: {
     ...mapState(['shopData']),
+  },
+  watch: {
+    shopData: 'forceRerender',
   },
   created() {
     this.$store.dispatch('loadShopData')

@@ -3,7 +3,7 @@
     <v-row class="text-center">
       <v-col cols="12">
         <h1>
-          {{ name }}
+          {{ productName }}
         </h1>
       </v-col>
       <v-col cols="12">
@@ -55,7 +55,7 @@ export default {
       name: '',
       description: '',
       productId: '',
-      priceId: '',
+      productName: '',
       quantity: 1,
       productLoaded: false,
       priceLoaded: false,
@@ -106,8 +106,8 @@ export default {
   },
   created() {
     this.productId = this.$route.params.id
-    if (this.$route.query.priceId) {
-      this.priceId = this.$route.query.priceId
+    if (this.$route.query.productName) {
+      this.productName = this.$route.query.productName
     }
   },
   mounted() {
