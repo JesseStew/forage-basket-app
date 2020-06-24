@@ -1,11 +1,5 @@
 <template>
   <v-container class="product">
-    <p>
-      {{ test }}
-    </p>
-    <p>
-      {{ test2 }}
-    </p>
     <v-row class="text-center">
       <v-col cols="12">
         <h1>
@@ -71,14 +65,6 @@ export default {
     ...mapState(['shopData']),
     productsArray() {
       return this.shopData[this.productName].properties
-    },
-    test() {
-      return this.shopData[this.productName].properties[0]
-    },
-    test2() {
-      return this.$_.find(this.productsArray, (o) => {
-        return this.selectedProductDescription === o.description
-      })
     },
     selectedProduct() {
       console.log(
