@@ -1,5 +1,6 @@
 <template>
   <div class="shop">
+    <p>{{ test }}</p>
     <!-- <p>{{ shopData.shiaqgaOriginalFormula }}</p> -->
     <!-- <p>{{ shopData.essentialOilSingles }}</p> -->
     <!-- <p>{{ shopData.shiaqgaSuperConcentrate }}</p> -->

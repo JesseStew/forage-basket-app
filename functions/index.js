@@ -22,6 +22,11 @@ app.get('/getStripePrice/:priceId', async (req, res) => {
   res.send(price)
 })
 
+app.get('/getAllStripePrices', async (req, res) => {
+  const prices = await stripe.prices.list({ limit: 100 })
+  res.send(prices)
+})
+
 app.post('/create-session', async (req, res) => {
   console.log('req.body: ', req.body)
   const session = await stripe.checkout.sessions.create({

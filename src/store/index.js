@@ -42,7 +42,17 @@ export default new Vuex.Store({
       state.informationData = data
     },
     loadShopData(state, data) {
-      state.shopData = data
+      let shopData = data.shopData
+      let prices = data.prices
+      console.log('prices', prices)
+      _.forEach(shopData, (category) => {
+        _.forEach(category.properties, (product) => {
+          product.price = _.find(prices, (o) => {
+            return o.product === product.productId
+          })
+        })
+      })
+      state.shopData = shopData
     },
     loggedIn(state, user) {
       if (user) {
@@ -293,6 +303,8 @@ export default new Vuex.Store({
         .doc('accessories')
         .get()
 
+      let prices = await http.get('/widgets/getAllStripePrices')
+
       let shopData = {
         essentialOilSingles: essentialOilSingles.data(),
         essentialOilBlends: essentialOilBlends.data(),
@@ -302,7 +314,7 @@ export default new Vuex.Store({
         shiaqgaSuperConcentrate: shiaqgaSuperConcentrate.data(),
       }
 
-      commit('loadShopData', shopData)
+      commit('loadShopData', { shopData: shopData, prices: prices.data.data })
     },
     loadTestimonyData({ commit }) {
       let testimonyData = firebase

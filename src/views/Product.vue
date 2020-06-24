@@ -1,9 +1,12 @@
 <template>
   <v-container class="product">
+    <p>
+      {{ test }}
+    </p>
     <v-row class="text-center">
       <v-col cols="12">
         <h1>
-          {{ productName }}
+          {{ productTitle }}
         </h1>
       </v-col>
       <v-col cols="12">
@@ -12,9 +15,13 @@
         </div>
       </v-col>
       <v-col cols="12">
-        <p>
-          {{ description }}
-        </p>
+        <v-select
+          v-model="selectedProduct"
+          :items="productsArray"
+          label="Select Product"
+          item-text="description"
+        >
+        </v-select>
       </v-col>
       <v-col class="text-right" cols="6">
         <p class="pt-5">${{ (unitAmount * quantity).toFixed(2) }}</p>
@@ -43,24 +50,46 @@
 
 <script>
 import http from '../http-common'
-import firebase from 'firebase/app'
-import 'firebase/firestore'
+import { mapState } from 'vuex'
 
 export default {
   name: 'Product',
   data: function() {
     return {
       active: false,
-      images: [],
       name: '',
-      description: '',
-      productId: '',
       productName: '',
       quantity: 1,
       productLoaded: false,
       priceLoaded: false,
       unitAmount: null,
+      selectedProduct: {},
     }
+  },
+  computed: {
+    ...mapState(['shopData']),
+    productsArray() {
+      return this.shopData[this.productName].properties
+    },
+    test() {
+      return this.shopData[this.productName].properties[0]
+    },
+    productTitle() {
+      return this.shopData[this.productName].properties[0].productName
+    },
+    images() {
+      return this.shopData[this.productName].properties[0].images
+    },
+    description() {
+      // Update this
+      return this.shopData[this.productName].properties[0].description
+    },
+    priceId() {
+      return this.shopData[this.productName].properties[0].priceId
+    },
+    productId() {
+      return this.shopData[this.productName].properties[0].productId
+    },
   },
   methods: {
     addToCart() {
@@ -116,6 +145,13 @@ export default {
     this.$store.dispatch('loggedIn')
   },
 }
+
+// priceId() {
+//   return this.shopData[this.productName].properties[0].priceId
+// },
+// productId() {
+//   return this.shopData[this.productName].properties[0].productId
+// },
 </script>
 
 <style scoped></style>
