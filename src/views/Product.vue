@@ -3,6 +3,9 @@
     <p>
       {{ test }}
     </p>
+    <p>
+      {{ test2 }}
+    </p>
     <v-row class="text-center">
       <v-col cols="12">
         <h1>
@@ -16,7 +19,7 @@
       </v-col>
       <v-col cols="12">
         <v-select
-          v-model="selectedProduct"
+          v-model="selectedProductDescription"
           :items="productsArray"
           label="Select Product"
           item-text="description"
@@ -24,7 +27,7 @@
         </v-select>
       </v-col>
       <v-col class="text-right" cols="6">
-        <p class="pt-5">${{ (unitAmount * quantity).toFixed(2) }}</p>
+        <p class="pt-5">${{ selectedProductPrice * quantity }}</p>
       </v-col>
       <v-col cols="6">
         <v-text-field
@@ -35,7 +38,7 @@
         ></v-text-field>
       </v-col>
       <v-col cols="6">
-        <v-btn v-if="productLoaded && priceLoaded" @click="addToCart()">
+        <v-btn @click="addToCart()">
           Add to Cart
         </v-btn>
       </v-col>
@@ -57,13 +60,11 @@ export default {
   data: function() {
     return {
       active: false,
-      name: '',
       productName: '',
       quantity: 1,
       productLoaded: false,
       priceLoaded: false,
-      unitAmount: null,
-      selectedProduct: {},
+      selectedProductDescription: {},
     }
   },
   computed: {
@@ -74,6 +75,28 @@ export default {
     test() {
       return this.shopData[this.productName].properties[0]
     },
+    test2() {
+      return this.$_.find(this.productsArray, (o) => {
+        return this.selectedProductDescription === o.description
+      })
+    },
+    selectedProduct() {
+      console.log(
+        this.$_.find(this.productsArray, (o) => {
+          return this.selectedProductDescription === o.description
+        })
+      )
+      return this.$_.find(this.productsArray, (o) => {
+        return this.selectedProductDescription === o.description
+      })
+    },
+    selectedProductPrice() {
+      if (this.selectedProduct) {
+        return (this.selectedProduct.price.unit_amount / 100).toFixed(2)
+      } else {
+        return (0).toFixed(2)
+      }
+    },
     productTitle() {
       return this.shopData[this.productName].properties[0].productName
     },
@@ -82,13 +105,25 @@ export default {
     },
     description() {
       // Update this
-      return this.shopData[this.productName].properties[0].description
+      if (this.selectedProduct) {
+        return this.selectedProduct.description
+      } else {
+        return this.shopData[this.productName].properties[0].description
+      }
     },
     priceId() {
-      return this.shopData[this.productName].properties[0].priceId
+      if (this.selectedProduct) {
+        return this.selectedProduct.priceId
+      } else {
+        return this.shopData[this.productName].properties[0].priceId
+      }
     },
     productId() {
-      return this.shopData[this.productName].properties[0].productId
+      if (this.selectedProduct) {
+        return this.selectedProduct.productId
+      } else {
+        return this.shopData[this.productName].properties[0].productId
+      }
     },
   },
   methods: {
@@ -100,48 +135,20 @@ export default {
           productId: this.productId,
           active: this.active,
           images: this.images,
-          name: this.name,
+          name: this.description,
           description: this.description,
-          unitAmount: this.unitAmount,
+          unitAmount: this.selectedProductPrice,
         },
       }
       this.$store.dispatch('addToCart', payload)
     },
-    async getStripeProduct() {
-      http
-        .get('widgets/getStripeProduct/' + this.productId)
-        .then((res) => {
-          this.active = res.data.active
-          this.images = res.data.images
-          this.name = res.data.name
-          this.description = res.data.description
-          this.productLoaded = true
-        })
-        .catch(function(error) {
-          console.log(error)
-        })
-    },
-    async getStripePrice() {
-      http
-        .get('widgets/getStripePrice/' + this.priceId)
-        .then((res) => {
-          this.unitAmount = (res.data.unit_amount / 100).toFixed(2)
-          this.priceLoaded = true
-        })
-        .catch(function(error) {
-          console.log(error)
-        })
-    },
   },
   created() {
-    this.productId = this.$route.params.id
     if (this.$route.query.productName) {
       this.productName = this.$route.query.productName
     }
   },
   mounted() {
-    this.getStripeProduct()
-    this.getStripePrice()
     this.$store.dispatch('loggedIn')
   },
 }
