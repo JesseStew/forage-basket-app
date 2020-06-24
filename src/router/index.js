@@ -90,6 +90,14 @@ export const routes = [
     component: () =>
       import(/* webpackChunkName: "checkout" */ '../views/Cart.vue'),
   },
+  {
+    path: '/product-category',
+    name: 'Product Category',
+    component: () =>
+      import(
+        /* webpackChunkName: "product-category" */ '../views/ProductCategory.vue'
+      ),
+  },
 ]
 
 const router = new VueRouter({

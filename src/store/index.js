@@ -44,12 +44,9 @@ export default new Vuex.Store({
     loadShopData(state, data) {
       let shopData = data.shopData
       let prices = data.prices
-      console.log('prices', prices)
-      _.forEach(shopData, (category) => {
-        _.forEach(category.properties, (product) => {
-          product.price = _.find(prices, (o) => {
-            return o.product === product.productId
-          })
+      _.forEach(shopData, (product) => {
+        product.price = _.find(prices, (o) => {
+          return o.product === product.productId
         })
       })
       state.shopData = shopData
@@ -222,16 +219,16 @@ export default new Vuex.Store({
       commit('addToCart', payload)
     },
     async checkout({ commit, state }) {
-      console.log('uid: ', state.user.uid)
-      console.log('cart: ', state.cart)
+      // console.log('uid: ', state.user.uid)
+      // console.log('cart: ', state.cart)
       let cart = []
       _.forEach(state.cart, (item) => {
         cart.push({
           price: item.price,
           quantity: item.quantity,
         })
-        console.log('price: ', item.price)
-        console.log('quantity: ', item.quantity)
+        // console.log('price: ', item.price)
+        // console.log('quantity: ', item.quantity)
       })
       if (state.user.uid === '') {
         router.push({ path: '/user-account' })
@@ -252,8 +249,8 @@ export default new Vuex.Store({
             line_items: cart,
           })
           .then((response) => {
-            console.log('response: ', response)
-            console.log('response.data.sessionId: ', response.data.sessionId)
+            // console.log('response: ', response)
+            // console.log('response.data.sessionId: ', response.data.sessionId)
             let sessionId = response.data.sessionId
             stripe
               .redirectToCheckout({
@@ -272,47 +269,16 @@ export default new Vuex.Store({
       }
     },
     async loadShopData({ commit }) {
-      let essentialOilSingles = await firebase
+      let data = await firebase
         .firestore()
         .collection('product')
-        .doc('essentialOilSingles')
         .get()
-      let essentialOilBlends = await firebase
-        .firestore()
-        .collection('product')
-        .doc('essentialOilBlends')
-        .get()
-      let shiaqgaPetImmunity = await firebase
-        .firestore()
-        .collection('product')
-        .doc('shiaqgaPetImmunity')
-        .get()
-      let shiaqgaOriginalFormula = await firebase
-        .firestore()
-        .collection('product')
-        .doc('shiaqgaOriginalFormula')
-        .get()
-      let shiaqgaSuperConcentrate = await firebase
-        .firestore()
-        .collection('product')
-        .doc('shiaqgaSuperConcentrate')
-        .get()
-      let accessories = await firebase
-        .firestore()
-        .collection('product')
-        .doc('accessories')
-        .get()
+      let shopData = []
+      data.forEach((doc) => {
+        shopData.push(doc.data())
+      })
 
       let prices = await http.get('/widgets/getAllStripePrices')
-
-      let shopData = {
-        essentialOilSingles: essentialOilSingles.data(),
-        essentialOilBlends: essentialOilBlends.data(),
-        shiaqgaPetImmunity: shiaqgaPetImmunity.data(),
-        shiaqgaOriginalFormula: shiaqgaOriginalFormula.data(),
-        accessories: accessories.data(),
-        shiaqgaSuperConcentrate: shiaqgaSuperConcentrate.data(),
-      }
 
       commit('loadShopData', { shopData: shopData, prices: prices.data.data })
     },
@@ -323,7 +289,7 @@ export default new Vuex.Store({
         .get()
         .then((querySnapshot) => {
           const documents = querySnapshot.docs.map((doc) => doc.data())
-          console.log('loadTestimonyData: ', documents)
+          // console.log('loadTestimonyData: ', documents)
           commit('loadTestimonyData', documents)
         })
     },
@@ -334,7 +300,7 @@ export default new Vuex.Store({
         .get()
         .then((querySnapshot) => {
           const documents = querySnapshot.docs.map((doc) => doc.data())
-          console.log('loadHealthData: ', documents)
+          // console.log('loadHealthData: ', documents)
           commit('loadHealthData', documents)
         })
     },
@@ -345,9 +311,40 @@ export default new Vuex.Store({
         .get()
         .then((querySnapshot) => {
           const documents = querySnapshot.docs.map((doc) => doc.data())
-          console.log('informationData: ', documents)
           commit('loadInformationData', documents)
         })
+    },
+  },
+  getters: {
+    accessories: (state) => {
+      return state.shopData.filter((product) => {
+        return product.category === 'accessories'
+      })
+    },
+    essentialOilBlends: (state) => {
+      return state.shopData.filter((product) => {
+        return product.category === 'essentialOilBlends'
+      })
+    },
+    essentialOilSingles: (state) => {
+      return state.shopData.filter((product) => {
+        return product.category === 'essentialOilSingles'
+      })
+    },
+    shiaqgaSuperConcentrate: (state) => {
+      return state.shopData.filter((product) => {
+        return product.category === 'shiaqgaSuperConcentrate'
+      })
+    },
+    shiaqgaOriginalFormula: (state) => {
+      return state.shopData.filter((product) => {
+        return product.category === 'shiaqgaOriginalFormula'
+      })
+    },
+    shiaqgaPetImmunity: (state) => {
+      return state.shopData.filter((product) => {
+        return product.category === 'shiaqgaPetImmunity'
+      })
     },
   },
   modules: {},

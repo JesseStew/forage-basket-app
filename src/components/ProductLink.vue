@@ -38,14 +38,19 @@ import { mapState } from 'vuex'
 export default {
   computed: {
     ...mapState(['shopData']),
+    products() {
+      return this.$_.filter(this.shopData, (product) => {
+        return product.category === this.productName
+      })
+    },
     imgSrc() {
-      return this.shopData[this.productName].properties[0].images[0]
+      return this.products[0].images[0]
     },
     title() {
-      return this.shopData[this.productName].properties[0].productName
+      return this.products[0].productName
     },
     description() {
-      return this.shopData[this.productName].properties[0].description
+      return this.products[0].description
     },
   },
   props: {

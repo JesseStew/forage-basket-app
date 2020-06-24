@@ -92,7 +92,12 @@
           <v-row>
             <v-col>
               <!-- here, add routing -->
-              <v-btn>
+              <v-btn
+                :to="{
+                  name: 'Product Category',
+                  query: { productCategory: 'essentialOilSingles' },
+                }"
+              >
                 Essential Oil Singles
               </v-btn>
             </v-col>

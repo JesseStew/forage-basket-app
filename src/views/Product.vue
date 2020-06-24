@@ -12,6 +12,7 @@
         </div>
       </v-col>
       <v-col cols="12">
+        <!-- here, fix order -->
         <v-select
           v-model="selectedProductDescription"
           :items="productsArray"
@@ -64,14 +65,11 @@ export default {
   computed: {
     ...mapState(['shopData']),
     productsArray() {
-      return this.shopData[this.productName].properties
+      return this.$_.filter(this.shopData, (product) => {
+        return product.category === this.productName
+      })
     },
     selectedProduct() {
-      console.log(
-        this.$_.find(this.productsArray, (o) => {
-          return this.selectedProductDescription === o.description
-        })
-      )
       return this.$_.find(this.productsArray, (o) => {
         return this.selectedProductDescription === o.description
       })
@@ -84,31 +82,31 @@ export default {
       }
     },
     productTitle() {
-      return this.shopData[this.productName].properties[0].productName
+      return this.productsArray[0].productName
     },
     images() {
-      return this.shopData[this.productName].properties[0].images
+      return this.productsArray[0].images
     },
     description() {
       // Update this
       if (this.selectedProduct) {
         return this.selectedProduct.description
       } else {
-        return this.shopData[this.productName].properties[0].description
+        return this.productsArray[0].description
       }
     },
     priceId() {
       if (this.selectedProduct) {
         return this.selectedProduct.priceId
       } else {
-        return this.shopData[this.productName].properties[0].priceId
+        return this.productsArray[0].priceId
       }
     },
     productId() {
       if (this.selectedProduct) {
         return this.selectedProduct.productId
       } else {
-        return this.shopData[this.productName].properties[0].productId
+        return this.productsArray[0].productId
       }
     },
   },
