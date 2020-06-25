@@ -22,13 +22,14 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col>
+        <v-col cols="12" md="6">
           <img
+            style="max-width:100%"
             src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/peppermint-compair.jpg?alt=media&token=1479a8a9-83d0-4922-ae9e-8cc9291e9b5e"
             alt=""
           />
         </v-col>
-        <v-col>
+        <v-col cols="12" md="6">
           <p>
             ​There is a valid reason why two products with basically the exact
             same labeling of Organic, Therapeutic Quality, and All Natural can

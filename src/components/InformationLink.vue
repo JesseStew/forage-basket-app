@@ -27,6 +27,7 @@
                 class="image"
                 v-if="element.element == 'img'"
                 :src="element.src"
+                style="max-width: 100%"
                 alt=""
               />
               <v-row>

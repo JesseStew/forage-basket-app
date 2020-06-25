@@ -1,6 +1,13 @@
 <template>
   <v-container>
     <v-row>
+      <v-col class="text-center">
+        <h1>
+          Health Articles
+        </h1>
+      </v-col>
+    </v-row>
+    <v-row>
       <v-col>
         <p>
           Click the headings below to read more. If you wish to know information
@@ -48,9 +55,6 @@ export default {
     },
   },
   methods: {
-    displayInfo() {
-      return (this.display = !this.display)
-    },
     openNewTab(link) {
       window.open(link.toString())
     },
