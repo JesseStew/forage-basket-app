@@ -1,14 +1,14 @@
 <template>
   <v-container>
-    <!-- <v-row>
+    <v-row>
       <v-col cols="4" v-for="product in products" :key="product.id">
-        {{ product }}
-        <ProductLink :productName
+        <ProductLink :productName="''" :productId="product.productId">
+        </ProductLink>
       </v-col>
     </v-row>
     <p>
       {{ productCategory }}
-    </p> -->
+    </p>
   </v-container>
 </template>
 
@@ -17,25 +17,27 @@ import ProductLink from '@/components/ProductLink.vue'
 import { mapState } from 'vuex'
 
 export default {
-  // data() {
-  //   return {
-  //     productCategory: undefined,
-  //   }
-  // },
-  // computed: {
-  //   ...mapState(['shopData']),
-  //   products() {
-  //     return this.shopData[this.productCategory].properties
-  //   },
-  // },
-  // components: {
-  //   ProductLink,
-  // },
-  // created() {
-  //   if (this.$route.query.productCategory) {
-  //     this.productCategory = this.$route.query.productCategory
-  //   }
-  // },
+  data() {
+    return {
+      productCategory: undefined,
+    }
+  },
+  computed: {
+    ...mapState(['shopData']),
+    products() {
+      return this.$_.filter(this.shopData, (product) => {
+        return product.category === this.productCategory
+      })
+    },
+  },
+  components: {
+    ProductLink,
+  },
+  created() {
+    if (this.$route.query.productCategory) {
+      this.productCategory = this.$route.query.productCategory
+    }
+  },
 }
 </script>
 

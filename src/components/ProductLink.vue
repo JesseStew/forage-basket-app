@@ -39,24 +39,45 @@ export default {
   computed: {
     ...mapState(['shopData']),
     products() {
-      return this.$_.filter(this.shopData, (product) => {
-        return product.category === this.productName
-      })
+      if (!this.productName) {
+        return this.$_.find(this.shopData, (product) => {
+          return product.productId === this.productId
+        })
+      } else {
+        return this.$_.filter(this.shopData, (product) => {
+          return product.category === this.productName
+        })
+      }
     },
     imgSrc() {
-      return this.products[0].images[0]
+      if (!this.productName) {
+        return this.products.images[0]
+      } else {
+        return this.products[0].images[0]
+      }
     },
     title() {
-      return this.products[0].productName
+      if (!this.productName) {
+        return this.products.productName
+      } else {
+        return this.products[0].productName
+      }
     },
     description() {
-      return this.products[0].description
+      if (!this.productName) {
+        return this.products.description
+      } else {
+        return this.products[0].description
+      }
     },
   },
   props: {
     productName: {
       type: String,
       required: true,
+    },
+    productId: {
+      type: String,
     },
   },
 }

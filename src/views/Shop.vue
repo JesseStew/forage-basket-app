@@ -122,7 +122,12 @@
           <v-row>
             <v-col>
               <!-- here, add routing -->
-              <v-btn>
+              <v-btn
+                :to="{
+                  name: 'Product Category',
+                  query: { productCategory: 'essentialOilBlends' },
+                }"
+              >
                 Essential Oil Blends
               </v-btn>
             </v-col>
@@ -147,7 +152,12 @@
           <v-row>
             <v-col>
               <!-- here, add routing -->
-              <v-btn>
+              <v-btn
+                :to="{
+                  name: 'Product Category',
+                  query: { productCategory: 'accessories' },
+                }"
+              >
                 Essential Oil Blends
               </v-btn>
             </v-col>

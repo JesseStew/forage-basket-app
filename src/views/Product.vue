@@ -136,13 +136,6 @@ export default {
     this.$store.dispatch('loggedIn')
   },
 }
-
-// priceId() {
-//   return this.shopData[this.productName].properties[0].priceId
-// },
-// productId() {
-//   return this.shopData[this.productName].properties[0].productId
-// },
 </script>
 
 <style scoped></style>
