@@ -288,15 +288,25 @@
         </v-form>
       </v-col>
     </v-row>
+    <v-row class="my-10">
+      <v-divider></v-divider>
+    </v-row>
     <v-row>
       <v-col>
+        <p>
+          Join our Shiaqga affiliate program and receive 7% commission for your
+          direct referrals and 10% commission on your second tier level.
+        </p>
+        <p>
+          You will automatically be placed in your referer's first level tier.
+          (In the future, a company-wide profit sharing plan based on referrals
+          sales will be added.)
+        </p>
+      </v-col>
+      <v-col class="text-center" cols="12">
         <!-- here, add link -->
         <v-btn>
-          CLICK HERE IF YOU WISH TO JOIN OUR SHIAQGA AFFILIATE PROGRAM AND
-          RECEIVE 7% COMMISSION FOR YOUR DIRECT REFERRALS AND 10% COMMISSION ON
-          YOUR SECOND TIER LEVEL. YOU WILL AUTOMATICALLY BE PLACED IN YOUR
-          REFERRER'S FIRST LEVEL TIER. (IN THE FUTURE, A COMPANY-WIDE PROFIT
-          SHARING PLAN BASED ON REFERRALS SALES WILL BE ADDED.)
+          Join Affiliate Program
         </v-btn>
       </v-col>
     </v-row>
