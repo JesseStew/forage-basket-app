@@ -86,6 +86,9 @@ export default {
     },
   },
   methods: {
+    displayInfo() {
+      return (this.display = !this.display)
+    },
     openNewTab(link) {
       window.open(link.toString())
     },

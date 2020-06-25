@@ -5,7 +5,7 @@
       <v-spacer></v-spacer>
       <v-toolbar-title>Forage Basket</v-toolbar-title>
       <v-spacer></v-spacer>
-      <template v-slot:extension>
+      <template v-if="$vuetify.breakpoint.smAndUp" v-slot:extension>
         <v-tabs centered>
           <v-tab router :to="link.path" v-for="link in links" :key="link.name">
             {{ link.name }}
@@ -34,10 +34,7 @@
 
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>
-        <v-list-item-group
-          v-model="group"
-          active-class="deep-purple--text text--accent-4"
-        >
+        <v-list-item-group active-class="deep-purple--text text--accent-4">
           <v-list-item v-for="link in links" router :to="link.path">
             <v-list-item-icon>
               <v-icon> {{ link.icon }} </v-icon>
@@ -103,11 +100,6 @@ export default {
           path: '/contact',
           name: 'Contact',
           icon: 'mdi-account-question',
-        },
-        {
-          path: '/product',
-          name: 'Product',
-          icon: 'mdi-storefront',
         },
         {
           path: '/user-account',
