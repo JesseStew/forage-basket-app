@@ -128,15 +128,17 @@ export default {
   data() {
     return {}
   },
-  methods: {},
   components: {
     InformationLink,
   },
   computed: {
-    ...mapState(['informationData']),
+    ...mapState(['informationData', 'informationDataLoaded']),
   },
   created() {
-    this.$store.dispatch('loadInformationData')
+    if (!this.informationDataLoaded) {
+      console.log('loading this.shopData')
+      this.$store.dispatch('loadInformationData')
+    }
   },
 }
 </script>

@@ -56,7 +56,7 @@ export default {
   },
   created() {
     if (!this.healthDataLoaded) {
-      // console.log('loading this.healthData')
+      console.log('loading this.healthData')
       this.$store.dispatch('loadHealthData')
     }
   },
