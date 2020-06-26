@@ -60,14 +60,21 @@ export default {
       productLoaded: false,
       priceLoaded: false,
       selectedProductDescription: {},
+      singleProductId: undefined,
     }
   },
   computed: {
     ...mapState(['shopData']),
     productsArray() {
-      return this.$_.filter(this.shopData, (product) => {
-        return product.category === this.productName
-      })
+      if (this.singleProductId) {
+        return this.$_.filter(this.shopData, (product) => {
+          return product.productId === this.singleProductId
+        })
+      } else {
+        return this.$_.filter(this.shopData, (product) => {
+          return product.category === this.productName
+        })
+      }
     },
     selectedProduct() {
       return this.$_.find(this.productsArray, (o) => {
@@ -128,6 +135,9 @@ export default {
     },
   },
   created() {
+    if (this.$route.query.productId) {
+      this.singleProductId = this.$route.query.productId
+    }
     if (this.$route.query.productName) {
       this.productName = this.$route.query.productName
     }

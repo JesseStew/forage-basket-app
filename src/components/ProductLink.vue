@@ -2,7 +2,7 @@
   <router-link
     :to="{
       name: 'Product',
-      query: { productName: productName },
+      query: { productName: productName, productId: productId },
     }"
   >
     <v-card class="mx-auto" max-width="400">
@@ -21,7 +21,7 @@
           color="orange"
           :to="{
             name: 'Product',
-            query: { productName: productName },
+            query: { productName: productName, productId: productId },
           }"
           text
         >
@@ -78,6 +78,7 @@ export default {
     },
     productId: {
       type: String,
+      required: true,
     },
   },
 }
