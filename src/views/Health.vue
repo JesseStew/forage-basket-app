@@ -30,26 +30,11 @@
 
 <script>
 import InformationLink from '@/components/InformationLink.vue'
-import { mapState, mapActions } from 'vuex'
-
-import firebase from 'firebase/app'
-import 'firebase/firestore'
-
-const db = firebase.firestore()
+import { mapState } from 'vuex'
 
 export default {
-  data() {
-    return {
-      documents: [],
-    }
-  },
-  props: {
-    document: {
-      type: Object,
-    },
-  },
   computed: {
-    ...mapState(['healthData']),
+    ...mapState(['healthData', 'healthDataLoaded']),
     currentRouteName() {
       return this.$route.name
     },
@@ -66,14 +51,14 @@ export default {
       return this.$_.orderBy(elements, 'order')
     },
   },
-  firestore: {
-    documents: db.collection('health').orderBy('order'),
-  },
   components: {
     InformationLink,
   },
   created() {
-    this.$store.dispatch('loadHealthData')
+    if (!this.healthDataLoaded) {
+      // console.log('loading this.healthData')
+      this.$store.dispatch('loadHealthData')
+    }
   },
 }
 </script>
