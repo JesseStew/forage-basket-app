@@ -72,8 +72,9 @@
             Essential Oil Singles
           </h3>
           <img
+          style="max-width:100%"
             height="350"
-            src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Essential%20Oils%2FSingles%2Flavender.jpeg?alt=media&token=5af3ff14-1ae6-4427-aaf2-0d4bc33883b7"
+            src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Essential%20Oils%2FSingles%2Flavender%2Flavender.jpeg?alt=media&token=242fb312-9c34-4673-8eaf-28d40c70c3ae"
             alt=""
           />
 
@@ -101,8 +102,9 @@
             Essential Oil Blends
           </h3>
           <img
+          style="max-width:100%"
             height="350"
-            src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Essential%20Oils%2FBlends%2Ffirst_aid.jpeg?alt=media&token=6214324c-0d6d-4278-811c-0ab5d267dd5d"
+            src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Essential%20Oils%2FBlends%2FFirst%20Aid%2FfirstAid.jpeg?alt=media&token=6a06e0da-da81-4f74-8986-49ceb88ecb8c"
             alt=""
           />
 
