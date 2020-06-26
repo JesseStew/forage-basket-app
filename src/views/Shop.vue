@@ -1,22 +1,15 @@
 <template>
   <div class="shop">
-    <p>{{ test }}</p>
-    <!-- <p>{{ shopData.shiaqgaOriginalFormula }}</p> -->
-    <!-- <p>{{ shopData.essentialOilSingles }}</p> -->
-    <!-- <p>{{ shopData.shiaqgaSuperConcentrate }}</p> -->
-    <!-- <p>{{ shopData.essentialOilBlends }}</p> -->
-    <!-- <p>{{ shopData.shiaqgaPetImmunity }}</p> -->
-    <!-- <p>{{ shopData.accessories }}</p> -->
     <v-container>
       <v-row>
-        <v-col cols="8">
+        <v-col cols="12" md="8">
           <p>
             Those professionals and retail establishments looking to purchase
             wholesale, please contact us for a list of our wholesale
             requirements.
           </p>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="4">
           <iframe
             width="300"
             height="300"
@@ -31,13 +24,13 @@
         <v-divider></v-divider>
       </v-row>
       <v-row>
-        <v-col cols="6">
+        <v-col cols="12" md="6">
           <ProductLink
             :key="componentKey"
             :productName="'shiaqgaOriginalFormula'"
           />
         </v-col>
-        <v-col cols="6" class="text-center">
+        <v-col cols="12" md="6">
           <ProductLink
             :key="componentKey"
             :productName="'shiaqgaSuperConcentrate'"
@@ -48,13 +41,13 @@
         <v-divider></v-divider>
       </v-row>
       <v-row>
-        <v-col>
+        <v-col cols="12" md="6">
           <ProductLink
             :key="componentKey"
             :productName="'shiaqgaPetImmunity'"
           />
         </v-col>
-        <v-col>
+        <v-col cols="12" md="6">
           <iframe
             width="90%"
             height="400"
@@ -69,12 +62,12 @@
         <v-divider></v-divider>
       </v-row>
       <v-row>
-        <v-col>
+        <v-col :class="{ 'text-center': $vuetify.breakpoint.smAndDown }">
           <h2>Essential Oils</h2>
         </v-col>
       </v-row>
       <v-row>
-        <v-col cols="4">
+        <v-col cols="12" md="4">
           <h3>
             Essential Oil Singles
           </h3>
@@ -103,7 +96,7 @@
             </v-col>
           </v-row>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="4">
           <h3>
             Essential Oil Blends
           </h3>
@@ -133,11 +126,16 @@
             </v-col>
           </v-row>
         </v-col>
-        <v-col cols="4">
+        <v-col
+          cols="12"
+          md="4"
+          :class="{ 'text-center': $vuetify.breakpoint.smAndDown }"
+        >
           <h3>
             Essential Oils Accessories
           </h3>
           <img
+            style="max-width:100%"
             height="350"
             src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Essential%20Oils%2FAccessories%2Fessential_oil_travel_case.jpeg?alt=media&token=2cf9053f-c49e-4526-993b-29ee0a815203"
             alt=""
@@ -150,7 +148,7 @@
             aliquip
           </p>
           <v-row>
-            <v-col>
+            <v-col :class="{ 'text-center': $vuetify.breakpoint.smAndDown }">
               <!-- here, add routing -->
               <v-btn
                 :to="{
@@ -158,7 +156,7 @@
                   query: { productCategory: 'accessories' },
                 }"
               >
-                Essential Oil Blends
+                Accessories
               </v-btn>
             </v-col>
           </v-row>
@@ -169,33 +167,31 @@
       </v-row>
       <v-row>
         <v-col>
-          <!-- <ProductLink
-            :title="'Energy Balancing Necklace'"
-            :imgSrc="
-              'https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Accessories%2Fenergy-necklace_2_orig.jpg?alt=media&token=70eb4a98-b686-4a6e-bb31-6676d653ad0d'
-            "
-            :text="
-              'The Energy Balancing Necklace was designed to be a protection against harmful electromagnetic energies, such as computers, cell phones, and so forth. It also provides powerful assistance in recovering from exposure to low-level radiation sources.'
-            "
-            :productId="'prod_HRTGAPVyQhAn9R'"
-            :priceId="'price_1GtHmYHhLIxiPD1kkqIdB9Ux'"
-          /> -->
+          <ProductLink :key="componentKey" :productName="''" :productId="'prod_HRTGAPVyQhAn9R'">
+          </ProductLink>
         </v-col>
       </v-row>
       <v-row class="my-10">
         <v-divider></v-divider>
       </v-row>
       <v-row>
-        <v-col>
+        <v-col
+          cols="12"
+          :class="{ 'text-center': $vuetify.breakpoint.smAndDown }"
+        >
           <h2>
             Gift Card
           </h2>
+        </v-col>
+        <v-col cols="12" md="6">
           <img
+            style="max-width:100%"
             height="350"
             src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Accessories%2Fgiftcard-w640.png?alt=media&token=e619cd94-a180-4a33-b196-f9ebd0e2061b"
             alt=""
           />
-
+          </v-col>
+  <v-col>
           <p>
             $10.00 - $100.00
           </p>
@@ -205,6 +201,8 @@
             to redeem them at checkout. Our Shiaqga.com Gift Cards have no
             additional processing fees and never expire.
           </p>
+          </v-col>
+      </v-row>
           <v-row>
             <v-col>
               <!-- here, add routing -->
@@ -219,10 +217,12 @@
         <v-divider></v-divider>
       </v-row>
       <v-row>
-        <v-col>
+        <v-col cols="12">
           <h2>
             More products will be developed soon.
           </h2>
+        </v-col>
+        <v-col cols="12">
           <p>
             Click the button below if you wish to join our Shiaqga Affiliate
             Program. You will receive 7% commission for your direct referrals
@@ -230,14 +230,12 @@
             company-wide profit sharing plan based on referrals sales will be
             added.
           </p>
-          <v-row>
-            <v-col>
-              <!-- here, add routing -->
-              <v-btn>
-                Click Here
-              </v-btn>
-            </v-col>
-          </v-row>
+        </v-col>
+        <v-col :class="{ 'text-center': $vuetify.breakpoint.smAndDown }">
+          <!-- here, add routing -->
+          <v-btn>
+            Click Here
+          </v-btn>
         </v-col>
       </v-row>
     </v-container>

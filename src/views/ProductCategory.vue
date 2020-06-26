@@ -1,14 +1,11 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="4" v-for="product in products" :key="product.id">
+      <v-col cols="12" md="4" v-for="product in products" :key="product.id">
         <ProductLink :productName="''" :productId="product.productId">
         </ProductLink>
       </v-col>
     </v-row>
-    <p>
-      {{ productCategory }}
-    </p>
   </v-container>
 </template>
 
