@@ -29,6 +29,7 @@ export default new Vuex.Store({
     shopData: {},
     shopDataLoaded: false,
     testimonyData: {},
+    testimonyDataLoaded: false,
     healthData: {},
     healthDataLoaded: false,
     informationData: [],
@@ -36,6 +37,7 @@ export default new Vuex.Store({
   mutations: {
     loadTestimonyData(state, data) {
       state.testimonyData = data
+      state.testimonyDataLoaded = true
     },
     loadHealthData(state, data) {
       state.healthData = data

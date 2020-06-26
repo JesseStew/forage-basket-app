@@ -43,26 +43,20 @@
 <script>
 import firebase from 'firebase/app'
 import 'firebase/firestore'
-import { mapState, mapActions } from 'vuex'
-
-const db = firebase.firestore()
-db.settings = { timestampsInSnapshots: true }
+import { mapState } from 'vuex'
 
 export default {
-  data() {
-    return {
-      documents: [],
-    }
-  },
-  methods: {},
-  firestore: {
-    documents: db.collection('testimonies').orderBy('order'),
-  },
   computed: {
-    ...mapState(['testimonyData']),
+    ...mapState(['testimonyData', 'testimonyDataLoaded']),
+    documents() {
+      return this.$_.orderBy(this.testimonyData, ['order'])
+    },
   },
   created() {
-    this.$store.dispatch('loadTestimonyData')
+    if (!this.testimonyDataLoaded) {
+      console.log('loading this.testimonyData')
+      this.$store.dispatch('loadTestimonyData')
+    }
   },
 }
 </script>
