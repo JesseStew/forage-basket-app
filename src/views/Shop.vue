@@ -24,16 +24,18 @@
         <v-divider></v-divider>
       </v-row>
       <v-row>
-        <v-col cols="12" md="6">
+        <v-col v-if="shopDataLoaded" cols="12" md="6">
           <ProductLink
             :key="componentKey"
             :productName="'shiaqgaOriginalFormula'"
+            :productId="''"
           />
         </v-col>
-        <v-col cols="12" md="6">
+        <v-col v-if="shopDataLoaded" cols="12" md="6">
           <ProductLink
             :key="componentKey"
             :productName="'shiaqgaSuperConcentrate'"
+            :productId="''"
           />
         </v-col>
       </v-row>
@@ -41,10 +43,11 @@
         <v-divider></v-divider>
       </v-row>
       <v-row>
-        <v-col cols="12" md="6">
+        <v-col v-if="shopDataLoaded" cols="12" md="6">
           <ProductLink
             :key="componentKey"
             :productName="'shiaqgaPetImmunity'"
+            :productId="''"
           />
         </v-col>
         <v-col cols="12" md="6">
@@ -168,7 +171,7 @@
         <v-divider></v-divider>
       </v-row>
       <v-row>
-        <v-col>
+        <v-col v-if="shopDataLoaded">
           <ProductLink :key="componentKey" :productName="''" :productId="'prod_HRTGAPVyQhAn9R'">
           </ProductLink>
         </v-col>
@@ -262,13 +265,16 @@ export default {
     ProductLink,
   },
   computed: {
-    ...mapState(['shopData']),
+    ...mapState(['shopData', 'shopDataLoaded']),
   },
   watch: {
     shopData: 'forceRerender',
   },
   created() {
-    this.$store.dispatch('loadShopData')
+    if (!this.shopDataLoaded) {
+      console.log('loading this.shopData')
+      this.$store.dispatch('loadShopData')
+    }
   },
 }
 </script>

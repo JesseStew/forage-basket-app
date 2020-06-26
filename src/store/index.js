@@ -27,6 +27,7 @@ export default new Vuex.Store({
     },
     cart: [],
     shopData: {},
+    shopDataLoaded: false,
     testimonyData: {},
     healthData: {},
     healthDataLoaded: false,
@@ -52,6 +53,7 @@ export default new Vuex.Store({
         })
       })
       state.shopData = shopData
+      state.shopDataLoaded = true
     },
     loggedIn(state, user) {
       if (user) {

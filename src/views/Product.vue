@@ -1,6 +1,6 @@
 <template>
   <v-container class="product">
-    <v-row class="text-center">
+    <v-row v-if="shopDataLoaded" class="text-center">
       <v-col cols="12">
         <h1>
           {{ productTitle }}
@@ -64,7 +64,7 @@ export default {
     }
   },
   computed: {
-    ...mapState(['shopData']),
+    ...mapState(['shopData', 'shopDataLoaded']),
     productsArray() {
       if (this.singleProductId) {
         return this.$_.filter(this.shopData, (product) => {
@@ -140,6 +140,10 @@ export default {
     }
     if (this.$route.query.productName) {
       this.productName = this.$route.query.productName
+    }
+    if (!this.shopDataLoaded) {
+      console.log('loading this.shopData')
+      this.$store.dispatch('loadShopData')
     }
   },
   mounted() {

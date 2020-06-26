@@ -1,7 +1,13 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="12" md="4" v-for="product in products" :key="product.id">
+      <v-col
+        v-if="shopDataLoaded"
+        cols="12"
+        md="4"
+        v-for="product in products"
+        :key="product.id"
+      >
         <ProductLink :productName="''" :productId="product.productId">
         </ProductLink>
       </v-col>
@@ -20,7 +26,7 @@ export default {
     }
   },
   computed: {
-    ...mapState(['shopData']),
+    ...mapState(['shopData', 'shopDataLoaded']),
     products() {
       return this.$_.filter(this.shopData, (product) => {
         return product.category === this.productCategory
@@ -33,6 +39,10 @@ export default {
   created() {
     if (this.$route.query.productCategory) {
       this.productCategory = this.$route.query.productCategory
+    }
+    if (!this.shopDataLoaded) {
+      console.log('loading this.shopData')
+      this.$store.dispatch('loadShopData')
     }
   },
 }
