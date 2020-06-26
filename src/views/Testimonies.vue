@@ -2,7 +2,7 @@
   <div class="testimonies">
     <v-container>
       <v-row align="center">
-        <v-col>
+        <v-col :class="{ 'text-center': $vuetify.breakpoint.smAndDown }">
           <h1>Customer Testimonies</h1>
           <h3>
             (More testimonials can be found in "Shop" and under the individual
