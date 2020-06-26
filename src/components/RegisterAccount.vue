@@ -46,7 +46,7 @@
       <v-col>
         <v-card-actions>
           <v-row>
-            <v-col>
+            <v-col class="text-center">
               <v-btn @click="registerAccount">Register</v-btn>
             </v-col>
           </v-row>

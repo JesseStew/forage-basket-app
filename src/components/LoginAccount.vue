@@ -1,5 +1,5 @@
 <template>
-  <v-card class="ml-5">
+  <v-card class="mx-5">
     <v-card-title>
       <h1 class="display-1">
         Login
@@ -28,8 +28,10 @@
       <v-col>
         <v-card-actions>
           <v-row>
-            <v-col>
+            <v-col class="text-center" cols="12">
               <v-btn class="mr-4" @click="loginAccount">Login</v-btn>
+            </v-col>
+            <v-col class="text-center" cols="12">
               <v-btn class="mr-4" router to="forgot-password">
                 Forgot your password?
               </v-btn>
