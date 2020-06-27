@@ -166,6 +166,9 @@
             {{ truncate(pdf.title) }}
           </v-btn>
         </v-col>
+        <h2>
+          Dr. Tim Chapman, M.D.
+        </h2>
         <p>
           We would like to express our deep &amp sincere gratitude to Dr. Tim
           Chapman, M.D. for his extraordinary assistance in the gathering of a
