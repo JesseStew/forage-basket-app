@@ -12,7 +12,7 @@
           </v-tab>
         </v-tabs>
       </template>
-      <v-menu open-on-hover top offsety>
+      <v-menu open-on-hover top offset-y>
         <template v-slot:activator="{ on }">
           <v-btn v-on="on" icon class="subtitle-1" router to="/user-account">
             <v-icon>mdi-cart-outline</v-icon>

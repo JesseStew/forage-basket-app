@@ -1,76 +1,171 @@
 <template>
-  <div class="research">
-    <v-content>
-      <v-row>
-        <v-col>
-          <h1>Extensive Research</h1>
-        </v-col>
-      </v-row>
-      <v-row>
-        <v-col>
-          <p>
-            The Shiaqga supplement contains many beneficial bioavailable
-            ingredients and chemistry including the bitter triterpene compounds,
-            3-beta-D-glucans, polysaccharides, germanium, angiotensin re-uptake
-            inhibitors, and the organic essential oils with all their wonderful
-            beneficial chemistry. There has been such a vast array of medical
-            &amp scientific studies, throughout the entire world on these
-            compounds and for such a long period of time, that it is a simple
-            process of just 'googling' to find greater information. So, we will
-            not attempt to post 'an endless &amp ever-growing' list of
-            references here but just share a little more information to get you
-            jumpstarted on your own research.
-          </p>
-        </v-col>
-      </v-row>
-    </v-content>
+  <v-container>
     <v-row>
       <v-col>
+        <h1>Extensive Research</h1>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <p>
+          The Shiaqga supplement contains many beneficial bioavailable
+          ingredients and chemistry including the bitter triterpene compounds,
+          3-beta-D-glucans, polysaccharides, germanium, angiotensin re-uptake
+          inhibitors, and the organic essential oils with all their wonderful
+          beneficial chemistry. There has been such a vast array of medical &amp
+          scientific studies, throughout the entire world on these compounds and
+          for such a long period of time, that it is a simple process of just
+          'googling' to find greater information. So, we will not attempt to
+          post 'an endless &amp ever-growing' list of references here but just
+          share a little more information to get you jumpstarted on your own
+          research.
+        </p>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col cols="12">
         <h2>
           Cancer Research:
         </h2>
       </v-col>
+      <v-col
+        class="text-center"
+        v-for="pdf in cancerResearch.pdf"
+        :key="pdf.id"
+        cols="12"
+        md="6"
+        lg="4"
+        xl="3"
+      >
+        <v-btn target="_blank" class="ma-1" :href="pdf.src" :title="pdf.title">
+          {{ truncate(pdf.title) }}
+        </v-btn>
+      </v-col>
     </v-row>
     <v-row>
-      <v-col>
+      <v-col cols="12">
         <h2>
           Immunostimulant
         </h2>
       </v-col>
+      <v-col
+        class="text-center"
+        v-for="pdf in immunostimulant.pdf"
+        :key="pdf.id"
+        cols="12"
+        md="6"
+        lg="4"
+        xl="3"
+      >
+        <v-btn target="_blank" class="ma-1" :href="pdf.src" :title="pdf.title">
+          {{ truncate(pdf.title) }}
+        </v-btn>
+      </v-col>
     </v-row>
     <v-row>
-      <v-col>
+      <v-col cols="12">
         <h2>
           Radiation
         </h2>
       </v-col>
+      <v-col
+        class="text-center"
+        v-for="pdf in radiation.pdf"
+        :key="pdf.id"
+        cols="12"
+        md="6"
+        lg="4"
+        xl="3"
+      >
+        <v-btn target="_blank" class="ma-1" :href="pdf.src" :title="pdf.title">
+          {{ truncate(pdf.title) }}
+        </v-btn>
+      </v-col>
+      <!-- here, add article -->
     </v-row>
     <v-row>
-      <v-col>
+      <v-col cols="12">
         <h2>
           Cholesterol
         </h2>
       </v-col>
+      <v-col
+        class="text-center"
+        v-for="pdf in cholesterol.pdf"
+        :key="pdf.id"
+        cols="12"
+        md="6"
+        lg="4"
+        xl="3"
+      >
+        <v-btn target="_blank" class="ma-1" :href="pdf.src" :title="pdf.title">
+          {{ truncate(pdf.title) }}
+        </v-btn>
+      </v-col>
     </v-row>
     <v-row>
-      <v-col>
+      <v-col cols="12">
         <h2>
           Anthrax
         </h2>
       </v-col>
+      <v-col
+        class="text-center"
+        v-for="pdf in anthrax.pdf"
+        :key="pdf.id"
+        cols="12"
+        md="6"
+        lg="4"
+        xl="3"
+      >
+        <v-btn target="_blank" class="ma-1" :href="pdf.src" :title="pdf.title">
+          {{ truncate(pdf.title) }}
+        </v-btn>
+      </v-col>
     </v-row>
     <v-row>
-      <v-col>
+      <v-col cols="12">
         <h2>
           Infectious Disease
         </h2>
       </v-col>
+      <v-col
+        class="text-center"
+        v-for="pdf in infectiousDisease.pdf"
+        :key="pdf.id"
+        cols="12"
+        md="6"
+        lg="4"
+        xl="3"
+      >
+        <v-btn target="_blank" class="ma-1" :href="pdf.src" :title="pdf.title">
+          {{ truncate(pdf.title) }}
+        </v-btn>
+      </v-col>
     </v-row>
     <v-row>
-      <v-col>
+      <v-col cols="12">
         <h2>
           Injection vs Oral Administration
         </h2>
+        <v-col
+          class="text-center"
+          v-for="pdf in injectionVsOralAdministration.pdf"
+          :key="pdf.id"
+          cols="12"
+          md="6"
+          lg="4"
+          xl="3"
+        >
+          <v-btn
+            target="_blank"
+            class="ma-1"
+            :href="pdf.src"
+            :title="pdf.title"
+          >
+            {{ truncate(pdf.title) }}
+          </v-btn>
+        </v-col>
         <p>
           We would like to express our deep &amp sincere gratitude to Dr. Tim
           Chapman, M.D. for his extraordinary assistance in the gathering of a
@@ -108,27 +203,67 @@
           personally if they are open to doing so.
         </p>
       </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-        <h2>
-          20 Abstracts of 6999 on Beta Glucans listed on Pubmed
-        </h2>
-        <v-btn>
-          <!-- here, add routing -->
-          CLICK HER FOR MORE BETA GLUCAN INFORMATION AND RESEARCH
+      <v-col class="text-center" cols="12">
+        <v-btn
+          target="_blank"
+          class="ma-1"
+          :href="timChapman.src"
+          :title="timChapman.title"
+        >
+          {{ truncate(timChapman.title) }}
         </v-btn>
       </v-col>
     </v-row>
     <v-row>
-      <v-col>
+      <v-col cols="12">
+        <h2>
+          20 Abstracts of 6999 on Beta Glucans listed on Pubmed
+        </h2>
+      </v-col>
+      <v-col
+        class="text-center"
+        v-for="pdf in abstractsOnBetaGlucan.pdf"
+        :key="pdf.id"
+        cols="12"
+        md="6"
+        lg="4"
+        xl="3"
+      >
+        <v-btn target="_blank" class="ma-1" :href="pdf.src" :title="pdf.title">
+          {{ truncate(pdf.title) }}
+        </v-btn>
+      </v-col>
+      <!-- here, link to article -->
+    </v-row>
+    <v-row>
+      <v-col cols="12">
         <h2>
           Additionally, There are also 3362 abstracts on Germanium that can also
           be found on Pubmed:
         </h2>
-        <p>
+      </v-col>
+      <v-col cols="12" class="text-center">
+        <v-btn
+          href="https://pubmed.ncbi.nlm.nih.gov/"
+          target="_blank"
+          title="Pubmed"
+        >
+          Pubmed
+        </v-btn>
+      </v-col>
+      <v-col cols="12">
+        <h3>
           The following document references just 7 of them:
-        </p>
+        </h3>
+      </v-col>
+      <v-col class="text-center">
+        <v-btn
+          href="https://www.shiaqga.com/uploads/2/5/9/1/25915740/7_abstracts_with_germanium_research.pdf"
+          target="_blank"
+          title="7 Abstracts with Germanium Research"
+        >
+          7 Abstracts with Germanium Research
+        </v-btn>
       </v-col>
     </v-row>
     <v-row>
@@ -276,7 +411,25 @@
           Black Cumin
         </h2>
         <v-row>
-          <v-col>
+          <v-col
+            class="text-center"
+            v-for="pdf in blackCumin.pdf"
+            :key="pdf.id"
+            cols="12"
+            md="6"
+            lg="4"
+            xl="3"
+          >
+            <v-btn
+              target="_blank"
+              class="ma-1"
+              :href="pdf.src"
+              :title="pdf.title"
+            >
+              {{ truncate(pdf.title) }}
+            </v-btn>
+          </v-col>
+          <v-col cols="12" md="6" lg="4" xl="3" class="text-center">
             <v-btn>
               <!-- here, add routing -->
               CLICK HERE TO LEARN MORE ABOUT BLACK CUMIN
@@ -291,13 +444,25 @@
           Lemon
         </h2>
         <v-row>
-          <v-col cols="6">
-            <v-btn>
-              <!-- here, add routing -->
-              LEMON VERSUS CHEMOTHERAPY
+          <v-col
+            class="text-center"
+            v-for="pdf in blackCumin.pdf"
+            :key="pdf.id"
+            cols="12"
+            md="6"
+            lg="4"
+            xl="3"
+          >
+            <v-btn
+              target="_blank"
+              class="ma-1"
+              :href="pdf.src"
+              :title="pdf.title"
+            >
+              {{ truncate(pdf.title) }}
             </v-btn>
           </v-col>
-          <v-col cols="6">
+          <v-col cols="12" md="6" lg="4" xl="3" class="text-center">
             <v-btn>
               <!-- here, add routing -->
               CLICK HERE TO LEARN MORE ABOUT LEMON
@@ -312,7 +477,25 @@
           Cinnamon Bark
         </h2>
         <v-row>
-          <v-col>
+          <v-col
+            class="text-center"
+            v-for="pdf in blackCumin.pdf"
+            :key="pdf.id"
+            cols="12"
+            md="6"
+            lg="4"
+            xl="3"
+          >
+            <v-btn
+              target="_blank"
+              class="ma-1"
+              :href="pdf.src"
+              :title="pdf.title"
+            >
+              {{ truncate(pdf.title) }}
+            </v-btn>
+          </v-col>
+          <v-col class="text-center" cols="12" md="6" lg="4" xl="3">
             <v-btn>
               <!-- here, add routing -->
               CLICK HERE TO LEARN MORE ABOUT CINNAMON BARK
@@ -327,7 +510,25 @@
           Peppermint
         </h2>
         <v-row>
-          <v-col>
+          <v-col
+            class="text-center"
+            v-for="pdf in peppermint.pdf"
+            :key="pdf.id"
+            cols="12"
+            md="6"
+            lg="4"
+            xl="3"
+          >
+            <v-btn
+              target="_blank"
+              class="ma-1"
+              :href="pdf.src"
+              :title="pdf.title"
+            >
+              {{ truncate(pdf.title) }}
+            </v-btn>
+          </v-col>
+          <v-col class="text-center" cols="12" md="6" lg="4" xl="3">
             <v-btn>
               <!-- here, add routing -->
               CLICK HERE TO LEARN MORE ABOUT PEPPERMINT
@@ -337,24 +538,27 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col>
+      <v-col cols="12">
         <h2>
           Sacred Frankincense
         </h2>
-        <v-row>
-          <v-col cols="6">
-            <v-btn>
-              <!-- here, add routing -->
-              CLICK HERE FOR A SYSTEMATIC REVIEW OF FRANKINCENSE ON PUBMED
-            </v-btn>
-          </v-col>
-          <v-col cols="6">
-            <v-btn>
-              <!-- here, add routing -->
-              CLICK HERE TO LEARN MORE ABOUT SACRED FRANKINCENSE
-            </v-btn>
-          </v-col>
-        </v-row>
+      </v-col>
+      <v-col class="text-center" cols="12" md="6" lg="4" xl="3">
+        <v-btn
+          href="https://www.ncbi.nlm.nih.gov/books/NBK75572/"
+          target="_blank"
+        >
+          SYSTEMATIC REVIEW OF FRANKINCENSE ON PUBMED
+        </v-btn>
+      </v-col>
+      <v-col class="text-center" cols="12" md="6" lg="4" xl="3">
+        <v-btn
+          href="https://www.ncbi.nlm.nih.gov/books/NBK75572/"
+          target="_blank"
+        >
+          <!-- here, add routing -->
+          LEARN MORE ABOUT SACRED FRANKINCENSE
+        </v-btn>
       </v-col>
     </v-row>
     <v-row>
@@ -368,13 +572,14 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="6">
+      <v-col cols="12" md="6">
         <img
+          style="max-width:100%"
           src="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Pictures%2Feinstein_1.jpg?alt=media&token=87bb2f43-276a-4ae5-be63-a575e663dad2"
           alt=""
         />
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12" md="6">
         <p>
           True results cannot ever be 'faked' - nor will 'exaggerated claims'
           make any difference in what actually happens in real life. The proof
@@ -395,5 +600,113 @@
         </p>
       </v-col>
     </v-row>
-  </div>
+  </v-container>
 </template>
+
+<script>
+import InformationLink from '@/components/InformationLink.vue'
+import { mapState } from 'vuex'
+
+export default {
+  data() {
+    return {
+      timChapman: {
+        title: 'Summary of 48 years in Professional Medical Service',
+        order: 2,
+        src:
+          'https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Research%2FinjectionVsOralAdministration%2Ftim_chapman_md_48_year_medical_history_summary.pdf?alt=media&token=be7d8841-49f6-43c6-92f9-08d41fe0fc51',
+      },
+    }
+  },
+  computed: {
+    ...mapState(['researchData', 'researchDataLoaded']),
+    currentRouteName() {
+      return this.$route.name
+    },
+    cancerResearch() {
+      return this.$_.find(this.researchData, (article) => {
+        return article.title === 'cancer'
+      })
+    },
+    immunostimulant() {
+      return this.$_.find(this.researchData, (article) => {
+        return article.title === 'immunostimulant'
+      })
+    },
+    radiation() {
+      return this.$_.find(this.researchData, (article) => {
+        return article.title === 'radiation'
+      })
+    },
+    cholesterol() {
+      return this.$_.find(this.researchData, (article) => {
+        return article.title === 'cholesterol'
+      })
+    },
+    anthrax() {
+      return this.$_.find(this.researchData, (article) => {
+        return article.title === 'anthrax'
+      })
+    },
+    infectiousDisease() {
+      return this.$_.find(this.researchData, (article) => {
+        return article.title === 'infectiousDisease'
+      })
+    },
+    injectionVsOralAdministration() {
+      return this.$_.find(this.researchData, (article) => {
+        return article.title === 'injectionVsOralAdministration'
+      })
+    },
+    abstractsOnBetaGlucan() {
+      return this.$_.find(this.researchData, (article) => {
+        return article.title === '20AbstractsOf6999OnBetaGlucansListedOnPubmed'
+      })
+    },
+    blackCumin() {
+      return this.$_.find(this.researchData, (article) => {
+        return article.title === 'blackCumin'
+      })
+    },
+    lemon() {
+      return this.$_.find(this.researchData, (article) => {
+        return article.title === 'lemon'
+      })
+    },
+    cinnamonBark() {
+      return this.$_.find(this.researchData, (article) => {
+        return article.title === 'cinnamonBark'
+      })
+    },
+    peppermint() {
+      return this.$_.find(this.researchData, (article) => {
+        return article.title === 'peppermint'
+      })
+    },
+  },
+  methods: {
+    openNewTab(link) {
+      window.open(link.toString())
+    },
+    truncate(text) {
+      return this.$_.truncate(text)
+    },
+    isUl(index) {
+      let regex = RegExp('ul$')
+      return regex.test(index)
+    },
+    orderElements(elements) {
+      return this.$_.orderBy(elements, 'order')
+    },
+  },
+  components: {
+    InformationLink,
+  },
+  created() {
+    if (!this.researchDataLoaded) {
+      console.log('loading this.researchData')
+      this.$store.dispatch('loadResearchData')
+    }
+  },
+}
+</script>

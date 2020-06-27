@@ -40,9 +40,6 @@ export default {
     },
   },
   methods: {
-    openNewTab(link) {
-      window.open(link.toString())
-    },
     isUl(index) {
       let regex = RegExp('ul$')
       return regex.test(index)

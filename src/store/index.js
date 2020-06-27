@@ -34,8 +34,14 @@ export default new Vuex.Store({
     healthDataLoaded: false,
     informationData: [],
     informationDataLoaded: false,
+    researchData: [],
+    researchDataLoaded: false,
   },
   mutations: {
+    loadResearchData(state, data) {
+      state.researchData = data
+      state.researchDataLoaded = true
+    },
     loadTestimonyData(state, data) {
       state.testimonyData = data
       state.testimonyDataLoaded = true
@@ -291,7 +297,7 @@ export default new Vuex.Store({
       commit('loadShopData', { shopData: shopData, prices: prices.data.data })
     },
     loadTestimonyData({ commit }) {
-      let testimonyData = firebase
+      firebase
         .firestore()
         .collection('testimonies')
         .get()
@@ -302,7 +308,7 @@ export default new Vuex.Store({
         })
     },
     loadHealthData({ commit }) {
-      let healthData = firebase
+      firebase
         .firestore()
         .collection('health')
         .get()
@@ -313,13 +319,24 @@ export default new Vuex.Store({
         })
     },
     loadInformationData({ commit }) {
-      let informationData = firebase
+      firebase
         .firestore()
         .collection('information')
         .get()
         .then((querySnapshot) => {
           const documents = querySnapshot.docs.map((doc) => doc.data())
           commit('loadInformationData', documents)
+        })
+    },
+    loadResearchData({ commit }) {
+      firebase
+        .firestore()
+        .collection('research')
+        .get()
+        .then((querySnapshot) => {
+          const documents = querySnapshot.docs.map((doc) => doc.data())
+          // console.log('loadHealthData: ', documents)
+          commit('loadResearchData', documents)
         })
     },
   },
