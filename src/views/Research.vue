@@ -265,7 +265,8 @@
           target="_blank"
           title="7 Abstracts with Germanium Research"
         >
-          7 Abstracts with Germanium Research
+          Germanium Research <br />
+          (7 Abstracts)
         </v-btn>
       </v-col>
     </v-row>
@@ -435,7 +436,8 @@
           <v-col cols="12" md="6" lg="4" xl="3" class="text-center">
             <v-btn>
               <!-- here, add routing -->
-              CLICK HERE TO LEARN MORE ABOUT BLACK CUMIN
+              CLICK HERE TO LEARN <br />
+              MORE ABOUT BLACK CUMIN
             </v-btn>
           </v-col>
         </v-row>
@@ -468,7 +470,8 @@
           <v-col cols="12" md="6" lg="4" xl="3" class="text-center">
             <v-btn>
               <!-- here, add routing -->
-              CLICK HERE TO LEARN MORE ABOUT LEMON
+              CLICK HERE TO LEARN <br />
+              MORE ABOUT LEMON
             </v-btn>
           </v-col>
         </v-row>
@@ -501,7 +504,8 @@
           <v-col class="text-center" cols="12" md="6" lg="4" xl="3">
             <v-btn>
               <!-- here, add routing -->
-              CLICK HERE TO LEARN MORE ABOUT CINNAMON BARK
+              CLICK HERE TO LEARN <br />
+              MORE ABOUT CINNAMON BARK
             </v-btn>
           </v-col>
         </v-row>
@@ -534,7 +538,8 @@
           <v-col class="text-center" cols="12" md="6" lg="4" xl="3">
             <v-btn>
               <!-- here, add routing -->
-              CLICK HERE TO LEARN MORE ABOUT PEPPERMINT
+              CLICK HERE TO LEARN <br />
+              MORE ABOUT PEPPERMINT
             </v-btn>
           </v-col>
         </v-row>
@@ -551,7 +556,8 @@
           href="https://www.ncbi.nlm.nih.gov/books/NBK75572/"
           target="_blank"
         >
-          SYSTEMATIC REVIEW OF FRANKINCENSE ON PUBMED
+          SYSTEMATIC REVIEW <br />
+          OF FRANKINCENSE ON PUBMED
         </v-btn>
       </v-col>
       <v-col class="text-center" cols="12" md="6" lg="4" xl="3">
@@ -560,7 +566,8 @@
           target="_blank"
         >
           <!-- here, add routing -->
-          LEARN MORE ABOUT SACRED FRANKINCENSE
+          LEARN MORE ABOUT <br />
+          SACRED FRANKINCENSE
         </v-btn>
       </v-col>
     </v-row>

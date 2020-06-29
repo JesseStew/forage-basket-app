@@ -32,7 +32,7 @@
       </v-menu>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" absolute temporary>
+    <v-navigation-drawer style="height: 100vh" v-model="drawer" fixed temporary>
       <v-list nav dense>
         <v-list-item-group active-class="deep-purple--text text--accent-4">
           <v-list-item v-for="link in links" router :to="link.path">
@@ -48,7 +48,6 @@
 </template>
 
 <script>
-import NavMenu from '@/components/NavMenu.vue'
 export default {
   name: 'Navigation',
   data() {
@@ -119,9 +118,7 @@ export default {
       this.drawer = false
     },
   },
-  components: {
-    NavMenu,
-  },
+  components: {},
 }
 </script>
 
