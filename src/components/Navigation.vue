@@ -14,19 +14,32 @@
       </template>
       <v-menu open-on-hover top offset-y>
         <template v-slot:activator="{ on }">
-          <v-btn v-on="on" icon class="subtitle-1" router to="/user-account">
+          <v-btn
+            v-if="cart.length > 0"
+            v-on="on"
+            icon
+            class="subtitle-1"
+            router
+            to="/cart"
+          >
+            <v-icon>mdi-cart-outline </v-icon>
+            ({{ cart.length }})
+          </v-btn>
+          <v-btn v-else v-on="on" icon class="subtitle-1" router to="/cart">
             <v-icon>mdi-cart-outline</v-icon>
           </v-btn>
         </template>
-        <v-list>
+        <v-list v-if="cart.length > 0">
           <v-list-item
             router
-            to="/user-account"
-            v-for="(item, index) in items"
+            to="/cart"
+            v-for="(item, index) in cart"
             :key="index"
             @click=""
           >
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title
+              >({{ item.quantity }}) {{ item.product.name }}</v-list-item-title
+            >
           </v-list-item>
         </v-list>
       </v-menu>
@@ -48,8 +61,13 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
   name: 'Navigation',
+  computed: {
+    ...mapState(['cart']),
+  },
   data() {
     return {
       drawer: false,

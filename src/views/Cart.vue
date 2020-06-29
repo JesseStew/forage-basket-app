@@ -24,7 +24,7 @@
         ${{ (item.quantity * item.product.unitAmount).toFixed(2) }}
       </template>
     </v-data-table>
-    <v-btn @click="checkout()">
+    <v-btn v-if="cart.length > 0" @click="checkout()">
       Buy Items in Cart
     </v-btn>
   </div>

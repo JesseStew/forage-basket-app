@@ -33,8 +33,11 @@
         ></v-text-field>
       </v-col>
       <v-col cols="6">
-        <v-btn @click="addToCart()">
+        <v-btn v-if="selectedProduct" @click="addToCart()">
           Add to Cart
+        </v-btn>
+        <v-btn v-else disabled>
+          Select Product
         </v-btn>
       </v-col>
       <v-col cols="6">
@@ -64,7 +67,7 @@ export default {
     }
   },
   computed: {
-    ...mapState(['shopData', 'shopDataLoaded']),
+    ...mapState(['shopData', 'shopDataLoaded', 'cart']),
     productsArray() {
       if (this.singleProductId) {
         return this.$_.filter(this.shopData, (product) => {
