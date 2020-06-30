@@ -96,14 +96,14 @@
       <v-col cols="12" md="6">
         <iframe
           width="100%"
-          height="100%"
+          height="300px"
           src="https://www.youtube.com/embed/ROR2Lii741s"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
       </v-col>
-      <v-col cols="12" md="6">
+      <v-col align-self="center" cols="12" md="6">
         <p>
           Dr. Tim Chapman, M.D. from Sun City, California writes: "My comment is
           . . . to acknowledge a product that has significantly created immune

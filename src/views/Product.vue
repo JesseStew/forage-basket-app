@@ -15,7 +15,7 @@
         <!-- here, fix order -->
         <v-select
           v-model="selectedProductDescription"
-          :items="productsArray"
+          :items="order(productsArray)"
           label="Select Product"
           item-text="description"
         >
@@ -136,6 +136,9 @@ export default {
       }
       this.$store.dispatch('addToCart', payload)
     },
+    order(collection) {
+      return this.$_.orderBy(collection, ['price.unit_amount'])
+    },
   },
   created() {
     if (this.$route.query.productId) {
@@ -151,6 +154,10 @@ export default {
   },
   mounted() {
     this.$store.dispatch('loggedIn')
+    if (!this.shopDataLoaded) {
+      console.log('loading this.shopData')
+      this.$store.dispatch('loadShopData')
+    }
   },
 }
 </script>
