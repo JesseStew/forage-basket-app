@@ -23,6 +23,14 @@
       <template #item.total="{item}">
         ${{ (item.quantity * item.product.unitAmount).toFixed(2) }}
       </template>
+
+      <template #item.remove="{item}">
+        <v-btn @click="removeFromCart(item.product)" text icon>
+          <v-icon>
+            mdi-close-circle-outline
+          </v-icon>
+        </v-btn>
+      </template>
     </v-data-table>
     <v-btn v-if="cart.length > 0" @click="checkout()">
       Buy Items in Cart
@@ -67,6 +75,12 @@ export default {
           value: 'total',
           sortable: false,
         },
+        {
+          text: '',
+          align: 'start',
+          value: 'remove',
+          sortable: false,
+        },
       ],
     }
   },
@@ -74,10 +88,7 @@ export default {
     ...mapState(['cart', 'user']),
   },
   methods: {
-    ...mapActions(['checkout', 'loggedIn']),
-    removeFromCart() {
-      // here,
-    },
+    ...mapActions(['checkout', 'loggedIn', 'removeFromCart']),
   },
   created() {
     this.productId = this.$route.params.id

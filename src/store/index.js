@@ -117,12 +117,25 @@ export default new Vuex.Store({
       state.user.uid = user.uid
     },
     addToCart(state, payload) {
-      let lineItem = {
-        price: payload.priceId,
-        quantity: payload.quantity,
-        product: payload.product,
+      let itemIndex = _.findIndex(state.cart, (item) => {
+        return item.product.productId === payload.product.productId
+      })
+      if (itemIndex !== -1) {
+        console.log('already exists index:', itemIndex)
+        state.cart[itemIndex].quantity = state.cart[itemIndex].quantity + 1
+      } else {
+        let lineItem = {
+          price: payload.priceId,
+          quantity: payload.quantity,
+          product: payload.product,
+        }
+        state.cart.push(lineItem)
       }
-      state.cart.push(lineItem)
+    },
+    removeFromCart(state, payload) {
+      state.cart = _.filter(state.cart, (item) => {
+        return item.product.productId !== payload.productId
+      })
     },
     checkout(state) {
       state.cart = []
@@ -231,6 +244,9 @@ export default new Vuex.Store({
     },
     addToCart({ commit }, payload) {
       commit('addToCart', payload)
+    },
+    removeFromCart({ commit }, payload) {
+      commit('removeFromCart', payload)
     },
     async checkout({ commit, state }) {
       // console.log('uid: ', state.user.uid)
