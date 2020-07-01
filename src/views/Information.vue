@@ -59,15 +59,46 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col>
-        <v-expansion-panels popout>
-          <!-- here, fix order -->
-          <InformationLink
-            v-for="document in informationData"
-            :key="document.id"
-            :document="document"
-          />
-        </v-expansion-panels>
+      <v-col
+        v-if="$vuetify.breakpoint.smAndDown"
+        class="text-center"
+        cols="12"
+        v-for="item in informationData"
+        :key="item.id"
+      >
+        <v-btn v-if="item.link" @click="openNewTab(item.link)">
+          {{ truncate(item.linkText) }}
+        </v-btn>
+        <v-btn
+          v-else
+          :to="{
+            name: 'Information Article',
+            query: { articleLinkText: item.linkText },
+          }"
+        >
+          {{ truncate(item.linkText) }}
+        </v-btn>
+      </v-col>
+      <v-col
+        v-else
+        class="text-center"
+        cols="12"
+        lg="4"
+        v-for="item in informationData"
+        :key="item.id"
+      >
+        <v-btn v-if="item.link" @click="openNewTab(item.link)">
+          {{ item.linkText }}
+        </v-btn>
+        <v-btn
+          v-else
+          :to="{
+            name: 'Information Article',
+            query: { articleLinkText: item.linkText },
+          }"
+        >
+          {{ item.linkText }}
+        </v-btn>
       </v-col>
     </v-row>
     <v-row>
@@ -133,6 +164,14 @@ export default {
   },
   computed: {
     ...mapState(['informationData', 'informationDataLoaded']),
+  },
+  methods: {
+    openNewTab(link) {
+      window.open(link.toString())
+    },
+    truncate(text) {
+      return this.$_.truncate(text)
+    },
   },
   created() {
     if (!this.informationDataLoaded) {

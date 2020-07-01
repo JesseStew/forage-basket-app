@@ -98,6 +98,20 @@ export const routes = [
         /* webpackChunkName: "product-category" */ '../views/ProductCategory.vue'
       ),
   },
+  {
+    path: '/health-article',
+    name: 'Health Article',
+    component: () =>
+      import(/* webpackChunkName: "article" */ '../views/HealthArticle.vue'),
+  },
+  {
+    path: '/information-article',
+    name: 'Information Article',
+    component: () =>
+      import(
+        /* webpackChunkName: "article" */ '../views/InformationArticle.vue'
+      ),
+  },
 ]
 
 const router = new VueRouter({

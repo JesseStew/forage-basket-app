@@ -8,21 +8,34 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col>
+      <v-col cols="12">
         <p>
           Click the headings below to read more. If you wish to know information
           on a specific health condition and an alternative treatment, please
           contact us with your request. We will pass your request on to a
           competent natural health professional.
         </p>
-        <v-expansion-panels popout>
-          <!-- here, fix order -->
-          <InformationLink
-            v-for="document in healthData"
-            :key="document.id"
-            :document="document"
-          />
-        </v-expansion-panels>
+      </v-col>
+      <v-col
+        class="text-center"
+        cols="12"
+        md="4"
+        lg="3"
+        v-for="item in healthData"
+        :key="item.id"
+      >
+        <v-btn v-if="item.link" @click="openNewTab(document.link)">
+          {{ item.linkText }}
+        </v-btn>
+        <v-btn
+          v-else
+          :to="{
+            name: 'Health Article',
+            query: { articleLinkText: item.linkText },
+          }"
+        >
+          {{ item.linkText }}
+        </v-btn>
       </v-col>
     </v-row>
   </v-container>
@@ -46,6 +59,9 @@ export default {
     },
     orderElements(elements) {
       return this.$_.orderBy(elements, 'order')
+    },
+    openNewTab(link) {
+      window.open(link.toString())
     },
   },
   components: {
