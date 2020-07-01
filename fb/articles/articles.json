@@ -123,134 +123,223 @@
     ]
   },
   {
-    "title": "",
-    "linkText": "",
-    "order": 1,
-    "author": "",
+    "title": "Quality and the Truth",
+    "linkText": "Quality and the Truth ",
+    "order": 2,
+    "author": "Paway-yatanatu way-akt, Medicine Woman Practitioner ",
     "elements": [
       {
         "element": "p",
-        "content": "",
+        "content": "The alternative health industry is rampant with claims, misinformation, inferior products, and adulteration.  Because of this it can be a arduous task to locate a reliable supplier whos dedication to quality and purity is paramount.  Their farms should use proper sustainable growing methods and ensure that the essential oils are extracted properly.  Those oils also need to remain in their natural state for the highest medicinal value.",
         "order": 1
       },
       {
         "element": "p",
-        "content": "",
+        "content": "In the essential oil industry, it is not common for people to know the difference between standard oils and true therapeutic oils.  Below is some information to share key indicators to assist others to see past the distractions of a companies marketing hype.",
         "order": 2
       },
       {
-        "element": "p",
-        "content": "",
+        "element": "h3",
+        "content": "More than Chemistry",
         "order": 3
       },
       {
-        "element": "ul",
-        "content": [
-          {
-            "order": 1,
-            "content": ""
-          },
-          {
-            "order": 2,
-            "content": ""
-          },
-          {
-            "order": 3,
-            "content": ""
-          },
-          {
-            "order": 4,
-            "content": ""
-          },
-          {
-            "order": 5,
-            "content": ""
-          },
-          {
-            "order": 6,
-            "content": ""
-          },
-          {
-            "order": 7,
-            "content": ""
-          },
-          {
-            "order": 8,
-            "content": ""
-          },
-          {
-            "order": 9,
-            "content": ""
-          }
-        ],
+        "element": "p",
+        "content": "Since the 17th century a drive to see and replicate the chemistry behind nature has lead to a more scientific approach to health.  Nonetheless, the decreasing efficacy of synthetic remedies, their undesirable side effects, and unregulated contradictions have Natural Healers to return to nature.  Being in balance with the natural forces will assist in creating better health and wellbeing for ourselves and the generations to come.",
         "order": 4
       },
       {
-        "element": "p",
-        "content": "",
+        "element": "blockquote",
+        "content": "Example: A herb grown with toxic fertilizers, pesticides, unhappy workers, and on contaminated soil may still produce an essential oil that passes chemical tests.  But knowing all the growing factors, would you still consider this oil to be of good quality?",
         "order": 5
       },
       {
-        "element": "h3",
-        "content": "",
+        "element": "blockquote",
+        "content": "Now imagine an essential oil that produces a chemistry outside its normal recognized high quality standard.  This herb was grown by a family during a drought that loves and takes care of their soil and uses traditional sustainable farming practices.  Would you consider this oil to be of poor quality?",
         "order": 6
       },
       {
-        "element": "ul",
-        "content": [
-          {
-            "order": 1,
-            "content": ""
-          },
-          {
-            "order": 2,
-            "content": ""
-          },
-          {
-            "order": 3,
-            "content": ""
-          },
-          {
-            "order": 4,
-            "content": ""
-          },
-          {
-            "order": 5,
-            "content": ""
-          },
-          {
-            "order": 6,
-            "content": ""
-          }
-        ],
+        "element": "p",
+        "content": "Natural Healers know there is a lot more to quality than just chemistry.  Over the centuries many have seen the powerful healing attributes that herbs and essential oils have that go beyond chemistry.  We like to call this other healing energy within plant life the \"Creator's Life Energy\".  We know that it is associated with every herb and essential oil.",
         "order": 7
       },
       {
         "element": "p",
-        "content": "",
+        "content": "This energy goes beyond the scientific electromagnetic, rotational, or quantum energy that scientists are familiar with.  The Creator's Life Energy is a healing property that is completely different and currently only discerned on a spiritual level.  (1 Corinthians 2:14 -- \"But the natural man receiveth not the things of the Spirit of God: for they are foolishness unto him: neither can he know them, because they are spiritually discerned.\")",
         "order": 8
       },
       {
         "element": "p",
-        "content": "",
+        "content": "Everything in the Universe has its own unique Creator's Life Energy healing signature.  The way an herb is grown, the people involved in the process, and how it is processed can all have a profound effect on the plant.",
         "order": 9
       },
       {
         "element": "p",
-        "content": "",
+        "content": "An article called “The Sacred Heart of Aromatherapy” by Karyn Grant, LMT can assist in illustrating the healing energy profound effects. She writes:",
         "order": 10
       },
       {
-        "element": "p",
-        "content": "",
+        "element": "blockquote",
+        "content": "Many years ago, when I was a young mother, I was out walking my two-year-old son.  My neighbor, Cleon Skousen, was standing on his porch and called me by name, saying, “Karyn, I’ve been expecting you! Come and visit with me for awhile!”",
         "order": 11
       },
       {
-        "element": "link",
-        "link": "",
-        "local": false,
-        "linkText": "",
-        "order": 10
+        "element": "blockquote",
+        "content": "I proceeded down the pathway to his house with my son, Michael.  Cleon invited us in and offered me a soft cushioned rocking chair.  I rocked Michael as this man spoke these unforgettable words to me: “I do not know why I am telling you this, but it is something you will need to know later in your life….there is not one single one of God’s creations that He has not touched with His own divine intelligence.  Every flower, every herb, every rock, every plant, every bit of chemistry has been imbued by God’s own brilliance.  Every one of them has the power to enhance life.  Every gas, every molecule, every atom that has any life force in it, is an extension of God himself. Thus, they all have His healing gifts.”",
+        "order": 12
+      },
+      {
+        "element": "blockquote",
+        "content": "I don’t remember anything else he said to me that day, but I have never forgotten those words.  Because of his testimony, I have never been able to separate the love of God from the creation.  I have never been able to separate the gift from the Giver.  I believe that God himself puts divine symbolism into every aspect of life by imparting a portion of His intelligence within the very essences of plants.",
+        "order": 13
+      },
+      {
+        "element": "blockquote",
+        "content": "His brilliance is made manifest in His creativity; the plants are no exception.  They, like human beings, came to fulfill the full measure of their creation; which is to bring glory to their Creator through the gift of beautifying the earth and the gift of healing.  The intelligence within each plant is replete with the atoms of God’s infinite love.  He has placed within each fruit, herb and flower bearing seed, the essences of His divine intuition, creativity and intelligence.  He has touched the soul of each plant with a pure essence of life and health; so that we, as human beings, may increase in physical health, vitality, and spirituality as we inhale their aromas and partake of them.",
+        "order": 14
+      },
+      {
+        "element": "p",
+        "content": "Scientists that understand quantum physicist know there is a lot more going on in the Universe than just what appears to be happening.  Their recent findings over the last century, is now beginning to validate what natural healers have know for many millennia.  A new field of \"Energy Medicine\" is quickly materializing to assist people with greater health.",
+        "order": 15
+      },
+      {
+        "element": "p",
+        "content": "Dr. Masaru Emoto’s was involved in research on how “negative” and “positive” words affect water crystals.  Words associated with the positive produced light beautiful crystals whereas negative words produced the opposite result.",
+        "order": 16
+      },
+      {
+        "element": "p",
+        "content": "Sadly, the energy of medicinal plants can also be altered or manipulated.  Artificial frequencies can be placed upon labels, bottles and the product itself.  Some companies make it a policy to impregnate an artificial frequency upon their products.",
+        "order": 17
+      },
+      {
+        "element": "p",
+        "content": "Understanding that products can be energetically manipulated is important to understand true quality.  Any healer should clear any unnatural energy frequencies from their product they purchase before use.",
+        "order": 18
+      },
+      {
+        "element": "p",
+        "content": "Many Therapeutic Essential Oils, which are considered inferior in their chemical constituents, far outshine in their healing abilities of others that are chemical test shown as superior.  Numerous Natural Practitioners have witnessed this occurrence.",
+        "order": 19
+      },
+      {
+        "element": "blockquote",
+        "content": "Quote: \"Plants and oils that are treated with love are charged with a greater Creator’s Life Energy.  I have found their overall healing properties are greatly enhanced.  When two Therapeutic Essential Oils are distilled the same way, grown in the same region, and have almost the same chemical makeup, I have found the plants grown on the small family farm perform better.  They have the higher vibration of the Creator’s Life Energy over the plants grown on large industrialized farm.\" - Pahamy, Natural Practitioner and Medicine Woman",
+        "order": 20
+      },
+      {
+        "element": "blockquote",
+        "content": "Quote: \"Early on in my walk with essential oils, I worked for a company that would routinely 'energize' their oils through a machine they had in their lab.  When I asked about this, they said they were just enhancing the already wonderful healing properties of the essential oils.",
+        "order": 21
+      },
+      {
+        "element": "blockquote",
+        "content": "Sadly, I soon discovered this was not the case.  They were using inferior essential oils, and then infusing energies into the oils so they would test higher in therapeutic value by the Energy Healers.  I considered this artificial spiritual energy adulteration.\" - Pahamy, Natural Practitioner and Medicine Woman",
+        "order": 22
+      },
+      {
+        "element": "blockquote",
+        "content": "Quote: \"There are many ways to clear the products and it's not about a specific method but rather about finding a way that resonates with you and your belief systems.  A simple method that works for just about everyone is to move into a calm space while holding the product in your hands.  Once you are in that calming mindset, envision pure white light descending on you and the product and resonating out from you.  Sit with that picture and feeling for a few moments.  This should clear any unwanted energetic residue.\" - Pahamy, Natural Practitioner and Medicine Woman",
+        "order": 23
+      },
+      {
+        "element": "blockquote",
+        "content": "Quote: \"The healing abilities of an herb or essential oil goes beyond their chemical makeup.  Plant energies are more like a symphony playing rather than just a solo instrument.  To specifically categorize an essential oil under a specific frequency is not the best way to understand them.  They more accurately resonate up and down over a specific range.\" - Man Found Standing, Natural Practitioner and Medicine Man",
+        "order": 24
+      },
+      {
+        "element": "h3",
+        "content": "Smell and Quality",
+        "order": 25
+      },
+      {
+        "element": "p",
+        "content": "Oils grown under different conditions will produce differences in their chemistry, energy, and smells. When a natural healer becomes acquainted with different harvest of the same plant, they will soon realize that the healing therapeutic quality is not associated with smell like many companies will tell you.  (Sharp, crisp, candy cane smelling peppermint is not as therapeutic as the peppermint with its herby undertones.)",
+        "order": 26
+      },
+      {
+        "element": "p",
+        "content": "The therapeutic essential oils market is relatively a small percentage of the overall essential oil industry.  Most all distillers extract the essential oils for the food, aromatherapy, and perfume industry rather than for their therapeutic use.  Extracting an oil to maximize its healing properties requires more understanding, energy, and care than for those other industries.",
+        "order": 27
+      },
+      {
+        "element": "blockquote",
+        "content": "Quote: \"When I teach a seminar, I want to educate people to understand that quality and smell are two different things.  For example, I will pass around two bottles; one marked 'A' and one marked 'B'.  I have pure rose oil in one bottle and a 3% Rose with a carrier oil blend in the other.  I then have people vote on which oil they think smells the nicest.  About eighty to ninety percent of the people in the class choose the one blended with 97% carrier oil as the fragrance they like the best.\" - Man Found Standing, Natural Practitioner and Medicine Man",
+        "order": 28
+      },
+      {
+        "element": "p",
+        "content": "Essential oils will also change as they age.  An oil that is freshly distilled will sometimes take a half a year or longer to settle into a nice fragrance.  Keep in mind that as a basic rule, the oils that are freshly distilled will not smell as nice as oils that have been aged a little even though they generally have the same therapeutic value.",
+        "order": 29
+      },
+      {
+        "element": "p",
+        "content": "Many customers choose an oil by the smell rather than its therapeutic value.  This has led the experts to enhance their oil smells through adulteration with sweet smelling synthetic chemicals.  For example, many people do not like the harsher smell of a Wild Lavender and will not purchase it, even though in many cases it is a better oil for their healing purposes.",
+        "order": 30
+      },
+      {
+        "element": "blockquote",
+        "content": "Quote: \"When I was working for what some call the world leader of therapeutic grade essential oils, I was saddened to discover that they would routinely add synthetic aromas to their essential oil blends to make them smell nicer.  This company would still proclaim and advertise that they did not dilute, cut, nor adulterate their therapeutic oils.\" - Man Found Standing, Natural Practitioner and Medicine Man​",
+        "order": 31
+      },
+      {
+        "element": "p",
+        "content": "The I Am Essential Oils company is dedicated to providing the highest quality therapeutic oils.  By working with their small farms and having the oils distilled for their therapeutic value, they preserve the natural chemistry and the Creator's Life Energy in every bottle including its natural smell.",
+        "order": 32
+      }
+    ]
+  },
+  {
+    "title": "GC/MS Testing Hype",
+    "linkText": "GC/MS Testing Hype",
+    "order": 1,
+    "author": "Paway-yatanatu way-akt, Medicine Woman Practitioner and Man Found Standing, Medicine Man Practitioner",
+    "elements": [
+      {
+        "element": "p",
+        "content": "Most companies will propagate the marketing hype of their GC/MS (Gas chromatography-mass spectrometry) or other testing but many adulterated oils pass their tests as pure.  Even though having proper testing is important, Aromatherapists and Natural Healers should be versed in the testing limitations.  Yes, testing assists in determining the chemical makeup of an essential oil but this should not be confused as a sign of true quality.",
+        "order": 1
+      },
+      {
+        "element": "p",
+        "content": "First off, in order to accurately test essential oils the proper GC-MS machine setup is required.  The way the machine is configured will have significant effects on the results.  Also you have to understand that the results will vary and only show the results as to what it can test.  If you have a batch of oil tested five different times at five different labs and you will get five different results.",
+        "order": 2
+      },
+      {
+        "element": "p",
+        "content": "The GC-MS machine system is great for testing for any volatile chemicals not normally found in essential oils, like propylene glycol. It is also wonderful for testing the volatile chemical makeup of an essential oil.  Its ability to determine adulteration and therapeutic quality is limited.  Essential oils can be adulterated in many ways without successful detection by the standard GC-MS testing experts.",
+        "order": 3
+      },
+      {
+        "element": "blockquote",
+        "content": "Example: GC-MS analysis cannot tell whether that compound is synthetic or natural, only that it is present.",
+        "order": 4
+      },
+      {
+        "element": "blockquote",
+        "content": "Quote:  \". . . I told them we were only looking for the highest quality most medicinal oils, and they had to be absolutely pure and free from toxins.",
+        "order": 5
+      },
+      {
+        "element": "blockquote",
+        "content": "The company’s response to this was, 'Our lab is wonderful.  Send us the specifications you would like in the oils and we will make them for you.  They will pass any certifications as pure.\" - Man Found Standing, Natural Practitioner and Medicine Man",
+        "order": 6
+      },
+      {
+        "element": "p",
+        "content": "Often the experts will try to establish reference standards for the therapeutic essential oils.  These standards adding to the illusion of purity and high quality when they go to sell their adulterated oils.  If you are looking for the most healing properties, you deserve to look beyond the reference standards and testing hype.  An essential oil may be outside the reference standard because of weather or soil conditions and being outside the standard will in fact increase its therapeutic benefits for specific healing conditions.",
+        "order": 7
+      },
+      {
+        "element": "blockquote",
+        "content": "Example: Because of soil conditions, Oregano in a specific region of Turkey regularly tests with over ninety percent Carvacrol.  This oil would excel at addressing bacterial infections and lung issues but would perform poorly as a potential pain reliever.",
+        "order": 8
+      },
+      {
+        "element": "p",
+        "content": "The expert reference standards and GC-MS tests will not show the numerous toxins found on the farm, unethical harvesting, careful adulteration, and so forth.  The essential oil experts capitalize on testing flaws to market adulterated essential oils for more money. True quality therapeutic essential oils go well beyond the chemistry of the oil.",
+        "order": 9
       }
     ]
   }

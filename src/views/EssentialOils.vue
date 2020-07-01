@@ -65,14 +65,28 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col>
-          <v-btn>
-            Add Link
+        <v-col class="text-center" cols="12" md="6">
+          <v-btn
+            class="text-center"
+            :to="{
+              name: 'Product Category',
+              query: { productCategory: 'essentialOilSingles' },
+            }"
+          >
+            Shop Essential Oil <br />
+            Singles
           </v-btn>
         </v-col>
-        <v-col>
-          <v-btn>
-            Add Link
+        <v-col class="text-center" cols="12" md="6">
+          <v-btn
+            class="text-center"
+            :to="{
+              name: 'Product Category',
+              query: { productCategory: 'essentialOilBlends' },
+            }"
+          >
+            Shop Essential Oil <br />
+            Blends
           </v-btn>
         </v-col>
       </v-row>
