@@ -83,7 +83,7 @@
         v-else
         class="text-center"
         cols="12"
-        lg="4"
+        lg="6"
         v-for="item in informationData"
         :key="item.id"
       >
