@@ -30,8 +30,8 @@ app.get('/getAllStripePrices', async (req, res) => {
 app.post('/create-session', async (req, res) => {
   console.log('req.body: ', req.body)
   const session = await stripe.checkout.sessions.create({
-    success_url: 'http://localhost:8080/cart',
-    cancel_url: 'http://localhost:8080/cart',
+    success_url: 'https://forage-basket-7a7ed.web.app/cart',
+    cancel_url: 'https://forage-basket-7a7ed.web.app/cart',
     customer: req.body.customer,
     customer_email: req.body.customer_email,
     payment_method_types: ['card'],
