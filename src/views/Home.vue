@@ -305,7 +305,10 @@
       </v-col>
       <v-col class="text-center" cols="12">
         <!-- here, add link -->
-        <v-btn>
+        <v-btn
+          href="https://shiaqga.idevaffiliate.com/index.php"
+          target="_blank"
+        >
           Join Affiliate Program
         </v-btn>
       </v-col>
