@@ -28,6 +28,8 @@
 </template>
 
 <script>
+import { DB } from '../firebase/db'
+
 export default {
   data() {
     return {
@@ -91,9 +93,7 @@ export default {
       this.exp.mount('#card-exp')
     },
     submitNewCharge: function() {
-      firebase
-        .firestore()
-        .collection('user')
+      DB.collection('user')
         .doc(this.currentUser.uid)
         .collection('stripe')
         .doc('charges')

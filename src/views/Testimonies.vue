@@ -41,8 +41,6 @@
 </template>
 
 <script>
-import firebase from 'firebase/app'
-import 'firebase/firestore'
 import { mapState } from 'vuex'
 
 export default {

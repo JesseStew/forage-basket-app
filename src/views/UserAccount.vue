@@ -5,7 +5,7 @@
         <h2 class="title">My Account, {{ displayName }}</h2>
       </v-col>
       <v-col>
-        <v-btn class="sign-out" @click="signOut">
+        <v-btn @click="signOut">
           Sign Out
         </v-btn>
       </v-col>

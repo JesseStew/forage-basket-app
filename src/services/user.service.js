@@ -1,6 +1,5 @@
 // https://firebase.google.com/docs/auth/web/password-auth?authuser=1
-import firebase from 'firebase/app'
-import 'firebase/auth'
+import { Auth } from '../firebase/auth'
 
 export const userService = {
   loginStatus,
@@ -14,15 +13,13 @@ export const userService = {
 }
 
 function loginStatus() {
-  firebase.auth().onAuthStateChanged((user) => {
+  Auth.onAuthStateChanged((user) => {
     return user
   })
 }
 
 function login(email, password) {
-  firebase
-    .auth()
-    .signInWithEmailAndPassword(email, password)
+  Auth.signInWithEmailAndPassword(email, password)
     .then(function(user) {
       state.user.state = user.state
       state.user.email = user.email
@@ -39,9 +36,7 @@ function login(email, password) {
 }
 
 function logout() {
-  firebase
-    .auth()
-    .signOut()
+  Auth.signOut()
     .then(function() {
       state.user.state = ''
       state.user.email = ''
@@ -58,9 +53,7 @@ function logout() {
 }
 
 function register(user) {
-  firebase
-    .auth()
-    .createUserWithEmailAndPassword(payload.email, payload.password)
+  Auth.createUserWithEmailAndPassword(payload.email, payload.password)
     .then(function(user) {
       state.user.state = user.state
       state.user.email = user.email

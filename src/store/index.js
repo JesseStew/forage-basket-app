@@ -1,11 +1,9 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import router from '../router'
+import { Auth } from '../firebase/auth'
+import { DB } from '../firebase/db'
 
-// Could slow down app
-import firebase from 'firebase/app'
-import 'firebase/auth'
-import 'firebase/firestore'
 import _ from 'lodash'
 import http from '../http-common'
 
@@ -146,12 +144,9 @@ export default new Vuex.Store({
       // here, fix later
       // https://stackoverflow.com/questions/47893328/checking-if-a-particular-value-exists-in-the-firebase-database
       // https://firebase.google.com/docs/reference/android/com/google/firebase/database/DatabaseReference
-      firebase.auth().onAuthStateChanged((user) => {
+      Auth.onAuthStateChanged((user) => {
         // console.log(user)
-        let docRef = firebase
-          .firestore()
-          .collection('user')
-          .doc(user.uid)
+        let docRef = DB.collection('user').doc(user.uid)
         docRef.get().then((user) => {
           user = user.data()
           // console.log(user)
@@ -164,18 +159,14 @@ export default new Vuex.Store({
       })
     },
     signOut({ commit }) {
-      firebase
-        .auth()
-        .signOut()
+      Auth.signOut()
         .then(function() {
           commit('signOut')
         })
         .catch(function(err) {})
     },
     registerAccount({ commit }, payload) {
-      firebase
-        .auth()
-        .createUserWithEmailAndPassword(payload.email, payload.password)
+      Auth.createUserWithEmailAndPassword(payload.email, payload.password)
         .then((user) => {
           // console.log(user)
           let userProfile = {
@@ -189,9 +180,7 @@ export default new Vuex.Store({
             isAnonymous: user.user.isAnonymous,
           }
           // console.log(userProfile)
-          firebase
-            .firestore()
-            .collection('user')
+          DB.collection('user')
             .doc(user.user.uid)
             .set({
               firstName: userProfile.firstName,
@@ -216,31 +205,26 @@ export default new Vuex.Store({
         })
     },
     loginAccount({ commit }, payload) {
-      firebase
-        .auth()
-        .signInWithEmailAndPassword(payload.email, payload.password)
-        .then(
-          (user) => {
-            // console.log(user)
-            firebase
-              .firestore()
-              .collection('user')
-              .doc(user.user.uid)
-              .get()
-              .then((user) => {
-                user = user.data()
-                // console.log(user)
-                user.emailVerified = user.emailVerified
-                user.photoURL = user.photoURL
-                user.isAnonymous = user.isAnonymous
-                user.uid = user.uid
-                commit('loginAccount', user)
-              })
-          },
-          function(err) {
-            alert('Loggin failure.')
-          }
-        )
+      Auth.signInWithEmailAndPassword(payload.email, payload.password).then(
+        (user) => {
+          // console.log(user)
+          DB.collection('user')
+            .doc(user.user.uid)
+            .get()
+            .then((user) => {
+              user = user.data()
+              // console.log(user)
+              user.emailVerified = user.emailVerified
+              user.photoURL = user.photoURL
+              user.isAnonymous = user.isAnonymous
+              user.uid = user.uid
+              commit('loginAccount', user)
+            })
+        },
+        function(err) {
+          alert('Loggin failure.')
+        }
+      )
     },
     addToCart({ commit }, payload) {
       commit('addToCart', payload)
@@ -264,9 +248,7 @@ export default new Vuex.Store({
         router.push({ path: '/user-account' })
         alert('Must register or log in.')
       } else {
-        let customer = await firebase
-          .firestore()
-          .collection('user')
+        let customer = await DB.collection('user')
           .doc(state.user.uid)
           .collection('stripe')
           .doc('stripe_customer')
@@ -299,10 +281,7 @@ export default new Vuex.Store({
       }
     },
     async loadShopData({ commit }) {
-      let data = await firebase
-        .firestore()
-        .collection('product')
-        .get()
+      let data = await DB.collection('product').get()
       let shopData = []
       data.forEach((doc) => {
         shopData.push(doc.data())
@@ -313,9 +292,7 @@ export default new Vuex.Store({
       commit('loadShopData', { shopData: shopData, prices: prices.data.data })
     },
     loadTestimonyData({ commit }) {
-      firebase
-        .firestore()
-        .collection('testimonies')
+      DB.collection('testimonies')
         .get()
         .then((querySnapshot) => {
           const documents = querySnapshot.docs.map((doc) => doc.data())
@@ -324,9 +301,7 @@ export default new Vuex.Store({
         })
     },
     loadHealthData({ commit }) {
-      firebase
-        .firestore()
-        .collection('health')
+      DB.collection('health')
         .get()
         .then((querySnapshot) => {
           const documents = querySnapshot.docs.map((doc) => doc.data())
@@ -335,9 +310,7 @@ export default new Vuex.Store({
         })
     },
     loadInformationData({ commit }) {
-      firebase
-        .firestore()
-        .collection('information')
+      DB.collection('information')
         .get()
         .then((querySnapshot) => {
           const documents = querySnapshot.docs.map((doc) => doc.data())
@@ -345,9 +318,7 @@ export default new Vuex.Store({
         })
     },
     loadResearchData({ commit }) {
-      firebase
-        .firestore()
-        .collection('research')
+      DB.collection('research')
         .get()
         .then((querySnapshot) => {
           const documents = querySnapshot.docs.map((doc) => doc.data())

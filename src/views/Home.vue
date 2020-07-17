@@ -348,8 +348,12 @@
 </template>
 
 <script>
+import QuillEditor from '@/components/QuillEditor.vue'
+
 export default {
   name: 'Home',
-  components: {},
+  components: {
+    QuillEditor,
+  },
 }
 </script>

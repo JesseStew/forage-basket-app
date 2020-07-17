@@ -4,25 +4,9 @@ import router from './router'
 import store from './store'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
-import firebase from 'firebase/app'
-import 'firebase/auth'
-import { firestorePlugin } from 'vuefire'
 import _ from 'lodash'
 import vuetify from './plugins/vuetify'
 Object.defineProperty(Vue.prototype, '$_', { value: _ })
-
-Vue.use(firestorePlugin)
-
-const firebaseConfig = {
-  apiKey: 'AIzaSyBnHjfJLfjTWBe9RBlGIZKM44wSAOFDiEk',
-  authDomain: 'forage-basket-7a7ed.firebaseapp.com',
-  databaseURL: 'https://forage-basket-7a7ed.firebaseio.com',
-  projectId: 'forage-basket-7a7ed',
-  storageBucket: 'forage-basket-7a7ed.appspot.com',
-  messagingSenderId: '66382564064',
-  appId: '1:66382564064:web:c44d5b93ac50ba83611e85',
-  measurementId: 'G-LR70HPR1EX',
-}
 
 const requireComponent = require.context(
   // The relative path of the components folder
@@ -32,8 +16,6 @@ const requireComponent = require.context(
   // The regular expression used to match base component filenames
   /Base[A-Z]\w+\.(vue|js)$/
 )
-
-firebase.initializeApp(firebaseConfig)
 
 requireComponent.keys().forEach((fileName) => {
   // Get component config

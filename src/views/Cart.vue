@@ -39,9 +39,6 @@
 </template>
 
 <script>
-import http from '../http-common'
-import firebase from 'firebase/app'
-import 'firebase/firestore'
 import { mapState, mapActions } from 'vuex'
 
 import ProductLink from '@/components/ProductLink.vue'
