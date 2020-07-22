@@ -102,14 +102,22 @@ export const routes = [
     path: '/health-article',
     name: 'Health Article',
     component: () =>
-      import(/* webpackChunkName: "article" */ '../views/HealthArticle.vue'),
+      import(/* webpackChunkName: "health-article" */ '../views/HealthArticle.vue'),
   },
   {
     path: '/information-article',
     name: 'Information Article',
     component: () =>
       import(
-        /* webpackChunkName: "article" */ '../views/InformationArticle.vue'
+        /* webpackChunkName: "information-article" */ '../views/InformationArticle.vue'
+      ),
+  },
+  {
+    path: '/article-creator',
+    name: 'Article Creator',
+    component: () =>
+      import(
+        /* webpackChunkName: "article-creator" */ '../views/ArticleCreator.vue'
       ),
   },
 ]

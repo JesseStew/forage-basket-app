@@ -8,39 +8,24 @@
         />
       </v-col>
       <v-col class="text-center" cols="12" sm="12" md="9">
-        <p class="headline">
-          The Native American wild Shiaqga mushroom is considered one of the
-          most powerful weapons in protection against illness, disease, and
-          aging. It is a certified ceremonial sacrament for use by all Medicine
-          Men and Women in traditional Native American Healing
-        </p>
-        <p class="title text-right">
-          - Chieftess Pahamy, Medicine Woman Practitioner
-        </p>
+        <quill-editor
+            :id="'9bpIeW8ne6wPQtLyBRJV'"
+            :delta="getDelta('9bpIeW8ne6wPQtLyBRJV')"
+            :key="componentKey"
+            :collection="'home'"
+            :action="'loadHomeData'"/>
       </v-col>
     </v-row>
     <v-row class="my-10">
       <v-divider></v-divider>
     </v-row>
     <v-row no-gutters>
-      <v-col :class="{ 'text-center': $vuetify.breakpoint.smAndDown }">
-        <h2 class="display-1">
-          Our Guarantee
-        </h2>
-      </v-col>
-    </v-row>
-    <v-row no-gutters>
-      <br />
-      <p class="subtitle-1 pt-5 pb-9">
-        Even though many health issues are dealt with rather quickly, we
-        understand that health conditions vary and some people may take longer
-        to notice the benefits of taking Shiaqga. Still, we are confident that
-        you will see the benefit if you allow your body to build upon the
-        nutritional support the Shiaqga offers. Because of this, we offer a full
-        120 Day Money Back Guarantee on your purchases. Take the Shiaqga
-        supplements for four months and if you don't notice positive benefits,
-        contact us for a full refund.
-      </p>
+      <quill-editor
+            :id="'fhVzVN2WorpPuAmINh20'"
+            :delta="getDelta('fhVzVN2WorpPuAmINh20')"
+            :key="componentKey"
+            :collection="'home'"
+            :action="'loadHomeData'"/>
     </v-row>
     <v-row class="my-10">
       <v-divider></v-divider>
@@ -104,13 +89,12 @@
         ></iframe>
       </v-col>
       <v-col align-self="center" cols="12" md="6">
-        <p>
-          Dr. Tim Chapman, M.D. from Sun City, California writes: "My comment is
-          . . . to acknowledge a product that has significantly created immune
-          system enhancing activities, both safely and repetitively. It is
-          called Shiaqga. Its anti-neoplastic and immune-stimulating efficacies
-          are superior."
-        </p>
+        <quill-editor
+            :id="'1ryF9qYY55ZbE10XDxI3'"
+            :delta="getDelta('1ryF9qYY55ZbE10XDxI3')"
+            :key="componentKey"
+            :collection="'home'"
+            :action="'loadHomeData'"/>
       </v-col>
     </v-row>
     <v-row class="my-10">
@@ -125,39 +109,25 @@
         />
       </v-col>
       <v-col align-self="center" cols="12" md="9">
-        <p>
-          Our products are formulated with true Shiaqga not with the much
-          cheaper 'Chaga Mushroom' that many companies attempt to pass off as
-          true Shiaqga.
-        </p>
-        <p>
-          "When I first learned about Shiaqga I asked my Medicine Chief what the
-          difference was between that and the Chaga mushroom I was familiar
-          with. He said, 'Oh, Shiaqga is 1000% times better.' " - Man Found
-          Standing, Medicine Man Practitioner
-        </p>
+        <quill-editor
+            :id="'GjDjKABRyH0IDjDwR5k6'"
+            :delta="getDelta('GjDjKABRyH0IDjDwR5k6')"
+            :key="componentKey"
+            :collection="'home'"
+            :action="'loadHomeData'"/>
       </v-col>
     </v-row>
     <v-row class="my-10">
       <v-divider></v-divider>
     </v-row>
     <v-row>
-      <v-col
-        :class="{ 'text-center': $vuetify.breakpoint.smAndDown }"
-        cols="12"
-      >
-        <h2>
-          Assist your body to heal itself!
-        </h2>
-      </v-col>
       <v-col cols="12">
-        <p>
-          "The modulation of the immune system is a given when taking Shiaqga. I
-          have seen the immune system increase over 4000% within 20 hours after
-          taking Shiaqga. Over time the modulation of the immune system will
-          start the activation of the body's healing stem cells." - Chief Man
-          Found Standing, Medicine Man Practitioner
-        </p>
+        <quill-editor
+            :id="'PD9t2ZtYT8ClEwd5eEmx'"
+            :delta="getDelta('PD9t2ZtYT8ClEwd5eEmx')"
+            :key="componentKey"
+            :collection="'home'"
+            :action="'loadHomeData'"/>
       </v-col>
     </v-row>
     <v-row align="center">
@@ -241,12 +211,12 @@
     </v-row>
     <v-row>
       <v-col>
-        <p class="subtitle-1">
-          “The doctor of the future will give no medicine, but will interest her
-          or his patients in the care of the human frame, in a proper diet, and
-          in the cause and prevention of disease.”
-        </p>
-        <span class="headline">--Thomas A. Edison</span>
+        <quill-editor
+            :id="'PgtJ21e7Bs1mXxqRwXTn'"
+            :delta="getDelta('PgtJ21e7Bs1mXxqRwXTn')"
+            :key="componentKey"
+            :collection="'home'"
+            :action="'loadHomeData'"/>
       </v-col>
     </v-row>
     <v-row class="my-10">
@@ -293,15 +263,12 @@
     </v-row>
     <v-row>
       <v-col>
-        <p>
-          Join our Shiaqga affiliate program and receive 7% commission for your
-          direct referrals and 10% commission on your second tier level.
-        </p>
-        <p>
-          You will automatically be placed in your referer's first level tier.
-          (In the future, a company-wide profit sharing plan based on referrals
-          sales will be added.)
-        </p>
+        <quill-editor
+            :id="'XfQiwbCmlllAvNsC3DO4'"
+            :delta="getDelta('XfQiwbCmlllAvNsC3DO4')"
+            :key="componentKey"
+            :collection="'home'"
+            :action="'loadHomeData'"/>
       </v-col>
       <v-col class="text-center" cols="12">
         <!-- here, add link -->
@@ -318,13 +285,12 @@
     </v-row>
     <v-row>
       <v-col>
-        <p class="headline">
-          "The Shiaqga product is one of natures most powerful natural healers
-          that I know about."
-        </p>
-        <p class="title text-right">
-          - Chief SunStar
-        </p>
+        <quill-editor
+            :id="'aDKvbC8Lcf2KPvo4NWW4'"
+            :delta="getDelta('aDKvbC8Lcf2KPvo4NWW4')"
+            :key="componentKey"
+            :collection="'home'"
+            :action="'loadHomeData'"/>
       </v-col>
     </v-row>
     <v-row class="my-10">
@@ -332,16 +298,12 @@
     </v-row>
     <v-row>
       <v-col>
-        <p>
-          Consumers should always seek the advice of a physician or other
-          competent health care provider with any questions regarding medical
-          conditions. The educational information on our website and in our
-          online advertisements has not been evaluated by the United States Food
-          and Drug Administration and is not intended to diagnose, treat, cure
-          or prevent any disease. Consumers should never disregard medical
-          advice or delay in seeking it because of something they have read on
-          our Site or in our online advertisements.
-        </p>
+        <quill-editor
+            :id="'4GhFLUMfH83JaCTmBHzn'"
+            :delta="getDelta('4GhFLUMfH83JaCTmBHzn')"
+            :key="componentKey"
+            :collection="'home'"
+            :action="'loadHomeData'"/>
       </v-col>
     </v-row>
   </v-container>
@@ -349,9 +311,34 @@
 
 <script>
 import QuillEditor from '@/components/QuillEditor.vue'
+import { mapState } from 'vuex'
 
 export default {
   name: 'Home',
+  data(){
+    return {
+      delta: { "ops": [ { "insert": "To edit this content:" }, { "insert": "\n", "attributes": { "header": 1 } }, { "insert": "Go to User Account Page" }, { "attributes": { "list": "ordered" }, "insert": "\n" }, { "insert": "Register as a new user. -- You will be signed in." }, { "attributes": { "list": "ordered" }, "insert": "\n" }, { "insert": "Click any of the Buttons that say edit and begin adding content." }, { "insert": "\n", "attributes": { "list": "ordered" } }, { "insert": "\n" } ] },
+      componentKey: 0,
+     }
+  },
+  computed: {
+    ...mapState(['homeData', 'homeDataLoaded']),
+  },
+  created() {
+    if (!this.homeDataLoaded) {
+      this.$store.dispatch('loadHomeData')
+    }
+  },
+  methods: {
+    getDelta(id){
+      console.log(this.$_.find(this.homeData, (obj)=>{
+        return obj.id === id
+      }).data.delta)
+      return this.$_.find(this.homeData, (obj)=>{
+        return obj.id === id
+      }).data.delta
+    }
+  },
   components: {
     QuillEditor,
   },

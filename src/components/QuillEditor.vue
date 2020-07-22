@@ -32,7 +32,7 @@ import { DB } from '../firebase/db.js'
 
 export default {
   components: {
-    quillEditor,
+    quillEditor
   },
   data() {
     return {
@@ -43,27 +43,27 @@ export default {
       editorOption: {
         placeholder: 'Edit your post...',
         readOnly: true,
-        theme: 'snow',
-      },
+        theme: 'snow'
+      }
     }
   },
   props: {
     delta: {
       type: Object,
-      required: true,
+      required: true
     },
     id: {
       type: String,
-      required: true,
+      required: true
     },
     collection: {
       type: String,
-      required: true,
+      required: true
     },
     action: {
       type: String,
-      required: true,
-    },
+      required: true
+    }
   },
   mounted() {
     let article = document.createElement('article')
@@ -76,7 +76,7 @@ export default {
     }, 0)
   },
   computed: {
-    ...mapState(['user']),
+    ...mapState(['user'])
   },
   methods: {
     toggleEdit() {
@@ -92,12 +92,12 @@ export default {
       DB.collection(this.collection)
         .doc(this.id)
         .update({ delta: delta })
-        .then((obj) => {
+        .then(obj => {
           // console.log(obj, this.action)
           this.$store.dispatch(this.action).then(this.toggleEdit())
         })
-    },
-  },
+    }
+  }
 }
 </script>
 

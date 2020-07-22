@@ -128,6 +128,11 @@ export default {
           name: 'Cart',
           icon: 'mdi-storefront',
         },
+        {
+          path: '/article-creator',
+          name: 'Article Creator',
+          icon: 'mdi-information',
+        },
       ],
     }
   },
