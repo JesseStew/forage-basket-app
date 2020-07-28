@@ -10,11 +10,25 @@
         <v-form>
           <v-container>
             <v-row>
-              <v-col>
+              <v-col cols="12">
                 <v-text-field
                   v-model="title"
                   label="Title"
                 ></v-text-field>
+              </v-col>
+              <v-col cols="12">
+                <v-text-field
+                  v-model="location"
+                  label="Location"
+                ></v-text-field>
+              </v-col>
+              <v-col cols="12">
+                <v-text-field
+                  v-model="author"
+                  label="Author"
+                ></v-text-field>
+              </v-col>
+              <v-col cols="12">
                 <v-select
                   required
                   :items="pages"
@@ -23,16 +37,33 @@
                   :rules="[(v) => !!v || 'Item is required']"
                 ></v-select>
               </v-col>
+              <v-col cols="12">
+                <v-checkbox
+                  v-model="isArticle"
+                  :label="'Article'">
+                </v-checkbox>
+              </v-col>
+              <v-col cols="6" sm="4" md="3" v-for="condition in     conditions" :key="condition.id">
+                <v-checkbox
+                  v-model="selectedConditions"
+                  :label="condition" :value="condition">
+                </v-checkbox>
+              </v-col>
             </v-row>
           </v-container>
         </v-form>
       </v-col>
-      <v-col>
+      <v-col cols="12">
         <quill-editor
           v-model="content"
           ref="myQuillEditor"
           :options="editorOption"
         />
+      </v-col>
+      <v-col cols="12">
+        <v-btn @click="save">
+          Save
+        </v-btn>
       </v-col>
     </v-row>
   </v-container>
@@ -54,6 +85,11 @@ export default {
       content: '',
       title: undefined,
       page: undefined,
+      isArticle: false,
+      conditions: ['arthritis', 'back', 'blood', 'blood pressure', 'breathing', 'bowels', 'broken ankle', 'bronchitis', 'cancer', 'chemotherapy side effects', 'cholesterol', 'covid-19', 'detox', 'diabetes', 'ears', 'energy', 'eyes', 'fibromyalgia', 'generic', 'heart', 'hodgkins lymphoma', 'infections', 'tumors', 'injury', 'kidney', 'libido', 'lumps', 'lyme disease', 'lymph node', 'menopause', 'menstration', 'mole or lesion', 'mono', 'multiple sclerosis', 'non-hodgkins lymphoma', 'oxygen', 'pain', 'parkinsons', 'pneumonia', 'psoriasis', 'respiratory', 'scars', 'seasonal allergies', 'shingles', 'sinuses', 'skin/hair', 'sleep', 'sores/open wound on body', 'stomach', 'thyroid', 'tonsils', 'toothache', 'tremors','viruses', 'youthful appearance'],
+      selectedConditions: [],
+      author: undefined,
+      location: undefined,
       pages: [
         {
           text: 'home',
@@ -96,9 +132,13 @@ export default {
     setTimeout(() => {
       this.$refs.myQuillEditor.quill.setContents(this.delta)
     }, 0)
+    this.$store.dispatch('loggedIn')
   },
   computed: {
-    ...mapState(['user'])
+    ...mapState(['user']),
+    conditionCheckbox(condition){
+      return this.$_.includes(this.addedConditions, condition)
+    }
   },
   methods: {
     save() {
@@ -107,8 +147,18 @@ export default {
         JSON.stringify(this.$refs.myQuillEditor.quill.getContents())
       )
       article.delta = delta
-      if(this.title){
+      article.isArticle = this.isArticle
+      if (this.author) {
+        article.author = this.author
+      }
+      if (this.title){
         article.title = this.title
+      }
+      if (this.location){
+        article.location = this.location
+      }
+      if (this.selectedConditions.length > 0) {
+        article.selectedConditions = this.selectedConditions
       }
       DB.collection(this.page)
         .doc()

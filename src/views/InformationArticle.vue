@@ -1,11 +1,21 @@
 <template>
   <v-container>
     <v-row>
-      <v-col>
-        <h2>{{ document.title }}</h2>
-        <h3 v-if="document.author">by {{ document.author }}</h3>
+      <v-col v-if="!document.data.link">
+        <h2>{{ document.data.title }}</h2>
+        <h3 v-if="document.data.author">by {{ document.data.author }}</h3>
+        <quill-editor
+          :id="document.id"
+          :delta="document.data.delta"
+          :key="componentKey"
+          :collection="'information'"
+          :action="'loadInformationData'"/>
+      </v-col>
+      <v-col v-else>
+        <h2>{{ document.data.title }}</h2>
+        <h3 v-if="document.data.author">by {{ document.data.author }}</h3>
         <div
-          v-for="element in orderElements(document.elements)"
+          v-for="element in orderElements(document.data.elements)"
           :key="element.id"
         >
           <h3 v-if="element.element == 'h3'">
@@ -52,27 +62,28 @@
           </button>
         </div>
       </v-col>
-      <!-- <v-col>
-        {{ article }}
-      </v-col> -->
     </v-row>
   </v-container>
 </template>
 
 <script>
 import { mapState } from 'vuex'
+import QuillEditor from '@/components/QuillEditor.vue';
 
 export default {
   data() {
     return {
-      articleLinkText: undefined,
+      articleTitle: undefined,
     }
+  },
+  components: {
+    QuillEditor
   },
   computed: {
     document() {
       let informationData = this.$store.state.informationData
       return this.$_.find(informationData, (item) => {
-        return item.linkText === this.articleLinkText
+        return item.data.title === this.articleTitle
       })
     },
   },
@@ -81,8 +92,8 @@ export default {
       console.log('loading this.shopData')
       this.$store.dispatch('loadInformationData')
     }
-    if (this.$route.query.articleLinkText) {
-      this.articleLinkText = this.$route.query.articleLinkText
+    if (this.$route.query.articleTitle) {
+      this.articleTitle = this.$route.query.articleTitle
     }
   },
   methods: {

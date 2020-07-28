@@ -261,7 +261,7 @@
       </v-col>
       <v-col class="text-center">
         <v-btn
-          href="https://www.shiaqga.com/uploads/2/5/9/1/25915740/7_abstracts_with_germanium_research.pdf"
+          href="https://firebasestorage.googleapis.com/v0/b/forage-basket-7a7ed.appspot.com/o/Research%2F7_abstracts_with_germanium_research.pdf?alt=media&token=7c2c14dc-0a48-44f0-83ad-f26dfa35efde"
           target="_blank"
           title="7 Abstracts with Germanium Research"
         >
@@ -438,6 +438,7 @@
               <!-- here, add routing -->
               CLICK HERE TO LEARN <br />
               MORE ABOUT BLACK CUMIN
+              <!-- here, -->
             </v-btn>
           </v-col>
         </v-row>

@@ -319,8 +319,11 @@ export default new Vuex.Store({
       DB.collection('information')
         .get()
         .then((querySnapshot) => {
-          const documents = querySnapshot.docs.map((doc) => doc.data())
-          commit('loadInformationData', documents)
+          const data = querySnapshot.docs.map((doc) => {
+            return { id: doc.id, data: doc.data() }
+          })
+          console.log(data)
+          commit('loadInformationData', data)
         })
     },
     loadResearchData({ commit }) {
