@@ -24,17 +24,13 @@
         v-for="item in healthData"
         :key="item.id"
       >
-        <v-btn v-if="item.link" @click="openNewTab(document.link)">
-          {{ item.linkText }}
-        </v-btn>
         <v-btn
-          v-else
           :to="{
             name: 'Health Article',
-            query: { articleLinkText: item.linkText },
+            query: { articleTitle: item.data.title },
           }"
         >
-          {{ item.linkText }}
+          {{ item.data.title }}
         </v-btn>
       </v-col>
     </v-row>

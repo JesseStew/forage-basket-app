@@ -43,12 +43,6 @@
                   :label="'Article'">
                 </v-checkbox>
               </v-col>
-              <v-col cols="6" sm="4" md="3" v-for="condition in     conditions" :key="condition.id">
-                <v-checkbox
-                  v-model="selectedConditions"
-                  :label="condition" :value="condition">
-                </v-checkbox>
-              </v-col>
             </v-row>
           </v-container>
         </v-form>
@@ -59,6 +53,12 @@
           ref="myQuillEditor"
           :options="editorOption"
         />
+      </v-col>
+      <v-col cols="6" sm="4" md="3" v-for="condition in     conditions" :key="condition.id">
+        <v-checkbox
+          v-model="selectedConditions"
+          :label="condition" :value="condition">
+        </v-checkbox>
       </v-col>
       <v-col cols="12">
         <v-btn @click="save">

@@ -113,6 +113,14 @@ export const routes = [
       ),
   },
   {
+    path: '/health-article',
+    name: 'Health Article',
+    component: () =>
+      import(
+        /* webpackChunkName: "information-article" */ '../views/HealthArticle.vue'
+      ),
+  },
+  {
     path: '/article-creator',
     name: 'Article Creator',
     component: () =>

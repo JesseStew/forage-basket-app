@@ -312,9 +312,11 @@ export default new Vuex.Store({
       DB.collection('health')
         .get()
         .then((querySnapshot) => {
-          const documents = querySnapshot.docs.map((doc) => doc.data())
-          // console.log('loadHealthData: ', documents)
-          commit('loadHealthData', documents)
+          const data = querySnapshot.docs.map((doc) => {
+            return { id: doc.id, data: doc.data() }
+          })
+          console.log(data)
+          commit('loadHealthData', data)
         })
     },
     loadInformationData({ commit }) {
