@@ -121,6 +121,14 @@ export const routes = [
       ),
   },
   {
+    path: '/essentialloils-article',
+    name: 'Essential Oils Article',
+    component: () =>
+      import(
+        /* webpackChunkName: "essentialloils-article" */ '../views/EssentialoilsArticle.vue'
+      ),
+  },
+  {
     path: '/article-creator',
     name: 'Article Creator',
     component: () =>

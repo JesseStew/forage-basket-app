@@ -38,7 +38,6 @@
 </template>
 
 <script>
-import InformationLink from '@/components/InformationLink.vue'
 import { mapState } from 'vuex'
 
 export default {
@@ -59,9 +58,6 @@ export default {
     openNewTab(link) {
       window.open(link.toString())
     },
-  },
-  components: {
-    InformationLink,
   },
   created() {
     if (!this.healthDataLoaded) {

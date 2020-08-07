@@ -108,7 +108,7 @@ export default {
           disabled: false,
         },
         {
-          text: 'essentialOils',
+          text: 'essentialoils',
           disabled: false,
         },
         {

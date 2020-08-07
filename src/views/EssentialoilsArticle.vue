@@ -6,8 +6,8 @@
           :id="document.id"
           :delta="document.data.delta"
           :key="componentKey"
-          :collection="'health'"
-          :action="'loadHealthData'"/>
+          :collection="'essentialoils'"
+          :action="'loadEssentialOilData'"/>
       </v-col>
       <v-col v-else>
         <h2>{{ document.data.title }}</h2>
@@ -80,16 +80,16 @@ export default {
   },
   computed: {
     document() {
-      let healthData = this.$store.state.healthData
-      return this.$_.find(healthData, (item) => {
+      let essentialOilData = this.$store.state.essentialOilData
+      return this.$_.find(essentialOilData, (item) => {
         return item.data.title === this.articleTitle
       })
     },
   },
   created() {
-    if (!this.$store.state.healthDataLoaded) {
-      console.log('loading this.healthData')
-      this.$store.dispatch('loadHealthData')
+    if (!this.$store.state.essentialOilDataLoaded) {
+      console.log('loading this.essentialOilData')
+      this.$store.dispatch('loadEssentialOilData')
     }
     if (this.$route.query.articleTitle) {
       this.articleTitle = this.$route.query.articleTitle

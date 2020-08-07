@@ -7,7 +7,8 @@
       ],
       "productId": "prod_HRTGTFfUknWtW3",
       "priceId": "price_1GtHmSHhLIxiPD1kEi0wUNrP",
-      "productName": "15ml Organic Ylang Ylang Extra"
+      "productName": "15ml Organic Ylang Ylang Extra",
+      "metatdata": { "benefits": ["Nervous System", "Emotions", "Aphrodisiac", "Skin", "Circulatory System"] }
     },
     {
       "description": "1 Bottle 15ml Organic Wintergreen",
@@ -16,7 +17,8 @@
       ],
       "productId": "prod_HRTGB3Hpu7NBpm",
       "priceId": "price_1GtHmSHhLIxiPD1kmCu954Pe",
-      "productName": "15ml Organic Wintergreen"
+      "productName": "15ml Organic Wintergreen",
+      "metatdata": { "benefits": ["Pain", "Anti-Inflammatory", "Circulation", "Broken Bones", "Heart Disease"] }
     },
     {
       "description": "1 Bottle 15ml Organically Grown Vetiver",
@@ -25,7 +27,8 @@
       ],
       "productId": "prod_HRTGk1W4tQMjs7",
       "priceId": "price_1GtHmSHhLIxiPD1kgLOMLrit",
-      "productName": "15ml Organically Grown Vetiver"
+      "productName": "15ml Organically Grown Vetiver",
+      "metatdata": { "benefits": ["Nervous System", "Emotional Support", "Skin", "Hormonal Systems", "Anti-Inflammatory"] }
     },
     {
       "description": "1 Bottle 15ml Organic Sage",
@@ -34,7 +37,8 @@
       ],
       "productId": "prod_HRTGIW7QoJMf2Z",
       "priceId": "price_1GtHmSHhLIxiPD1kKAY2A6Ie",
-      "productName": "15ml Organic Sage"
+      "productName": "15ml Organic Sage",
+      "metatdata": { "benefits": ["Digestion", "Liver", "Lymphatic System", "Hormones", "Nervous System"] }
     },
     {
       "description": "1 Bottle 15ml Wild Tea Tree",
@@ -43,7 +47,8 @@
       ],
       "productId": "prod_HRTGsgohDrjZMp",
       "priceId": "price_1GtHmSHhLIxiPD1kqMLHuVGv",
-      "productName": "15ml Wild Tea Tree"
+      "productName": "15ml Wild Tea Tree",
+      "metatdata": { "benefits": ["Bacterial Infections", "Viral Infections", "Disinfectant", "Skin", "Dental Care", "Athlete’s Foot"] }
     },
     {
       "description": "1 Bottle 15ml Wild Spruce",
@@ -52,7 +57,8 @@
       ],
       "productId": "prod_HRTGCE0rJ7oWQE",
       "priceId": "price_1GtHmSHhLIxiPD1kTGZr82ZN",
-      "productName": "15ml Wild Spruce"
+      "productName": "15ml Wild Spruce",
+      "metatdata": { "benefits": ["Respiratory", "Pain", "Skin", "Emotions", "Fungal Infections"] }
     },
     {
       "description": "1 Bottle 15ml Conventional Tangerine",
@@ -61,7 +67,8 @@
       ],
       "productId": "prod_HRTGOd5R5WEsuW",
       "priceId": "price_1GtHmSHhLIxiPD1kheWWl4JO",
-      "productName": "15ml Conventional Tangerine"
+      "productName": "15ml Conventional Tangerine",
+      "metatdata": { "benefits": ["Nervous System", "Digestion", "Liver", "Gallbladder", "Circulation"] }
     },
     {
       "description": "1 Bottle 15ml Rose Geranium",
@@ -70,7 +77,8 @@
       ],
       "productId": "prod_HRTGInBzYkzQVP",
       "priceId": "price_1GtHmSHhLIxiPD1k0pAU9z7t",
-      "productName": "15ml Rose Geranium"
+      "productName": "15ml Rose Geranium",
+      "metatdata": { "benefits": ["Circulation", "Blood Pressure", "Gall Bladder", "Kidneys", "Ulcers"] }
     },
     {
       "description": "1 Bottle 15ml Organically Grown Thyme",
@@ -79,7 +87,8 @@
       ],
       "productId": "prod_HRTGgDkzYF1flf",
       "priceId": "price_1GtHmSHhLIxiPD1k87cqZyDD",
-      "productName": "15ml Organically Grown Thyme"
+      "productName": "15ml Organically Grown Thyme",
+      "metatdata": { "benefits": [] }
     },
     {
       "description": "1 Bottle 15ml Wild Sandalwood",
@@ -88,7 +97,8 @@
       ],
       "productId": "prod_HRTGUBY3dtPWua",
       "priceId": "price_1GtHmSHhLIxiPD1kYpm3Hvfw",
-      "productName": "15ml Wild Sandalwood"
+      "productName": "15ml Wild Sandalwood",
+      "metatdata": { "benefits": ["Emotions", "Tonic", "Lymph",  "Immune System", "Reparatory"] }
     },
     {
       "description": "1 Bottle 15ml Organic Rose",
@@ -97,7 +107,8 @@
       ],
       "productId": "prod_HRTGdzpK1NOXNc",
       "priceId": "price_1GtHmSHhLIxiPD1kJ6eH1PgN",
-      "productName": "15ml Organic Rose"
+      "productName": "15ml Organic Rose",
+      "metatdata": { "benefits": ["Aphrodisiac", "Heart", "Infections", "Hormones", "Uterine Disorders"] }
     },
     {
       "description": "1 Bottle 15ml Organic Spearmint",
@@ -106,7 +117,8 @@
       ],
       "productId": "prod_HRTGKaJYQ8L9I1",
       "priceId": "price_1GtHmSHhLIxiPD1k4t0qhNKq",
-      "productName": "15ml Organic Spearmint"
+      "productName": "15ml Organic Spearmint",
+      "metatdata": { "benefits": ["Chest Pain", "Flu", "Hypertension", "Anti-Bacterial", "Intestinal Issues"] }
     },
     {
       "description": "1 Bottle 15ml Wild Pine",
@@ -115,7 +127,8 @@
       ],
       "productId": "prod_HRTG67eRkvBR7j",
       "priceId": "price_1GtHmSHhLIxiPD1krDKwWoL1",
-      "productName": "15ml Wild Pine"
+      "productName": "15ml Wild Pine",
+      "metatdata": { "benefits": ["Urinary Tract", "Phlegm", "Pain", "Lice", "Ring Worm"] }
     },
     {
       "description": "1 Bottle 15ml Organic Rosemary",
@@ -124,7 +137,8 @@
       ],
       "productId": "prod_HRTG1hO8sZQNHW",
       "priceId": "price_1GtHmSHhLIxiPD1krolHQ0eS",
-      "productName": "15ml Organic Rosemary"
+      "productName": "15ml Organic Rosemary",
+      "metatdata": { "benefits": ["Diuretic", "Hair Loss", "Respiratory", "Pain", "Digestion"] }
     },
     {
       "description": "1 Bottle 15ml Peppermint, First Distilled",
@@ -133,7 +147,8 @@
       ],
       "productId": "prod_HRTGxuwA0lkD2R",
       "priceId": "price_1GtHmSHhLIxiPD1ks0HVBJ3Z",
-      "productName": "15ml Peppermint, First Distilled"
+      "productName": "15ml Peppermint, First Distilled",
+      "metatdata": { "benefits": ["Palpitations", "Jet Lag", "Heartburn", "Pain", "Sensory System", "Digestion"] }
     },
     {
       "description": "1 Bottle 15ml Organic Pink Grapefruit",
@@ -142,7 +157,8 @@
       ],
       "productId": "prod_HRTGUYt9eYNopQ",
       "priceId": "price_1GtHmTHhLIxiPD1kJL49XUMt",
-      "productName": "15ml Organic Pink Grapefruit"
+      "productName": "15ml Organic Pink Grapefruit",
+      "metatdata": { "benefits": ["Detoxification", "Digestion", "Emotions", "Urinary Tonic", "Circulation"] }
     },
     {
       "description": "1 Bottle 15ml Organic Petigrain",
@@ -151,7 +167,8 @@
       ],
       "productId": "prod_HRTG80JbG7OY9L",
       "priceId": "price_1GtHmTHhLIxiPD1k0cd34JHt",
-      "productName": "15ml Organic Petigrain"
+      "productName": "15ml Organic Petigrain",
+      "metatdata": { "benefits": [] }
     },
     {
       "description": "1 Bottle 15ml Organic Patchouli",
@@ -160,7 +177,8 @@
       ],
       "productId": "prod_HRTGN4QOIkOiAO",
       "priceId": "price_1GtHmTHhLIxiPD1kHpMukmqQ",
-      "productName": "15ml Organic Patchouli"
+      "productName": "15ml Organic Patchouli",
+      "metatdata": { "benefits": ["Impetigo", "Hives", "Acne", "Stress", "Bacterial Infections"] }
     },
     {
       "description": "1 Bottle 15ml Organic Helichrysum gymnocephalum",
@@ -169,7 +187,8 @@
       ],
       "productId": "prod_HRTG6voHOZlcM4",
       "priceId": "price_1GtHmTHhLIxiPD1kzfZqf73R",
-      "productName": "15ml Organic Helichrysum gymnocephalum"
+      "productName": "15ml Organic Helichrysum gymnocephalum",
+      "metatdata": { "benefits": ["Headaches", "Bruising", "Muscle Spasms", "Lactation", "Inflammation"] }
     },
     {
       "description": "1 Bottle 15ml Organic Lemongrass",
@@ -178,7 +197,8 @@
       ],
       "productId": "prod_HRTGEy3h8RlcMl",
       "priceId": "price_1GtHmTHhLIxiPD1kNPN7LzBt",
-      "productName": "15ml Organic Lemongrass"
+      "productName": "15ml Organic Lemongrass",
+      "metatdata": { "benefits": ["Parasympathetic Nervous System", "Cardiovascular Support", "Deodorant", "Headaches", "Bladder Conditions"] }
     },
     {
       "description": "1 Bottle 15ml Organic Nutmeg",
@@ -187,7 +207,8 @@
       ],
       "productId": "prod_HRTGD9iCBdHQhg",
       "priceId": "price_1GtHmTHhLIxiPD1kNbSaE5Dh",
-      "productName": "15ml Organic Nutmeg"
+      "productName": "15ml Organic Nutmeg",
+      "metatdata": { "benefits": ["Adrenals", "Joints", "Muscles", "Fainting", "Blood Clots"] }
     },
     {
       "description": "1 Bottle 15ml Organically Grown Myrtle",
@@ -196,7 +217,8 @@
       ],
       "productId": "prod_HRTGWDhocUHTJR",
       "priceId": "price_1GtHmTHhLIxiPD1kg12HN5MQ",
-      "productName": "15ml Organically Grown Myrtle"
+      "productName": "15ml Organically Grown Myrtle",
+      "metatdata": { "benefits": ["Infections", "Cough", "Sinus Infections", "Thyroid", "Insomnia"] }
     },
     {
       "description": "1 Bottle 15ml Organic Orange",
@@ -205,7 +227,8 @@
       ],
       "productId": "prod_HRTGYOA3ySr0Ct",
       "priceId": "price_1GtHmTHhLIxiPD1kdbqRLUaw",
-      "productName": "15ml Organic Orange"
+      "productName": "15ml Organic Orange",
+      "metatdata": { "benefits": [] }
     },
     {
       "description": "1 Bottle 15ml Organic Lemon",
@@ -214,7 +237,8 @@
       ],
       "productId": "prod_HRTGgwsSKKbgj3",
       "priceId": "price_1GtHmTHhLIxiPD1keSzSdlwZ",
-      "productName": "15ml Organic Lemon"
+      "productName": "15ml Organic Lemon",
+      "metatdata": { "benefits": ["Decongestant", "Fever", "Mouth", "Kidney Stones", "Emotions"] }
     },
     {
       "description": "1 Bottle 15ml Organic Lavender",
@@ -223,7 +247,8 @@
       ],
       "productId": "prod_HRTGsPuLlawq2u",
       "priceId": "price_1GtHmTHhLIxiPD1kKyBYKdOA",
-      "productName": "15ml Organic Lavender"
+      "productName": "15ml Organic Lavender",
+      "metatdata": { "benefits": ["Burns", "Relaxation", "Mood Swings", "Allergies", "Water Retention"] }
     },
     {
       "description": "1 Bottle 15ml Wild Myrrh",
@@ -232,7 +257,8 @@
       ],
       "productId": "prod_HRTGRvU7utZNPa",
       "priceId": "price_1GtHmTHhLIxiPD1kmapWCZJH",
-      "productName": "15ml Wild Myrrh"
+      "productName": "15ml Wild Myrrh",
+      "metatdata": { "benefits": ["Bacteria", "Viruses", "Immune System", "Stretch Marks", "Inflammation"] }
     },
     {
       "description": "1 Bottle 15ml Wild Melaleuca",
@@ -241,7 +267,8 @@
       ],
       "productId": "prod_HRTGBGgndswKQY",
       "priceId": "price_1GtHmTHhLIxiPD1kkRKHfkTC",
-      "productName": "15ml Wild Melaleuca"
+      "productName": "15ml Wild Melaleuca",
+      "metatdata": { "benefits": ["Respiratory", "Allergies", "Pulmonary Disease", "Antifungal", "Antibacterial"] }
     },
     {
       "description": "1 Bottle 15ml Wild Oregano",
@@ -250,7 +277,8 @@
       ],
       "productId": "prod_HRTGEolUINVJ8T",
       "priceId": "price_1GtHmTHhLIxiPD1kemlDPWHJ",
-      "productName": "15ml Wild Oregano"
+      "productName": "15ml Wild Oregano",
+      "metatdata": { "benefits": ["Circulation", "Antibacterial", "Fungus", "Viruses", "Infections"] }
     },
     {
       "description": "1 Bottle 15ml Organic Juniper Berry",
@@ -259,7 +287,8 @@
       ],
       "productId": "prod_HRTGLmUCv6n2Do",
       "priceId": "price_1GtHmTHhLIxiPD1knZbo7swh",
-      "productName": "15ml Organic Juniper Berry"
+      "productName": "15ml Organic Juniper Berry",
+      "metatdata": { "benefits": ["Circulation", "Skin", "Liver", "Kidneys", "Bug Bites or Stings"] }
     },
     {
       "description": "1 Bottle 15ml Organic Marjoram",
@@ -268,7 +297,8 @@
       ],
       "productId": "prod_HRTGSOdWulnYgq",
       "priceId": "price_1GtHmTHhLIxiPD1kHJFd2s2j",
-      "productName": "15ml Organic Marjoram"
+      "productName": "15ml Organic Marjoram",
+      "metatdata": { "benefits": ["Muscular System", "Stress", "Anxiety", "Suppress Sexual Desires", "Regulates Female Monthly Cycles", "Blood Pressure", "Nervous System"] }
     },
     {
       "description": "1 Bottle 15ml Organically Grown Hyssop",
@@ -277,7 +307,8 @@
       ],
       "productId": "prod_HRTGJ80qMwI7LA",
       "priceId": "price_1GtHmVHhLIxiPD1kSmg4c5FC",
-      "productName": "15ml Organically Grown Hyssop"
+      "productName": "15ml Organically Grown Hyssop",
+      "metatdata": { "benefits": ["Skin", "Astringent", "Blood Pressure", "Nervous System", "Infections"] }
     },
     {
       "description": "1 Bottle 15ml Organically Grown Ginger Root",
@@ -286,7 +317,8 @@
       ],
       "productId": "prod_HRTGEtOqQZKA0H",
       "priceId": "price_1GtHmVHhLIxiPD1k4LYu5LSg",
-      "productName": "15ml Organically Grown Ginger Root"
+      "productName": "15ml Organically Grown Ginger Root",
+      "metatdata": { "benefits": ["Pain", "Congestion", "Sore Throat", "Bronchitis", "Memory", "Digestion"] }
     },
     {
       "description": "1 Bottle 15ml Organic Helichrysum italicum",
@@ -295,7 +327,8 @@
       ],
       "productId": "prod_HRTGnd7We4ciEM",
       "priceId": "price_1GtHmVHhLIxiPD1kAb5yDVqg",
-      "productName": "15ml Organic Helichrysum italicum"
+      "productName": "15ml Organic Helichrysum italicum",
+      "metatdata": { "benefits": ["First Aid", "Nerve Problems", "Pain", "Scarring", "Stretch Marks"] }
     },
     {
       "description": "1 Bottle 15ml Organically Grown Geranium",
@@ -304,7 +337,8 @@
       ],
       "productId": "prod_HRTG329YXYDjVg",
       "priceId": "price_1GtHmVHhLIxiPD1kpTulILpD",
-      "productName": "15ml Organically Grown Geranium"
+      "productName": "15ml Organically Grown Geranium",
+      "metatdata": { "benefits": ["Circulation", "Blood Pressure", "Gall Bladder", "Kidneys", "Ulcers"] }
     },
     {
       "description": "1 Bottle 15ml Wild Eucalyptus citriodora",
@@ -313,7 +347,8 @@
       ],
       "productId": "prod_HRTGLKMccY7Ecq",
       "priceId": "price_1GtHmVHhLIxiPD1kKNbt8ZjG",
-      "productName": "15ml Wild Eucalyptus citriodora"
+      "productName": "15ml Wild Eucalyptus citriodora",
+      "metatdata": { "benefits": ["Fever", "Fungal Infections", "Deodorant", "Expectorant", "Sinuses"] }
     },
     {
       "description": "1 Bottle 15ml Organically Grown Celery Seed",
@@ -322,7 +357,8 @@
       ],
       "productId": "prod_HRTG0BF2N05ksp",
       "priceId": "price_1GtHmVHhLIxiPD1kuchCqoow",
-      "productName": "15ml Organically Grown Celery Seed"
+      "productName": "15ml Organically Grown Celery Seed",
+      "metatdata": { "benefits": ["Relaxant", "Liver", "Kidneys", "Central Nervous System",  "Sexual Problems"] }
     },
     {
       "description": "1 Bottle 15ml Organic Clary Sage",
@@ -331,7 +367,8 @@
       ],
       "productId": "prod_HRTGUOANMZHxmo",
       "priceId": "price_1GtHmVHhLIxiPD1kdu0UztyT",
-      "productName": "15ml Organic Clary Sage"
+      "productName": "15ml Organic Clary Sage",
+      "metatdata": { "benefits": ["Female Reproductive System", "Nerve Tonic", "Euphoric",    "Wrinkles", "Antiseptic"] }
     },
     {
       "description": "1 Bottle 15ml Wild Eucalyptus radiata",
@@ -340,14 +377,16 @@
       ],
       "productId": "prod_HRTGb0K1Ax2iG2",
       "priceId": "price_1GtHmVHhLIxiPD1kAJIpScOQ",
-      "productName": "15ml Wild Eucalyptus radiata"
+      "productName": "15ml Wild Eucalyptus radiata",
+      "metatdata": { "benefits": ["Runny Nose", "Pneumonia", "Air Purifier", "Insect Repellent", "Chicken Pox"] }
     },
     {
       "description": "1 Bottle 15ml Wild Frankincense, Sacred",
       "images": [""],
       "productId": "prod_HRTGJHPOn3BbRE",
       "priceId": "price_1GtHmVHhLIxiPD1k9MI2KJBt",
-      "productName": "15ml Wild Frankincense, Sacred"
+      "productName": "15ml Wild Frankincense, Sacred",
+      "metatdata": { "benefits": ["Anti-Cancer", "Digestion", "Uplifting", "Fortifying to the Mind", "Health Tonic"] }
     },
     {
       "description": "1 Bottle 15ml Wild Cedarwood",
@@ -356,7 +395,8 @@
       ],
       "productId": "prod_HRTGicqp9qOeP2",
       "priceId": "price_1GtHmVHhLIxiPD1kdS9qtbFX",
-      "productName": "15ml Wild Cedarwood"
+      "productName": "15ml Wild Cedarwood",
+      "metatdata": { "benefits": ["Sedative", "Stress", "Anger", "Anti-Infectious Properties", "Reducing Inflammation"] }
     },
     {
       "description": "1 Bottle 15ml Organically Grown Carrot Seed",
@@ -365,7 +405,8 @@
       ],
       "productId": "prod_HRTGL1M7V2ATwB",
       "priceId": "price_1GtHmVHhLIxiPD1k4lbLWnJG",
-      "productName": "15ml Organically Grown Carrot Seed"
+      "productName": "15ml Organically Grown Carrot Seed",
+      "metatdata": { "benefits": ["Skin", "Detoxifies", "Anemia", "Anorexia", "Digestive Conditions"] }
     },
     {
       "description": "1 Bottle 15ml Wild Cypress",
@@ -374,7 +415,8 @@
       ],
       "productId": "prod_HRTGgA9DCHsHqA",
       "priceId": "price_1GtHmVHhLIxiPD1k7gykxbiI",
-      "productName": "15 Wild Cypress"
+      "productName": "15 Wild Cypress",
+      "metatdata": { "benefits": ["Muscles", "Lungs", "Hormones", "Menstruation", "Detoxifying"] }
     },
     {
       "description": "1 Bottle 15ml Organic Chamomile, Roman",
@@ -383,7 +425,8 @@
       ],
       "productId": "prod_HRTGAHL7LCUCkZ",
       "priceId": "price_1GtHmVHhLIxiPD1kMtEIUBFr",
-      "productName": "15ml Organic Chamomile, Roman"
+      "productName": "15ml Organic Chamomile, Roman",
+      "metatdata": { "benefits": ["Nervous System", "Skin", "Asthma", "Allergies", "ADHD", "Teething", "Calming"] }
     },
     {
       "description": "1 Bottle 15ml Organically Grown Fennel Seed",
@@ -392,7 +435,8 @@
       ],
       "productId": "prod_HRTGZqRwfWoSz2",
       "priceId": "price_1GtHmVHhLIxiPD1kxkie5Cyj",
-      "productName": "15ml Organically Grown Fennel Seed"
+      "productName": "15ml Organically Grown Fennel Seed",
+      "metatdata": { "benefits": ["Lactation", "Mood Swings", "Dizziness", "Reproductive System", "Kidney Stones", "Digestion"] }
     },
     {
       "description": "1 Bottle 15ml Wild Frankincense",
@@ -401,7 +445,8 @@
       ],
       "productId": "prod_HRTGLXcQtZTGIj",
       "priceId": "price_1GtHmVHhLIxiPD1kfbQyxTSJ",
-      "productName": "15ml Wild Frankincense"
+      "productName": "15ml Wild Frankincense",
+      "metatdata": { "benefits": ["Anti-Cancer", "Immune System", "Lymph Congestion", "Grounding", "Skin"] }
     },
     {
       "description": "1 Bottle 15ml Organic Cinnamon Bark",
@@ -410,7 +455,8 @@
       ],
       "productId": "prod_HRTGaOLqMZtuUL",
       "priceId": "price_1GtHmWHhLIxiPD1kIxWr4L6t",
-      "productName": "15ml Organic Cinnamon Bark"
+      "productName": "15ml Organic Cinnamon Bark",
+      "metatdata": { "benefits": [] }
     },
     {
       "description": "1 Bottle 15ml Organic Black Pepper",
@@ -419,7 +465,8 @@
       ],
       "productId": "prod_HRTG9j32mJgVAf",
       "priceId": "price_1GtHmWHhLIxiPD1ktQIkmgiQ",
-      "productName": "15ml Organic Black Pepper"
+      "productName": "15ml Organic Black Pepper",
+      "metatdata": { "benefits": ["Sore Throat", "Congestion", "Anxiety", "Boost Metabolism", "Insomnia"] }
     },
     {
       "description": "1 Bottle 15ml Organic Clove Bud",
@@ -428,7 +475,8 @@
       ],
       "productId": "prod_HRTG3W8uN1p1Aq",
       "priceId": "price_1GtHmWHhLIxiPD1ksLstx7xk",
-      "productName": "15ml Organic Clove Bud"
+      "productName": "15ml Organic Clove Bud",
+      "metatdata": { "benefits": ["Nervous System", "Pain", "Respiratory", "Thyroid", "Metabolism", "Teeth Problems"] }
     },
     {
       "description": "1 Bottle 15ml Organically Grown Basil",
@@ -437,7 +485,8 @@
       ],
       "productId": "prod_HRTGUQbagXkKUE",
       "priceId": "price_1GtHmWHhLIxiPD1kwIRGe43J",
-      "productName": "15ml Organically Grown Basil"
+      "productName": "15ml Organically Grown Basil",
+      "metatdata": { "benefits": ["Inflammation", "Intestinal Problems", "Hemorrhoids", "Insect Repellent", "Infections"] }
     },
     {
       "description": "1 Bottle 15ml Organically Grown Bergamot",
@@ -446,7 +495,8 @@
       ],
       "productId": "prod_HRTGxZFZQYQklH",
       "priceId": "price_1GtHmWHhLIxiPD1keJ0PvnJe",
-      "productName": "15ml Organically Grown Bergamot"
+      "productName": "15ml Organically Grown Bergamot",
+      "metatdata": { "benefits": ["Skin", "Mucus Removal", "Infectious Diseases", "Anxiety", "Mood Swings"] }
     },
     {
       "description": "1 Bottle 15ml Organic Black Cumin",
@@ -455,7 +505,8 @@
       ],
       "productId": "prod_HRTGGPLICtVmFT",
       "priceId": "price_1GtHmWHhLIxiPD1kGmbqUCFp",
-      "productName": "15ml Organic Black Cumin"
+      "productName": "15ml Organic Black Cumin",
+      "metatdata": { "benefits": ["Immune Function", "Respiratory", "Digestion", "Diabetes", "Cancer"] }
     }
   ]
 }

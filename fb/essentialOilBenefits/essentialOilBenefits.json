@@ -86,5 +86,6 @@
 	"Vitex Berry": ["Hormones", "Endocrine System", "Prostate", "Nervous System", "Parkinson’s Symptoms"],
 	"Wintergreen": ["Pain", "Anti-Inflammatory", "Circulation", "Broken Bones", "Heart Disease"],
 	"Wormwood": ["Respiratory System", "Cancer", "Leukemia", "Fever", "Stomach"],
-	"Ylang Ylang Extra": ["Nervous System", "Emotions", "Aphrodisiac", "Skin", "Circulatory System"]
+	"Ylang Ylang Extra": ["Nervous System", "Emotions", "Aphrodisiac", "Skin", "Circulatory System"],
+	"Missing Benefits": ["Thyme", "Petigrain", "Orange", "Cinnamon Bark"]
 }

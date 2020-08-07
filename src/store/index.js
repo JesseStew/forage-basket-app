@@ -32,6 +32,8 @@ export default new Vuex.Store({
     healthDataLoaded: false,
     informationData: [],
     informationDataLoaded: false,
+    essentialOilData: [],
+    essentialOilDataLoaded: false,
     researchData: [],
     researchDataLoaded: false,
     homeData: [],
@@ -57,6 +59,10 @@ export default new Vuex.Store({
     loadInformationData(state, data) {
       state.informationData = data
       state.informationDataLoaded = true
+    },
+    loadEssentialOilData(state, data) {
+      state.essentialOilData = data
+      state.essentialOilDataLoaded = true
     },
     loadShopData(state, data) {
       let shopData = data.shopData
@@ -328,6 +334,17 @@ export default new Vuex.Store({
           })
           console.log(data)
           commit('loadInformationData', data)
+        })
+    },
+    loadEssentialOilData({ commit }) {
+      DB.collection('essentialoils')
+        .get()
+        .then((querySnapshot) => {
+          const data = querySnapshot.docs.map((doc) => {
+            return { id: doc.id, data: doc.data() }
+          })
+          console.log(data)
+          commit('loadEssentialOilData', data)
         })
     },
     loadResearchData({ commit }) {
