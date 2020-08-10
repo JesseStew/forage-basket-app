@@ -20,22 +20,7 @@
           />
         </v-col>
         <v-col cols="6">
-          <h3 class="headline">
-            Enter your email below to sign up for our Newsletter.
-          </h3>
-          <v-form>
-            <!-- here, add logic -->
-            <v-text-field
-              v-model="email"
-              :rules="emailRules"
-              label="E-mail"
-              required
-            >
-            </v-text-field>
-            <v-btn>
-              Submit
-            </v-btn>
-          </v-form>
+          <newsletter-signup />
         </v-col>
       </v-row>
       <v-row>
@@ -108,3 +93,14 @@
     </v-content>
   </div>
 </template>
+<script>
+import QuillEditor from '@/components/QuillEditor.vue'
+import NewsletterSignup from '@/components/NewsletterSignup.vue'
+
+export default {
+  components: {
+    QuillEditor,
+    NewsletterSignup
+  },
+}
+</script>

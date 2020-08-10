@@ -238,24 +238,7 @@
         />
       </v-col>
       <v-col cols="12" md="4">
-        <!-- here, hook up -->
-        <h3 class="headline">
-          Enter your email below to sign up for our Newsletter.
-        </h3>
-        <v-form>
-          <!-- here, add logic -->
-          <v-text-field
-            v-model="email"
-            :rules="emailRules"
-            label="E-mail"
-            required
-          >
-          </v-text-field>
-          <v-btn>
-            <!-- here, hook up -->
-            Submit
-          </v-btn>
-        </v-form>
+        <newsletter-signup />
       </v-col>
     </v-row>
     <v-row class="my-10">
@@ -311,6 +294,7 @@
 
 <script>
 import QuillEditor from '@/components/QuillEditor.vue'
+import NewsletterSignup from '@/components/NewsletterSignup.vue'
 import { mapState } from 'vuex'
 
 export default {
@@ -341,6 +325,7 @@ export default {
   },
   components: {
     QuillEditor,
+    NewsletterSignup
   },
 }
 </script>
