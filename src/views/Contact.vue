@@ -20,7 +20,7 @@
             alt=""
           />
         </v-col>
-        <v-col cols="6">
+        <v-col class="pt-12" cols="6">
           <newsletter-signup />
         </v-col>
       </v-row>
@@ -36,7 +36,7 @@
       </v-row>
       <v-divider></v-divider>
       <v-row>
-        <v-col>
+        <v-col class="text-center">
           <h3>
             You can also write us at:
           </h3>
