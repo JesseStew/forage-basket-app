@@ -37,9 +37,15 @@ export default new Vuex.Store({
     researchData: [],
     researchDataLoaded: false,
     homeData: [],
-    homeDataLoaded: false
+    homeDataLoaded: false,
+    aboutData: {},
+    aboutDataLoaded: false,
   },
   mutations: {
+    loadAboutData(state, data) {
+      state.aboutData = data
+      state.aboutDataLoaded = true
+    },
     loadHomeData(state, data) {
       state.homeData = data
       state.homeDataLoaded = true
@@ -365,6 +371,17 @@ export default new Vuex.Store({
           })
           console.log(data)
           commit('loadHomeData', data)
+        })
+    },
+    loadAboutData({ commit }) {
+      DB.collection('about')
+        .get()
+        .then((querySnapshot) => {
+          const data = querySnapshot.docs.map((doc) => {
+            return { id: doc.id, data: doc.data() }
+          })
+          console.log(data)
+          commit('loadAboutData', data)
         })
     },
   },

@@ -136,6 +136,14 @@ export const routes = [
         /* webpackChunkName: "article-creator" */ '../views/ArticleCreator.vue'
       ),
   },
+  {
+    path: '/about',
+    name: 'About',
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ '../views/AboutUs.vue'
+      ),
+  },
 ]
 
 const router = new VueRouter({

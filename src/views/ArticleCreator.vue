@@ -119,6 +119,10 @@ export default {
           text: 'research',
           disabled: false,
         },
+        {
+          text: 'about',
+          disabled: false,
+        },
       ],
       editorOption: {
         placeholder: 'Edit your post...',

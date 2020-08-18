@@ -2,11 +2,12 @@
   <div class="contact">
     <v-content>
       <v-row>
-        <v-col>
-          <h1>
-            Call us toll free at 1-888-267-0194 or locally at 1-417-683-0149.
+        <v-col class="text-center">
+          <h1 class="pa-5">
+            Call us toll free at<br />
+            1-888-267-0194 or locally at 1-417-683-0149.
           </h1>
-          <v-btn>
+          <v-btn class="pa-5">
             <!-- here, Add Routing -->
             CLICK HERE TO LEARN MORE ABOUT US
           </v-btn>
@@ -33,56 +34,14 @@
           </p>
         </v-col>
       </v-row>
-      <v-row>
-        <h3 class="headline">
-          Enter your email below to sign up for our Newsletter.
-        </h3>
-        <v-form>
-          <!-- here, add logic -->
-          <v-text-field
-            v-model="firstName"
-            :rules="firstNameRules"
-            label="First"
-            required
-          ></v-text-field>
-          <v-text-field
-            v-model="lastName"
-            :rules="lastNameRules"
-            label="Last"
-            required
-          >
-          </v-text-field>
-          <v-text-field
-            v-model="email"
-            :rules="emailRules"
-            label="E-mail"
-            required
-          >
-          </v-text-field>
-          <v-text-field
-            v-model="phone"
-            :rules="phoneRules"
-            label="Phone"
-            required
-          >
-          </v-text-field>
-          <v-text-field
-            v-model="comment"
-            :rules="comment"
-            label="Comment"
-            required
-          >
-          </v-text-field>
-          <v-btn>
-            Submit
-          </v-btn>
-        </v-form>
-      </v-row>
+      <v-divider></v-divider>
       <v-row>
         <v-col>
-          <p>
+          <h3>
             You can also write us at:
-          </p>
+          </h3>
+          <br />
+          <!-- <br /> -->
           <p>
             Shiaqga <br />
             P.O. Box 2015 <br />

@@ -1,9 +1,9 @@
 <template>
   <div class="shop">
     <v-container>
-      <v-row>
+      <v-row align="center">
         <v-col cols="12" md="8">
-          <p>
+          <p class="subtitle-1">
             Those professionals and retail establishments looking to purchase
             wholesale, please contact us for a list of our wholesale
             requirements.

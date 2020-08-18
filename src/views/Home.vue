@@ -296,6 +296,7 @@
 import QuillEditor from '@/components/QuillEditor.vue'
 import NewsletterSignup from '@/components/NewsletterSignup.vue'
 import { mapState } from 'vuex'
+import { Analytics } from '../firebase/analytics'
 
 export default {
   name: 'Home',
@@ -312,6 +313,7 @@ export default {
     if (!this.homeDataLoaded) {
       this.$store.dispatch('loadHomeData')
     }
+    Analytics.logEvent("notification_recieved")
   },
   methods: {
     getDelta(id){
@@ -329,3 +331,10 @@ export default {
   },
 }
 </script>
+<style>
+.ql-editor {
+  font-family: 'Roboto' !important;
+  font-size: 20px !important;
+  letter-spacing: 0.15px;
+}
+</style>
