@@ -7,7 +7,7 @@
       <v-spacer></v-spacer>
       <template v-if="$vuetify.breakpoint.smAndUp" v-slot:extension>
         <v-tabs centered>
-          <v-tab router :to="link.path" v-for="link in links" :key="link.name">
+          <v-tab router :to="link.path" v-for="link in tabs" :key="link.name">
             {{ link.name }}
           </v-tab>
         </v-tabs>
@@ -48,7 +48,7 @@
     <v-navigation-drawer style="height: 100vh" v-model="drawer" fixed temporary>
       <v-list nav dense>
         <v-list-item-group active-class="deep-purple--text text--accent-4">
-          <v-list-item v-for="link in links" router :to="link.path">
+          <v-list-item v-for="link in tabs" router :to="link.path">
             <v-list-item-icon>
               <v-icon> {{ link.icon }} </v-icon>
             </v-list-item-icon>
@@ -66,7 +66,16 @@ import { mapState } from 'vuex'
 export default {
   name: 'Navigation',
   computed: {
-    ...mapState(['cart']),
+    ...mapState(['cart', 'user']),
+    tabs() {
+      if (this.user.isAdmin) {
+        return this.links
+      } else {
+        return this.$_.filter(this.links, (o) => {
+          return !o.adminRequired
+        })
+      }
+    }
   },
   data() {
     return {
@@ -82,56 +91,67 @@ export default {
           path: '/',
           name: 'Home',
           icon: 'mdi-home',
+          adminRequired: false,
         },
         {
           path: '/information',
           name: 'Information',
           icon: 'mdi-information',
+          adminRequired: false,
         },
         {
           path: '/testimonies',
           name: 'Testimonies',
           icon: 'mdi-comment-account',
+          adminRequired: false,
         },
         {
           path: '/health',
           name: 'Health',
           icon: 'mdi-google-fit',
+          adminRequired: false,
         },
         {
           path: '/essential-oils',
           name: 'Essential Oils',
           icon: 'mdi-water',
+          adminRequired: false,
         },
         {
           path: '/shop',
           name: 'Shop',
           icon: 'mdi-storefront',
+          adminRequired: false,
         },
         {
           path: '/research',
           name: 'Research',
           icon: 'mdi-school',
+          adminRequired: false,
         },
         {
           path: '/contact',
           name: 'Contact',
           icon: 'mdi-account-question',
+          adminRequired: false,
         },
         {
           path: '/user-account',
           name: 'User Account',
           icon: 'mdi-account',
+          adminRequired: false,
         },
         {
           path: '/cart',
           name: 'Cart',
           icon: 'mdi-storefront',
+          adminRequired: false,
         },
         {
           path: '/article-creator',
           name: 'Article Creator',
           icon: 'mdi-information',
+          adminRequired: true,
         },
       ],
     }

@@ -22,7 +22,7 @@ export default new Vuex.Store({
       photoURL: '',
       isAnonymous: false,
       uid: '',
-      idAdmin: false,
+      isAdmin: false,
     },
     cart: [],
     shopData: {},
@@ -92,7 +92,7 @@ export default new Vuex.Store({
         state.user.photoURL = user.photoURL
         state.user.isAnonymous = user.isAnonymous
         state.user.uid = user.uid
-        state.user.isAdmin = user.idAdmin
+        state.user.isAdmin = user.isAdmin
       } else {
         state.user.firstName = ''
         state.user.lastName = ''
@@ -133,7 +133,7 @@ export default new Vuex.Store({
       state.user.photoURL = user.photoURL
       state.user.isAnonymous = user.isAnonymous
       state.user.uid = user.uid
-      state.user.isAdmin = user.idAdmin
+      state.user.isAdmin = user.isAdmin
     },
     addToCart(state, payload) {
       let itemIndex = _.findIndex(state.cart, (item) => {
@@ -177,7 +177,7 @@ export default new Vuex.Store({
               user.photoURL = user.photoURL
               user.isAnonymous = user.isAnonymous
               user.uid = user.uid
-              user.idAdmin = idTokenResult.claims.admin
+              user.isAdmin = idTokenResult.claims.admin
               commit('loggedIn', user)
             })
           })
@@ -245,7 +245,7 @@ export default new Vuex.Store({
                 user.photoURL = user.photoURL
                 user.isAnonymous = user.isAnonymous
                 user.uid = user.uid
-                user.idAdmin = idTokenResult.claims.admin
+                user.isAdmin = idTokenResult.claims.admin
                 commit('loginAccount', user)
               })
             })
