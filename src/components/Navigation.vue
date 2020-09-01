@@ -6,7 +6,7 @@
       <v-toolbar-title>Forage Basket</v-toolbar-title>
       <v-spacer></v-spacer>
       <template v-if="$vuetify.breakpoint.smAndUp" v-slot:extension>
-        <v-tabs centered>
+        <v-tabs centered center-active>
           <v-tab router :to="link.path" v-for="link in tabs" :key="link.name">
             {{ link.name }}
           </v-tab>
