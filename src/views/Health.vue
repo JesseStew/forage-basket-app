@@ -21,7 +21,7 @@
         cols="12"
         md="4"
         lg="3"
-        v-for="item in healthData"
+        v-for="item in healthDataSorted"
         :key="item.id"
       >
         <v-btn
@@ -46,6 +46,9 @@ export default {
     currentRouteName() {
       return this.$route.name
     },
+    healthDataSorted() {
+      return this.$_.orderBy(this.healthData, ['data.title'])
+    }
   },
   methods: {
     isUl(index) {

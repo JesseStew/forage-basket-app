@@ -22,6 +22,7 @@ export default new Vuex.Store({
       photoURL: '',
       isAnonymous: false,
       uid: '',
+      idAdmin: false,
     },
     cart: [],
     shopData: {},
@@ -91,6 +92,7 @@ export default new Vuex.Store({
         state.user.photoURL = user.photoURL
         state.user.isAnonymous = user.isAnonymous
         state.user.uid = user.uid
+        state.user.isAdmin = user.idAdmin
       } else {
         state.user.firstName = ''
         state.user.lastName = ''
@@ -131,6 +133,7 @@ export default new Vuex.Store({
       state.user.photoURL = user.photoURL
       state.user.isAnonymous = user.isAnonymous
       state.user.uid = user.uid
+      state.user.isAdmin = user.idAdmin
     },
     addToCart(state, payload) {
       let itemIndex = _.findIndex(state.cart, (item) => {
@@ -164,16 +167,21 @@ export default new Vuex.Store({
       // https://firebase.google.com/docs/reference/android/com/google/firebase/database/DatabaseReference
       Auth.onAuthStateChanged((user) => {
         // console.log(user)
-        let docRef = DB.collection('user').doc(user.uid)
-        docRef.get().then((user) => {
-          user = user.data()
-          // console.log(user)
-          user.emailVerified = user.emailVerified
-          user.photoURL = user.photoURL
-          user.isAnonymous = user.isAnonymous
-          user.uid = user.uid
-          commit('loggedIn', user)
-        })
+        if (user) {
+          user.getIdTokenResult().then(idTokenResult => {
+            let docRef = DB.collection('user').doc(user.uid)
+            docRef.get().then((user) => {
+              user = user.data()
+              // console.log(user)
+              user.emailVerified = user.emailVerified
+              user.photoURL = user.photoURL
+              user.isAnonymous = user.isAnonymous
+              user.uid = user.uid
+              user.idAdmin = idTokenResult.claims.admin
+              commit('loggedIn', user)
+            })
+          })
+        }
       })
     },
     signOut({ commit }) {
@@ -226,17 +234,20 @@ export default new Vuex.Store({
       Auth.signInWithEmailAndPassword(payload.email, payload.password).then(
         (user) => {
           // console.log(user)
-          DB.collection('user')
-            .doc(user.user.uid)
-            .get()
-            .then((user) => {
-              user = user.data()
-              // console.log(user)
-              user.emailVerified = user.emailVerified
-              user.photoURL = user.photoURL
-              user.isAnonymous = user.isAnonymous
-              user.uid = user.uid
-              commit('loginAccount', user)
+          user.getIdTokenResult().then(idTokenResult => {
+            DB.collection('user')
+              .doc(user.user.uid)
+              .get()
+              .then((user) => {
+                user = user.data()
+                // console.log(user)
+                user.emailVerified = user.emailVerified
+                user.photoURL = user.photoURL
+                user.isAnonymous = user.isAnonymous
+                user.uid = user.uid
+                user.idAdmin = idTokenResult.claims.admin
+                commit('loginAccount', user)
+              })
             })
         },
         function(err) {

@@ -1,16 +1,19 @@
 <template>
   <v-container>
-    <v-row v-if="email" align="center" justify="space-around">
-      <v-col>
-        <h2 class="title">My Account, {{ displayName }}</h2>
+    <v-row v-if="user.email" align="center" justify="space-around">
+      <v-col class="text-left pr-5" cols="6">
+        <h2 class="title text-uppercase">{{ user.email }}</h2>
       </v-col>
-      <v-col>
+      <v-col class="text-right pr-5" cols="6">
         <v-btn @click="signOut">
           Sign Out
         </v-btn>
       </v-col>
+      <v-col v-if="user.isAdmin">
+        <create-admin></create-admin>
+      </v-col>
     </v-row>
-    <v-row v-if="!email">
+    <v-row v-if="!user.email">
       <v-col cols="12">
         <h1 class="display-1">
           Login / Register
@@ -31,7 +34,8 @@
 <script>
 import RegisterAccount from '@/components/RegisterAccount.vue'
 import LoginAccount from '@/components/LoginAccount.vue'
-// import StripeElements from '@/components/StripeElements.vue'
+import CreateAdmin from '@/components/CreateAdmin.vue'
+import { mapState } from 'vuex'
 
 export default {
   name: 'UserAccount',
@@ -41,14 +45,10 @@ export default {
   components: {
     RegisterAccount,
     LoginAccount,
+    CreateAdmin,
   },
   computed: {
-    email: function() {
-      return this.$store.state.user.email
-    },
-    displayName: function() {
-      return this.$store.state.user.displayName
-    },
+    ...mapState(['user'])
   },
   methods: {
     loggedIn() {
