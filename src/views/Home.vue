@@ -19,7 +19,7 @@
     <v-row class="my-10">
       <v-divider></v-divider>
     </v-row>
-    <v-row no-gutters>
+    <v-row color="white" style="background-color: #6e6f72; color: #eeeeee;" no-gutters>
       <quill-editor
             :id="'fhVzVN2WorpPuAmINh20'"
             :delta="getDelta('fhVzVN2WorpPuAmINh20')"
@@ -31,34 +31,24 @@
       <v-divider></v-divider>
     </v-row>
     <v-row align="center" no-gutters>
-      <v-col cols="12" md="5">
-        <v-container>
-          <v-row>
-            <v-col align-self="center" cols="12" md="6">
-              <img
-                style="width:100%"
-                src="../assets/images/alignment-front-bottle-graphic-500x500.jpg"
-                alt="essential-oil-bottle"
-              />
-            </v-col>
-            <v-col class="subtitle-1" cols="12" md="6">
-              <p>
-                We are pleased to announce the addition of truly Therapeutic
-                Essential Oils to ​ our product line.
-              </p>
-            </v-col>
-          </v-row>
-          <v-row>
-            <v-col cols="12">
-              <router-link :to="{ name: 'Essential Oils' }">
-                Please click here to find out the difference in our essential
-                oils and what other companies offer.
-              </router-link>
-            </v-col>
-          </v-row>
-        </v-container>
+      <v-col cols="12">
+        <p style="font-size: 1.5em; font-weight: 500" class="text-center">
+          We are pleased to announce the addition of truly Therapeutic
+          Essential Oils to ​ our product line.
+        </p>
       </v-col>
-      <v-col cols="12" md="7">
+      <v-col class="mb-5 text-center" cols="12" md="6">
+          <img
+            style="width:80%"
+            src="../assets/images/alignment-front-bottle-graphic-500x500.jpg"
+            alt="essential-oil-bottle"
+          />
+          <br />
+          <router-link style="color: #8fc151;" :to="{ name: 'Essential Oils' }">
+            Find out the difference in our essential oils.
+          </router-link>
+      </v-col>
+      <v-col class="text-center" cols="12" md="6">
         <iframe
           width="100%"
           height="300"
@@ -134,7 +124,7 @@
       <v-col class="text-center">
         <v-btn x-large router to="/information">
           <!-- here, change link -->
-          SHIAQGA INFORMATION
+          Apán INFORMATION
         </v-btn>
       </v-col>
     </v-row>

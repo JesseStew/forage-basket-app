@@ -1,12 +1,13 @@
 <template>
   <nav style="height: 93px">
-    <v-app-bar fixed color="blue-grey lighten-5">
+    <v-app-bar dark fixed color="#6e6f72">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-spacer></v-spacer>
-      <v-toolbar-title>Forage Basket</v-toolbar-title>
+      <v-toolbar-title>Siahus</v-toolbar-title>
       <v-spacer></v-spacer>
       <template v-if="$vuetify.breakpoint.smAndUp" v-slot:extension>
-        <v-tabs centered center-active>
+        <v-tabs color="#8fc151" centered center-active>
+          <v-tabs-slider color="#8fc151"></v-tabs-slider>
           <v-tab router :to="link.path" v-for="link in tabs" :key="link.name">
             {{ link.name }}
           </v-tab>
