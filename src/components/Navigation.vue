@@ -8,8 +8,58 @@
       <template v-if="$vuetify.breakpoint.smAndUp" v-slot:extension>
         <v-tabs color="#8fc151" centered center-active>
           <v-tabs-slider color="#8fc151"></v-tabs-slider>
-          <v-tab router :to="link.path" v-for="link in tabs" :key="link.name">
+          <!-- <v-tab router :to="link.path" v-for="link in tabs" :key="link.name">
             {{ link.name }}
+          </v-tab> -->
+          <v-tab router to="/">
+            Home
+          </v-tab>
+          <v-menu bottom left>
+            <template v-slot:activator="{ on, attrs }">
+              <v-btn
+                text
+                class="align-self-center mr-4"
+                v-bind="attrs"
+                v-on="on"
+              >
+                Information
+                <v-icon right>mdi-menu-down</v-icon>
+              </v-btn>
+            </template>
+            <v-list class="grey lighten-3">
+              <v-list-item
+                v-for="item in information"
+                :key="item"
+                router
+                :to="item.path"
+              >
+                {{ item.name }}
+              </v-list-item>
+            </v-list>
+          </v-menu>
+          <v-tab router to="/testimonies">
+            Testimonies
+          </v-tab>
+          <v-tab router to="/health">
+            Health
+          </v-tab>
+          <v-tab router to="/shop">
+            Shop
+          </v-tab>
+          <v-tab router to="/research">
+            Research
+          </v-tab>
+          <v-tab router to="/contact">
+            Contact
+          </v-tab>
+          <v-tab router to="/user-account">
+            User Account
+          </v-tab>
+          <v-tab router to="/cart">
+            Cart
+          </v-tab>
+          <v-tab v-if="user.isAdmin" router to="/article-creator">
+            Article Creator
           </v-tab>
         </v-tabs>
       </template>
@@ -36,7 +86,6 @@
             to="/cart"
             v-for="(item, index) in cart"
             :key="index"
-            @click=""
           >
             <v-list-item-title
               >({{ item.quantity }}) {{ item.product.name }}</v-list-item-title
@@ -86,6 +135,20 @@ export default {
         { title: 'Click Me' },
         { title: 'Click Me' },
         { title: 'Click Me 2' },
+      ],
+      information: [
+        {
+          path: '/information',
+          name: 'Apán',
+          icon: 'mdi-information',
+          adminRequired: false,
+        },
+        {
+          path: '/essential-oils',
+          name: 'Essential Oils',
+          icon: 'mdi-water',
+          adminRequired: false,
+        }
       ],
       links: [
         {

@@ -7,9 +7,9 @@
             Call us toll free at<br />
             1-888-267-0194 or locally at 1-417-683-0149.
           </h1>
-          <v-btn class="pa-5">
+          <v-btn router to="/about" class="pa-5">
             <!-- here, Add Routing -->
-            CLICK HERE TO LEARN MORE ABOUT US
+            ABOUT US
           </v-btn>
         </v-col>
       </v-row>
@@ -30,7 +30,7 @@
             ​Please contact us with any questions. If you would like to receive
             a call from one of our associates, please include your phone number.
             We will get back to you as quickly as possible - including your time
-            zone &amp the best times to connect with you is quite helpful.
+            zone &amp; the best times to connect with you is quite helpful.
           </p>
         </v-col>
       </v-row>
@@ -41,7 +41,6 @@
             You can also write us at:
           </h3>
           <br />
-          <!-- <br /> -->
           <p>
             Shiaqga <br />
             P.O. Box 2015 <br />

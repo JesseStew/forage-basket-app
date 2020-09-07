@@ -70,6 +70,7 @@
       <v-row>
         <v-col class="text-center" cols="12" md="6">
           <v-btn
+            dark
             x-large
             class="text-center"
             :to="{
@@ -83,6 +84,7 @@
         </v-col>
         <v-col class="text-center" cols="12" md="6">
           <v-btn
+            dark
             x-large
             class="text-center"
             :to="{
