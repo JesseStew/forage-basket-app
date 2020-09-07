@@ -1,10 +1,10 @@
 <template>
   <v-container>
     <v-row>
-      <v-col v-if="!user.email" cols="12">
+      <v-col v-if="!user.isAdmin" cols="12">
         <div class="content-view" ref="contentContainer"></div>
       </v-col>
-      <v-col v-if="user.email" cols="12">
+      <v-col v-if="user.isAdmin" cols="12">
         <v-btn v-show="!edit" @click="toggleEdit">
           Edit
         </v-btn>
