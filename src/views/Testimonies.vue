@@ -5,8 +5,7 @@
         <v-col cols="12" :class="{ 'text-center': $vuetify.breakpoint.smAndDown }">
           <h1>Customer Testimonies</h1>
           <h3>
-            (More testimonials can be found in "Shop" and under the individual
-            products.)
+            (Thank you to all our customers that took the time to share with us their testimonial.)
           </h3>
         </v-col>
         <v-col cols="12">
