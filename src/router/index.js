@@ -144,6 +144,14 @@ export const routes = [
         /* webpackChunkName: "about" */ '../views/AboutUs.vue'
       ),
   },
+  {
+    path: '/affiliate-creator',
+    name: 'Affiliate Creator',
+    component: () =>
+      import(
+        /* webpackChunkName: "affiliate-creator" */ '../views/AffiliateCreator.vue'
+      ),
+  },
 ]
 
 const router = new VueRouter({

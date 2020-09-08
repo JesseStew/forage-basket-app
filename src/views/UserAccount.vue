@@ -9,6 +9,9 @@
           Sign Out
         </v-btn>
       </v-col>
+      <v-col cols="12">
+        <user-affiliate></user-affiliate>
+      </v-col>
       <v-col v-if="user.isAdmin">
         <create-admin></create-admin>
       </v-col>
@@ -35,6 +38,7 @@
 import RegisterAccount from '@/components/RegisterAccount.vue'
 import LoginAccount from '@/components/LoginAccount.vue'
 import CreateAdmin from '@/components/CreateAdmin.vue'
+import UserAffiliate from '@/components/UserAffiliate.vue'
 import { mapState } from 'vuex'
 
 export default {
@@ -46,6 +50,7 @@ export default {
     RegisterAccount,
     LoginAccount,
     CreateAdmin,
+    UserAffiliate,
   },
   computed: {
     ...mapState(['user'])

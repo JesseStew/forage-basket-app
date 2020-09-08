@@ -29,7 +29,7 @@
             <v-list class="grey lighten-3">
               <v-list-item
                 v-for="item in information"
-                :key="item"
+                :key="item.id"
                 router
                 :to="item.path"
               >

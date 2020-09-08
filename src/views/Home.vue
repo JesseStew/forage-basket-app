@@ -246,8 +246,8 @@
       <v-col class="text-center" cols="12">
         <!-- here, add link -->
         <v-btn
-          href="https://shiaqga.idevaffiliate.com/index.php"
-          target="_blank"
+          router
+          to="/affiliate-creator"
         >
           Join Affiliate Program
         </v-btn>
