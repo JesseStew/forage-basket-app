@@ -14,35 +14,35 @@
 					</v-card-title>
 					<v-card-text>
 					<v-row>
-						<v-col cols="12" md="4">
+						<v-col cols="12">
 							<v-text-field
 								readonly
 								v-model="user.firstName"
 								label="First name"
 							></v-text-field>
 						</v-col>
-						<v-col cols="12" md="4">
+						<v-col cols="12">
 							<v-text-field
 								readonly
 								v-model="user.lastName"
 								label="Last name"
 							></v-text-field>
 						</v-col>
-						<v-col cols="12" md="4">
+						<v-col cols="12">
 							<v-text-field
 								readonly
 								v-model="user.email"
 								label="Email"
 							></v-text-field>
 						</v-col>
-						<v-col cols="12" md="4">
+						<v-col cols="12">
 							<v-text-field
 								readonly
 								v-model="user.userName"
 								label="Username"
 							></v-text-field>
 						</v-col>
-						<v-col cols="12" md="4">
+						<v-col cols="12">
 							<v-text-field
 								v-model="streetAddress"
 								:rules="streetAddressRules"
@@ -50,14 +50,14 @@
 								required
 							></v-text-field>
 						</v-col>
-						<v-col cols="12" md="4">
+						<v-col cols="12">
 							<v-text-field
 								v-model="additionalAddress"
 								:rules="additionalAddressRules"
 								label="Additional address"
 							></v-text-field>
 						</v-col>
-						<v-col cols="12" md="4">
+						<v-col cols="12">
 							<v-text-field
 								v-model="city"
 								:rules="cityRules"
@@ -66,7 +66,7 @@
 								required
 							></v-text-field>
 						</v-col>
-						<v-col cols="12" md="4">
+						<v-col cols="12">
 							<v-autocomplete
 								:items="states"
 								v-model="state"
@@ -76,7 +76,7 @@
 								required
 							></v-autocomplete>
 						</v-col>
-						<v-col cols="12" md="4">
+						<v-col cols="12">
 							<v-text-field
 								v-model="phoneNumber"
 								:rules="phoneNumberRules"
@@ -85,7 +85,7 @@
 								required
 							></v-text-field>
 						</v-col>
-						<v-col cols="12" md="4">
+						<v-col cols="12">
 							<v-text-field
 								v-model="zipCode"
 								:rules="zipCodeRules"
@@ -94,7 +94,7 @@
 								required
 							></v-text-field>
 						</v-col>
-						<v-col cols="12" md="4">
+						<v-col cols="12">
 							<v-autocomplete
 								v-model="country"
 								:items="countries"
