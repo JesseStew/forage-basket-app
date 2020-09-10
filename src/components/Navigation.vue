@@ -14,29 +14,31 @@
           <v-tab router to="/">
             Home
           </v-tab>
-          <v-menu bottom left>
-            <template v-slot:activator="{ on, attrs }">
-              <v-btn
-                text
-                class="align-self-center mr-4"
-                v-bind="attrs"
-                v-on="on"
-              >
-                Information
-                <v-icon right>mdi-menu-down</v-icon>
-              </v-btn>
-            </template>
-            <v-list class="grey lighten-3">
-              <v-list-item
-                v-for="item in information"
-                :key="item.id"
-                router
-                :to="item.path"
-              >
-                {{ item.name }}
-              </v-list-item>
-            </v-list>
-          </v-menu>
+          <v-tab :class="{ 'v-tab--active': dropDownActive }">
+            <v-menu>
+              <template v-slot:activator="{ on, attrs }">
+                <v-btn
+                  text
+                  class="align-self-center"
+                  v-bind="attrs"
+                  v-on="on"
+                >
+                  Information
+                  <v-icon right>mdi-menu-down</v-icon>
+                </v-btn>
+              </template>
+              <v-list class="grey lighten-3">
+                <v-list-item
+                  v-for="item in information"
+                  :key="item.id"
+                  router
+                  :to="item.path"
+                >
+                  {{ item.name }}
+                </v-list-item>
+              </v-list>
+            </v-menu>
+          </v-tab>
           <v-tab router to="/testimonies">
             Testimonies
           </v-tab>
@@ -124,6 +126,13 @@ export default {
         return this.$_.filter(this.links, (o) => {
           return !o.adminRequired
         })
+      }
+    },
+    dropDownActive() {
+      if (this.$route.name === 'Information' || this.$route.name === 'Essential Oils'){
+        return true
+      } else {
+        return false
       }
     }
   },
