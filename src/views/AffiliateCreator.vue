@@ -1803,10 +1803,8 @@ export default {
  },
  methods: {
 	 submitApplication() {
-		 DB.collection('user')
+		 DB.collection('pendingAffiliates')
 			 .doc(this.user.uid)
-			 .collection('affiliateInfo')
-			 .doc()
 			 .set({
 					streetAddress: this.streetAddress,
 					additionalAddress: this.additionalAddress,
@@ -1817,8 +1815,8 @@ export default {
 					country: this.country,
 					referrer: this.referrer,
 					callTime: this.callTime,
-					selectedPaymentMethod: this.selectedPaymentMethod,
-			 }).then(()=>{
+					selectedPaymentMethod: this.selectedPaymentMethod
+			 }).then(() => {
 				 this.$router.push('/user-account')
 			 })
 	 }

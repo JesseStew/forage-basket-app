@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import router from '../router'
+import Firebase from 'firebase/app'
 import { Auth } from '../firebase/auth'
 import { DB } from '../firebase/db'
 
@@ -277,9 +278,13 @@ export default new Vuex.Store({
         router.push({ path: '/user-account' })
         alert('Must register or log in.')
       } else {
-        let customer = await DB.collection('user')
+        let stripe = await DB.collection('user')
           .doc(state.user.uid)
           .collection('stripe')
+        let sessions = await stripe
+          .doc('sessions')
+          .get()
+        let customer = await stripe
           .doc('stripe_customer')
           .get()
         http
@@ -292,7 +297,22 @@ export default new Vuex.Store({
           .then((response) => {
             // console.log('response: ', response)
             // console.log('response.data.sessionId: ', response.data.sessionId)
+            // console.log('sessions: ', sessions.data())
+            // console.log('customer: ', customer.data())
             let sessionId = response.data.sessionId
+            if (!sessions.data()) {
+              DB.collection('user')
+                .doc(state.user.uid)
+                .collection('stripe')
+                .doc('sessions')
+                .set({session_ids: [sessionId]})
+            } else {
+              DB.collection('user')
+                .doc(state.user.uid)
+                .collection('stripe')
+                .doc('sessions')
+                .update({ session_ids: Firebase.firestore.FieldValue.arrayUnion(sessionId) })
+            }
             stripe
               .redirectToCheckout({
                 sessionId: sessionId,
