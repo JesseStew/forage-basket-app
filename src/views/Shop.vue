@@ -261,6 +261,9 @@ export default {
       this.componentKey += 1
     },
   },
+	mounted() {
+		window.scrollTo(0,0)
+	},
   components: {
     ProductLink,
   },

@@ -36,6 +36,9 @@ export default {
   components: {
     ProductLink,
   },
+	mounted() {
+		window.scrollTo(0,0)
+	},
   created() {
     if (this.$route.query.productCategory) {
       this.productCategory = this.$route.query.productCategory

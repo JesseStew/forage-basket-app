@@ -111,6 +111,9 @@ export default {
   components: {
     QuillTestimonies
   },
+	mounted() {
+		window.scrollTo(0,0)
+	},
   methods: {
     ...mapActions(['loggedIn']),
     addTestimonies() {

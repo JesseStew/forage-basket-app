@@ -54,6 +54,9 @@ export default {
       }).data.delta
     }
   },
+	mounted() {
+		window.scrollTo(0,0)
+	},
   created() {
     if (!this.aboutDataLoaded) {
       console.log('loading this.aboutData')

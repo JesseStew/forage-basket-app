@@ -60,5 +60,8 @@ export default {
     QuillEditor,
     NewsletterSignup
   },
+	mounted() {
+		window.scrollTo(0,0)
+	},
 }
 </script>

@@ -87,6 +87,9 @@ export default {
   methods: {
     ...mapActions(['checkout', 'loggedIn', 'removeFromCart']),
   },
+	mounted() {
+		window.scrollTo(0,0)
+	},
   created() {
     this.productId = this.$route.params.id
     if (this.$route.query.priceId) {

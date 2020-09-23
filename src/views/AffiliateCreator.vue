@@ -529,14 +529,11 @@
 						<v-card-text>
 							<v-text-field
 								v-model="referrer"
-								:rules="phoneNumberRules"
 								label="Who was the person that referred you to us?"
 								required
 							></v-text-field>
 							<v-text-field
 								v-model="callTime"
-								:rules="phoneNumberRules"
-								required
 								label="To prevent fraud we will be contacting you. What is the best time to call?"
 								required
 							></v-text-field>
@@ -1801,24 +1798,40 @@ export default {
  computed: {
 	 ...mapState(['user'])
  },
+	mounted() {
+		window.scrollTo(0,0)
+	},
  methods: {
 	 submitApplication() {
-		 DB.collection('pendingAffiliates')
-			 .doc(this.user.uid)
-			 .set({
-					streetAddress: this.streetAddress,
-					additionalAddress: this.additionalAddress,
-					city: this.city,
-					state: this.state,
-					phoneNumber: this.phoneNumber,
-					zipCode: this.zipCode,
-					country: this.country,
-					referrer: this.referrer,
-					callTime: this.callTime,
-					selectedPaymentMethod: this.selectedPaymentMethod
-			 }).then(() => {
-				 this.$router.push('/user-account')
-			 })
+			if(!this.firstName || !this.lastName || !this.email) {
+				if (!this.firstName) {
+					this.warningMessages.push('Must include first name.')
+				}
+				if (!this.lastName) {
+					this.warningMessages.push('Must include last name.')
+				}
+				if (!this.email) {
+					this.warningMessages.push('Must include email.')
+				}
+				this.warning = true
+			} else {
+				DB.collection('pendingAffiliates')
+				.doc(this.user.uid)
+				.set({
+						streetAddress: this.streetAddress,
+						additionalAddress: this.additionalAddress,
+						city: this.city,
+						state: this.state,
+						phoneNumber: this.phoneNumber,
+						zipCode: this.zipCode,
+						country: this.country,
+						referrer: this.referrer,
+						callTime: this.callTime,
+						selectedPaymentMethod: this.selectedPaymentMethod
+				}).then(() => {
+					this.$router.push('/user-account')
+				})
+			}
 	 }
  }
 }

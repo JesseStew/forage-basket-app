@@ -152,6 +152,9 @@ export default {
       this.$store.dispatch('loadShopData')
     }
   },
+	mounted() {
+		window.scrollTo(0,0)
+	},
   mounted() {
     this.$store.dispatch('loggedIn')
     if (!this.shopDataLoaded) {

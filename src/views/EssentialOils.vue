@@ -127,6 +127,9 @@ export default {
   components: {
     QuillEditor
   },
+	mounted() {
+		window.scrollTo(0,0)
+	},
   computed: {
     ...mapState(['essentialOilData', 'essentialOilDataLoaded']),
     essentialOilArticle(){

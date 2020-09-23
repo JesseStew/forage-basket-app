@@ -50,6 +50,9 @@ export default {
       return this.$_.orderBy(this.healthData, ['data.title'])
     }
   },
+	mounted() {
+		window.scrollTo(0,0)
+	},
   methods: {
     isUl(index) {
       let regex = RegExp('ul$')

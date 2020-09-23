@@ -95,6 +95,9 @@ export default {
       this.articleTitle = this.$route.query.articleTitle
     }
   },
+	mounted() {
+		window.scrollTo(0,0)
+	},
   methods: {
     displayInfo() {
       return (this.display = !this.display)
