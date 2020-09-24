@@ -6,12 +6,41 @@
       <v-toolbar-title>Siahus</v-toolbar-title>
       <v-spacer></v-spacer>
       <template v-if="$vuetify.breakpoint.smAndUp" v-slot:extension>
-        <v-tabs color="#8fc151" centered center-active>
+        <v-tabs v-model="activeTab" color="#8fc151" centered center-active>
           <v-tabs-slider color="#8fc151"></v-tabs-slider>
-          <!-- <v-tab router :to="link.path" v-for="link in tabs" :key="link.name">
-            {{ link.name }}
-          </v-tab> -->
-          <v-tab router to="/">
+
+          <span v-for="link in tabs" :key="link.id">
+            <v-tab v-if="!link.subLinks" router :to="link.path">
+              <v-btn text>{{ link.name }}</v-btn>
+            </v-tab>
+            <v-tab v-else>
+              <v-menu>
+                <template v-slot:activator="{ on, attrs }">
+                  <v-btn
+                    text
+                    class="align-self-center"
+                    v-bind="attrs"
+                    v-on="on"
+                  >
+                    {{ link.name }}
+                    <v-icon right>mdi-menu-down</v-icon>
+                  </v-btn>
+                </template>
+                <v-list class="grey lighten-3">
+                  <v-list-item
+                    v-for="item in information"
+                    :key="item.id"
+                    router
+                    :to="item.path"
+                    @click="activeTab = 1"
+                  >
+                    {{ item.name }}
+                  </v-list-item>
+                </v-list>
+              </v-menu>
+            </v-tab>
+          </span>
+          <!-- <v-tab router to="/">
             Home
           </v-tab>
           <v-tab :class="{ 'v-tab--active': dropDownActive }">
@@ -62,7 +91,7 @@
           </v-tab>
           <v-tab v-if="user.isAdmin" router to="/article-creator">
             Article Creator
-          </v-tab>
+          </v-tab> -->
         </v-tabs>
       </template>
       <v-menu open-on-hover top offset-y>
@@ -127,17 +156,11 @@ export default {
           return !o.adminRequired
         })
       }
-    },
-    dropDownActive() {
-      if (this.$route.name === 'Information' || this.$route.name === 'Essential Oils'){
-        return true
-      } else {
-        return false
-      }
     }
   },
   data() {
     return {
+      activeTab: 0,
       drawer: false,
       items: [
         { title: 'Click Me' },
@@ -161,66 +184,71 @@ export default {
       ],
       links: [
         {
+          id: 0,
           path: '/',
           name: 'Home',
           icon: 'mdi-home',
           adminRequired: false,
         },
         {
+          id: 1,
           path: '/information',
           name: 'Information',
           icon: 'mdi-information',
           adminRequired: false,
+          subLinks: true,
         },
         {
+          id: 2,
           path: '/testimonies',
           name: 'Testimonies',
           icon: 'mdi-comment-account',
           adminRequired: false,
         },
         {
+          id: 3,
           path: '/health',
           name: 'Health',
           icon: 'mdi-google-fit',
           adminRequired: false,
         },
         {
-          path: '/essential-oils',
-          name: 'Essential Oils',
-          icon: 'mdi-water',
-          adminRequired: false,
-        },
-        {
+          id: 4,
           path: '/shop',
           name: 'Shop',
           icon: 'mdi-storefront',
           adminRequired: false,
         },
         {
+          id: 5,
           path: '/research',
           name: 'Research',
           icon: 'mdi-school',
           adminRequired: false,
         },
         {
+          id: 6,
           path: '/contact',
           name: 'Contact',
           icon: 'mdi-account-question',
           adminRequired: false,
         },
         {
+          id: 7,
           path: '/user-account',
           name: 'User Account',
           icon: 'mdi-account',
           adminRequired: false,
         },
         {
+          id: 8,
           path: '/cart',
           name: 'Cart',
           icon: 'mdi-storefront',
           adminRequired: false,
         },
         {
+          id: 9,
           path: '/article-creator',
           name: 'Article Creator',
           icon: 'mdi-information',
