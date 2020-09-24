@@ -28,7 +28,7 @@
                 </template>
                 <v-list class="grey lighten-3">
                   <v-list-item
-                    v-for="item in information"
+                    v-for="item in informationTabs"
                     :key="item.id"
                     router
                     :to="item.path"
@@ -40,58 +40,6 @@
               </v-menu>
             </v-tab>
           </span>
-          <!-- <v-tab router to="/">
-            Home
-          </v-tab>
-          <v-tab :class="{ 'v-tab--active': dropDownActive }">
-            <v-menu>
-              <template v-slot:activator="{ on, attrs }">
-                <v-btn
-                  text
-                  class="align-self-center"
-                  v-bind="attrs"
-                  v-on="on"
-                >
-                  Information
-                  <v-icon right>mdi-menu-down</v-icon>
-                </v-btn>
-              </template>
-              <v-list class="grey lighten-3">
-                <v-list-item
-                  v-for="item in information"
-                  :key="item.id"
-                  router
-                  :to="item.path"
-                >
-                  {{ item.name }}
-                </v-list-item>
-              </v-list>
-            </v-menu>
-          </v-tab>
-          <v-tab router to="/testimonies">
-            Testimonies
-          </v-tab>
-          <v-tab router to="/health">
-            Health
-          </v-tab>
-          <v-tab router to="/shop">
-            Shop
-          </v-tab>
-          <v-tab router to="/research">
-            Research
-          </v-tab>
-          <v-tab router to="/contact">
-            Contact
-          </v-tab>
-          <v-tab router to="/user-account">
-            User Account
-          </v-tab>
-          <v-tab router to="/cart">
-            Cart
-          </v-tab>
-          <v-tab v-if="user.isAdmin" router to="/article-creator">
-            Article Creator
-          </v-tab> -->
         </v-tabs>
       </template>
       <v-menu open-on-hover top offset-y>
@@ -128,14 +76,27 @@
 
     <v-navigation-drawer style="height: 100vh" v-model="drawer" fixed temporary>
       <v-list nav dense>
-        <v-list-item-group active-class="deep-purple--text text--accent-4">
-          <v-list-item v-for="link in tabs" router :to="link.path">
+        <v-list-item color="green" link :to="tab.path" v-if="!tab.subLinks" v-for="tab in tabs" :key="tab.id">
+          <v-list-item-icon>
+            <v-icon>
+              {{tab.icon}}
+            </v-icon>
+          </v-list-item-icon>
+          <v-list-item-title>
+            {{ tab.name }}
+          </v-list-item-title>
+        </v-list-item>
+        <v-list-group color="green" :prepend-icon="tab.icon" v-else>
+          <template v-slot:activator>
+            <v-list-item-title>Information</v-list-item-title>
+          </template>
+          <v-list-item color="green" style="padding-left: 30px" link @click="activeTab = 1" :to="informationTab.path" v-for="informationTab in informationTabs" :key="informationTab.id">
             <v-list-item-icon>
-              <v-icon> {{ link.icon }} </v-icon>
+              <v-icon v-text="informationTab.icon"></v-icon>
             </v-list-item-icon>
-            <v-list-item-title> {{ link.name }} </v-list-item-title>
+            <v-list-item-title v-text="informationTab.name"></v-list-item-title>
           </v-list-item>
-        </v-list-item-group>
+        </v-list-group>
       </v-list>
     </v-navigation-drawer>
   </nav>
@@ -168,11 +129,11 @@ export default {
         { title: 'Click Me' },
         { title: 'Click Me 2' },
       ],
-      information: [
+      informationTabs: [
         {
           path: '/information',
           name: 'Apán',
-          icon: 'mdi-information',
+          icon: 'mdi-mushroom',
           adminRequired: false,
         },
         {
