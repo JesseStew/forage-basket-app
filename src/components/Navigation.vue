@@ -1,9 +1,12 @@
 <template>
   <nav style="height: 93px">
     <v-app-bar dark fixed color="#6e6f72">
-      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon color="#ed6f5e" @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-spacer></v-spacer>
-      <v-toolbar-title>Siahus</v-toolbar-title>
+      <v-toolbar-title style="font-size: 3em; ">
+        <img contain height="45px" :src="require('../assets/images/logo/Siahus-Logo-Circle.png')"></img>
+        <span style="color: #588d68;">SIAH</span><span style="color: #ed6f5e;">US</span>
+      </v-toolbar-title>
       <v-spacer></v-spacer>
       <template v-if="$vuetify.breakpoint.smAndUp" v-slot:extension>
         <v-tabs v-model="activeTab" color="#8fc151" centered center-active>
@@ -55,7 +58,7 @@
             <v-icon>mdi-cart-outline </v-icon>
             ({{ cart.length }})
           </v-btn>
-          <v-btn v-else v-on="on" icon class="subtitle-1" router to="/cart">
+          <v-btn color="#ed6f5e" v-else v-on="on" icon class="subtitle-1" router to="/cart">
             <v-icon>mdi-cart-outline</v-icon>
           </v-btn>
         </template>
@@ -227,4 +230,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.active-color {
+  color: #ed6f5e;
+}
+</style>
