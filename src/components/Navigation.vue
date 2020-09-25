@@ -14,22 +14,24 @@
 
           <span v-for="link in tabs" :key="link.id">
             <v-tab v-if="!link.subLinks" router :to="link.path">
-              <v-btn text>{{ link.name }}</v-btn>
+              <!-- <v-btn text><span :class="{ 'active-color': isActive(link.path), 'green': !isActive(link.path)}">{{ link.name }}</span></v-btn> -->
+              <v-btn color="green" text><span :class="{ 'active-color': isActive(link.path)}">{{ link.name }}</span></v-btn>
             </v-tab>
             <v-tab v-else>
               <v-menu>
                 <template v-slot:activator="{ on, attrs }">
                   <v-btn
+                    color="green"
                     text
                     class="align-self-center"
                     v-bind="attrs"
                     v-on="on"
                   >
-                    {{ link.name }}
+                    <span :class="{ 'active-color': $route.path === '/information' || $route.path === '/essential-oils'}">{{ link.name }}</span>
                     <v-icon right>mdi-menu-down</v-icon>
                   </v-btn>
                 </template>
-                <v-list class="grey lighten-3">
+                <v-list color="#6e6f72">
                   <v-list-item
                     v-for="item in informationTabs"
                     :key="item.id"
@@ -37,7 +39,7 @@
                     :to="item.path"
                     @click="activeTab = 1"
                   >
-                    {{ item.name }}
+                    <span :class="{ 'active-color': isActive(item.path), 'normal-color': !isActive(item.path)}">{{ item.name }}</span>
                   </v-list-item>
                 </v-list>
               </v-menu>
@@ -225,6 +227,9 @@ export default {
     closeMenu() {
       this.drawer = false
     },
+    isActive(path) {
+      return path === this.$route.path
+    }
   },
   components: {},
 }
@@ -233,5 +238,8 @@ export default {
 <style scoped>
 .active-color {
   color: #ed6f5e;
+}
+.normal-color {
+  color: #57ad58;
 }
 </style>
