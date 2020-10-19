@@ -44,7 +44,7 @@
             alt="essential-oil-bottle"
           />
           <br />
-          <router-link style="color: #8fc151;" :to="{ name: 'Essential Oils' }">
+          <router-link style="color: #5d8c6a;" :to="{ name: 'Essential Oils' }">
             Find out the difference in our essential oils.
           </router-link>
       </v-col>

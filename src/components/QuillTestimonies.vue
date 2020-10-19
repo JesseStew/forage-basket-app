@@ -16,23 +16,24 @@
         </v-btn>
 			</v-col>
       <v-col>
-        <h3>
-          Associated Conditions
-        </h3>
+        testimony: {
         <ul>
-          <li v-for="selectedCondition in data.selectedConditions" :key="selectedCondition.id">
-            {{ selectedCondition }}
-          </li>
+          associatedConditions: {
+          <span v-for="selectedCondition in data.selectedConditions" :key="selectedCondition.id">
+            "{{ selectedCondition }}",
+          </span>},
         </ul>
       </v-col>
 			<v-col cols="12">
-        <div v-show="!edit" class="content-view" ref="contentContainer"></div>
+        content: "<div v-show="!edit" class="content-view" ref="contentContainer"></div>
         <quill-editor
           v-show="edit"
           v-model="content"
           ref="myQuillEditor"
           :options="editorOption"
-        />
+        />"
+        <br />
+        },
       </v-col>
       <v-col v-show="edit" cols="12">
         <p>

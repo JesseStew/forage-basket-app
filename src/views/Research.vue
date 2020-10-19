@@ -8,7 +8,7 @@
     <v-row>
       <v-col>
         <p>
-          The Shiaqga supplement contains many beneficial bioavailable
+          The Apán supplements contain many beneficial bioavailable
           ingredients and chemistry including the bitter triterpene compounds,
           3-beta-D-glucans, polysaccharides, germanium, angiotensin re-uptake
           inhibitors, and the organic essential oils with all their wonderful
@@ -148,24 +148,28 @@
         <h2>
           Injection vs Oral Administration
         </h2>
-        <v-col
-          class="text-center"
-          v-for="pdf in injectionVsOralAdministration.pdf"
-          :key="pdf.id"
-          cols="12"
-          md="6"
-          lg="4"
-          xl="3"
-        >
-          <v-btn
-            target="_blank"
-            class="ma-1"
-            :href="pdf.src"
-            :title="pdf.title"
+          <v-col
+            class="text-center"
+            v-for="pdf in injectionVsOralAdministration.pdf"
+            :key="pdf.id"
+            cols="12"
+            md="6"
+            lg="4"
+            xl="3"
           >
-            {{ truncate(pdf.title) }}
-          </v-btn>
+            <v-btn
+              target="_blank"
+              class="ma-1"
+              :href="pdf.src"
+              :title="pdf.title"
+            >
+              {{ truncate(pdf.title) }}
+            </v-btn>
+          </v-col>
         </v-col>
+      </v-row>
+    <v-row>
+      <v-col>
         <h2>
           Dr. Tim Chapman, M.D.
         </h2>
@@ -197,7 +201,7 @@
         <p>
           We have included a PDF Summary of Dr. Chapman's 48-year medical career
           history and, if you are under medical professional care and have
-          specific questions regarding the utilization of Shiaqga as a
+          specific questions regarding the utilization of Apán as a
           complementary protocol in your health recovery program, please
           <router-link to="/contact">contact us</router-link>.
         </p>
@@ -273,7 +277,7 @@
     <v-row>
       <v-col>
         <h2>
-          Avian Flu &amp Shiaqga
+          Avian Flu &amp Apán
         </h2>
         <p>
           Avian Flu Research Abstract<br />
@@ -314,7 +318,7 @@
           Ten birds were housed separately but with the same approximate living
           quarters. These were used as controls. The test group consisted of
           twenty six birds housed as described above. The Test Group was fed a
-          ration containing “Shiaqga” mixed into the feed for one week prior to
+          ration containing “Apán” mixed into the feed for one week prior to
           the test.
         </p>
         <p>
@@ -342,7 +346,7 @@
           The only bird in the test pen to succumb was the original vector.
         </p>
         <p>
-          Follow up: The Test Group continued to receive Shiaqga and were
+          Follow up: The Test Group continued to receive Apán and were
           observed for three months post-infection. During that time, only two
           birds died – one of egg binding and another became entangled in the
           mesh wiring of the pen. None of the birds exhibited any symptoms after
@@ -351,7 +355,7 @@
         </p>
         <p>
           Postscript: It is interesting to note that, after the research was
-          terminated, and the test group birds were no longer receiving Shiaqga
+          terminated, and the test group birds were no longer receiving Apán
           in their feed, the loft was infected by a different wild strain of
           Influenza which had been transported to the loft by wild starlings.
           The entire loft was stricken with the infection and two thirds of the
@@ -359,7 +363,7 @@
           survived never returned to normal production.
         </p>
         <p>
-          Findings: The commercial product “Shiaqga” provided the immune support
+          Findings: The commercial product “Apán” provided the immune support
           needed for the closely quartered birds to fight Influenza. The results
           of the Test Group were not unlike an influenza epidemic that is
           “winding down.” Individuals became symptomatic but were able to fight
@@ -378,10 +382,10 @@
       <v-col>
         <h2>
           Medical &amp Scientific Research on the Organic Essential Oils found
-          in the Shiaqga product:
+          in the Apán product:
         </h2>
         <p>
-          (Shiaqga contains essential oils that synergize to create greater body
+          (Apán contains essential oils that synergize to create greater body
           health. Each daily dosage is a small amount and generally regarded as
           safe by the FDA. Our essential oils, unlike most all oils in the
           marketplace, have been grown & processed properly. They are pure and

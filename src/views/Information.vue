@@ -3,7 +3,7 @@
     <v-row>
       <v-col class="text-center">
         <h1>
-          Shiaqga Ingredients and Facts<br />
+          Apán Ingredients and Facts<br />
           <i>How it works!</i>
         </h1>
       </v-col>

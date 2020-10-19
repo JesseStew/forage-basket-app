@@ -32,7 +32,14 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col cols="12" v-for="testimony in testimonies" :key="componentKey">
+        <!-- <v-col cols="12" v-for="testimony in testimonies" :key="componentKey">
+          <quill-testimonies
+            :data="testimony.data"
+            :id="testimony.id"
+            :collection="'testimonies'"
+            :action="'loadTestimonyData'"></quill-testimonies>
+        </v-col> -->
+        <v-col cols="12" v-for="testimony in allTestimonies" :key="componentKey">
           <quill-testimonies
             :data="testimony.data"
             :id="testimony.id"
@@ -100,6 +107,9 @@ export default {
       let testimoniesSlice = this.$_.slice(testimonies, 0, this.length)
       return testimoniesSlice
     },
+    allTestimonies() {
+      return this.$_.orderBy(this.testimonyData, ['data.author'], ['asc'])
+    }
   },
   created() {
     if (!this.testimonyDataLoaded) {
