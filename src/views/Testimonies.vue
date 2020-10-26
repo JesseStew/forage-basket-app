@@ -5,7 +5,7 @@
         {{testimonies[0]}}
       </v-row> -->
       <v-row>
-        <v-col cols="12" v-for="testimony in testimonies" :key="testimony.id">
+        <v-col cols="12" v-for="testimony in testimoniesByAuthor" :key="testimony.id">
           <v-col>
             <span v-for="condition in testimony.selectedConditions" :key="condition.id">
               {{ condition }},
@@ -11278,6 +11278,11 @@ export default {
 		}
 	}
 ]
+    }
+  },
+  computed: {
+    testimoniesByAuthor() {
+      return _.sortBy(this.testimonies, ['author'])
     }
   },
   components: {
