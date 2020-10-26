@@ -347,7 +347,7 @@ export default new Vuex.Store({
           const data = querySnapshot.docs.map((doc) => {
             return { id: doc.id, data: doc.data() }
           })
-          console.log(data)
+          // console.log(data)
           commit('loadTestimonyData', data)
         })
     },
